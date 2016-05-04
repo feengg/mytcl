@@ -1,0 +1,58 @@
+2016年 04月 14日 星期四 14:16:51 CST
+
+--- Hop Node Number:2 ---
+num_nodes is set 2
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	20276
+        CTS_recv:	17434
+       CTSC_recv:	0
+       DATA_send:	17435
+        ACK_recv:	17433
+
+     RTS(C)_recv:	17431
+        CTS_send:	17431
+       CTSC_send:	0
+       DATA_recv:	17431
+        ACK_send:	17431
+
+   RetransmitRTS:	951
+  RetransmitDATA:	0
+     Droped DATA:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+   RTS_fail_rate:	4.69%
+ RTS_refuse_rate:	9.79%
+    RTS_CTS_rate:	85.98%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.82%
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	18382
+        CTS_recv:	17431
+       CTSC_recv:	0
+       DATA_send:	17432
+        ACK_recv:	17431
+
+     RTS(C)_recv:	19325
+        CTS_send:	17434
+       CTSC_send:	0
+       DATA_recv:	17433
+        ACK_send:	17433
+
+   RetransmitRTS:	951
+  RetransmitDATA:	0
+     Droped DATA:	0
+  refuse(no CTS):	1891
+ dead_lock(CTSC):	0
+
+   RTS_fail_rate:	5.17%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	94.83%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.82%
+
+
+--- Hop Node Number:3 ---

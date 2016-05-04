@@ -1,0 +1,306 @@
+#
+# nodes: 50, max conn: 15, send rate: 0.0, seed: 4
+#
+#
+# 4 connecting to 5 at time 35.390028588189757
+#
+set tcp_(0) [new Agent/TCP/Semi]
+set sink_(0) [new Agent/TCPSink]
+$ns_ attach-agent $node_(4) $tcp_(0)
+$ns_ attach-agent $node_(5) $sink_(0)
+$ns_ connect $tcp_(0) $sink_(0)
+set ftp_(0) [new Application/FTP]
+$ftp_(0) attach-agent $tcp_(0)
+$tcp_(0) set packetSize_ 512
+$ns_ at 35.390028588189757 "$ftp_(0) start"
+set rt(4) [$node_(4) agent 255]
+$rt(4) aodv-get-semitcp $tcp_(0)
+set rt(5) [$node_(5) agent 255]
+$rt(5) aodv-get-tcpsink $sink_(0)
+set mymac(4) [$node_(4) set mac_(0)]
+$tcp_(0) semitcp-get-mac $mymac(4)
+set mymac(5) [$node_(5) set mac_(0)]
+$sink_(0) tcpsink-get-mac $mymac(5)
+#
+# 4 connecting to 6 at time 45.331526587405953
+#
+set tcp_(1) [new Agent/TCP/Semi]
+set sink_(1) [new Agent/TCPSink]
+$ns_ attach-agent $node_(4) $tcp_(1)
+$ns_ attach-agent $node_(6) $sink_(1)
+$ns_ connect $tcp_(1) $sink_(1)
+set ftp_(1) [new Application/FTP]
+$ftp_(1) attach-agent $tcp_(1)
+$tcp_(1) set packetSize_ 512
+$ns_ at 45.331526587405953 "$ftp_(1) start"
+set rt(4) [$node_(4) agent 255]
+$rt(4) aodv-get-semitcp $tcp_(1)
+set rt(6) [$node_(6) agent 255]
+$rt(6) aodv-get-tcpsink $sink_(1)
+set mymac(4) [$node_(4) set mac_(0)]
+$tcp_(1) semitcp-get-mac $mymac(4)
+set mymac(6) [$node_(6) set mac_(0)]
+$sink_(1) tcpsink-get-mac $mymac(6)
+#
+# 6 connecting to 7 at time 99.981005219733802
+#
+set tcp_(2) [new Agent/TCP/Semi]
+set sink_(2) [new Agent/TCPSink]
+$ns_ attach-agent $node_(6) $tcp_(2)
+$ns_ attach-agent $node_(7) $sink_(2)
+$ns_ connect $tcp_(2) $sink_(2)
+set ftp_(2) [new Application/FTP]
+$ftp_(2) attach-agent $tcp_(2)
+$tcp_(2) set packetSize_ 512
+$ns_ at 99.981005219733802 "$ftp_(2) start"
+set rt(6) [$node_(6) agent 255]
+$rt(6) aodv-get-semitcp $tcp_(2)
+set rt(7) [$node_(7) agent 255]
+$rt(7) aodv-get-tcpsink $sink_(2)
+set mymac(6) [$node_(6) set mac_(0)]
+$tcp_(2) semitcp-get-mac $mymac(6)
+set mymac(7) [$node_(7) set mac_(0)]
+$sink_(2) tcpsink-get-mac $mymac(7)
+#
+# 6 connecting to 8 at time 42.53692169791875
+#
+set tcp_(3) [new Agent/TCP/Semi]
+set sink_(3) [new Agent/TCPSink]
+$ns_ attach-agent $node_(6) $tcp_(3)
+$ns_ attach-agent $node_(8) $sink_(3)
+$ns_ connect $tcp_(3) $sink_(3)
+set ftp_(3) [new Application/FTP]
+$ftp_(3) attach-agent $tcp_(3)
+$tcp_(3) set packetSize_ 512
+$ns_ at 42.53692169791875 "$ftp_(3) start"
+set rt(6) [$node_(6) agent 255]
+$rt(6) aodv-get-semitcp $tcp_(3)
+set rt(8) [$node_(8) agent 255]
+$rt(8) aodv-get-tcpsink $sink_(3)
+set mymac(6) [$node_(6) set mac_(0)]
+$tcp_(3) semitcp-get-mac $mymac(6)
+set mymac(8) [$node_(8) set mac_(0)]
+$sink_(3) tcpsink-get-mac $mymac(8)
+#
+# 8 connecting to 9 at time 30.809234516140648
+#
+set tcp_(4) [new Agent/TCP/Semi]
+set sink_(4) [new Agent/TCPSink]
+$ns_ attach-agent $node_(8) $tcp_(4)
+$ns_ attach-agent $node_(9) $sink_(4)
+$ns_ connect $tcp_(4) $sink_(4)
+set ftp_(4) [new Application/FTP]
+$ftp_(4) attach-agent $tcp_(4)
+$tcp_(4) set packetSize_ 512
+$ns_ at 30.809234516140648 "$ftp_(4) start"
+set rt(8) [$node_(8) agent 255]
+$rt(8) aodv-get-semitcp $tcp_(4)
+set rt(9) [$node_(9) agent 255]
+$rt(9) aodv-get-tcpsink $sink_(4)
+set mymac(8) [$node_(8) set mac_(0)]
+$tcp_(4) semitcp-get-mac $mymac(8)
+set mymac(9) [$node_(9) set mac_(0)]
+$sink_(4) tcpsink-get-mac $mymac(9)
+#
+# 9 connecting to 10 at time 81.939091990673489
+#
+set tcp_(5) [new Agent/TCP/Semi]
+set sink_(5) [new Agent/TCPSink]
+$ns_ attach-agent $node_(9) $tcp_(5)
+$ns_ attach-agent $node_(10) $sink_(5)
+$ns_ connect $tcp_(5) $sink_(5)
+set ftp_(5) [new Application/FTP]
+$ftp_(5) attach-agent $tcp_(5)
+$tcp_(5) set packetSize_ 512
+$ns_ at 81.939091990673489 "$ftp_(5) start"
+set rt(9) [$node_(9) agent 255]
+$rt(9) aodv-get-semitcp $tcp_(5)
+set rt(10) [$node_(10) agent 255]
+$rt(10) aodv-get-tcpsink $sink_(5)
+set mymac(9) [$node_(9) set mac_(0)]
+$tcp_(5) semitcp-get-mac $mymac(9)
+set mymac(10) [$node_(10) set mac_(0)]
+$sink_(5) tcpsink-get-mac $mymac(10)
+#
+# 11 connecting to 12 at time 125.8597827543783
+#
+set tcp_(6) [new Agent/TCP/Semi]
+set sink_(6) [new Agent/TCPSink]
+$ns_ attach-agent $node_(11) $tcp_(6)
+$ns_ attach-agent $node_(12) $sink_(6)
+$ns_ connect $tcp_(6) $sink_(6)
+set ftp_(6) [new Application/FTP]
+$ftp_(6) attach-agent $tcp_(6)
+$tcp_(6) set packetSize_ 512
+$ns_ at 125.8597827543783 "$ftp_(6) start"
+set rt(11) [$node_(11) agent 255]
+$rt(11) aodv-get-semitcp $tcp_(6)
+set rt(12) [$node_(12) agent 255]
+$rt(12) aodv-get-tcpsink $sink_(6)
+set mymac(11) [$node_(11) set mac_(0)]
+$tcp_(6) semitcp-get-mac $mymac(11)
+set mymac(12) [$node_(12) set mac_(0)]
+$sink_(6) tcpsink-get-mac $mymac(12)
+#
+# 16 connecting to 17 at time 13.425234301679412
+#
+set tcp_(7) [new Agent/TCP/Semi]
+set sink_(7) [new Agent/TCPSink]
+$ns_ attach-agent $node_(16) $tcp_(7)
+$ns_ attach-agent $node_(17) $sink_(7)
+$ns_ connect $tcp_(7) $sink_(7)
+set ftp_(7) [new Application/FTP]
+$ftp_(7) attach-agent $tcp_(7)
+$tcp_(7) set packetSize_ 512
+$ns_ at 13.425234301679412 "$ftp_(7) start"
+set rt(16) [$node_(16) agent 255]
+$rt(16) aodv-get-semitcp $tcp_(7)
+set rt(17) [$node_(17) agent 255]
+$rt(17) aodv-get-tcpsink $sink_(7)
+set mymac(16) [$node_(16) set mac_(0)]
+$tcp_(7) semitcp-get-mac $mymac(16)
+set mymac(17) [$node_(17) set mac_(0)]
+$sink_(7) tcpsink-get-mac $mymac(17)
+#
+# 17 connecting to 18 at time 138.4609193999604
+#
+set tcp_(8) [new Agent/TCP/Semi]
+set sink_(8) [new Agent/TCPSink]
+$ns_ attach-agent $node_(17) $tcp_(8)
+$ns_ attach-agent $node_(18) $sink_(8)
+$ns_ connect $tcp_(8) $sink_(8)
+set ftp_(8) [new Application/FTP]
+$ftp_(8) attach-agent $tcp_(8)
+$tcp_(8) set packetSize_ 512
+$ns_ at 138.4609193999604 "$ftp_(8) start"
+set rt(17) [$node_(17) agent 255]
+$rt(17) aodv-get-semitcp $tcp_(8)
+set rt(18) [$node_(18) agent 255]
+$rt(18) aodv-get-tcpsink $sink_(8)
+set mymac(17) [$node_(17) set mac_(0)]
+$tcp_(8) semitcp-get-mac $mymac(17)
+set mymac(18) [$node_(18) set mac_(0)]
+$sink_(8) tcpsink-get-mac $mymac(18)
+#
+# 17 connecting to 19 at time 80.688442383282094
+#
+set tcp_(9) [new Agent/TCP/Semi]
+set sink_(9) [new Agent/TCPSink]
+$ns_ attach-agent $node_(17) $tcp_(9)
+$ns_ attach-agent $node_(19) $sink_(9)
+$ns_ connect $tcp_(9) $sink_(9)
+set ftp_(9) [new Application/FTP]
+$ftp_(9) attach-agent $tcp_(9)
+$tcp_(9) set packetSize_ 512
+$ns_ at 80.688442383282094 "$ftp_(9) start"
+set rt(17) [$node_(17) agent 255]
+$rt(17) aodv-get-semitcp $tcp_(9)
+set rt(19) [$node_(19) agent 255]
+$rt(19) aodv-get-tcpsink $sink_(9)
+set mymac(17) [$node_(17) set mac_(0)]
+$tcp_(9) semitcp-get-mac $mymac(17)
+set mymac(19) [$node_(19) set mac_(0)]
+$sink_(9) tcpsink-get-mac $mymac(19)
+#
+# 19 connecting to 20 at time 173.68055420633431
+#
+set tcp_(10) [new Agent/TCP/Semi]
+set sink_(10) [new Agent/TCPSink]
+$ns_ attach-agent $node_(19) $tcp_(10)
+$ns_ attach-agent $node_(20) $sink_(10)
+$ns_ connect $tcp_(10) $sink_(10)
+set ftp_(10) [new Application/FTP]
+$ftp_(10) attach-agent $tcp_(10)
+$tcp_(10) set packetSize_ 512
+$ns_ at 173.68055420633431 "$ftp_(10) start"
+set rt(19) [$node_(19) agent 255]
+$rt(19) aodv-get-semitcp $tcp_(10)
+set rt(20) [$node_(20) agent 255]
+$rt(20) aodv-get-tcpsink $sink_(10)
+set mymac(19) [$node_(19) set mac_(0)]
+$tcp_(10) semitcp-get-mac $mymac(19)
+set mymac(20) [$node_(20) set mac_(0)]
+$sink_(10) tcpsink-get-mac $mymac(20)
+#
+# 19 connecting to 21 at time 72.795768516508758
+#
+set tcp_(11) [new Agent/TCP/Semi]
+set sink_(11) [new Agent/TCPSink]
+$ns_ attach-agent $node_(19) $tcp_(11)
+$ns_ attach-agent $node_(21) $sink_(11)
+$ns_ connect $tcp_(11) $sink_(11)
+set ftp_(11) [new Application/FTP]
+$ftp_(11) attach-agent $tcp_(11)
+$tcp_(11) set packetSize_ 512
+$ns_ at 72.795768516508758 "$ftp_(11) start"
+set rt(19) [$node_(19) agent 255]
+$rt(19) aodv-get-semitcp $tcp_(11)
+set rt(21) [$node_(21) agent 255]
+$rt(21) aodv-get-tcpsink $sink_(11)
+set mymac(19) [$node_(19) set mac_(0)]
+$tcp_(11) semitcp-get-mac $mymac(19)
+set mymac(21) [$node_(21) set mac_(0)]
+$sink_(11) tcpsink-get-mac $mymac(21)
+#
+# 20 connecting to 21 at time 8.806013897436678
+#
+set tcp_(12) [new Agent/TCP/Semi]
+set sink_(12) [new Agent/TCPSink]
+$ns_ attach-agent $node_(20) $tcp_(12)
+$ns_ attach-agent $node_(21) $sink_(12)
+$ns_ connect $tcp_(12) $sink_(12)
+set ftp_(12) [new Application/FTP]
+$ftp_(12) attach-agent $tcp_(12)
+$tcp_(12) set packetSize_ 512
+$ns_ at 8.806013897436678 "$ftp_(12) start"
+set rt(20) [$node_(20) agent 255]
+$rt(20) aodv-get-semitcp $tcp_(12)
+set rt(21) [$node_(21) agent 255]
+$rt(21) aodv-get-tcpsink $sink_(12)
+set mymac(20) [$node_(20) set mac_(0)]
+$tcp_(12) semitcp-get-mac $mymac(20)
+set mymac(21) [$node_(21) set mac_(0)]
+$sink_(12) tcpsink-get-mac $mymac(21)
+#
+# 21 connecting to 22 at time 111.97088864258066
+#
+set tcp_(13) [new Agent/TCP/Semi]
+set sink_(13) [new Agent/TCPSink]
+$ns_ attach-agent $node_(21) $tcp_(13)
+$ns_ attach-agent $node_(22) $sink_(13)
+$ns_ connect $tcp_(13) $sink_(13)
+set ftp_(13) [new Application/FTP]
+$ftp_(13) attach-agent $tcp_(13)
+$tcp_(13) set packetSize_ 512
+$ns_ at 111.97088864258066 "$ftp_(13) start"
+set rt(21) [$node_(21) agent 255]
+$rt(21) aodv-get-semitcp $tcp_(13)
+set rt(22) [$node_(22) agent 255]
+$rt(22) aodv-get-tcpsink $sink_(13)
+set mymac(21) [$node_(21) set mac_(0)]
+$tcp_(13) semitcp-get-mac $mymac(21)
+set mymac(22) [$node_(22) set mac_(0)]
+$sink_(13) tcpsink-get-mac $mymac(22)
+#
+# 23 connecting to 24 at time 134.90107608721641
+#
+set tcp_(14) [new Agent/TCP/Semi]
+set sink_(14) [new Agent/TCPSink]
+$ns_ attach-agent $node_(23) $tcp_(14)
+$ns_ attach-agent $node_(24) $sink_(14)
+$ns_ connect $tcp_(14) $sink_(14)
+set ftp_(14) [new Application/FTP]
+$ftp_(14) attach-agent $tcp_(14)
+$tcp_(14) set packetSize_ 512
+$ns_ at 134.90107608721641 "$ftp_(14) start"
+set rt(23) [$node_(23) agent 255]
+$rt(23) aodv-get-semitcp $tcp_(14)
+set rt(24) [$node_(24) agent 255]
+$rt(24) aodv-get-tcpsink $sink_(14)
+set mymac(23) [$node_(23) set mac_(0)]
+$tcp_(14) semitcp-get-mac $mymac(23)
+set mymac(24) [$node_(24) set mac_(0)]
+$sink_(14) tcpsink-get-mac $mymac(24)
+#
+#Total sources/connections: 11/15
+#

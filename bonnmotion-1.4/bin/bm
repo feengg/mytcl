@@ -1,0 +1,20 @@
+#!/bin/bash
+
+BONNMOTION="/home/ma/ns-allinone-2.29/mytcl/bonnmotion-1.4"
+PACKAGE="edu.bonn.cs.iv.bonnmotion"
+CLASSPATH="/home/ma/ns-allinone-2.29/mytcl/bonnmotion-1.4/classes"
+JAVAPATH="/usr/bin"
+DOCPATH="/home/ma/ns-allinone-2.29/mytcl/bonnmotion-1.4/javadoc"
+JAVA="$JAVAPATH/java"
+JAVAC="$JAVAPATH/javac"
+JAVADOC="$JAVAPATH/javadoc"
+
+#!/bin/bash
+
+if [ ! -d "${BONNMOTION}/classes" ]; then
+	echo "Compile first ..."
+	exit;
+fi
+
+$JAVA -Xmx512m -server -cp "$CLASSPATH" $PACKAGE.run.BM "$@"
+		
