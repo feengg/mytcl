@@ -13,8 +13,10 @@ set boxwidth 20
 set xrange [1:30]
 set yrange [100:200]
 
-plot    './matcp(m=1)/throughput' u 1:2 t 'matcp(m=1)' with linespoints, \
-        './matcp(m=10)/throughput' u 1:2 t 'matcp(m=10)' with linespoints
+plot    './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
+        './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \
+        './newreno/throughput' u 1:2 t 'newreno' with linespoints, \
+        './tcpap/throughput' u 1:2 t 'tcpap' with linespoints
     set output
 quit
 

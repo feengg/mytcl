@@ -12,9 +12,10 @@ set boxwidth 20
 set xrange [1:28]
 #set yrange [0:1000]
 
-plot './semitcp/delay' u 1:2 t 'semitcp' with linespoints, \
-    './matcp(m=1)/delay' u 1:2 t 'matcp(m=1)' with linespoints, \
-    './matcp(m=10)/delay' u 1:2 t 'matcp(m=10)' with linespoints
+plot    './semitcp/delay' u 1:2 t 'semitcp' with linespoints, \
+        './matcp/delay' u 1:2 t 'matcp' with linespoints, \
+        './newreno/delay' u 1:2 t 'newreno' with linespoints, \
+        './tcpap/delay' u 1:2 t 'tcpap' with linespoints
 	
 set output
 quit

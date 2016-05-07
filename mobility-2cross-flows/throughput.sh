@@ -11,7 +11,7 @@ set autoscale
 #set grid
 set boxwidth 20
 
-plot './orignal/throughput' u 2:xtic(1) t 'orignal' with linespoints, \
+plot './/throughput' u 1:2 t '' with linespoints, \
 	'./semitcp/throughput' u 2 t 'semitcp' with linespoints, \
     './tcpap/throughput' u 2 t 'tcpap' with linespoints, \
     './newreno/throughput' u 2 t 'newreno' with linespoints, \

@@ -11,11 +11,12 @@ set autoscale
 set grid
 set boxwidth 20
 set xrange [1:30]
-set yrange [140:400]
+set yrange [0:400]
 
 plot    './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \
-    './matcp(m=1)/throughput' u 1:2 t 'matcp(m=1)' with linespoints, \
-    './matcp(m=10)/throughput' u 1:2 t 'matcp(m=10)' with linespoints
+        './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
+        './newreno/throughput' u 1:2 t 'newreno' with linespoints, \
+        './tcpap/throughput' u 1:2 t 'tcpap' with linespoints
     set output
 quit
 
