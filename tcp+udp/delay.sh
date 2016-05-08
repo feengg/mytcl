@@ -10,10 +10,10 @@ set autoscale
 #set grid
 set boxwidth 20
 
-plot './orignal/delay' u 2:xtic(1) t 'orignal' with linespoints, \
-	'./semitcp/delay' u 2 t 'semitcp' with linespoints, \
-    './tcpap/delay' u 2 t 'tcpap' with linespoints, \
-    './newreno/delay' u 2 t 'newreno' with linespoints
+plot './matcp/delay' u 1:2 t 'matcp' with linespoints, \
+    './semitcp/delay' u 1:2 t 'semitcp' with linespoints, \
+    './tcpap/delay' u 1:2 t 'tcpap' with linespoints, \
+    './newreno/delay' u 1:2 t 'newreno' with linespoints
 	
 set output
 quit

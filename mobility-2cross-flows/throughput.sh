@@ -11,10 +11,10 @@ set autoscale
 #set grid
 set boxwidth 20
 
-plot './/throughput' u 1:2 t '' with linespoints, \
-	'./semitcp/throughput' u 2 t 'semitcp' with linespoints, \
-    './tcpap/throughput' u 2 t 'tcpap' with linespoints, \
-    './newreno/throughput' u 2 t 'newreno' with linespoints, \
+plot    './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
+	    './semitcp/throughput' u 2 t 'semitcp' with linespoints, \
+        './tcpap/throughput' u 2 t 'tcpap' with linespoints, \
+        './newreno/throughput' u 2 t 'newreno' with linespoints
 	
 set output
 quit

@@ -12,9 +12,9 @@ set autoscale
 set boxwidth 20
 
 plot './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
-	'./semitcp/throughput' u 2 t 'semitcp' with linespoints, \
-    './tcpap/throughput' u 2 t 'tcpap' with linespoints, \
-    './newreno/throughput' u 2 t 'newreno' with linespoints
+    './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \
+    './tcpap/throughput' u 1:2 t 'tcpap' with linespoints, \
+    './newreno/throughput' u 1:2 t 'newreno' with linespoints
 	
 set output
 quit
