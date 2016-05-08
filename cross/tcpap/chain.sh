@@ -20,7 +20,7 @@ echo SIMULATION DURATION: 300.0S, AODV+TCP >> drop.txt
 while [ $i -lt 11 ]; do
 	j=`expr $i \* 2 + 1`
 	echo --- Hop Node Number:$i --- >> q_length.txt
-	../../../semitcp/semitcp chain.tcl 0 $j 100 9 1 1 1 1 1  >> q_length.txt
+	../../../tcpap/tcpap chain.tcl 2 $j 100 9 >> /dev/null
 	echo FINISH $i simulations, start to alalyze...
 	echo >> HopsResultAvg.txt
 	echo >> overall.txt

@@ -1,2 +1,143 @@
-2015年 09月 22日 星期二 15:49:18 CST
+2016年 05月 08日 星期日 16:24:01 CST
 --- Hop Node Number:1 ---
+num_nodes is set 5
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	8220
+        CTS_recv:	4797
+       CTSC_recv:	0
+       DATA_send:	4799
+        ACK_recv:	4797
+
+     RTS(C)_recv:	4781
+        CTS_send:	4779
+       CTSC_send:	0
+       DATA_recv:	4779
+        ACK_send:	4779
+
+   RetransmitRTS:	265
+  RetransmitDATA:	0
+     Droped DATA:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.93
+       max_whole:	3
+   RTS_fail_rate:	3.22%
+ RTS_refuse_rate:	39.70%
+    RTS_CTS_rate:	58.36%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.73%
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	6766
+        CTS_recv:	3661
+       CTSC_recv:	0
+       DATA_send:	3663
+        ACK_recv:	3660
+
+     RTS(C)_recv:	3593
+        CTS_send:	3593
+       CTSC_send:	0
+       DATA_recv:	3593
+        ACK_send:	3593
+
+   RetransmitRTS:	265
+  RetransmitDATA:	0
+     Droped DATA:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	3.92%
+ RTS_refuse_rate:	43.69%
+    RTS_CTS_rate:	54.11%
+  DATA_fail_rate:	0.00%
+all_success_rate:	93.18%
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	17055
+        CTS_recv:	16829
+       CTSC_recv:	0
+       DATA_send:	16833
+        ACK_recv:	16829
+
+     RTS(C)_recv:	28423
+        CTS_send:	16830
+       CTSC_send:	0
+       DATA_recv:	16830
+        ACK_send:	16830
+
+   RetransmitRTS:	226
+  RetransmitDATA:	0
+     Droped DATA:	0
+  refuse(no CTS):	11593
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.65
+       max_whole:	2
+   RTS_fail_rate:	1.33%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	98.67%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.65%
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	8217
+        CTS_recv:	4779
+       CTSC_recv:	0
+       DATA_send:	4781
+        ACK_recv:	4779
+
+     RTS(C)_recv:	4798
+        CTS_send:	4797
+       CTSC_send:	0
+       DATA_recv:	4797
+        ACK_send:	4797
+
+   RetransmitRTS:	269
+  RetransmitDATA:	0
+     Droped DATA:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	3.27%
+ RTS_refuse_rate:	39.87%
+    RTS_CTS_rate:	58.16%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.63%
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6268
+        CTS_recv:	3593
+       CTSC_recv:	0
+       DATA_send:	3595
+        ACK_recv:	3593
+
+     RTS(C)_recv:	3660
+        CTS_send:	3660
+       CTSC_send:	0
+       DATA_recv:	3660
+        ACK_send:	3660
+
+   RetransmitRTS:	249
+  RetransmitDATA:	0
+     Droped DATA:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.05
+       max_whole:	2
+   RTS_fail_rate:	3.97%
+ RTS_refuse_rate:	40.31%
+    RTS_CTS_rate:	57.32%
+  DATA_fail_rate:	0.00%
+all_success_rate:	93.47%
+

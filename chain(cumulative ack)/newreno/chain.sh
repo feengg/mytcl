@@ -10,7 +10,7 @@ echo SIMULATION DURATION: 300.0S, AODV+TCP >> HopsResultAvg.txt
 echo SIMULATION DURATION: 300.0S, AODV+TCP >> HopsResultInst.txt
 
 while [ $i -lt 30 ]; do
-	../../../ns-2.29/ns chain.tcl 3 $i 100 7
+	../../../tcpap/tcpap chain.tcl 3 $i 100 7 >> /dev/null
     let j=$i-1
 	echo FINISH $j simulations, start to analyze...
 	echo >> HopsResultAvg.txt

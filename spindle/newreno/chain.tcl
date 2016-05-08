@@ -52,7 +52,7 @@ set val(y)              800
 set val(ifqlen)         50                	;# Maximum Queue Length in Interface Queue
 set val(seed)           0.0
 set val(adhocRouting)	AODV					;# Routing Protocol
-set val(nn)           [expr 4 + $length]     	;# Node Number
+set val(nn)           [expr 4 + $NodeNum]     	;# Node Number
 set val(stop)         $Duration	              ;# Simulation Time
 set chan [new $val(chan)]                    	;# Set up the wireless channel
 
@@ -142,9 +142,9 @@ for {set i 2; set j 1} {$i < [expr $val(nn) - 2]} {incr i; incr j} {
 	$node_($i) set X_ [expr 50 + $j * 200]
 	$node_($i) set Y_ 300
 }
-$node_([expr $val(nn) - 2]) set X_ [expr 250 + $length*200]
+$node_([expr $val(nn) - 2]) set X_ [expr 250 + $NodeNum*200]
 $node_([expr $val(nn) - 2]) set Y_ 450
-$node_([expr $val(nn) - 1]) set X_ [expr 250 + $length*200]
+$node_([expr $val(nn) - 1]) set X_ [expr 250 + $NodeNum*200]
 $node_([expr $val(nn) - 1]) set Y_ 150
 
 
