@@ -12,26 +12,31 @@ if {$Program == 0} {
         Queue/DropTail/PriQueue set localThreshold_ [lindex $argv 6]
 		Queue/DropTail/PriQueue set neighborThreshold_ [lindex $argv 7]
 		Mac/802_11 set K_ [lindex $argv 8]
+        set udprate [lindex $argv 9]
 } elseif {$Program == 1} {
-    #using matcp
+    #using orignal
     Mac/802_11 set RTT_ 0.006
 		set NodeNum [lindex $argv 1]
 		set Duration [lindex $argv 2]
 		Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
         Mac/802_11 set CALLRT_ [lindex $argv 4]
+        Agent/TCPSink set no_dupack_ [lindex $argv 5]
 
-        Queue/DropTail/PriQueue set CongestionThreshold_ [lindex $argv 5]
-        Mac/802_11 set K_ [lindex $argv 6]
+        Queue/DropTail/PriQueue set CongestionThreshold_ [lindex $argv 6]
+        Mac/802_11 set K_ [lindex $argv 7]
+        set udprate [lindex $argv 8]
 } elseif { $Program == 2 } {
     #using tcpap
     set NodeNum [lindex $argv 1]
     set Duration [lindex $argv 2]
     Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+    set udprate [lindex $argv 4]
 } elseif { $Program == 3 } {
     #using ns
     set NodeNum [lindex $argv 1]
     set Duration [lindex $argv 2]
     Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+    set udprate [lindex $argv 4]
 } else {
     exit 1
 }
@@ -135,7 +140,7 @@ for {set i 0} {$i < $val(nn) } {incr i} {     ;# Create the nodes
     }
 }
 proc create_tcp_connection {id src dst} {
-    global ns_ node_ Program Duration
+    global ns_ node_ Program
     
 	if {$Program == 0 || $Program == 1 } {
 		set tcp_($id) [new Agent/TCP/Semi]
@@ -145,11 +150,6 @@ proc create_tcp_connection {id src dst} {
         set tcp_($id) [new Agent/TCP/Newreno]
     } else {
         exit 1
-    }
-
-    if {$Program == 1} {
-        set t2 [expr $Duration-0.0000001]
-        $ns_ at $t2 "$tcp_($id) emptyCount"
     }
 
     set sink_($id) [new Agent/TCPSink]
@@ -164,13 +164,41 @@ proc create_tcp_connection {id src dst} {
 	$ns_ at 1.0 "$ftp_($id) start"
 	
 	if {$Program == 0 || $Program == 1} {
+		# 4.1 AODV--->SEMITCP
+		#attatch tcp agent to aodv agent
+		set rt($src) [$node_($src) agent 255]
+		$rt($src) aodv-get-semitcp $tcp_($id)
+		# 4.2 AODV---->TcpSink
+		set rt($dst) [$node_($dst) agent 255]
+		$rt($dst) aodv-get-tcpsink $sink_($id)
 		# 5.1 SEMITCP--->MAC
 		set mymac($src) [$node_($src) set mac_(0)]
 		$tcp_($id) semitcp-get-mac $mymac($src)
+		# 5.2 TcpSink--->MAC
+		set mymac($dst) [$node_($dst) set mac_(0)]
+		$sink_($id) tcpsink-get-mac $mymac($dst)
 	}
 }
 
-create_tcp_connection 0 0 [expr $val(nn)-1]
+proc create_udp_connection {id src dst} {
+    global ns_ node_ udprate
+
+    set udp_($id) [new Agent/UDP]
+    set null_($id) [new Agent/Null]
+
+    $ns_ attach-agent $node_($src) $udp_($id)
+    $ns_ attach-agent $node_($dst) $null_($id)
+    $ns_ connect $udp_($id) $null_($id)
+
+    set cbr_($id) [new Application/Traffic/CBR]
+    $cbr_($id) attach-agent $udp_($id)
+    $cbr_($id) set packetSize_ 512
+    $cbr_($id) set rate_ $udprate
+    $udp_($id) set fid_ $id
+    $ns_ at 1.0 "$cbr_($id) start"
+}
+
+create_udp_connection 0 0 [expr $val(nn)-1]
 
 # Set up the size of nodes in nam
 #for {set i 0} {$i < $val(nn)} {incr i} {
