@@ -157,7 +157,7 @@ for {set i $middle} {$i < $val(nn)} {incr i} {
 
 
 proc create_tcp_connection {id src dst} {
-    global ns_ node_ Program
+    global ns_ node_ Program Duration
     
     if {$Program == 0 || $Program == 1 } {
 		set tcp_($id) [new Agent/TCP/Semi]
@@ -179,6 +179,11 @@ proc create_tcp_connection {id src dst} {
 	$tcp_($id) set packetSize_ 512;
 	$tcp_($id) set fid_ $id
 	$ns_ at 1.0 "$ftp_($id) start"
+
+    if {$Program == 2} {
+        set t2 [expr $Duration-0.0000001]
+        $ns_ at $t2 "$tcp_($id) emptyCount"    
+    }
 	
 	if {$Program == 0 || $Program == 1} {
 		# 4.1 AODV--->SEMITCP

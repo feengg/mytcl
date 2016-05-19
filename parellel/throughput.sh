@@ -10,6 +10,7 @@ set output 'throughput.eps'
 set autoscale
 #set grid
 set boxwidth 20
+set yrange [:200]
 
 plot    './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
         './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \

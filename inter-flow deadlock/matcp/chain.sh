@@ -9,7 +9,7 @@ date > HopsResultAvg_flow1.txt
 date > q_length.txt
 #date > drop.txt
 
-    ../../../matcp/matcp chain.tcl 1 4 200 7 0 0 1 1 >> q_length.txt
+    ../../../matcp/matcp chain.tcl 1 4 200 7 0 0 0 1 >> q_length.txt
 	echo FINISH simulation, start to analyze...
 	echo >> HopsResultAvg_flow0.txt
     echo >> HopsResultAvg_flow1.txt
@@ -27,8 +27,8 @@ rm *.tr
 #rm tmp
 
 gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" HopsResultAvg_flow0.txt > throughput
-gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" HopsResultAvg_flow1.txt > throughput
+gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" HopsResultAvg_flow1.txt >> throughput
 gawk -f ../../trace2stats_v05b/brief.awk flag="delay" HopsResultAvg_flow0.txt > delay
-gawk -f ../../trace2stats_v05b/brief.awk flag="delay" HopsResultAvg_flow1.txt > delay
+gawk -f ../../trace2stats_v05b/brief.awk flag="delay" HopsResultAvg_flow1.txt >> delay
 
 ./throught.sh
