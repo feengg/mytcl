@@ -1,49 +1,42 @@
-set UseSemitcp [lindex $argv 0];
-if {$UseSemitcp > 0} {
-	Mac/802_11 set RTT_ 0.006; # an estimation of the time for a 4-way handshaking
-	if {$argc == 8} {
-		set NodeNum [lindex $argv 1];
-		set Duration [lindex $argv 2];
-		Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
-		Mac/802_11 set CALLRT_ [lindex $argv 4]
-		Agent/TCPSink set no_dupack_ [lindex $argv 5]
+set Program [lindex $argv 0]
 
-		Queue/DropTail/PriQueue set CongestionThreshold_ [lindex $argv 6]
-		Mac/802_11 set K_ [lindex $argv 7]
-	} else {
-		if {$argc == 3} {
-			set NodeNum [lindex $argv 1];
-			set Duration [lindex $argv 2];
-		} else {
-			set NodeNum 5;
-			set Duration 10;
-		}
-		Queue/DropTail/PriQueue set CongestionThreshold_ 1
-		Mac/802_11 set K_ 1
-		Mac/802_11 set ShortRetryLimit_ 7
-		Mac/802_11 set CALLRT_ 1
-		Agent/TCPSink set no_dupack_ 1
-	}
-} else {
-	if {$argc == 6} {
-		set NodeNum [lindex $argv 1];
-		set Duration [lindex $argv 2];
+if {$Program == 0} {
+    #using semitcp
+	Mac/802_11 set RTT_ 0.006; # an estimation of the time for a 4-way handshaking
+		set NodeNum [lindex $argv 1]
+		set Duration [lindex $argv 2]
 		Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
-		Mac/802_11 set CALLRT_ [lindex $argv 4]
-		Agent/TCPSink set no_dupack_ [lindex $argv 5]
-	} else {
-		if {$argc == 3} {
-			set NodeNum [lindex $argv 1];
-			set Duration [lindex $argv 2];
-		} else {
-			set NodeNum 3;
-			set Duration 10;
-		}
-		Mac/802_11 set ShortRetryLimit_ 7
-		Mac/802_11 set CALLRT_ 1
-		Agent/TCPSink set no_dupack_ 1
-	}
+        Mac/802_11 set CALLRT_ [lindex $argv 4]
+        Agent/TCPSink set no_dupack_ [lindex $argv 5]
+
+        Queue/DropTail/PriQueue set localThreshold_ [lindex $argv 6]
+		Queue/DropTail/PriQueue set neighborThreshold_ [lindex $argv 7]
+		Mac/802_11 set K_ [lindex $argv 8]
+} elseif {$Program == 1} {
+    #using matcp
+        Mac/802_11 set RTT_ 0.006
+		set NodeNum [lindex $argv 1]
+		set Duration [lindex $argv 2]
+		Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+        Mac/802_11 set CALLRT_ [lindex $argv 4]
+        Agent/TCPSink set no_dupack_ [lindex $argv 5]
+
+        Queue/DropTail/PriQueue set CongestionThreshold_ [lindex $argv 6]
+        Mac/802_11 set K_ [lindex $argv 7]
+} elseif { $Program == 2 } {
+    #using tcpap
+    set NodeNum [lindex $argv 1]
+    set Duration [lindex $argv 2]
+    Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+} elseif { $Program == 3 } {
+    #using ns
+    set NodeNum [lindex $argv 1]
+    set Duration [lindex $argv 2]
+    Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+} else {
+    exit 1
 }
+
 
 set val(chan)       Channel/WirelessChannel  ;# Channel Model
 set val(prop)       Propagation/TwoRayGround ;# Wireless Propagation Model
@@ -79,15 +72,15 @@ $ns_ use-newtrace							;# Use new trace format
 set tracefd	[open chain.tr w] 		;# The name of the trace file
 $ns_ trace-all $tracefd
 
-#set namtracefd  [open chain.nam w]	;# The name of the nam trace file               
-#$ns_ namtrace-all-wireless $namtracefd $val(x) $val(y)
+set namtracefd  [open chain.nam w]	;# The name of the nam trace file               
+$ns_ namtrace-all-wireless $namtracefd $val(x) $val(y)
 
 # Close the trace files
 proc finish {} {
         global ns_ tracefd namtracefd
         $ns_ flush-trace
         close $tracefd
-        #close $namtracefd
+        close $namtracefd
         exit 0
 }
 
@@ -121,7 +114,8 @@ for {set i 0} {$i < $val(nn) } {incr i} {     ;# Create the nodes
 	$node_($i) set X_ [expr 50 + $i * 200]
 	$node_($i) set Y_ 400
 	$node_($i) set Z_ 0.0
-	
+
+    if {$Program <= 1} {
 	# MAC GET IFQ AND ROUTE, JUST TO GET THE INFORMATION NEEDED
 	# 1. MAC--->IFQ
 	# get the mac tcl object
@@ -133,25 +127,24 @@ for {set i 0} {$i < $val(nn) } {incr i} {     ;# Create the nodes
 	set rt($i) [$node_($i) agent 255]
 	# attatch route agent tcl object to mac
 	$mymac($i) mac-get-aodv $rt($i)
-	if {$UseSemitcp > 0} {
 		# 3. IFQ--->AODV
 		#attatch route agent to ifq
 		set myifq($i) [$node_($i) set ifq_(0)]
 		$myifq($i) ifq-get-aodv $rt($i)
-	}
-}
+    }
+    }
 proc create_tcp_connection {id src dst} {
-	puts "creating tcp connection"
-	puts $src 
-	puts $dst
-    global ns_ node_ UseSemitcp
+    global ns_ node_ Program
     
-	if {$UseSemitcp > 0} {
+	if {$Program == 1 || $Program == 0} {
 		set tcp_($id) [new Agent/TCP/Semi]
-	} else {
-		puts "----TCP-AP----"
-		set tcp_($id) [new Agent/TCP/Newreno/AP]
-	}
+    } elseif {$Program == 2} {
+        set tcp_($id) [new Agent/TCP/Newreno/AP]
+    } elseif {$Program == 3} {
+        set tcp_($id) [new Agent/TCP/Newreno]
+    } else {
+        exit 1
+    }
 
     set sink_($id) [new Agent/TCPSink]
 
@@ -164,7 +157,7 @@ proc create_tcp_connection {id src dst} {
 	$tcp_($id) set fid_ $id
 	$ns_ at 1.0 "$ftp_($id) start"
 	
-	if {$UseSemitcp > 0} {
+	if {$Program <= 1} {
 		# 4.1 AODV--->SEMITCP
 		#attatch tcp agent to aodv agent
 		set rt($src) [$node_($src) agent 255]
@@ -187,20 +180,22 @@ create_tcp_connection 0 0 [expr $val(nn)-1]
 create_tcp_connection 1 1 [expr $val(nn)-2]
 
 # Set up the size of nodes in nam
-#for {set i 0} {$i < $val(nn)} {incr i} {
- #                  $ns_ initial_node_pos $node_($i) 30
-#}
+for {set i 0} {$i < $val(nn)} {incr i} {
+                  $ns_ initial_node_pos $node_($i) 30
+}
 
 # Reset all the nodes
 for {set i 0} {$i < $val(nn)} {incr i} {
     $ns_ at $val(stop).0 "$node_($i) reset";
 }
 
-# Call the mac procedure to print the average queue length
-set t2 [expr $val(stop) -0.0000001]
-for {set i 0} {$i < $val(nn) } {incr i} {
-	$ns_ at $t2 "set mymac($i) [$node_($i) set mac_(0)] 
-	$mymac($i) printavgqlen"
+if {$Program == 0 || $Program ==1} {
+    # Call the mac procedure to print the average queue length
+    set t2 [expr $val(stop) -0.0000001]
+    for {set i 0} {$i < $val(nn) } {incr i} {
+	    $ns_ at $t2 "set mymac($i) [$node_($i) set mac_(0)] 
+	    $mymac($i) printavgqlen"
+    }
 }
 
 $ns_ at  $val(stop).002 "finish" ; # Call the finish procedure

@@ -13,8 +13,8 @@ if {$Program == 0} {
 		Queue/DropTail/PriQueue set neighborThreshold_ [lindex $argv 7]
 		Mac/802_11 set K_ [lindex $argv 8]
 } elseif {$Program == 1} {
-    #using orignal
-    Mac/802_11 set RTT_ 0.006
+    #using matcp
+        Mac/802_11 set RTT_ 0.006
 		set NodeNum [lindex $argv 1]
 		set Duration [lindex $argv 2]
 		Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
@@ -74,15 +74,15 @@ $ns_ use-newtrace							;# Use new trace format
 set tracefd	[open chain.tr w] 		;# The name of the trace file
 $ns_ trace-all $tracefd
 
-#set namtracefd  [open chain.nam w]	;# The name of the nam trace file               
-#$ns_ namtrace-all-wireless $namtracefd $val(x) $val(y)
+set namtracefd  [open chain.nam w]	;# The name of the nam trace file               
+$ns_ namtrace-all-wireless $namtracefd $val(x) $val(y)
 
 # Close the trace files
 proc finish {} {
-        global ns_ tracefd ;#namtracefd
+        global ns_ tracefd namtracefd
         $ns_ flush-trace
         close $tracefd
-        #close $namtracefd
+        close $namtracefd
         exit 0
 }
 
@@ -214,9 +214,9 @@ create_tcp_connection 0 $src0 $dst1
 create_tcp_connection 1 $dst0 $src1
 
 # Set up the size of nodes in nam
-#for {set i 0} {$i < $val(nn)} {incr i} {
-#                   $ns_ initial_node_pos $node_($i) 30
-#}
+for {set i 0} {$i < $val(nn)} {incr i} {
+                   $ns_ initial_node_pos $node_($i) 30
+}
 
 # Reset all the nodes
 for {set i 0} {$i < $val(nn)} {incr i} {
