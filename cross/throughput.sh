@@ -8,14 +8,14 @@ set key right top Right
 set term postscript eps enhanced color blacktext "Helvetica" 24
 set output 'throughput.eps'
 set autoscale
-#set grid
+set grid
 set boxwidth 20
-set yrange [50:200]
+set yrange [80:200]
 
 plot './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
     './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \
-    './tcpap/throughput' u 1:2 t 'tcpap' with linespoints, \
-    './newreno/throughput' u 1:2 t 'newreno' with linespoints
+    './tcpap/throughput' u 1:2 t 'tcpap' with linespoints 
+    #'./newreno/throughput' u 1:2 t 'newreno' with linespoints
 	
 set output
 quit

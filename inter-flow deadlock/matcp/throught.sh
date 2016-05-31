@@ -8,7 +8,7 @@ set key right bottom
 #彩色
 set term postscript eps enhanced color blacktext "Helvetica" 24
 
-set output "Throughput.eps"
+set output "Throughput(matcp).eps"
 set autoscale
 #set grid
 set boxwidth 20

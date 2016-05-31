@@ -7,13 +7,13 @@ set key left top reverse
 set term postscript eps enhanced color blacktext "Helvetica" 24
 set output 'delay.eps'
 set autoscale
-#set grid
+set grid
 set boxwidth 20
 
 plot    './matcp/delay' u 1:2 t 'matcp' with linespoints, \
         './semitcp/delay' u 1:2 t 'semitcp' with linespoints, \
-        './tcpap/delay' u 1:2 t 'tcpap' with linespoints, \
-        './newreno/delay' u 1:2 t 'newreno' with linespoints
+        './tcpap/delay' u 1:2 t 'tcpap' with linespoints 
+        #'./newreno/delay' u 1:2 t 'newreno' with linespoints
 	
 set output
 quit
