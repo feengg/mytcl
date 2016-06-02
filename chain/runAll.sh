@@ -14,7 +14,7 @@ cd matcp
 #./chain.sh 
 
 cd ../
-./throughput.sh &
+./throughput.sh
 ./delay.sh
 
 echo "all jobs are finished, type any key to exit..."

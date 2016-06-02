@@ -1,7 +1,5 @@
 #!/bin/bash
 
-ls | grep -v '\.sh' | grep -v '\.tcl' | xargs rm
-
 # RECORD THE SIMLUATION TIME
 date > HopsResultAvg.txt
 date > overall.txt

@@ -1,0 +1,74 @@
+2015年 12月 13日 星期日 21:43:55 CST
+num_nodes is set 4
+
+--------------------------NODE: 0--------------------
+    RTS(C)_send:	23896
+       CTS_recv:	9325
+      CTSC_recv:	0
+      DATA_send:	9330
+       ACK_recv:	9325
+
+  RetransmitRTS:	355
+ RetransmitDATA:	0
+
+ refuse(no CTS):	0
+dead_lock(CTSC):	0
+
+      avg_whole:	1.85
+  RTS_fail_rate:	1.49%
+RTS_refuse_rate:	60.39%
+
+
+--------------------------NODE: 1--------------------
+    RTS(C)_send:	35796
+       CTS_recv:	29331
+      CTSC_recv:	244
+      DATA_send:	29581
+       ACK_recv:	29574
+
+  RetransmitRTS:	843
+ RetransmitDATA:	0
+
+ refuse(no CTS):	18300
+dead_lock(CTSC):	367
+
+      avg_whole:	1.32
+  RTS_fail_rate:	2.36%
+RTS_refuse_rate:	15.39%
+
+
+--------------------------NODE: 2--------------------
+    RTS(C)_send:	24946
+       CTS_recv:	19912
+      CTSC_recv:	367
+      DATA_send:	20286
+       ACK_recv:	20274
+
+  RetransmitRTS:	583
+ RetransmitDATA:	0
+
+ refuse(no CTS):	5388
+dead_lock(CTSC):	244
+
+      avg_whole:	0.95
+  RTS_fail_rate:	2.34%
+RTS_refuse_rate:	16.76%
+
+
+--------------------------NODE: 3--------------------
+    RTS(C)_send:	136
+       CTS_recv:	25
+      CTSC_recv:	0
+      DATA_send:	40
+       ACK_recv:	25
+
+  RetransmitRTS:	101
+ RetransmitDATA:	0
+
+ refuse(no CTS):	0
+dead_lock(CTSC):	0
+
+      avg_whole:	0.03
+  RTS_fail_rate:	74.26%
+RTS_refuse_rate:	28.57%
+
