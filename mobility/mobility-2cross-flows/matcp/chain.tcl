@@ -160,19 +160,9 @@ proc create_tcp_connection {id src dst} {
 	$ns_ at 1.0 "$ftp_($id) start"
 	
 	if {$Program <= 1} {
-		# 4.1 AODV--->SEMITCP
-		#attatch tcp agent to aodv agent
-		set rt($src) [$node_($src) agent 255]
-		$rt($src) aodv-get-semitcp $tcp_($id)
-		# 4.2 AODV---->TcpSink
-		set rt($dst) [$node_($dst) agent 255]
-		$rt($dst) aodv-get-tcpsink $sink_($id)
 		# 5.1 SEMITCP--->MAC
 		set mymac($src) [$node_($src) set mac_(0)]
 		$tcp_($id) semitcp-get-mac $mymac($src)
-		# 5.2 TcpSink--->MAC
-		set mymac($dst) [$node_($dst) set mac_(0)]
-		$sink_($id) tcpsink-get-mac $mymac($dst)
 	}
 }
 

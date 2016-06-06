@@ -3,10 +3,19 @@
 str=`pwd`
 echo "current directory is: " $str
 
-cd ./chain\(rt-fail\)
+cd ./chain
+./runAll.sh
+
+cd ../chain\(rt-fail\)
+./runAll.sh
+
+cd ../cross
 ./runAll.sh
 
 cd ../cross\(rt-fail\)
+./runAll.sh
+
+cd ../parellel
 ./runAll.sh
 
 cd ../parellel\(rt-fail\)

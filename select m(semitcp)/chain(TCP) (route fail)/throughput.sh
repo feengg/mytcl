@@ -10,7 +10,7 @@ set output 'throughput.eps'
 set autoscale
 set grid
 set boxwidth 20
-set yrange [130:340]
+#set yrange [130:340]
 
 plot    './throughput(m=1)' u 1:2 t 'm=1' with linespoints, \
         './throughput(m=2)' u 1:2 t 'm=2' with linespoints, \

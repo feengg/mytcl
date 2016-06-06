@@ -28,11 +28,13 @@ if {$Program == 0} {
     set NodeNum [lindex $argv 1]
     set Duration [lindex $argv 2]
     Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+    Mac/802_11 set CALLRT_ [lindex $argv 4]
 } elseif { $Program == 3 } {
     #using ns
     set NodeNum [lindex $argv 1]
     set Duration [lindex $argv 2]
     Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+    Mac/802_11 set CALLRT_ [lindex $argv 4]
 } else {
     exit 1
 }

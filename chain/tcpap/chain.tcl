@@ -28,11 +28,13 @@ if {$Program == 0} {
     set NodeNum [lindex $argv 1]
     set Duration [lindex $argv 2]
     Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+    Mac/802_11 set CALLRT_ [lindex $argv 4]
 } elseif { $Program == 3 } {
     #using ns
     set NodeNum [lindex $argv 1]
     set Duration [lindex $argv 2]
     Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+    Mac/802_11 set CALLRT_ [lindex $argv 4]
 } else {
     exit 1
 }
@@ -195,12 +197,10 @@ for {set i 0} {$i < $val(nn)} {incr i} {
 
 # Call the mac procedure to print the average queue length
 set t2 [expr $val(stop) -0.0000001]
-if {$Program == 0 || $Program == 1} {
     for {set i 0} {$i < $val(nn) } {incr i} {
-   	    $ns_ at $t2 "set mymac($i) [$node_($i) set mac_(0)] 
-   	    $mymac($i) printavgqlen"
+        set mac($i) [$node_($i) set mac_(0)]
+        $ns_ at $t2 "$mac($i) printavgqlen"
     }
-}
 
 $ns_ at  $val(stop).002 "finish" ; # Call the finish procedure
 

@@ -11,7 +11,7 @@ set autoscale
 set grid
 set boxwidth 20
 set xrange [1:20]
-set yrange [:400]
+set yrange [:250]
 
 plot    './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
         './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \
