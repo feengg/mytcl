@@ -28,3 +28,4 @@ rm tmp
 gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" HopsResultAvg.txt > throughput
 gawk -f ../../trace2stats_v05b/brief.awk flag="delay" HopsResultAvg.txt > delay
 
+./drawAll.sh
