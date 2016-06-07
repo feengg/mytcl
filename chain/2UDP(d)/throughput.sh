@@ -13,9 +13,9 @@ set boxwidth 20
 #set xrange [0:4]
 set yrange [:300]
 
-plot    './throughput_0' u 1:2 t 'UDP(m)(flow 0)' with linespoints, \
-        './throughput_1' u 1:2 t 'UDP(m)(flow 1)' with linespoints, \
-        './throughput' u 1:2 t 'UDP(m)(sum)' with linespoints
+plot    './throughput_0' u 1:2 t 'UDP(d)(flow 0)' with linespoints, \
+        './throughput_1' u 1:2 t 'UDP(d)(flow 1)' with linespoints, \
+        './throughput' u 1:2 t 'UDP(d)(sum)' with linespoints
 
 set output
 quit

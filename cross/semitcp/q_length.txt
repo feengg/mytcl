@@ -1,4 +1,4 @@
-2016年 06月 05日 星期日 18:22:56 CST
+2016年 06月 07日 星期二 09:30:09 CST
 --- Hop Node Number:1 ---
 num_nodes is set 5
 
@@ -30,6 +30,8 @@ num_nodes is set 5
   DATA_fail_rate:	0.00%
 all_success_rate:	93.02%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	17067
@@ -58,6 +60,8 @@ all_success_rate:	93.02%
     RTS_CTS_rate:	98.76%
   DATA_fail_rate:	0.00%
 all_success_rate:	98.73%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -88,6 +92,8 @@ all_success_rate:	98.73%
   DATA_fail_rate:	0.00%
 all_success_rate:	93.52%
 
+ maxAckQueueSize:	40
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	7717
@@ -117,6 +123,8 @@ all_success_rate:	93.52%
   DATA_fail_rate:	0.00%
 all_success_rate:	93.46%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 4--------------------
      RTS(C)_send:	7585
@@ -145,6 +153,8 @@ all_success_rate:	93.46%
     RTS_CTS_rate:	58.04%
   DATA_fail_rate:	0.00%
 all_success_rate:	94.06%
+
+ maxAckQueueSize:	33
 
 --- Hop Node Number:2 ---
 num_nodes is set 9
@@ -177,6 +187,8 @@ num_nodes is set 9
   DATA_fail_rate:	3.49%
 all_success_rate:	22.67%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	3344
@@ -205,6 +217,8 @@ all_success_rate:	22.67%
     RTS_CTS_rate:	86.36%
   DATA_fail_rate:	0.00%
 all_success_rate:	90.25%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -235,6 +249,8 @@ all_success_rate:	90.25%
   DATA_fail_rate:	0.00%
 all_success_rate:	99.07%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	3989
@@ -263,6 +279,8 @@ all_success_rate:	99.07%
     RTS_CTS_rate:	72.42%
   DATA_fail_rate:	0.03%
 all_success_rate:	75.87%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -293,6 +311,8 @@ all_success_rate:	75.87%
   DATA_fail_rate:	0.90%
 all_success_rate:	44.75%
 
+ maxAckQueueSize:	8
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	11799
@@ -321,6 +341,8 @@ all_success_rate:	44.75%
     RTS_CTS_rate:	22.12%
   DATA_fail_rate:	4.25%
 all_success_rate:	24.07%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -351,6 +373,8 @@ all_success_rate:	24.07%
   DATA_fail_rate:	0.00%
 all_success_rate:	89.56%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	6895
@@ -380,6 +404,8 @@ all_success_rate:	89.56%
   DATA_fail_rate:	0.02%
 all_success_rate:	75.54%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 8--------------------
      RTS(C)_send:	5469
@@ -408,6 +434,8 @@ all_success_rate:	75.54%
     RTS_CTS_rate:	45.26%
   DATA_fail_rate:	0.73%
 all_success_rate:	48.20%
+
+ maxAckQueueSize:	13
 
 --- Hop Node Number:3 ---
 num_nodes is set 13
@@ -440,6 +468,8 @@ num_nodes is set 13
   DATA_fail_rate:	3.29%
 all_success_rate:	15.24%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	7859
@@ -468,6 +498,8 @@ all_success_rate:	15.24%
     RTS_CTS_rate:	35.02%
   DATA_fail_rate:	1.89%
 all_success_rate:	36.79%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -498,6 +530,8 @@ all_success_rate:	36.79%
   DATA_fail_rate:	0.81%
 all_success_rate:	71.57%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	10003
@@ -526,6 +560,8 @@ all_success_rate:	71.57%
     RTS_CTS_rate:	65.31%
   DATA_fail_rate:	0.15%
 all_success_rate:	74.94%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -556,6 +592,8 @@ all_success_rate:	74.94%
   DATA_fail_rate:	1.14%
 all_success_rate:	69.62%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	6404
@@ -584,6 +622,8 @@ all_success_rate:	69.62%
     RTS_CTS_rate:	42.83%
   DATA_fail_rate:	1.61%
 all_success_rate:	45.48%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -614,6 +654,8 @@ all_success_rate:	45.48%
   DATA_fail_rate:	0.51%
 all_success_rate:	43.25%
 
+ maxAckQueueSize:	5
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	14886
@@ -642,6 +684,8 @@ all_success_rate:	43.25%
     RTS_CTS_rate:	15.08%
   DATA_fail_rate:	2.94%
 all_success_rate:	17.56%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -672,6 +716,8 @@ all_success_rate:	17.56%
   DATA_fail_rate:	1.33%
 all_success_rate:	43.62%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	6628
@@ -700,6 +746,8 @@ all_success_rate:	43.62%
     RTS_CTS_rate:	58.07%
   DATA_fail_rate:	0.87%
 all_success_rate:	69.75%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -730,6 +778,8 @@ all_success_rate:	69.75%
   DATA_fail_rate:	0.76%
 all_success_rate:	69.48%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	8370
@@ -759,6 +809,8 @@ all_success_rate:	69.48%
   DATA_fail_rate:	1.38%
 all_success_rate:	48.82%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 12--------------------
      RTS(C)_send:	5181
@@ -787,6 +839,8 @@ all_success_rate:	48.82%
     RTS_CTS_rate:	36.90%
   DATA_fail_rate:	1.25%
 all_success_rate:	40.32%
+
+ maxAckQueueSize:	6
 
 --- Hop Node Number:4 ---
 num_nodes is set 17
@@ -819,6 +873,8 @@ num_nodes is set 17
   DATA_fail_rate:	0.54%
 all_success_rate:	30.41%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	6286
@@ -847,6 +903,8 @@ all_success_rate:	30.41%
     RTS_CTS_rate:	22.43%
   DATA_fail_rate:	1.34%
 all_success_rate:	26.54%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -877,6 +935,8 @@ all_success_rate:	26.54%
   DATA_fail_rate:	1.16%
 all_success_rate:	34.14%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	2740
@@ -905,6 +965,8 @@ all_success_rate:	34.14%
     RTS_CTS_rate:	47.70%
   DATA_fail_rate:	0.70%
 all_success_rate:	61.72%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -935,6 +997,8 @@ all_success_rate:	61.72%
   DATA_fail_rate:	1.79%
 all_success_rate:	54.71%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	2596
@@ -963,6 +1027,8 @@ all_success_rate:	54.71%
     RTS_CTS_rate:	50.50%
   DATA_fail_rate:	1.31%
 all_success_rate:	62.67%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -993,6 +1059,8 @@ all_success_rate:	62.67%
   DATA_fail_rate:	0.70%
 all_success_rate:	46.36%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	2984
@@ -1021,6 +1089,8 @@ all_success_rate:	46.36%
     RTS_CTS_rate:	44.91%
   DATA_fail_rate:	1.64%
 all_success_rate:	48.30%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -1051,6 +1121,8 @@ all_success_rate:	48.30%
   DATA_fail_rate:	0.15%
 all_success_rate:	82.07%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	14473
@@ -1079,6 +1151,8 @@ all_success_rate:	82.07%
     RTS_CTS_rate:	19.77%
   DATA_fail_rate:	1.43%
 all_success_rate:	27.44%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -1109,6 +1183,8 @@ all_success_rate:	27.44%
   DATA_fail_rate:	0.89%
 all_success_rate:	42.37%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	10946
@@ -1137,6 +1213,8 @@ all_success_rate:	42.37%
     RTS_CTS_rate:	42.95%
   DATA_fail_rate:	0.83%
 all_success_rate:	50.49%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -1167,6 +1245,8 @@ all_success_rate:	50.49%
   DATA_fail_rate:	0.58%
 all_success_rate:	57.12%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	9478
@@ -1195,6 +1275,8 @@ all_success_rate:	57.12%
     RTS_CTS_rate:	49.68%
   DATA_fail_rate:	0.60%
 all_success_rate:	62.13%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -1225,6 +1307,8 @@ all_success_rate:	62.13%
   DATA_fail_rate:	0.66%
 all_success_rate:	58.41%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	8666
@@ -1254,6 +1338,8 @@ all_success_rate:	58.41%
   DATA_fail_rate:	1.07%
 all_success_rate:	60.24%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 16--------------------
      RTS(C)_send:	3757
@@ -1282,6 +1368,8 @@ all_success_rate:	60.24%
     RTS_CTS_rate:	63.24%
   DATA_fail_rate:	0.38%
 all_success_rate:	67.38%
+
+ maxAckQueueSize:	3
 
 --- Hop Node Number:5 ---
 num_nodes is set 21
@@ -1314,6 +1402,8 @@ num_nodes is set 21
   DATA_fail_rate:	0.00%
 all_success_rate:	0.00%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	0
@@ -1342,6 +1432,8 @@ all_success_rate:	0.00%
     RTS_CTS_rate:	0.00%
   DATA_fail_rate:	0.00%
 all_success_rate:	0.00%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -1372,6 +1464,8 @@ all_success_rate:	0.00%
   DATA_fail_rate:	0.00%
 all_success_rate:	0.00%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	0
@@ -1400,6 +1494,8 @@ all_success_rate:	0.00%
     RTS_CTS_rate:	0.00%
   DATA_fail_rate:	0.00%
 all_success_rate:	0.00%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -1430,6 +1526,8 @@ all_success_rate:	0.00%
   DATA_fail_rate:	0.00%
 all_success_rate:	0.00%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	13889
@@ -1458,6 +1556,8 @@ all_success_rate:	0.00%
     RTS_CTS_rate:	41.06%
   DATA_fail_rate:	1.11%
 all_success_rate:	51.38%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -1488,6 +1588,8 @@ all_success_rate:	51.38%
   DATA_fail_rate:	0.00%
 all_success_rate:	0.00%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	1
@@ -1516,6 +1618,8 @@ all_success_rate:	0.00%
     RTS_CTS_rate:	100.00%
   DATA_fail_rate:	0.00%
 all_success_rate:	20.00%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -1546,6 +1650,8 @@ all_success_rate:	20.00%
   DATA_fail_rate:	0.00%
 all_success_rate:	12.50%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	3
@@ -1574,6 +1680,8 @@ all_success_rate:	12.50%
     RTS_CTS_rate:	100.00%
   DATA_fail_rate:	0.00%
 all_success_rate:	42.86%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -1604,6 +1712,8 @@ all_success_rate:	42.86%
   DATA_fail_rate:	0.00%
 all_success_rate:	50.00%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	14374
@@ -1632,6 +1742,8 @@ all_success_rate:	50.00%
     RTS_CTS_rate:	20.15%
   DATA_fail_rate:	1.62%
 all_success_rate:	25.70%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -1662,6 +1774,8 @@ all_success_rate:	25.70%
   DATA_fail_rate:	0.80%
 all_success_rate:	55.12%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	12186
@@ -1690,6 +1804,8 @@ all_success_rate:	55.12%
     RTS_CTS_rate:	46.38%
   DATA_fail_rate:	0.74%
 all_success_rate:	57.86%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -1720,6 +1836,8 @@ all_success_rate:	57.86%
   DATA_fail_rate:	0.80%
 all_success_rate:	52.11%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	14135
@@ -1748,6 +1866,8 @@ all_success_rate:	52.11%
     RTS_CTS_rate:	40.44%
   DATA_fail_rate:	1.48%
 all_success_rate:	49.63%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -1778,6 +1898,8 @@ all_success_rate:	49.63%
   DATA_fail_rate:	1.11%
 all_success_rate:	50.80%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	11884
@@ -1806,6 +1928,8 @@ all_success_rate:	50.80%
     RTS_CTS_rate:	47.59%
   DATA_fail_rate:	0.64%
 all_success_rate:	59.23%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -1836,6 +1960,8 @@ all_success_rate:	59.23%
   DATA_fail_rate:	0.81%
 all_success_rate:	66.51%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	8708
@@ -1865,6 +1991,8 @@ all_success_rate:	66.51%
   DATA_fail_rate:	0.69%
 all_success_rate:	69.43%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 20--------------------
      RTS(C)_send:	4004
@@ -1893,6 +2021,8 @@ all_success_rate:	69.43%
     RTS_CTS_rate:	70.15%
   DATA_fail_rate:	0.18%
 all_success_rate:	71.97%
+
+ maxAckQueueSize:	2
 
 --- Hop Node Number:6 ---
 num_nodes is set 25
@@ -1925,6 +2055,8 @@ num_nodes is set 25
   DATA_fail_rate:	0.32%
 all_success_rate:	27.02%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	9083
@@ -1953,6 +2085,8 @@ all_success_rate:	27.02%
     RTS_CTS_rate:	29.80%
   DATA_fail_rate:	0.59%
 all_success_rate:	44.13%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -1983,6 +2117,8 @@ all_success_rate:	44.13%
   DATA_fail_rate:	0.30%
 all_success_rate:	53.82%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	10820
@@ -2011,6 +2147,8 @@ all_success_rate:	53.82%
     RTS_CTS_rate:	20.98%
   DATA_fail_rate:	1.64%
 all_success_rate:	25.20%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -2041,6 +2179,8 @@ all_success_rate:	25.20%
   DATA_fail_rate:	1.89%
 all_success_rate:	30.65%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	4854
@@ -2069,6 +2209,8 @@ all_success_rate:	30.65%
     RTS_CTS_rate:	42.81%
   DATA_fail_rate:	1.27%
 all_success_rate:	54.61%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -2099,6 +2241,8 @@ all_success_rate:	54.61%
   DATA_fail_rate:	1.16%
 all_success_rate:	58.82%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	4140
@@ -2127,6 +2271,8 @@ all_success_rate:	58.82%
     RTS_CTS_rate:	50.14%
   DATA_fail_rate:	1.22%
 all_success_rate:	61.48%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -2157,6 +2303,8 @@ all_success_rate:	61.48%
   DATA_fail_rate:	2.13%
 all_success_rate:	39.81%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	5363
@@ -2185,6 +2333,8 @@ all_success_rate:	39.81%
     RTS_CTS_rate:	39.98%
   DATA_fail_rate:	1.26%
 all_success_rate:	45.18%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -2215,6 +2365,8 @@ all_success_rate:	45.18%
   DATA_fail_rate:	0.50%
 all_success_rate:	83.64%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	2802
@@ -2243,6 +2395,8 @@ all_success_rate:	83.64%
     RTS_CTS_rate:	79.09%
   DATA_fail_rate:	0.54%
 all_success_rate:	81.57%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -2273,6 +2427,8 @@ all_success_rate:	81.57%
   DATA_fail_rate:	0.00%
 all_success_rate:	87.53%
 
+ maxAckQueueSize:	2
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	14396
@@ -2301,6 +2457,8 @@ all_success_rate:	87.53%
     RTS_CTS_rate:	18.36%
   DATA_fail_rate:	0.72%
 all_success_rate:	26.53%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -2331,6 +2489,8 @@ all_success_rate:	26.53%
   DATA_fail_rate:	0.42%
 all_success_rate:	46.82%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	12261
@@ -2359,6 +2519,8 @@ all_success_rate:	46.82%
     RTS_CTS_rate:	34.54%
   DATA_fail_rate:	0.31%
 all_success_rate:	53.58%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -2389,6 +2551,8 @@ all_success_rate:	53.58%
   DATA_fail_rate:	0.94%
 all_success_rate:	32.17%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	11795
@@ -2417,6 +2581,8 @@ all_success_rate:	32.17%
     RTS_CTS_rate:	31.11%
   DATA_fail_rate:	1.48%
 all_success_rate:	36.06%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -2447,6 +2613,8 @@ all_success_rate:	36.06%
   DATA_fail_rate:	1.10%
 all_success_rate:	52.38%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	8235
@@ -2475,6 +2643,8 @@ all_success_rate:	52.38%
     RTS_CTS_rate:	44.53%
   DATA_fail_rate:	1.05%
 all_success_rate:	56.00%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 20--------------------
@@ -2505,6 +2675,8 @@ all_success_rate:	56.00%
   DATA_fail_rate:	1.64%
 all_success_rate:	44.34%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 21--------------------
      RTS(C)_send:	8381
@@ -2533,6 +2705,8 @@ all_success_rate:	44.34%
     RTS_CTS_rate:	44.54%
   DATA_fail_rate:	0.86%
 all_success_rate:	52.09%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 22--------------------
@@ -2563,6 +2737,8 @@ all_success_rate:	52.09%
   DATA_fail_rate:	0.37%
 all_success_rate:	77.27%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 23--------------------
      RTS(C)_send:	4908
@@ -2592,6 +2768,8 @@ all_success_rate:	77.27%
   DATA_fail_rate:	0.89%
 all_success_rate:	79.40%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 24--------------------
      RTS(C)_send:	2324
@@ -2620,6 +2798,8 @@ all_success_rate:	79.40%
     RTS_CTS_rate:	81.45%
   DATA_fail_rate:	0.11%
 all_success_rate:	82.07%
+
+ maxAckQueueSize:	1
 
 --- Hop Node Number:7 ---
 num_nodes is set 29
@@ -2652,6 +2832,8 @@ num_nodes is set 29
   DATA_fail_rate:	0.52%
 all_success_rate:	26.74%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	12383
@@ -2680,6 +2862,8 @@ all_success_rate:	26.74%
     RTS_CTS_rate:	31.69%
   DATA_fail_rate:	0.28%
 all_success_rate:	46.00%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -2710,6 +2894,8 @@ all_success_rate:	46.00%
   DATA_fail_rate:	0.34%
 all_success_rate:	45.52%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	12582
@@ -2738,6 +2924,8 @@ all_success_rate:	45.52%
     RTS_CTS_rate:	30.41%
   DATA_fail_rate:	0.37%
 all_success_rate:	49.18%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -2768,6 +2956,8 @@ all_success_rate:	49.18%
   DATA_fail_rate:	1.71%
 all_success_rate:	25.87%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	10757
@@ -2796,6 +2986,8 @@ all_success_rate:	25.87%
     RTS_CTS_rate:	28.33%
   DATA_fail_rate:	2.31%
 all_success_rate:	31.33%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -2826,6 +3018,8 @@ all_success_rate:	31.33%
   DATA_fail_rate:	1.27%
 all_success_rate:	55.59%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	10506
@@ -2854,6 +3048,8 @@ all_success_rate:	55.59%
     RTS_CTS_rate:	55.48%
   DATA_fail_rate:	1.05%
 all_success_rate:	64.86%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -2884,6 +3080,8 @@ all_success_rate:	64.86%
   DATA_fail_rate:	0.87%
 all_success_rate:	60.88%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	7765
@@ -2912,6 +3110,8 @@ all_success_rate:	60.88%
     RTS_CTS_rate:	38.87%
   DATA_fail_rate:	1.69%
 all_success_rate:	42.15%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -2942,6 +3142,8 @@ all_success_rate:	42.15%
   DATA_fail_rate:	1.44%
 all_success_rate:	43.62%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	4661
@@ -2970,6 +3172,8 @@ all_success_rate:	43.62%
     RTS_CTS_rate:	69.66%
   DATA_fail_rate:	0.49%
 all_success_rate:	83.07%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -3000,6 +3204,8 @@ all_success_rate:	83.07%
   DATA_fail_rate:	0.68%
 all_success_rate:	85.81%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	3857
@@ -3028,6 +3234,8 @@ all_success_rate:	85.81%
     RTS_CTS_rate:	84.29%
   DATA_fail_rate:	0.71%
 all_success_rate:	84.86%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -3058,6 +3266,8 @@ all_success_rate:	84.86%
   DATA_fail_rate:	0.00%
 all_success_rate:	89.37%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	14497
@@ -3086,6 +3296,8 @@ all_success_rate:	89.37%
     RTS_CTS_rate:	18.16%
   DATA_fail_rate:	0.30%
 all_success_rate:	26.70%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -3116,6 +3328,8 @@ all_success_rate:	26.70%
   DATA_fail_rate:	0.34%
 all_success_rate:	44.89%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	12732
@@ -3144,6 +3358,8 @@ all_success_rate:	44.89%
     RTS_CTS_rate:	29.34%
   DATA_fail_rate:	0.40%
 all_success_rate:	43.45%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -3174,6 +3390,8 @@ all_success_rate:	43.45%
   DATA_fail_rate:	0.35%
 all_success_rate:	49.07%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	15258
@@ -3202,6 +3420,8 @@ all_success_rate:	49.07%
     RTS_CTS_rate:	20.53%
   DATA_fail_rate:	1.98%
 all_success_rate:	24.77%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 20--------------------
@@ -3232,6 +3452,8 @@ all_success_rate:	24.77%
   DATA_fail_rate:	2.22%
 all_success_rate:	30.21%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 21--------------------
      RTS(C)_send:	6429
@@ -3260,6 +3482,8 @@ all_success_rate:	30.21%
     RTS_CTS_rate:	44.33%
   DATA_fail_rate:	1.07%
 all_success_rate:	56.39%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 22--------------------
@@ -3290,6 +3514,8 @@ all_success_rate:	56.39%
   DATA_fail_rate:	1.31%
 all_success_rate:	61.35%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 23--------------------
      RTS(C)_send:	7584
@@ -3318,6 +3544,8 @@ all_success_rate:	61.35%
     RTS_CTS_rate:	37.46%
   DATA_fail_rate:	1.84%
 all_success_rate:	40.09%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 24--------------------
@@ -3348,6 +3576,8 @@ all_success_rate:	40.09%
   DATA_fail_rate:	1.48%
 all_success_rate:	42.49%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 25--------------------
      RTS(C)_send:	4341
@@ -3376,6 +3606,8 @@ all_success_rate:	42.49%
     RTS_CTS_rate:	71.34%
   DATA_fail_rate:	0.29%
 all_success_rate:	83.29%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 26--------------------
@@ -3406,6 +3638,8 @@ all_success_rate:	83.29%
   DATA_fail_rate:	0.35%
 all_success_rate:	86.18%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 27--------------------
      RTS(C)_send:	3757
@@ -3435,6 +3669,8 @@ all_success_rate:	86.18%
   DATA_fail_rate:	0.80%
 all_success_rate:	83.02%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 28--------------------
      RTS(C)_send:	1708
@@ -3463,6 +3699,8 @@ all_success_rate:	83.02%
     RTS_CTS_rate:	90.34%
   DATA_fail_rate:	0.00%
 all_success_rate:	90.39%
+
+ maxAckQueueSize:	0
 
 --- Hop Node Number:8 ---
 num_nodes is set 33
@@ -3495,6 +3733,8 @@ num_nodes is set 33
   DATA_fail_rate:	0.58%
 all_success_rate:	26.87%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	12420
@@ -3523,6 +3763,8 @@ all_success_rate:	26.87%
     RTS_CTS_rate:	31.71%
   DATA_fail_rate:	0.36%
 all_success_rate:	45.64%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -3553,6 +3795,8 @@ all_success_rate:	45.64%
   DATA_fail_rate:	0.36%
 all_success_rate:	46.23%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	13063
@@ -3581,6 +3825,8 @@ all_success_rate:	46.23%
     RTS_CTS_rate:	29.06%
   DATA_fail_rate:	0.26%
 all_success_rate:	42.08%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -3611,6 +3857,8 @@ all_success_rate:	42.08%
   DATA_fail_rate:	0.82%
 all_success_rate:	48.45%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	14998
@@ -3639,6 +3887,8 @@ all_success_rate:	48.45%
     RTS_CTS_rate:	21.36%
   DATA_fail_rate:	1.76%
 all_success_rate:	25.49%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -3669,6 +3919,8 @@ all_success_rate:	25.49%
   DATA_fail_rate:	2.24%
 all_success_rate:	31.46%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	6555
@@ -3697,6 +3949,8 @@ all_success_rate:	31.46%
     RTS_CTS_rate:	44.64%
   DATA_fail_rate:	1.00%
 all_success_rate:	56.98%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -3727,6 +3981,8 @@ all_success_rate:	56.98%
   DATA_fail_rate:	0.81%
 all_success_rate:	65.59%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	5856
@@ -3755,6 +4011,8 @@ all_success_rate:	65.59%
     RTS_CTS_rate:	50.19%
   DATA_fail_rate:	0.90%
 all_success_rate:	60.83%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -3785,6 +4043,8 @@ all_success_rate:	60.83%
   DATA_fail_rate:	1.30%
 all_success_rate:	41.86%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	7976
@@ -3813,6 +4073,8 @@ all_success_rate:	41.86%
     RTS_CTS_rate:	38.35%
   DATA_fail_rate:	1.83%
 all_success_rate:	42.93%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -3843,6 +4105,8 @@ all_success_rate:	42.93%
   DATA_fail_rate:	0.60%
 all_success_rate:	75.22%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	3970
@@ -3871,6 +4135,8 @@ all_success_rate:	75.22%
     RTS_CTS_rate:	80.10%
   DATA_fail_rate:	0.35%
 all_success_rate:	85.02%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -3901,6 +4167,8 @@ all_success_rate:	85.02%
   DATA_fail_rate:	0.35%
 all_success_rate:	86.71%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	3782
@@ -3929,6 +4197,8 @@ all_success_rate:	86.71%
     RTS_CTS_rate:	84.48%
   DATA_fail_rate:	0.78%
 all_success_rate:	84.94%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -3959,6 +4229,8 @@ all_success_rate:	84.94%
   DATA_fail_rate:	0.00%
 all_success_rate:	88.95%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	14653
@@ -3987,6 +4259,8 @@ all_success_rate:	88.95%
     RTS_CTS_rate:	18.60%
   DATA_fail_rate:	0.62%
 all_success_rate:	26.74%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -4017,6 +4291,8 @@ all_success_rate:	26.74%
   DATA_fail_rate:	0.25%
 all_success_rate:	45.61%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	12411
@@ -4045,6 +4321,8 @@ all_success_rate:	45.61%
     RTS_CTS_rate:	31.03%
   DATA_fail_rate:	0.42%
 all_success_rate:	45.46%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 20--------------------
@@ -4075,6 +4353,8 @@ all_success_rate:	45.46%
   DATA_fail_rate:	0.69%
 all_success_rate:	41.87%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 21--------------------
      RTS(C)_send:	12591
@@ -4103,6 +4383,8 @@ all_success_rate:	41.87%
     RTS_CTS_rate:	30.05%
   DATA_fail_rate:	1.01%
 all_success_rate:	47.74%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 22--------------------
@@ -4133,6 +4415,8 @@ all_success_rate:	47.74%
   DATA_fail_rate:	1.50%
 all_success_rate:	25.71%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 23--------------------
      RTS(C)_send:	10433
@@ -4161,6 +4445,8 @@ all_success_rate:	25.71%
     RTS_CTS_rate:	28.53%
   DATA_fail_rate:	2.07%
 all_success_rate:	31.32%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 24--------------------
@@ -4191,6 +4477,8 @@ all_success_rate:	31.32%
   DATA_fail_rate:	1.33%
 all_success_rate:	56.75%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 25--------------------
      RTS(C)_send:	5853
@@ -4219,6 +4507,8 @@ all_success_rate:	56.75%
     RTS_CTS_rate:	50.44%
   DATA_fail_rate:	1.13%
 all_success_rate:	60.79%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 26--------------------
@@ -4249,6 +4539,8 @@ all_success_rate:	60.79%
   DATA_fail_rate:	1.50%
 all_success_rate:	41.39%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 27--------------------
      RTS(C)_send:	8077
@@ -4277,6 +4569,8 @@ all_success_rate:	41.39%
     RTS_CTS_rate:	38.05%
   DATA_fail_rate:	1.27%
 all_success_rate:	42.80%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 28--------------------
@@ -4307,6 +4601,8 @@ all_success_rate:	42.80%
   DATA_fail_rate:	0.53%
 all_success_rate:	76.16%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 29--------------------
      RTS(C)_send:	3869
@@ -4335,6 +4631,8 @@ all_success_rate:	76.16%
     RTS_CTS_rate:	83.35%
   DATA_fail_rate:	0.34%
 all_success_rate:	87.05%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 30--------------------
@@ -4365,6 +4663,8 @@ all_success_rate:	87.05%
   DATA_fail_rate:	0.31%
 all_success_rate:	86.44%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 31--------------------
      RTS(C)_send:	3819
@@ -4394,6 +4694,8 @@ all_success_rate:	86.44%
   DATA_fail_rate:	0.68%
 all_success_rate:	85.22%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 32--------------------
      RTS(C)_send:	1780
@@ -4422,6 +4724,8 @@ all_success_rate:	85.22%
     RTS_CTS_rate:	90.22%
   DATA_fail_rate:	0.00%
 all_success_rate:	90.38%
+
+ maxAckQueueSize:	0
 
 --- Hop Node Number:9 ---
 num_nodes is set 37
@@ -4454,6 +4758,8 @@ num_nodes is set 37
   DATA_fail_rate:	0.58%
 all_success_rate:	26.62%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	12327
@@ -4482,6 +4788,8 @@ all_success_rate:	26.62%
     RTS_CTS_rate:	36.16%
   DATA_fail_rate:	0.52%
 all_success_rate:	48.40%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -4512,6 +4820,8 @@ all_success_rate:	48.40%
   DATA_fail_rate:	0.36%
 all_success_rate:	49.95%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	13062
@@ -4540,6 +4850,8 @@ all_success_rate:	49.95%
     RTS_CTS_rate:	33.26%
   DATA_fail_rate:	0.44%
 all_success_rate:	44.93%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -4570,6 +4882,8 @@ all_success_rate:	44.93%
   DATA_fail_rate:	1.12%
 all_success_rate:	43.95%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	12879
@@ -4598,6 +4912,8 @@ all_success_rate:	43.95%
     RTS_CTS_rate:	33.22%
   DATA_fail_rate:	0.87%
 all_success_rate:	48.19%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -4628,6 +4944,8 @@ all_success_rate:	48.19%
   DATA_fail_rate:	1.25%
 all_success_rate:	32.82%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	11992
@@ -4656,6 +4974,8 @@ all_success_rate:	32.82%
     RTS_CTS_rate:	31.84%
   DATA_fail_rate:	1.64%
 all_success_rate:	37.28%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -4686,6 +5006,8 @@ all_success_rate:	37.28%
   DATA_fail_rate:	1.19%
 all_success_rate:	52.60%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	11448
@@ -4714,6 +5036,8 @@ all_success_rate:	52.60%
     RTS_CTS_rate:	49.54%
   DATA_fail_rate:	1.12%
 all_success_rate:	59.59%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -4744,6 +5068,8 @@ all_success_rate:	59.59%
   DATA_fail_rate:	0.90%
 all_success_rate:	56.34%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	9559
@@ -4772,6 +5098,8 @@ all_success_rate:	56.34%
     RTS_CTS_rate:	39.75%
   DATA_fail_rate:	1.48%
 all_success_rate:	45.64%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -4802,6 +5130,8 @@ all_success_rate:	45.64%
   DATA_fail_rate:	1.32%
 all_success_rate:	46.88%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	7051
@@ -4830,6 +5160,8 @@ all_success_rate:	46.88%
     RTS_CTS_rate:	56.35%
   DATA_fail_rate:	0.68%
 all_success_rate:	68.97%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -4860,6 +5192,8 @@ all_success_rate:	68.97%
   DATA_fail_rate:	1.00%
 all_success_rate:	70.80%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	5296
@@ -4888,6 +5222,8 @@ all_success_rate:	70.80%
     RTS_CTS_rate:	74.87%
   DATA_fail_rate:	0.35%
 all_success_rate:	80.64%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -4918,6 +5254,8 @@ all_success_rate:	80.64%
   DATA_fail_rate:	0.38%
 all_success_rate:	82.94%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	4823
@@ -4946,6 +5284,8 @@ all_success_rate:	82.94%
     RTS_CTS_rate:	82.50%
   DATA_fail_rate:	0.83%
 all_success_rate:	83.26%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -4976,6 +5316,8 @@ all_success_rate:	83.26%
   DATA_fail_rate:	0.05%
 all_success_rate:	88.83%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	10492
@@ -5004,6 +5346,8 @@ all_success_rate:	88.83%
     RTS_CTS_rate:	18.99%
   DATA_fail_rate:	0.50%
 all_success_rate:	27.27%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 20--------------------
@@ -5034,6 +5378,8 @@ all_success_rate:	27.27%
   DATA_fail_rate:	0.33%
 all_success_rate:	45.01%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 21--------------------
      RTS(C)_send:	8545
@@ -5062,6 +5408,8 @@ all_success_rate:	45.01%
     RTS_CTS_rate:	31.43%
   DATA_fail_rate:	0.41%
 all_success_rate:	45.83%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 22--------------------
@@ -5092,6 +5440,8 @@ all_success_rate:	45.83%
   DATA_fail_rate:	0.53%
 all_success_rate:	42.59%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 23--------------------
      RTS(C)_send:	9124
@@ -5120,6 +5470,8 @@ all_success_rate:	42.59%
     RTS_CTS_rate:	28.56%
   DATA_fail_rate:	0.81%
 all_success_rate:	40.80%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 24--------------------
@@ -5150,6 +5502,8 @@ all_success_rate:	40.80%
   DATA_fail_rate:	0.47%
 all_success_rate:	50.38%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 25--------------------
      RTS(C)_send:	10777
@@ -5178,6 +5532,8 @@ all_success_rate:	50.38%
     RTS_CTS_rate:	19.45%
   DATA_fail_rate:	1.48%
 all_success_rate:	23.32%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 26--------------------
@@ -5208,6 +5564,8 @@ all_success_rate:	23.32%
   DATA_fail_rate:	2.01%
 all_success_rate:	29.77%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 27--------------------
      RTS(C)_send:	4372
@@ -5236,6 +5594,8 @@ all_success_rate:	29.77%
     RTS_CTS_rate:	43.34%
   DATA_fail_rate:	1.07%
 all_success_rate:	55.50%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 28--------------------
@@ -5266,6 +5626,8 @@ all_success_rate:	55.50%
   DATA_fail_rate:	0.75%
 all_success_rate:	62.60%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 29--------------------
      RTS(C)_send:	4777
@@ -5294,6 +5656,8 @@ all_success_rate:	62.60%
     RTS_CTS_rate:	39.38%
   DATA_fail_rate:	1.38%
 all_success_rate:	41.74%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 30--------------------
@@ -5324,6 +5688,8 @@ all_success_rate:	41.74%
   DATA_fail_rate:	1.16%
 all_success_rate:	43.01%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 31--------------------
      RTS(C)_send:	3095
@@ -5352,6 +5718,8 @@ all_success_rate:	43.01%
     RTS_CTS_rate:	67.11%
   DATA_fail_rate:	0.58%
 all_success_rate:	80.72%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 32--------------------
@@ -5382,6 +5750,8 @@ all_success_rate:	80.72%
   DATA_fail_rate:	1.24%
 all_success_rate:	80.66%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 33--------------------
      RTS(C)_send:	2352
@@ -5410,6 +5780,8 @@ all_success_rate:	80.66%
     RTS_CTS_rate:	88.01%
   DATA_fail_rate:	0.24%
 all_success_rate:	89.43%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 34--------------------
@@ -5440,6 +5812,8 @@ all_success_rate:	89.43%
   DATA_fail_rate:	0.43%
 all_success_rate:	88.10%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 35--------------------
      RTS(C)_send:	2411
@@ -5469,6 +5843,8 @@ all_success_rate:	88.10%
   DATA_fail_rate:	0.53%
 all_success_rate:	86.65%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 36--------------------
      RTS(C)_send:	1164
@@ -5497,6 +5873,8 @@ all_success_rate:	86.65%
     RTS_CTS_rate:	88.75%
   DATA_fail_rate:	0.10%
 all_success_rate:	88.66%
+
+ maxAckQueueSize:	0
 
 --- Hop Node Number:10 ---
 num_nodes is set 41
@@ -5529,6 +5907,8 @@ num_nodes is set 41
   DATA_fail_rate:	0.63%
 all_success_rate:	27.49%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	12186
@@ -5557,6 +5937,8 @@ all_success_rate:	27.49%
     RTS_CTS_rate:	32.86%
   DATA_fail_rate:	0.35%
 all_success_rate:	46.53%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -5587,6 +5969,8 @@ all_success_rate:	46.53%
   DATA_fail_rate:	0.33%
 all_success_rate:	46.93%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	12212
@@ -5615,6 +5999,8 @@ all_success_rate:	46.93%
     RTS_CTS_rate:	31.58%
   DATA_fail_rate:	0.39%
 all_success_rate:	44.33%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -5645,6 +6031,8 @@ all_success_rate:	44.33%
   DATA_fail_rate:	0.90%
 all_success_rate:	42.98%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	12587
@@ -5673,6 +6061,8 @@ all_success_rate:	42.98%
     RTS_CTS_rate:	29.74%
   DATA_fail_rate:	0.86%
 all_success_rate:	42.50%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -5703,6 +6093,8 @@ all_success_rate:	42.50%
   DATA_fail_rate:	0.52%
 all_success_rate:	49.49%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	15023
@@ -5731,6 +6123,8 @@ all_success_rate:	49.49%
     RTS_CTS_rate:	20.75%
   DATA_fail_rate:	1.61%
 all_success_rate:	24.86%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -5761,6 +6155,8 @@ all_success_rate:	24.86%
   DATA_fail_rate:	2.31%
 all_success_rate:	30.85%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	6260
@@ -5789,6 +6185,8 @@ all_success_rate:	30.85%
     RTS_CTS_rate:	45.73%
   DATA_fail_rate:	1.17%
 all_success_rate:	57.46%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -5819,6 +6217,8 @@ all_success_rate:	57.46%
   DATA_fail_rate:	1.02%
 all_success_rate:	65.72%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	5332
@@ -5847,6 +6247,8 @@ all_success_rate:	65.72%
     RTS_CTS_rate:	53.24%
   DATA_fail_rate:	0.71%
 all_success_rate:	64.02%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -5877,6 +6279,8 @@ all_success_rate:	64.02%
   DATA_fail_rate:	1.55%
 all_success_rate:	41.31%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	8148
@@ -5905,6 +6309,8 @@ all_success_rate:	41.31%
     RTS_CTS_rate:	36.76%
   DATA_fail_rate:	1.40%
 all_success_rate:	41.40%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -5935,6 +6341,8 @@ all_success_rate:	41.40%
   DATA_fail_rate:	0.41%
 all_success_rate:	79.55%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	4179
@@ -5963,6 +6371,8 @@ all_success_rate:	79.55%
     RTS_CTS_rate:	76.05%
   DATA_fail_rate:	0.50%
 all_success_rate:	81.00%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -5993,6 +6403,8 @@ all_success_rate:	81.00%
   DATA_fail_rate:	0.75%
 all_success_rate:	80.13%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	3660
@@ -6021,6 +6433,8 @@ all_success_rate:	80.13%
     RTS_CTS_rate:	86.56%
   DATA_fail_rate:	0.32%
 all_success_rate:	88.83%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -6051,6 +6465,8 @@ all_success_rate:	88.83%
   DATA_fail_rate:	0.25%
 all_success_rate:	89.66%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	3683
@@ -6079,6 +6495,8 @@ all_success_rate:	89.66%
     RTS_CTS_rate:	86.18%
   DATA_fail_rate:	0.50%
 all_success_rate:	86.52%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 20--------------------
@@ -6109,6 +6527,8 @@ all_success_rate:	86.52%
   DATA_fail_rate:	0.00%
 all_success_rate:	92.39%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 21--------------------
      RTS(C)_send:	14813
@@ -6137,6 +6557,8 @@ all_success_rate:	92.39%
     RTS_CTS_rate:	19.30%
   DATA_fail_rate:	0.73%
 all_success_rate:	27.31%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 22--------------------
@@ -6167,6 +6589,8 @@ all_success_rate:	27.31%
   DATA_fail_rate:	0.51%
 all_success_rate:	47.35%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 23--------------------
      RTS(C)_send:	12044
@@ -6195,6 +6619,8 @@ all_success_rate:	47.35%
     RTS_CTS_rate:	33.26%
   DATA_fail_rate:	0.55%
 all_success_rate:	47.70%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 24--------------------
@@ -6225,6 +6651,8 @@ all_success_rate:	47.70%
   DATA_fail_rate:	0.33%
 all_success_rate:	44.53%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 25--------------------
      RTS(C)_send:	12714
@@ -6253,6 +6681,8 @@ all_success_rate:	44.53%
     RTS_CTS_rate:	30.37%
   DATA_fail_rate:	0.60%
 all_success_rate:	42.76%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 26--------------------
@@ -6283,6 +6713,8 @@ all_success_rate:	42.76%
   DATA_fail_rate:	0.66%
 all_success_rate:	42.32%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 27--------------------
      RTS(C)_send:	12283
@@ -6311,6 +6743,8 @@ all_success_rate:	42.32%
     RTS_CTS_rate:	30.48%
   DATA_fail_rate:	0.67%
 all_success_rate:	48.32%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 28--------------------
@@ -6341,6 +6775,8 @@ all_success_rate:	48.32%
   DATA_fail_rate:	1.69%
 all_success_rate:	26.61%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 29--------------------
      RTS(C)_send:	10649
@@ -6369,6 +6805,8 @@ all_success_rate:	26.61%
     RTS_CTS_rate:	28.65%
   DATA_fail_rate:	2.68%
 all_success_rate:	31.54%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 30--------------------
@@ -6399,6 +6837,8 @@ all_success_rate:	31.54%
   DATA_fail_rate:	1.01%
 all_success_rate:	56.00%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 31--------------------
      RTS(C)_send:	5932
@@ -6427,6 +6867,8 @@ all_success_rate:	56.00%
     RTS_CTS_rate:	50.91%
   DATA_fail_rate:	1.14%
 all_success_rate:	61.34%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 32--------------------
@@ -6457,6 +6899,8 @@ all_success_rate:	61.34%
   DATA_fail_rate:	1.60%
 all_success_rate:	40.90%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 33--------------------
      RTS(C)_send:	8474
@@ -6485,6 +6929,8 @@ all_success_rate:	40.90%
     RTS_CTS_rate:	37.16%
   DATA_fail_rate:	1.53%
 all_success_rate:	42.62%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 34--------------------
@@ -6515,6 +6961,8 @@ all_success_rate:	42.62%
   DATA_fail_rate:	0.42%
 all_success_rate:	75.59%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 35--------------------
      RTS(C)_send:	4534
@@ -6543,6 +6991,8 @@ all_success_rate:	75.59%
     RTS_CTS_rate:	72.92%
   DATA_fail_rate:	0.57%
 all_success_rate:	79.29%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 36--------------------
@@ -6573,6 +7023,8 @@ all_success_rate:	79.29%
   DATA_fail_rate:	0.48%
 all_success_rate:	78.82%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 37--------------------
      RTS(C)_send:	3815
@@ -6601,6 +7053,8 @@ all_success_rate:	78.82%
     RTS_CTS_rate:	86.37%
   DATA_fail_rate:	0.30%
 all_success_rate:	88.90%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 38--------------------
@@ -6631,6 +7085,8 @@ all_success_rate:	88.90%
   DATA_fail_rate:	0.27%
 all_success_rate:	88.30%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 39--------------------
      RTS(C)_send:	3870
@@ -6660,6 +7116,8 @@ all_success_rate:	88.30%
   DATA_fail_rate:	0.75%
 all_success_rate:	86.15%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 40--------------------
      RTS(C)_send:	1796
@@ -6688,6 +7146,8 @@ all_success_rate:	86.15%
     RTS_CTS_rate:	91.43%
   DATA_fail_rate:	0.00%
 all_success_rate:	91.37%
+
+ maxAckQueueSize:	1
 
 --- Hop Node Number:11 ---
 num_nodes is set 45
@@ -6720,6 +7180,8 @@ num_nodes is set 45
   DATA_fail_rate:	0.45%
 all_success_rate:	27.21%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	12196
@@ -6748,6 +7210,8 @@ all_success_rate:	27.21%
     RTS_CTS_rate:	34.94%
   DATA_fail_rate:	0.40%
 all_success_rate:	48.30%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -6778,6 +7242,8 @@ all_success_rate:	48.30%
   DATA_fail_rate:	0.41%
 all_success_rate:	47.45%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	12408
@@ -6806,6 +7272,8 @@ all_success_rate:	47.45%
     RTS_CTS_rate:	33.15%
   DATA_fail_rate:	0.37%
 all_success_rate:	45.65%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -6836,6 +7304,8 @@ all_success_rate:	45.65%
   DATA_fail_rate:	0.69%
 all_success_rate:	43.76%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	12803
@@ -6864,6 +7334,8 @@ all_success_rate:	43.76%
     RTS_CTS_rate:	31.38%
   DATA_fail_rate:	1.05%
 all_success_rate:	43.44%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -6894,6 +7366,8 @@ all_success_rate:	43.44%
   DATA_fail_rate:	0.69%
 all_success_rate:	42.70%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	12616
@@ -6922,6 +7396,8 @@ all_success_rate:	42.70%
     RTS_CTS_rate:	31.10%
   DATA_fail_rate:	0.92%
 all_success_rate:	48.30%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -6952,6 +7428,8 @@ all_success_rate:	48.30%
   DATA_fail_rate:	1.78%
 all_success_rate:	28.03%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	11025
@@ -6980,6 +7458,8 @@ all_success_rate:	28.03%
     RTS_CTS_rate:	29.36%
   DATA_fail_rate:	1.87%
 all_success_rate:	33.35%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -7010,6 +7490,8 @@ all_success_rate:	33.35%
   DATA_fail_rate:	1.32%
 all_success_rate:	54.46%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	10794
@@ -7038,6 +7520,8 @@ all_success_rate:	54.46%
     RTS_CTS_rate:	53.71%
   DATA_fail_rate:	0.97%
 all_success_rate:	63.39%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -7068,6 +7552,8 @@ all_success_rate:	63.39%
   DATA_fail_rate:	0.72%
 all_success_rate:	60.29%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	8358
@@ -7096,6 +7582,8 @@ all_success_rate:	60.29%
     RTS_CTS_rate:	38.32%
   DATA_fail_rate:	1.19%
 all_success_rate:	42.70%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -7126,6 +7614,8 @@ all_success_rate:	42.70%
   DATA_fail_rate:	1.56%
 all_success_rate:	42.58%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	6191
@@ -7154,6 +7644,8 @@ all_success_rate:	42.58%
     RTS_CTS_rate:	55.89%
   DATA_fail_rate:	0.49%
 all_success_rate:	71.05%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -7184,6 +7676,8 @@ all_success_rate:	71.05%
   DATA_fail_rate:	0.49%
 all_success_rate:	75.56%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	4753
@@ -7212,6 +7706,8 @@ all_success_rate:	75.56%
     RTS_CTS_rate:	72.71%
   DATA_fail_rate:	0.46%
 all_success_rate:	77.55%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -7242,6 +7738,8 @@ all_success_rate:	77.55%
   DATA_fail_rate:	0.58%
 all_success_rate:	78.40%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	4108
@@ -7270,6 +7768,8 @@ all_success_rate:	78.40%
     RTS_CTS_rate:	84.06%
   DATA_fail_rate:	0.29%
 all_success_rate:	87.04%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 20--------------------
@@ -7300,6 +7800,8 @@ all_success_rate:	87.04%
   DATA_fail_rate:	0.43%
 all_success_rate:	87.17%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 21--------------------
      RTS(C)_send:	4090
@@ -7328,6 +7830,8 @@ all_success_rate:	87.17%
     RTS_CTS_rate:	84.65%
   DATA_fail_rate:	0.64%
 all_success_rate:	85.29%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 22--------------------
@@ -7358,6 +7862,8 @@ all_success_rate:	85.29%
   DATA_fail_rate:	0.00%
 all_success_rate:	90.76%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 23--------------------
      RTS(C)_send:	13172
@@ -7386,6 +7892,8 @@ all_success_rate:	90.76%
     RTS_CTS_rate:	19.60%
   DATA_fail_rate:	0.27%
 all_success_rate:	27.79%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 24--------------------
@@ -7416,6 +7924,8 @@ all_success_rate:	27.79%
   DATA_fail_rate:	0.27%
 all_success_rate:	47.41%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 25--------------------
      RTS(C)_send:	10610
@@ -7444,6 +7954,8 @@ all_success_rate:	47.41%
     RTS_CTS_rate:	33.62%
   DATA_fail_rate:	0.28%
 all_success_rate:	47.49%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 26--------------------
@@ -7474,6 +7986,8 @@ all_success_rate:	47.49%
   DATA_fail_rate:	0.40%
 all_success_rate:	45.18%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 27--------------------
      RTS(C)_send:	11044
@@ -7502,6 +8016,8 @@ all_success_rate:	45.18%
     RTS_CTS_rate:	31.26%
   DATA_fail_rate:	0.67%
 all_success_rate:	43.95%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 28--------------------
@@ -7532,6 +8048,8 @@ all_success_rate:	43.95%
   DATA_fail_rate:	0.80%
 all_success_rate:	42.03%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 29--------------------
      RTS(C)_send:	11182
@@ -7560,6 +8078,8 @@ all_success_rate:	42.03%
     RTS_CTS_rate:	29.82%
   DATA_fail_rate:	0.72%
 all_success_rate:	41.97%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 30--------------------
@@ -7590,6 +8110,8 @@ all_success_rate:	41.97%
   DATA_fail_rate:	0.58%
 all_success_rate:	48.78%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 31--------------------
      RTS(C)_send:	13166
@@ -7618,6 +8140,8 @@ all_success_rate:	48.78%
     RTS_CTS_rate:	21.46%
   DATA_fail_rate:	2.17%
 all_success_rate:	25.31%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 32--------------------
@@ -7648,6 +8172,8 @@ all_success_rate:	25.31%
   DATA_fail_rate:	2.72%
 all_success_rate:	31.90%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 33--------------------
      RTS(C)_send:	5719
@@ -7676,6 +8202,8 @@ all_success_rate:	31.90%
     RTS_CTS_rate:	45.71%
   DATA_fail_rate:	1.32%
 all_success_rate:	57.75%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 34--------------------
@@ -7706,6 +8234,8 @@ all_success_rate:	57.75%
   DATA_fail_rate:	0.70%
 all_success_rate:	65.18%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 35--------------------
      RTS(C)_send:	6709
@@ -7734,6 +8264,8 @@ all_success_rate:	65.18%
     RTS_CTS_rate:	38.41%
   DATA_fail_rate:	1.28%
 all_success_rate:	41.34%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 36--------------------
@@ -7764,6 +8296,8 @@ all_success_rate:	41.34%
   DATA_fail_rate:	0.89%
 all_success_rate:	42.21%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 37--------------------
      RTS(C)_send:	4666
@@ -7792,6 +8326,8 @@ all_success_rate:	42.21%
     RTS_CTS_rate:	61.34%
   DATA_fail_rate:	0.52%
 all_success_rate:	77.13%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 38--------------------
@@ -7822,6 +8358,8 @@ all_success_rate:	77.13%
   DATA_fail_rate:	0.66%
 all_success_rate:	80.66%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 39--------------------
      RTS(C)_send:	3610
@@ -7850,6 +8388,8 @@ all_success_rate:	80.66%
     RTS_CTS_rate:	79.39%
   DATA_fail_rate:	0.77%
 all_success_rate:	81.42%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 40--------------------
@@ -7880,6 +8420,8 @@ all_success_rate:	81.42%
   DATA_fail_rate:	0.70%
 all_success_rate:	83.11%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 41--------------------
      RTS(C)_send:	3243
@@ -7908,6 +8450,8 @@ all_success_rate:	83.11%
     RTS_CTS_rate:	88.04%
   DATA_fail_rate:	0.32%
 all_success_rate:	89.80%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 42--------------------
@@ -7938,6 +8482,8 @@ all_success_rate:	89.80%
   DATA_fail_rate:	0.21%
 all_success_rate:	88.99%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 43--------------------
      RTS(C)_send:	3329
@@ -7967,6 +8513,8 @@ all_success_rate:	88.99%
   DATA_fail_rate:	0.49%
 all_success_rate:	86.34%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 44--------------------
      RTS(C)_send:	1576
@@ -7995,6 +8543,8 @@ all_success_rate:	86.34%
     RTS_CTS_rate:	90.23%
   DATA_fail_rate:	0.00%
 all_success_rate:	90.40%
+
+ maxAckQueueSize:	0
 
 --- Hop Node Number:12 ---
 num_nodes is set 49
@@ -8027,6 +8577,8 @@ num_nodes is set 49
   DATA_fail_rate:	0.40%
 all_success_rate:	27.62%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	12183
@@ -8055,6 +8607,8 @@ all_success_rate:	27.62%
     RTS_CTS_rate:	34.83%
   DATA_fail_rate:	0.35%
 all_success_rate:	48.27%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -8085,6 +8639,8 @@ all_success_rate:	48.27%
   DATA_fail_rate:	0.50%
 all_success_rate:	48.47%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	12169
@@ -8113,6 +8669,8 @@ all_success_rate:	48.47%
     RTS_CTS_rate:	33.82%
   DATA_fail_rate:	0.22%
 all_success_rate:	46.31%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -8143,6 +8701,8 @@ all_success_rate:	46.31%
   DATA_fail_rate:	0.91%
 all_success_rate:	44.53%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	12437
@@ -8171,6 +8731,8 @@ all_success_rate:	44.53%
     RTS_CTS_rate:	32.26%
   DATA_fail_rate:	0.65%
 all_success_rate:	44.25%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -8201,6 +8763,8 @@ all_success_rate:	44.25%
   DATA_fail_rate:	0.74%
 all_success_rate:	43.68%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	12849
@@ -8229,6 +8793,8 @@ all_success_rate:	43.68%
     RTS_CTS_rate:	30.31%
   DATA_fail_rate:	0.90%
 all_success_rate:	42.36%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -8259,6 +8825,8 @@ all_success_rate:	42.36%
   DATA_fail_rate:	0.68%
 all_success_rate:	49.16%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	14615
@@ -8287,6 +8855,8 @@ all_success_rate:	49.16%
     RTS_CTS_rate:	23.03%
   DATA_fail_rate:	2.06%
 all_success_rate:	27.58%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -8317,6 +8887,8 @@ all_success_rate:	27.58%
   DATA_fail_rate:	2.22%
 all_success_rate:	33.07%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	7117
@@ -8345,6 +8917,8 @@ all_success_rate:	33.07%
     RTS_CTS_rate:	43.88%
   DATA_fail_rate:	1.23%
 all_success_rate:	56.13%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -8375,6 +8949,8 @@ all_success_rate:	56.13%
   DATA_fail_rate:	1.12%
 all_success_rate:	62.83%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	6480
@@ -8403,6 +8979,8 @@ all_success_rate:	62.83%
     RTS_CTS_rate:	48.24%
   DATA_fail_rate:	0.94%
 all_success_rate:	59.85%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -8433,6 +9011,8 @@ all_success_rate:	59.85%
   DATA_fail_rate:	1.29%
 all_success_rate:	41.64%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	8870
@@ -8461,6 +9041,8 @@ all_success_rate:	41.64%
     RTS_CTS_rate:	36.69%
   DATA_fail_rate:	1.38%
 all_success_rate:	42.47%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -8491,6 +9073,8 @@ all_success_rate:	42.47%
   DATA_fail_rate:	0.44%
 all_success_rate:	72.78%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	5153
@@ -8519,6 +9103,8 @@ all_success_rate:	72.78%
     RTS_CTS_rate:	66.56%
   DATA_fail_rate:	0.82%
 all_success_rate:	73.68%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -8549,6 +9135,8 @@ all_success_rate:	73.68%
   DATA_fail_rate:	0.58%
 all_success_rate:	79.97%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	4407
@@ -8577,6 +9165,8 @@ all_success_rate:	79.97%
     RTS_CTS_rate:	77.85%
   DATA_fail_rate:	0.85%
 all_success_rate:	80.33%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 20--------------------
@@ -8607,6 +9197,8 @@ all_success_rate:	80.33%
   DATA_fail_rate:	0.61%
 all_success_rate:	79.12%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 21--------------------
      RTS(C)_send:	3966
@@ -8635,6 +9227,8 @@ all_success_rate:	79.12%
     RTS_CTS_rate:	85.93%
   DATA_fail_rate:	0.23%
 all_success_rate:	88.44%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 22--------------------
@@ -8665,6 +9259,8 @@ all_success_rate:	88.44%
   DATA_fail_rate:	0.38%
 all_success_rate:	87.89%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 23--------------------
      RTS(C)_send:	4017
@@ -8693,6 +9289,8 @@ all_success_rate:	87.89%
     RTS_CTS_rate:	85.24%
   DATA_fail_rate:	0.76%
 all_success_rate:	85.66%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 24--------------------
@@ -8723,6 +9321,8 @@ all_success_rate:	85.66%
   DATA_fail_rate:	0.00%
 all_success_rate:	90.71%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 25--------------------
      RTS(C)_send:	13275
@@ -8751,6 +9351,8 @@ all_success_rate:	90.71%
     RTS_CTS_rate:	19.97%
   DATA_fail_rate:	0.72%
 all_success_rate:	27.64%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 26--------------------
@@ -8781,6 +9383,8 @@ all_success_rate:	27.64%
   DATA_fail_rate:	0.35%
 all_success_rate:	47.91%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 27--------------------
      RTS(C)_send:	10379
@@ -8809,6 +9413,8 @@ all_success_rate:	47.91%
     RTS_CTS_rate:	35.09%
   DATA_fail_rate:	0.27%
 all_success_rate:	48.86%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 28--------------------
@@ -8839,6 +9445,8 @@ all_success_rate:	48.86%
   DATA_fail_rate:	0.25%
 all_success_rate:	46.22%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 29--------------------
      RTS(C)_send:	10752
@@ -8867,6 +9475,8 @@ all_success_rate:	46.22%
     RTS_CTS_rate:	33.07%
   DATA_fail_rate:	0.62%
 all_success_rate:	45.42%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 30--------------------
@@ -8897,6 +9507,8 @@ all_success_rate:	45.42%
   DATA_fail_rate:	0.75%
 all_success_rate:	43.74%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 31--------------------
      RTS(C)_send:	10882
@@ -8925,6 +9537,8 @@ all_success_rate:	43.74%
     RTS_CTS_rate:	31.54%
   DATA_fail_rate:	0.67%
 all_success_rate:	43.77%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 32--------------------
@@ -8955,6 +9569,8 @@ all_success_rate:	43.77%
   DATA_fail_rate:	0.95%
 all_success_rate:	42.36%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 33--------------------
      RTS(C)_send:	10837
@@ -8983,6 +9599,8 @@ all_success_rate:	42.36%
     RTS_CTS_rate:	30.91%
   DATA_fail_rate:	0.48%
 all_success_rate:	49.21%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 34--------------------
@@ -9013,6 +9631,8 @@ all_success_rate:	49.21%
   DATA_fail_rate:	1.81%
 all_success_rate:	26.04%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 35--------------------
      RTS(C)_send:	9275
@@ -9041,6 +9661,8 @@ all_success_rate:	26.04%
     RTS_CTS_rate:	28.92%
   DATA_fail_rate:	2.37%
 all_success_rate:	31.75%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 36--------------------
@@ -9071,6 +9693,8 @@ all_success_rate:	31.75%
   DATA_fail_rate:	1.18%
 all_success_rate:	56.91%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 37--------------------
      RTS(C)_send:	5126
@@ -9099,6 +9723,8 @@ all_success_rate:	56.91%
     RTS_CTS_rate:	51.66%
   DATA_fail_rate:	0.99%
 all_success_rate:	61.83%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 38--------------------
@@ -9129,6 +9755,8 @@ all_success_rate:	61.83%
   DATA_fail_rate:	0.99%
 all_success_rate:	42.01%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 39--------------------
      RTS(C)_send:	7519
@@ -9157,6 +9785,8 @@ all_success_rate:	42.01%
     RTS_CTS_rate:	36.79%
   DATA_fail_rate:	1.16%
 all_success_rate:	42.06%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 40--------------------
@@ -9187,6 +9817,8 @@ all_success_rate:	42.06%
   DATA_fail_rate:	0.55%
 all_success_rate:	76.36%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 41--------------------
      RTS(C)_send:	4121
@@ -9215,6 +9847,8 @@ all_success_rate:	76.36%
     RTS_CTS_rate:	71.24%
   DATA_fail_rate:	0.75%
 all_success_rate:	77.97%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 42--------------------
@@ -9245,6 +9879,8 @@ all_success_rate:	77.97%
   DATA_fail_rate:	0.68%
 all_success_rate:	81.19%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 43--------------------
      RTS(C)_send:	3614
@@ -9273,6 +9909,8 @@ all_success_rate:	81.19%
     RTS_CTS_rate:	81.21%
   DATA_fail_rate:	0.82%
 all_success_rate:	82.98%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 44--------------------
@@ -9303,6 +9941,8 @@ all_success_rate:	82.98%
   DATA_fail_rate:	0.48%
 all_success_rate:	80.72%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 45--------------------
      RTS(C)_send:	3323
@@ -9331,6 +9971,8 @@ all_success_rate:	80.72%
     RTS_CTS_rate:	87.81%
   DATA_fail_rate:	0.21%
 all_success_rate:	89.54%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 46--------------------
@@ -9361,6 +10003,8 @@ all_success_rate:	89.54%
   DATA_fail_rate:	0.27%
 all_success_rate:	87.41%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 47--------------------
      RTS(C)_send:	3437
@@ -9390,6 +10034,8 @@ all_success_rate:	87.41%
   DATA_fail_rate:	0.85%
 all_success_rate:	85.64%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 48--------------------
      RTS(C)_send:	1613
@@ -9418,6 +10064,8 @@ all_success_rate:	85.64%
     RTS_CTS_rate:	90.20%
   DATA_fail_rate:	0.00%
 all_success_rate:	90.43%
+
+ maxAckQueueSize:	2
 
 --- Hop Node Number:13 ---
 num_nodes is set 53
@@ -9450,6 +10098,8 @@ num_nodes is set 53
   DATA_fail_rate:	0.98%
 all_success_rate:	27.20%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 1--------------------
      RTS(C)_send:	11932
@@ -9478,6 +10128,8 @@ all_success_rate:	27.20%
     RTS_CTS_rate:	37.40%
   DATA_fail_rate:	0.43%
 all_success_rate:	50.09%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 2--------------------
@@ -9508,6 +10160,8 @@ all_success_rate:	50.09%
   DATA_fail_rate:	0.41%
 all_success_rate:	50.78%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 3--------------------
      RTS(C)_send:	12397
@@ -9536,6 +10190,8 @@ all_success_rate:	50.78%
     RTS_CTS_rate:	35.21%
   DATA_fail_rate:	0.37%
 all_success_rate:	47.75%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 4--------------------
@@ -9566,6 +10222,8 @@ all_success_rate:	47.75%
   DATA_fail_rate:	0.93%
 all_success_rate:	45.26%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 5--------------------
      RTS(C)_send:	12747
@@ -9594,6 +10252,8 @@ all_success_rate:	45.26%
     RTS_CTS_rate:	33.36%
   DATA_fail_rate:	0.59%
 all_success_rate:	44.51%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 6--------------------
@@ -9624,6 +10284,8 @@ all_success_rate:	44.51%
   DATA_fail_rate:	0.72%
 all_success_rate:	44.96%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 7--------------------
      RTS(C)_send:	13069
@@ -9652,6 +10314,8 @@ all_success_rate:	44.96%
     RTS_CTS_rate:	31.79%
   DATA_fail_rate:	0.65%
 all_success_rate:	43.75%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 8--------------------
@@ -9682,6 +10346,8 @@ all_success_rate:	43.75%
   DATA_fail_rate:	0.97%
 all_success_rate:	43.33%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 9--------------------
      RTS(C)_send:	12667
@@ -9710,6 +10376,8 @@ all_success_rate:	43.33%
     RTS_CTS_rate:	32.36%
   DATA_fail_rate:	0.83%
 all_success_rate:	48.46%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 10--------------------
@@ -9740,6 +10408,8 @@ all_success_rate:	48.46%
   DATA_fail_rate:	1.33%
 all_success_rate:	31.44%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 11--------------------
      RTS(C)_send:	11165
@@ -9768,6 +10438,8 @@ all_success_rate:	31.44%
     RTS_CTS_rate:	31.93%
   DATA_fail_rate:	1.75%
 all_success_rate:	37.03%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 12--------------------
@@ -9798,6 +10470,8 @@ all_success_rate:	37.03%
   DATA_fail_rate:	1.11%
 all_success_rate:	54.34%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 13--------------------
      RTS(C)_send:	10852
@@ -9826,6 +10500,8 @@ all_success_rate:	54.34%
     RTS_CTS_rate:	51.99%
   DATA_fail_rate:	1.02%
 all_success_rate:	61.30%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 14--------------------
@@ -9856,6 +10532,8 @@ all_success_rate:	61.30%
   DATA_fail_rate:	0.74%
 all_success_rate:	59.74%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 15--------------------
      RTS(C)_send:	8786
@@ -9884,6 +10562,8 @@ all_success_rate:	59.74%
     RTS_CTS_rate:	40.34%
   DATA_fail_rate:	1.25%
 all_success_rate:	45.52%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 16--------------------
@@ -9914,6 +10594,8 @@ all_success_rate:	45.52%
   DATA_fail_rate:	1.20%
 all_success_rate:	45.43%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 17--------------------
      RTS(C)_send:	6799
@@ -9942,6 +10624,8 @@ all_success_rate:	45.43%
     RTS_CTS_rate:	56.18%
   DATA_fail_rate:	0.76%
 all_success_rate:	70.62%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 18--------------------
@@ -9972,6 +10656,8 @@ all_success_rate:	70.62%
   DATA_fail_rate:	0.71%
 all_success_rate:	71.14%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 19--------------------
      RTS(C)_send:	5626
@@ -10000,6 +10686,8 @@ all_success_rate:	71.14%
     RTS_CTS_rate:	67.93%
   DATA_fail_rate:	0.71%
 all_success_rate:	73.28%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 20--------------------
@@ -10030,6 +10718,8 @@ all_success_rate:	73.28%
   DATA_fail_rate:	0.68%
 all_success_rate:	78.59%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 21--------------------
      RTS(C)_send:	5047
@@ -10058,6 +10748,8 @@ all_success_rate:	78.59%
     RTS_CTS_rate:	75.67%
   DATA_fail_rate:	0.68%
 all_success_rate:	78.57%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 22--------------------
@@ -10088,6 +10780,8 @@ all_success_rate:	78.57%
   DATA_fail_rate:	1.15%
 all_success_rate:	79.36%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 23--------------------
      RTS(C)_send:	4529
@@ -10116,6 +10810,8 @@ all_success_rate:	79.36%
     RTS_CTS_rate:	84.17%
   DATA_fail_rate:	0.52%
 all_success_rate:	86.69%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 24--------------------
@@ -10146,6 +10842,8 @@ all_success_rate:	86.69%
   DATA_fail_rate:	0.52%
 all_success_rate:	86.06%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 25--------------------
      RTS(C)_send:	4580
@@ -10174,6 +10872,8 @@ all_success_rate:	86.06%
     RTS_CTS_rate:	83.32%
   DATA_fail_rate:	0.65%
 all_success_rate:	84.06%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 26--------------------
@@ -10204,6 +10904,8 @@ all_success_rate:	84.06%
   DATA_fail_rate:	0.00%
 all_success_rate:	89.60%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 27--------------------
      RTS(C)_send:	10646
@@ -10232,6 +10934,8 @@ all_success_rate:	89.60%
     RTS_CTS_rate:	19.97%
   DATA_fail_rate:	0.66%
 all_success_rate:	27.71%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 28--------------------
@@ -10262,6 +10966,8 @@ all_success_rate:	27.71%
   DATA_fail_rate:	0.33%
 all_success_rate:	48.12%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 29--------------------
      RTS(C)_send:	8249
@@ -10290,6 +10996,8 @@ all_success_rate:	48.12%
     RTS_CTS_rate:	35.58%
   DATA_fail_rate:	0.24%
 all_success_rate:	49.61%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 30--------------------
@@ -10320,6 +11028,8 @@ all_success_rate:	49.61%
   DATA_fail_rate:	0.35%
 all_success_rate:	46.44%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 31--------------------
      RTS(C)_send:	8553
@@ -10348,6 +11058,8 @@ all_success_rate:	46.44%
     RTS_CTS_rate:	33.42%
   DATA_fail_rate:	0.70%
 all_success_rate:	45.08%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 32--------------------
@@ -10378,6 +11090,8 @@ all_success_rate:	45.08%
   DATA_fail_rate:	0.25%
 all_success_rate:	45.45%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 33--------------------
      RTS(C)_send:	8629
@@ -10406,6 +11120,8 @@ all_success_rate:	45.45%
     RTS_CTS_rate:	32.19%
   DATA_fail_rate:	0.72%
 all_success_rate:	44.67%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 34--------------------
@@ -10436,6 +11152,8 @@ all_success_rate:	44.67%
   DATA_fail_rate:	0.77%
 all_success_rate:	43.44%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 35--------------------
      RTS(C)_send:	8817
@@ -10464,6 +11182,8 @@ all_success_rate:	43.44%
     RTS_CTS_rate:	30.52%
   DATA_fail_rate:	0.74%
 all_success_rate:	42.90%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 36--------------------
@@ -10494,6 +11214,8 @@ all_success_rate:	42.90%
   DATA_fail_rate:	0.49%
 all_success_rate:	49.84%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 37--------------------
      RTS(C)_send:	10508
@@ -10522,6 +11244,8 @@ all_success_rate:	49.84%
     RTS_CTS_rate:	21.86%
   DATA_fail_rate:	1.79%
 all_success_rate:	26.07%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 38--------------------
@@ -10552,6 +11276,8 @@ all_success_rate:	26.07%
   DATA_fail_rate:	2.22%
 all_success_rate:	31.70%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 39--------------------
      RTS(C)_send:	4584
@@ -10580,6 +11306,8 @@ all_success_rate:	31.70%
     RTS_CTS_rate:	46.42%
   DATA_fail_rate:	1.43%
 all_success_rate:	57.79%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 40--------------------
@@ -10610,6 +11338,8 @@ all_success_rate:	57.79%
   DATA_fail_rate:	1.14%
 all_success_rate:	63.11%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 41--------------------
      RTS(C)_send:	5563
@@ -10638,6 +11368,8 @@ all_success_rate:	63.11%
     RTS_CTS_rate:	37.98%
   DATA_fail_rate:	1.52%
 all_success_rate:	40.82%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 42--------------------
@@ -10668,6 +11400,8 @@ all_success_rate:	40.82%
   DATA_fail_rate:	1.27%
 all_success_rate:	41.62%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 43--------------------
      RTS(C)_send:	3867
@@ -10696,6 +11430,8 @@ all_success_rate:	41.62%
     RTS_CTS_rate:	59.92%
   DATA_fail_rate:	0.60%
 all_success_rate:	75.87%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 44--------------------
@@ -10726,6 +11462,8 @@ all_success_rate:	75.87%
   DATA_fail_rate:	0.39%
 all_success_rate:	79.41%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 45--------------------
      RTS(C)_send:	2946
@@ -10754,6 +11492,8 @@ all_success_rate:	79.41%
     RTS_CTS_rate:	78.85%
   DATA_fail_rate:	0.77%
 all_success_rate:	80.95%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 46--------------------
@@ -10784,6 +11524,8 @@ all_success_rate:	80.95%
   DATA_fail_rate:	0.60%
 all_success_rate:	84.33%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 47--------------------
      RTS(C)_send:	2733
@@ -10812,6 +11554,8 @@ all_success_rate:	84.33%
     RTS_CTS_rate:	84.85%
   DATA_fail_rate:	0.65%
 all_success_rate:	85.55%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 48--------------------
@@ -10842,6 +11586,8 @@ all_success_rate:	85.55%
   DATA_fail_rate:	0.86%
 all_success_rate:	82.54%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 49--------------------
      RTS(C)_send:	2613
@@ -10870,6 +11616,8 @@ all_success_rate:	82.54%
     RTS_CTS_rate:	88.48%
   DATA_fail_rate:	0.30%
 all_success_rate:	89.44%
+
+ maxAckQueueSize:	0
 
 
 --------------------------NODE: 50--------------------
@@ -10900,6 +11648,8 @@ all_success_rate:	89.44%
   DATA_fail_rate:	0.35%
 all_success_rate:	88.85%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 51--------------------
      RTS(C)_send:	2670
@@ -10929,6 +11679,8 @@ all_success_rate:	88.85%
   DATA_fail_rate:	0.56%
 all_success_rate:	86.81%
 
+ maxAckQueueSize:	0
+
 
 --------------------------NODE: 52--------------------
      RTS(C)_send:	1263
@@ -10957,4 +11709,6 @@ all_success_rate:	86.81%
     RTS_CTS_rate:	91.21%
   DATA_fail_rate:	0.00%
 all_success_rate:	91.28%
+
+ maxAckQueueSize:	0
 
