@@ -15,12 +15,13 @@ echo SIMULATION DURATION: 300.0S, AODV+UDP >> udp.txt
 while [ $i -lt 21 ]; do
     rate=2000
 	echo --- Hop Node Number:$i --- >> $q_length
-    ../../../tcpap/tcpap chain.tcl 3 $i 10 7 0 $rate"Kb" >> $q_length
+    ../../../tcpap/tcpap chain.tcl 3 $i 100 7 0 $rate"Kb" >> $q_length
     let j=$i-1
 	echo FINISH $j simulations, start to analyze...
     echo >> udp.txt
 	endnode=`expr $i - 1`
     gawk -f ../../trace2stats_v05b/avgStatsForUDP.awk chain.tr >> udp.txt
+    gawk -f ../../trace2stats_v05b/instantThroughputForUdp.awk tic=1 src=0 dst=$endnode flow=0 pkt=512 chain.tr > HopsResultInst.txt\(hops\=$i\)
     let i=i+1    
     echo
 done
@@ -34,3 +35,5 @@ gawk -f ../../trace2stats_v05b/brief.awk flag="delay" udp.txt > $delay
 
 ./throughput.sh
 ./delay.sh
+
+./drawAll.sh

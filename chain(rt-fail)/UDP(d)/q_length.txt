@@ -1,12 +1,12 @@
-2016年 06月 06日 星期一 21:14:59 CST
+2016年 06月 07日 星期二 20:03:31 CST
 --- Hop Node Number:2 ---
 num_nodes is set 2
 
 --------------------------NODE: 0--------------------
-     	RTS_send:	2384
-        CTS_recv:	2383
-       DATA_send:	2384
-        ACK_recv:	2383
+     	RTS_send:	26220
+        CTS_recv:	26220
+       DATA_send:	26221
+        ACK_recv:	26219
 
      	RTS_recv:	1
         CTS_send:	1
@@ -19,9 +19,9 @@ num_nodes is set 2
      DATA Droped:	0
 
    RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	99.96%
+    RTS_CTS_rate:	100.00%
   DATA_fail_rate:	0.00%
-all_success_rate:	99.96%
+all_success_rate:	99.99%
 
 
 --------------------------NODE: 1--------------------
@@ -30,10 +30,10 @@ all_success_rate:	99.96%
        DATA_send:	2
         ACK_recv:	1
 
-     	RTS_recv:	2384
-        CTS_send:	2384
-       DATA_recv:	2383
-        ACK_send:	2383
+     	RTS_recv:	26220
+        CTS_send:	26220
+       DATA_recv:	26220
+        ACK_send:	26220
 
    RetransmitRTS:	0
   RetransmitDATA:	0
@@ -49,47 +49,47 @@ all_success_rate:	50.00%
 num_nodes is set 3
 
 --------------------------NODE: 0--------------------
-     	RTS_send:	1221
-        CTS_recv:	1182
-       DATA_send:	1183
-        ACK_recv:	1182
+     	RTS_send:	13440
+        CTS_recv:	12986
+       DATA_send:	12987
+        ACK_recv:	12986
 
      	RTS_recv:	1
         CTS_send:	1
        DATA_recv:	1
         ACK_send:	1
 
-   RetransmitRTS:	38
+   RetransmitRTS:	454
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	3.11%
-    RTS_CTS_rate:	96.81%
+   RTS_fail_rate:	3.38%
+    RTS_CTS_rate:	96.62%
   DATA_fail_rate:	0.00%
-all_success_rate:	96.81%
+all_success_rate:	96.61%
 
 
 --------------------------NODE: 1--------------------
-     	RTS_send:	1220
-        CTS_recv:	1182
-       DATA_send:	1184
-        ACK_recv:	1182
+     	RTS_send:	13441
+        CTS_recv:	12986
+       DATA_send:	12988
+        ACK_recv:	12986
 
-     	RTS_recv:	1184
-        CTS_send:	1184
-       DATA_recv:	1183
-        ACK_send:	1183
+     	RTS_recv:	12987
+        CTS_send:	12987
+       DATA_recv:	12987
+        ACK_send:	12987
 
-   RetransmitRTS:	38
+   RetransmitRTS:	454
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	3.11%
-    RTS_CTS_rate:	96.89%
+   RTS_fail_rate:	3.38%
+    RTS_CTS_rate:	96.61%
   DATA_fail_rate:	0.00%
-all_success_rate:	96.73%
+all_success_rate:	96.61%
 
 
 --------------------------NODE: 2--------------------
@@ -98,10 +98,10 @@ all_success_rate:	96.73%
        DATA_send:	2
         ACK_recv:	1
 
-     	RTS_recv:	1217
-        CTS_send:	1181
-       DATA_recv:	1181
-        ACK_send:	1181
+     	RTS_recv:	13428
+        CTS_send:	12986
+       DATA_recv:	12985
+        ACK_send:	12985
 
    RetransmitRTS:	0
   RetransmitDATA:	0
@@ -117,69 +117,69 @@ all_success_rate:	50.00%
 num_nodes is set 4
 
 --------------------------NODE: 0--------------------
-     	RTS_send:	892
-        CTS_recv:	865
-       DATA_send:	866
-        ACK_recv:	865
+     	RTS_send:	9870
+        CTS_recv:	9613
+       DATA_send:	9614
+        ACK_recv:	9613
 
      	RTS_recv:	1
         CTS_send:	1
        DATA_recv:	1
         ACK_send:	1
 
-   RetransmitRTS:	27
+   RetransmitRTS:	257
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	3.03%
-    RTS_CTS_rate:	96.97%
+   RTS_fail_rate:	2.60%
+    RTS_CTS_rate:	97.40%
   DATA_fail_rate:	0.00%
-all_success_rate:	96.86%
+all_success_rate:	97.39%
 
 
 --------------------------NODE: 1--------------------
-     	RTS_send:	843
-        CTS_recv:	792
-       DATA_send:	794
-        ACK_recv:	792
+     	RTS_send:	9179
+        CTS_recv:	8679
+       DATA_send:	8681
+        ACK_recv:	8679
 
-     	RTS_recv:	866
-        CTS_send:	866
-       DATA_recv:	866
-        ACK_send:	866
+     	RTS_recv:	9614
+        CTS_send:	9614
+       DATA_recv:	9614
+        ACK_send:	9614
 
-   RetransmitRTS:	51
+   RetransmitRTS:	500
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	6.05%
-    RTS_CTS_rate:	93.95%
+   RTS_fail_rate:	5.45%
+    RTS_CTS_rate:	94.55%
   DATA_fail_rate:	0.00%
-all_success_rate:	93.73%
+all_success_rate:	94.53%
 
 
 --------------------------NODE: 2--------------------
-     	RTS_send:	816
-        CTS_recv:	792
-       DATA_send:	794
-        ACK_recv:	791
+     	RTS_send:	8926
+        CTS_recv:	8681
+       DATA_send:	8681
+        ACK_recv:	8679
 
-     	RTS_recv:	817
-        CTS_send:	792
-       DATA_recv:	792
-        ACK_send:	792
+     	RTS_recv:	8930
+        CTS_send:	8679
+       DATA_recv:	8679
+        ACK_send:	8679
 
-   RetransmitRTS:	24
+   RetransmitRTS:	245
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	2.94%
-    RTS_CTS_rate:	97.06%
+   RTS_fail_rate:	2.74%
+    RTS_CTS_rate:	97.26%
   DATA_fail_rate:	0.00%
-all_success_rate:	96.70%
+all_success_rate:	97.23%
 
 
 --------------------------NODE: 3--------------------
@@ -188,10 +188,10 @@ all_success_rate:	96.70%
        DATA_send:	2
         ACK_recv:	1
 
-     	RTS_recv:	814
-        CTS_send:	791
-       DATA_recv:	790
-        ACK_send:	790
+     	RTS_recv:	8924
+        CTS_send:	8680
+       DATA_recv:	8678
+        ACK_send:	8678
 
    RetransmitRTS:	0
   RetransmitDATA:	0
@@ -207,39 +207,39 @@ all_success_rate:	50.00%
 num_nodes is set 5
 
 --------------------------NODE: 0--------------------
-     	RTS_send:	1592
-        CTS_recv:	572
-       DATA_send:	573
-        ACK_recv:	571
+     	RTS_send:	16960
+        CTS_recv:	6240
+       DATA_send:	6267
+        ACK_recv:	6234
 
-     	RTS_recv:	1
-        CTS_send:	1
-       DATA_recv:	1
-        ACK_send:	1
+     	RTS_recv:	12
+        CTS_send:	12
+       DATA_recv:	12
+        ACK_send:	12
 
-   RetransmitRTS:	1020
-  RetransmitDATA:	1
-      RTS Droped:	0
+   RetransmitRTS:	10720
+  RetransmitDATA:	5
+      RTS Droped:	11
      DATA Droped:	0
 
-   RTS_fail_rate:	64.07%
-    RTS_CTS_rate:	35.93%
-  DATA_fail_rate:	0.17%
-all_success_rate:	35.84%
+   RTS_fail_rate:	63.21%
+    RTS_CTS_rate:	36.79%
+  DATA_fail_rate:	0.08%
+all_success_rate:	36.70%
 
 
 --------------------------NODE: 1--------------------
-     	RTS_send:	594
-        CTS_recv:	572
-       DATA_send:	574
-        ACK_recv:	572
+     	RTS_send:	6486
+        CTS_recv:	6246
+       DATA_send:	6259
+        ACK_recv:	6246
 
-     	RTS_recv:	899
-        CTS_send:	573
-       DATA_recv:	572
-        ACK_send:	572
+     	RTS_recv:	9702
+        CTS_send:	6252
+       DATA_recv:	6246
+        ACK_send:	6246
 
-   RetransmitRTS:	22
+   RetransmitRTS:	240
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
@@ -247,1995 +247,63 @@ all_success_rate:	35.84%
    RTS_fail_rate:	3.70%
     RTS_CTS_rate:	96.30%
   DATA_fail_rate:	0.00%
-all_success_rate:	95.97%
+all_success_rate:	96.11%
 
 
 --------------------------NODE: 2--------------------
-     	RTS_send:	581
-        CTS_recv:	572
-       DATA_send:	574
-        ACK_recv:	572
+     	RTS_send:	6342
+        CTS_recv:	6247
+       DATA_send:	6259
+        ACK_recv:	6246
 
-     	RTS_recv:	588
-        CTS_send:	572
-       DATA_recv:	572
-        ACK_send:	572
+     	RTS_recv:	6422
+        CTS_send:	6246
+       DATA_recv:	6246
+        ACK_send:	6246
 
-   RetransmitRTS:	9
+   RetransmitRTS:	95
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	1.55%
-    RTS_CTS_rate:	98.45%
+   RTS_fail_rate:	1.50%
+    RTS_CTS_rate:	98.50%
   DATA_fail_rate:	0.00%
-all_success_rate:	98.11%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	575
-        CTS_recv:	572
-       DATA_send:	574
-        ACK_recv:	572
-
-     	RTS_recv:	578
-        CTS_send:	572
-       DATA_recv:	572
-        ACK_send:	572
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.52%
-    RTS_CTS_rate:	99.48%
-  DATA_fail_rate:	0.00%
-all_success_rate:	99.13%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	1
-        CTS_recv:	1
-       DATA_send:	2
-        ACK_recv:	1
-
-     	RTS_recv:	574
-        CTS_send:	571
-       DATA_recv:	571
-        ACK_send:	571
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	50.00%
-
---- Hop Node Number:6 ---
-num_nodes is set 6
-
---------------------------NODE: 0--------------------
-     	RTS_send:	1115
-        CTS_recv:	517
-       DATA_send:	534
-        ACK_recv:	517
-
-     	RTS_recv:	7
-        CTS_send:	7
-       DATA_recv:	7
-        ACK_send:	7
-
-   RetransmitRTS:	598
-  RetransmitDATA:	0
-      RTS Droped:	7
-     DATA Droped:	0
-
-   RTS_fail_rate:	53.63%
-    RTS_CTS_rate:	46.37%
-  DATA_fail_rate:	0.00%
-all_success_rate:	45.67%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	1081
-        CTS_recv:	494
-       DATA_send:	502
-        ACK_recv:	494
-
-     	RTS_recv:	731
-        CTS_send:	524
-       DATA_recv:	524
-        ACK_send:	524
-
-   RetransmitRTS:	587
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	54.30%
-    RTS_CTS_rate:	45.70%
-  DATA_fail_rate:	0.00%
-all_success_rate:	45.36%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	507
-        CTS_recv:	493
-       DATA_send:	501
-        ACK_recv:	493
-
-     	RTS_recv:	713
-        CTS_send:	494
-       DATA_recv:	494
-        ACK_send:	494
-
-   RetransmitRTS:	14
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	2.76%
-    RTS_CTS_rate:	97.24%
-  DATA_fail_rate:	0.00%
-all_success_rate:	95.73%
+all_success_rate:	98.30%
 
 
 --------------------------NODE: 3--------------------
-     	RTS_send:	504
-        CTS_recv:	492
-       DATA_send:	499
-        ACK_recv:	491
-
-     	RTS_recv:	504
-        CTS_send:	493
-       DATA_recv:	493
-        ACK_send:	493
-
-   RetransmitRTS:	11
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	2.18%
-    RTS_CTS_rate:	97.62%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.27%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	495
-        CTS_recv:	491
-       DATA_send:	499
-        ACK_recv:	491
-
-     	RTS_recv:	500
-        CTS_send:	496
-       DATA_recv:	491
-        ACK_send:	491
-
-   RetransmitRTS:	4
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.81%
-    RTS_CTS_rate:	99.19%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.61%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	8
-        CTS_recv:	8
-       DATA_send:	9
-        ACK_recv:	7
-
-     	RTS_recv:	487
-        CTS_send:	484
-       DATA_recv:	484
-        ACK_send:	484
-
-   RetransmitRTS:	0
-  RetransmitDATA:	1
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	11.11%
-all_success_rate:	77.78%
-
---- Hop Node Number:7 ---
-num_nodes is set 7
-
---------------------------NODE: 0--------------------
-     	RTS_send:	1133
-        CTS_recv:	463
-       DATA_send:	488
-        ACK_recv:	463
-
-     	RTS_recv:	12
-        CTS_send:	10
-       DATA_recv:	10
-        ACK_send:	10
-
-   RetransmitRTS:	670
-  RetransmitDATA:	0
-      RTS Droped:	8
-     DATA Droped:	0
-
-   RTS_fail_rate:	59.14%
-    RTS_CTS_rate:	40.86%
-  DATA_fail_rate:	0.00%
-all_success_rate:	39.98%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	771
-        CTS_recv:	421
-       DATA_send:	476
-        ACK_recv:	421
-
-     	RTS_recv:	743
-        CTS_send:	473
-       DATA_recv:	473
-        ACK_send:	473
-
-   RetransmitRTS:	350
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	45.40%
-    RTS_CTS_rate:	54.60%
-  DATA_fail_rate:	0.00%
-all_success_rate:	50.97%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	617
-        CTS_recv:	415
-       DATA_send:	428
-        ACK_recv:	415
-
-     	RTS_recv:	538
-        CTS_send:	421
-       DATA_recv:	421
-        ACK_send:	421
-
-   RetransmitRTS:	202
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	32.74%
-    RTS_CTS_rate:	67.26%
-  DATA_fail_rate:	0.00%
-all_success_rate:	65.87%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	423
-        CTS_recv:	417
-       DATA_send:	426
-        ACK_recv:	415
-
-     	RTS_recv:	489
-        CTS_send:	415
-       DATA_recv:	415
-        ACK_send:	415
-
-   RetransmitRTS:	6
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.42%
-    RTS_CTS_rate:	98.58%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.06%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	428
-        CTS_recv:	415
-       DATA_send:	426
-        ACK_recv:	415
-
-     	RTS_recv:	421
-        CTS_send:	417
-       DATA_recv:	415
-        ACK_send:	415
-
-   RetransmitRTS:	13
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	3.04%
-    RTS_CTS_rate:	96.96%
-  DATA_fail_rate:	0.00%
-all_success_rate:	94.53%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	418
-        CTS_recv:	415
-       DATA_send:	426
-        ACK_recv:	415
-
-     	RTS_recv:	420
-        CTS_send:	417
-       DATA_recv:	415
-        ACK_send:	415
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.72%
-    RTS_CTS_rate:	99.28%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.74%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	11
-        CTS_recv:	10
-       DATA_send:	11
-        ACK_recv:	10
-
-     	RTS_recv:	406
-        CTS_send:	405
-       DATA_recv:	405
-        ACK_send:	405
-
-   RetransmitRTS:	1
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	9.09%
-    RTS_CTS_rate:	90.91%
-  DATA_fail_rate:	0.00%
-all_success_rate:	83.33%
-
---- Hop Node Number:8 ---
-num_nodes is set 8
-
---------------------------NODE: 0--------------------
-     	RTS_send:	758
-        CTS_recv:	401
-       DATA_send:	419
-        ACK_recv:	399
-
-     	RTS_recv:	8
-        CTS_send:	8
-       DATA_recv:	8
-        ACK_send:	8
-
-   RetransmitRTS:	357
-  RetransmitDATA:	1
-      RTS Droped:	7
-     DATA Droped:	0
-
-   RTS_fail_rate:	47.10%
-    RTS_CTS_rate:	52.90%
-  DATA_fail_rate:	0.24%
-all_success_rate:	51.42%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	673
-        CTS_recv:	326
-       DATA_send:	345
-        ACK_recv:	326
-
-     	RTS_recv:	554
-        CTS_send:	409
-       DATA_recv:	407
-        ACK_send:	407
-
-   RetransmitRTS:	347
-  RetransmitDATA:	0
-      RTS Droped:	2
-     DATA Droped:	0
-
-   RTS_fail_rate:	51.56%
-    RTS_CTS_rate:	48.44%
-  DATA_fail_rate:	0.00%
-all_success_rate:	47.11%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	504
-        CTS_recv:	326
-       DATA_send:	335
-        ACK_recv:	326
-
-     	RTS_recv:	444
-        CTS_send:	326
-       DATA_recv:	326
-        ACK_send:	326
-
-   RetransmitRTS:	178
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	35.32%
-    RTS_CTS_rate:	64.68%
-  DATA_fail_rate:	0.00%
-all_success_rate:	63.55%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	503
-        CTS_recv:	328
-       DATA_send:	334
-        ACK_recv:	325
-
-     	RTS_recv:	372
-        CTS_send:	326
-       DATA_recv:	326
-        ACK_send:	326
-
-   RetransmitRTS:	175
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	34.79%
-    RTS_CTS_rate:	65.21%
-  DATA_fail_rate:	0.00%
-all_success_rate:	63.85%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	333
-        CTS_recv:	327
-       DATA_send:	334
-        ACK_recv:	325
-
-     	RTS_recv:	390
-        CTS_send:	328
-       DATA_recv:	325
-        ACK_send:	325
-
-   RetransmitRTS:	6
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.80%
-    RTS_CTS_rate:	98.20%
-  DATA_fail_rate:	0.00%
-all_success_rate:	95.59%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	328
-        CTS_recv:	324
-       DATA_send:	333
-        ACK_recv:	324
-
-     	RTS_recv:	333
-        CTS_send:	328
-       DATA_recv:	325
-        ACK_send:	325
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.91%
-    RTS_CTS_rate:	98.78%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.43%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	328
-        CTS_recv:	324
-       DATA_send:	333
-        ACK_recv:	324
-
-     	RTS_recv:	327
-        CTS_send:	327
-       DATA_recv:	324
-        ACK_send:	324
-
-   RetransmitRTS:	4
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.22%
-    RTS_CTS_rate:	98.78%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.14%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	11
-        CTS_recv:	9
-       DATA_send:	10
-        ACK_recv:	8
-
-     	RTS_recv:	316
-        CTS_send:	316
-       DATA_recv:	316
-        ACK_send:	316
-
-   RetransmitRTS:	2
-  RetransmitDATA:	1
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	18.18%
-    RTS_CTS_rate:	81.82%
-  DATA_fail_rate:	10.00%
-all_success_rate:	66.67%
-
---- Hop Node Number:9 ---
-num_nodes is set 9
-
---------------------------NODE: 0--------------------
-     	RTS_send:	765
-        CTS_recv:	418
-       DATA_send:	430
-        ACK_recv:	417
-
-     	RTS_recv:	4
-        CTS_send:	4
-       DATA_recv:	4
-        ACK_send:	4
-
-   RetransmitRTS:	347
-  RetransmitDATA:	1
-      RTS Droped:	3
-     DATA Droped:	0
-
-   RTS_fail_rate:	45.36%
-    RTS_CTS_rate:	54.64%
-  DATA_fail_rate:	0.23%
-all_success_rate:	53.67%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	706
-        CTS_recv:	387
-       DATA_send:	398
-        ACK_recv:	387
-
-     	RTS_recv:	583
-        CTS_send:	422
-       DATA_recv:	421
-        ACK_send:	421
-
-   RetransmitRTS:	318
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	45.04%
-    RTS_CTS_rate:	54.82%
-  DATA_fail_rate:	0.00%
-all_success_rate:	54.05%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	546
-        CTS_recv:	307
-       DATA_send:	316
-        ACK_recv:	307
-
-     	RTS_recv:	522
-        CTS_send:	387
-       DATA_recv:	387
-        ACK_send:	387
-
-   RetransmitRTS:	239
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	43.77%
-    RTS_CTS_rate:	56.23%
-  DATA_fail_rate:	0.00%
-all_success_rate:	55.32%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	511
-        CTS_recv:	311
-       DATA_send:	314
-        ACK_recv:	307
-
-     	RTS_recv:	401
-        CTS_send:	307
-       DATA_recv:	307
-        ACK_send:	307
-
-   RetransmitRTS:	200
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	39.14%
-    RTS_CTS_rate:	60.86%
-  DATA_fail_rate:	0.00%
-all_success_rate:	59.73%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	456
-        CTS_recv:	311
-       DATA_send:	312
-        ACK_recv:	307
-
-     	RTS_recv:	378
-        CTS_send:	315
-       DATA_recv:	307
-        ACK_send:	307
-
-   RetransmitRTS:	145
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	31.80%
-    RTS_CTS_rate:	68.20%
-  DATA_fail_rate:	0.00%
-all_success_rate:	67.18%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	312
-        CTS_recv:	307
-       DATA_send:	312
-        ACK_recv:	307
-
-     	RTS_recv:	362
-        CTS_send:	314
-       DATA_recv:	307
-        ACK_send:	307
-
-   RetransmitRTS:	5
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.60%
-    RTS_CTS_rate:	98.40%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.85%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	310
-        CTS_recv:	308
-       DATA_send:	312
-        ACK_recv:	307
-
-     	RTS_recv:	310
-        CTS_send:	308
-       DATA_recv:	307
-        ACK_send:	307
-
-   RetransmitRTS:	2
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.65%
-    RTS_CTS_rate:	99.35%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.77%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	307
-        CTS_recv:	307
-       DATA_send:	312
-        ACK_recv:	307
-
-     	RTS_recv:	310
-        CTS_send:	309
-       DATA_recv:	307
-        ACK_send:	307
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	98.40%
-
-
---------------------------NODE: 8--------------------
-     	RTS_send:	6
-        CTS_recv:	4
-       DATA_send:	5
-        ACK_recv:	4
-
-     	RTS_recv:	303
-        CTS_send:	303
-       DATA_recv:	303
-        ACK_send:	303
-
-   RetransmitRTS:	2
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	33.33%
-    RTS_CTS_rate:	66.67%
-  DATA_fail_rate:	0.00%
-all_success_rate:	57.14%
-
---- Hop Node Number:10 ---
-num_nodes is set 10
-
---------------------------NODE: 0--------------------
-     	RTS_send:	725
-        CTS_recv:	349
-       DATA_send:	368
-        ACK_recv:	347
-
-     	RTS_recv:	6
-        CTS_send:	6
-       DATA_recv:	6
-        ACK_send:	6
-
-   RetransmitRTS:	376
-  RetransmitDATA:	2
-      RTS Droped:	6
-     DATA Droped:	0
-
-   RTS_fail_rate:	51.86%
-    RTS_CTS_rate:	48.14%
-  DATA_fail_rate:	0.54%
-all_success_rate:	46.64%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	587
-        CTS_recv:	330
-       DATA_send:	343
-        ACK_recv:	330
-
-     	RTS_recv:	545
-        CTS_send:	355
-       DATA_recv:	353
-        ACK_send:	353
-
-   RetransmitRTS:	257
-  RetransmitDATA:	0
-      RTS Droped:	2
-     DATA Droped:	0
-
-   RTS_fail_rate:	43.78%
-    RTS_CTS_rate:	56.22%
-  DATA_fail_rate:	0.00%
-all_success_rate:	55.00%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	589
-        CTS_recv:	323
-       DATA_send:	334
-        ACK_recv:	323
-
-     	RTS_recv:	443
-        CTS_send:	330
-       DATA_recv:	330
-        ACK_send:	330
-
-   RetransmitRTS:	266
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	45.16%
-    RTS_CTS_rate:	54.84%
-  DATA_fail_rate:	0.00%
-all_success_rate:	53.83%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	586
-        CTS_recv:	327
-       DATA_send:	332
-        ACK_recv:	323
-
-     	RTS_recv:	430
-        CTS_send:	323
-       DATA_recv:	323
-        ACK_send:	323
-
-   RetransmitRTS:	259
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	44.20%
-    RTS_CTS_rate:	55.80%
-  DATA_fail_rate:	0.00%
-all_success_rate:	54.65%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	480
-        CTS_recv:	326
-       DATA_send:	330
-        ACK_recv:	323
-
-     	RTS_recv:	416
-        CTS_send:	331
-       DATA_recv:	323
-        ACK_send:	323
-
-   RetransmitRTS:	154
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	32.08%
-    RTS_CTS_rate:	67.92%
-  DATA_fail_rate:	0.00%
-all_success_rate:	66.74%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	419
-        CTS_recv:	323
-       DATA_send:	330
-        ACK_recv:	323
-
-     	RTS_recv:	377
-        CTS_send:	328
-       DATA_recv:	323
-        ACK_send:	323
-
-   RetransmitRTS:	96
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	22.91%
-    RTS_CTS_rate:	77.09%
-  DATA_fail_rate:	0.00%
-all_success_rate:	75.82%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	326
-        CTS_recv:	323
-       DATA_send:	330
-        ACK_recv:	323
-
-     	RTS_recv:	361
-        CTS_send:	323
-       DATA_recv:	323
-        ACK_send:	323
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.92%
-    RTS_CTS_rate:	99.08%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.00%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	329
-        CTS_recv:	326
-       DATA_send:	330
-        ACK_recv:	323
-
-     	RTS_recv:	326
-        CTS_send:	323
-       DATA_recv:	323
-        ACK_send:	323
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.91%
-    RTS_CTS_rate:	99.09%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.00%
-
-
---------------------------NODE: 8--------------------
-     	RTS_send:	327
-        CTS_recv:	323
-       DATA_send:	330
-        ACK_recv:	323
-
-     	RTS_recv:	327
-        CTS_send:	326
-       DATA_recv:	323
-        ACK_send:	323
-
-   RetransmitRTS:	4
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.22%
-    RTS_CTS_rate:	98.78%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.71%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	6
-        CTS_recv:	6
-       DATA_send:	7
-        ACK_recv:	6
-
-     	RTS_recv:	318
-        CTS_send:	317
-       DATA_recv:	317
-        ACK_send:	317
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	85.71%
-
---- Hop Node Number:11 ---
-num_nodes is set 11
-
---------------------------NODE: 0--------------------
-     	RTS_send:	922
-        CTS_recv:	477
-       DATA_send:	497
-        ACK_recv:	477
-
-     	RTS_recv:	7
-        CTS_send:	7
-       DATA_recv:	7
-        ACK_send:	7
-
-   RetransmitRTS:	445
-  RetransmitDATA:	0
-      RTS Droped:	7
-     DATA Droped:	0
-
-   RTS_fail_rate:	48.26%
-    RTS_CTS_rate:	51.74%
-  DATA_fail_rate:	0.00%
-all_success_rate:	50.64%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	640
-        CTS_recv:	352
-       DATA_send:	395
-        ACK_recv:	351
-
-     	RTS_recv:	689
-        CTS_send:	484
-       DATA_recv:	484
-        ACK_send:	484
-
-   RetransmitRTS:	288
-  RetransmitDATA:	0
-      RTS Droped:	3
-     DATA Droped:	0
-
-   RTS_fail_rate:	45.00%
-    RTS_CTS_rate:	55.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	51.39%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	563
-        CTS_recv:	331
-       DATA_send:	344
-        ACK_recv:	331
-
-     	RTS_recv:	480
-        CTS_send:	352
-       DATA_recv:	352
-        ACK_send:	352
-
-   RetransmitRTS:	232
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	41.21%
-    RTS_CTS_rate:	58.79%
-  DATA_fail_rate:	0.00%
-all_success_rate:	57.47%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	501
-        CTS_recv:	331
-       DATA_send:	335
-        ACK_recv:	325
-
-     	RTS_recv:	420
-        CTS_send:	331
-       DATA_recv:	331
-        ACK_send:	331
-
-   RetransmitRTS:	170
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	33.93%
-    RTS_CTS_rate:	66.07%
-  DATA_fail_rate:	0.00%
-all_success_rate:	64.36%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	466
-        CTS_recv:	325
-       DATA_send:	335
-        ACK_recv:	325
-
-     	RTS_recv:	385
-        CTS_send:	338
-       DATA_recv:	325
-        ACK_send:	325
-
-   RetransmitRTS:	141
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	30.26%
-    RTS_CTS_rate:	69.74%
-  DATA_fail_rate:	0.00%
-all_success_rate:	68.28%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	406
-        CTS_recv:	326
-       DATA_send:	334
-        ACK_recv:	325
-
-     	RTS_recv:	384
-        CTS_send:	327
-       DATA_recv:	325
-        ACK_send:	325
-
-   RetransmitRTS:	80
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	19.70%
-    RTS_CTS_rate:	80.30%
-  DATA_fail_rate:	0.00%
-all_success_rate:	78.50%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	402
-        CTS_recv:	325
-       DATA_send:	334
-        ACK_recv:	325
-
-     	RTS_recv:	360
-        CTS_send:	328
-       DATA_recv:	325
-        ACK_send:	325
-
-   RetransmitRTS:	77
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	19.15%
-    RTS_CTS_rate:	80.85%
-  DATA_fail_rate:	0.00%
-all_success_rate:	79.08%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	332
-        CTS_recv:	325
-       DATA_send:	333
-        ACK_recv:	325
-
-     	RTS_recv:	356
-        CTS_send:	326
-       DATA_recv:	325
-        ACK_send:	325
-
-   RetransmitRTS:	7
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	2.11%
-    RTS_CTS_rate:	97.89%
-  DATA_fail_rate:	0.00%
-all_success_rate:	95.59%
-
-
---------------------------NODE: 8--------------------
-     	RTS_send:	329
-        CTS_recv:	325
-       DATA_send:	333
-        ACK_recv:	325
-
-     	RTS_recv:	329
-        CTS_send:	326
-       DATA_recv:	325
-        ACK_send:	325
-
-   RetransmitRTS:	4
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.22%
-    RTS_CTS_rate:	98.78%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.44%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	325
-        CTS_recv:	325
-       DATA_send:	333
-        ACK_recv:	325
-
-     	RTS_recv:	326
-        CTS_send:	325
-       DATA_recv:	325
-        ACK_send:	325
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.60%
-
-
---------------------------NODE: 10--------------------
-     	RTS_send:	7
-        CTS_recv:	7
-       DATA_send:	8
-        ACK_recv:	7
-
-     	RTS_recv:	318
-        CTS_send:	318
-       DATA_recv:	318
-        ACK_send:	318
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	87.50%
-
---- Hop Node Number:12 ---
-num_nodes is set 12
-
---------------------------NODE: 0--------------------
-     	RTS_send:	709
-        CTS_recv:	351
-       DATA_send:	366
-        ACK_recv:	351
-
-     	RTS_recv:	6
-        CTS_send:	6
-       DATA_recv:	6
-        ACK_send:	6
-
-   RetransmitRTS:	358
-  RetransmitDATA:	0
-      RTS Droped:	6
-     DATA Droped:	0
-
-   RTS_fail_rate:	50.49%
-    RTS_CTS_rate:	49.51%
-  DATA_fail_rate:	0.00%
-all_success_rate:	48.48%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	527
-        CTS_recv:	277
-       DATA_send:	290
-        ACK_recv:	277
-
-     	RTS_recv:	533
-        CTS_send:	357
-       DATA_recv:	357
-        ACK_send:	357
-
-   RetransmitRTS:	250
-  RetransmitDATA:	0
-      RTS Droped:	2
-     DATA Droped:	0
-
-   RTS_fail_rate:	47.44%
-    RTS_CTS_rate:	52.56%
-  DATA_fail_rate:	0.00%
-all_success_rate:	51.30%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	445
-        CTS_recv:	277
-       DATA_send:	286
-        ACK_recv:	277
-
-     	RTS_recv:	372
-        CTS_send:	277
-       DATA_recv:	277
-        ACK_send:	277
-
-   RetransmitRTS:	168
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	37.75%
-    RTS_CTS_rate:	62.25%
-  DATA_fail_rate:	0.00%
-all_success_rate:	61.01%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	443
-        CTS_recv:	276
-       DATA_send:	282
-        ACK_recv:	273
-
-     	RTS_recv:	353
-        CTS_send:	277
-       DATA_recv:	277
-        ACK_send:	277
-
-   RetransmitRTS:	167
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	37.70%
-    RTS_CTS_rate:	62.30%
-  DATA_fail_rate:	0.00%
-all_success_rate:	60.80%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	406
-        CTS_recv:	273
-       DATA_send:	281
-        ACK_recv:	272
-
-     	RTS_recv:	334
-        CTS_send:	278
-       DATA_recv:	273
-        ACK_send:	273
-
-   RetransmitRTS:	132
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	32.51%
-    RTS_CTS_rate:	67.24%
-  DATA_fail_rate:	0.00%
-all_success_rate:	65.86%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	396
-        CTS_recv:	264
-       DATA_send:	272
-        ACK_recv:	263
-
-     	RTS_recv:	327
-        CTS_send:	274
-       DATA_recv:	272
-        ACK_send:	272
-
-   RetransmitRTS:	132
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	33.33%
-    RTS_CTS_rate:	66.67%
-  DATA_fail_rate:	0.00%
-all_success_rate:	65.10%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	324
-        CTS_recv:	263
-       DATA_send:	271
-        ACK_recv:	263
-
-     	RTS_recv:	316
-        CTS_send:	269
-       DATA_recv:	263
-        ACK_send:	263
-
-   RetransmitRTS:	61
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	18.83%
-    RTS_CTS_rate:	81.17%
-  DATA_fail_rate:	0.00%
-all_success_rate:	79.22%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	321
-        CTS_recv:	264
-       DATA_send:	270
-        ACK_recv:	263
-
-     	RTS_recv:	284
-        CTS_send:	264
-       DATA_recv:	263
-        ACK_send:	263
-
-   RetransmitRTS:	57
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	17.76%
-    RTS_CTS_rate:	82.24%
-  DATA_fail_rate:	0.00%
-all_success_rate:	80.43%
-
-
---------------------------NODE: 8--------------------
-     	RTS_send:	268
-        CTS_recv:	263
-       DATA_send:	270
-        ACK_recv:	263
-
-     	RTS_recv:	280
-        CTS_send:	265
-       DATA_recv:	263
-        ACK_send:	263
-
-   RetransmitRTS:	5
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.87%
-    RTS_CTS_rate:	98.13%
-  DATA_fail_rate:	0.00%
-all_success_rate:	95.64%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	268
-        CTS_recv:	263
-       DATA_send:	270
-        ACK_recv:	263
-
-     	RTS_recv:	266
-        CTS_send:	263
-       DATA_recv:	263
-        ACK_send:	263
-
-   RetransmitRTS:	5
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.87%
-    RTS_CTS_rate:	98.13%
-  DATA_fail_rate:	0.00%
-all_success_rate:	95.64%
-
-
---------------------------NODE: 10--------------------
-     	RTS_send:	264
-        CTS_recv:	263
-       DATA_send:	270
-        ACK_recv:	263
-
-     	RTS_recv:	264
-        CTS_send:	263
-       DATA_recv:	263
-        ACK_send:	263
-
-   RetransmitRTS:	1
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.38%
-    RTS_CTS_rate:	99.62%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.05%
-
-
---------------------------NODE: 11--------------------
-     	RTS_send:	6
-        CTS_recv:	6
-       DATA_send:	7
-        ACK_recv:	6
-
-     	RTS_recv:	257
-        CTS_send:	257
-       DATA_recv:	257
-        ACK_send:	257
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	85.71%
-
---- Hop Node Number:13 ---
-num_nodes is set 13
-
---------------------------NODE: 0--------------------
-     	RTS_send:	805
-        CTS_recv:	405
-       DATA_send:	418
-        ACK_recv:	405
-
-     	RTS_recv:	5
-        CTS_send:	5
-       DATA_recv:	5
-        ACK_send:	5
-
-   RetransmitRTS:	400
-  RetransmitDATA:	0
-      RTS Droped:	3
-     DATA Droped:	0
-
-   RTS_fail_rate:	49.69%
-    RTS_CTS_rate:	50.31%
-  DATA_fail_rate:	0.00%
-all_success_rate:	49.51%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	614
-        CTS_recv:	324
-       DATA_send:	336
-        ACK_recv:	324
-
-     	RTS_recv:	590
-        CTS_send:	410
-       DATA_recv:	410
-        ACK_send:	410
-
-   RetransmitRTS:	290
-  RetransmitDATA:	0
-      RTS Droped:	2
-     DATA Droped:	0
-
-   RTS_fail_rate:	47.23%
-    RTS_CTS_rate:	52.77%
-  DATA_fail_rate:	0.00%
-all_success_rate:	51.76%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	500
-        CTS_recv:	306
-       DATA_send:	315
-        ACK_recv:	305
-
-     	RTS_recv:	451
-        CTS_send:	324
-       DATA_recv:	324
-        ACK_send:	324
-
-   RetransmitRTS:	194
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	38.80%
-    RTS_CTS_rate:	61.20%
-  DATA_fail_rate:	0.00%
-all_success_rate:	59.92%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	454
-        CTS_recv:	305
-       DATA_send:	312
-        ACK_recv:	303
-
-     	RTS_recv:	392
-        CTS_send:	306
-       DATA_recv:	305
-        ACK_send:	305
-
-   RetransmitRTS:	149
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	32.82%
-    RTS_CTS_rate:	67.18%
-  DATA_fail_rate:	0.00%
-all_success_rate:	65.73%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	460
-        CTS_recv:	303
-       DATA_send:	307
-        ACK_recv:	300
-
-     	RTS_recv:	379
-        CTS_send:	308
-       DATA_recv:	303
-        ACK_send:	303
-
-   RetransmitRTS:	157
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	34.13%
-    RTS_CTS_rate:	65.87%
-  DATA_fail_rate:	0.00%
-all_success_rate:	64.66%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	434
-        CTS_recv:	301
-       DATA_send:	306
-        ACK_recv:	300
-
-     	RTS_recv:	367
-        CTS_send:	306
-       DATA_recv:	300
-        ACK_send:	300
-
-   RetransmitRTS:	133
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	30.65%
-    RTS_CTS_rate:	69.35%
-  DATA_fail_rate:	0.00%
-all_success_rate:	68.34%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	428
-        CTS_recv:	300
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	350
-        CTS_send:	301
-       DATA_recv:	300
-        ACK_send:	300
-
-   RetransmitRTS:	128
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	29.91%
-    RTS_CTS_rate:	70.09%
-  DATA_fail_rate:	0.00%
-all_success_rate:	69.05%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	363
-        CTS_recv:	300
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	340
-        CTS_send:	300
-       DATA_recv:	299
-        ACK_send:	299
-
-   RetransmitRTS:	63
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	17.36%
-    RTS_CTS_rate:	82.64%
-  DATA_fail_rate:	0.00%
-all_success_rate:	81.25%
-
-
---------------------------NODE: 8--------------------
-     	RTS_send:	333
-        CTS_recv:	300
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	311
-        CTS_send:	301
-       DATA_recv:	299
-        ACK_send:	299
-
-   RetransmitRTS:	33
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	9.91%
-    RTS_CTS_rate:	90.09%
-  DATA_fail_rate:	0.00%
-all_success_rate:	88.46%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	302
-        CTS_recv:	299
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	310
-        CTS_send:	300
-       DATA_recv:	299
-        ACK_send:	299
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.99%
-    RTS_CTS_rate:	99.01%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.08%
-
-
---------------------------NODE: 10--------------------
-     	RTS_send:	302
-        CTS_recv:	299
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	300
-        CTS_send:	299
-       DATA_recv:	299
-        ACK_send:	299
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.99%
-    RTS_CTS_rate:	99.01%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.08%
-
-
---------------------------NODE: 11--------------------
-     	RTS_send:	299
-        CTS_recv:	298
-       DATA_send:	304
-        ACK_recv:	298
-
-     	RTS_recv:	301
-        CTS_send:	299
-       DATA_recv:	299
-        ACK_send:	299
-
-   RetransmitRTS:	1
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.33%
-    RTS_CTS_rate:	99.67%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.70%
-
-
---------------------------NODE: 12--------------------
-     	RTS_send:	5
-        CTS_recv:	5
-       DATA_send:	6
-        ACK_recv:	5
-
-     	RTS_recv:	294
-        CTS_send:	293
-       DATA_recv:	293
-        ACK_send:	293
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	83.33%
-
---- Hop Node Number:14 ---
-num_nodes is set 14
-
---------------------------NODE: 0--------------------
-     	RTS_send:	653
-        CTS_recv:	315
-       DATA_send:	332
-        ACK_recv:	315
-
-     	RTS_recv:	7
-        CTS_send:	7
-       DATA_recv:	7
-        ACK_send:	7
-
-   RetransmitRTS:	338
-  RetransmitDATA:	0
-      RTS Droped:	7
-     DATA Droped:	0
-
-   RTS_fail_rate:	51.76%
-    RTS_CTS_rate:	48.24%
-  DATA_fail_rate:	0.00%
-all_success_rate:	47.01%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	580
-        CTS_recv:	293
-       DATA_send:	313
-        ACK_recv:	293
-
-     	RTS_recv:	490
-        CTS_send:	322
-       DATA_recv:	322
-        ACK_send:	322
-
-   RetransmitRTS:	287
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	49.48%
-    RTS_CTS_rate:	50.52%
-  DATA_fail_rate:	0.00%
-all_success_rate:	48.83%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	456
-        CTS_recv:	279
-       DATA_send:	298
-        ACK_recv:	278
-
-     	RTS_recv:	420
-        CTS_send:	293
-       DATA_recv:	293
-        ACK_send:	293
-
-   RetransmitRTS:	177
-  RetransmitDATA:	0
-      RTS Droped:	2
-     DATA Droped:	0
-
-   RTS_fail_rate:	38.82%
-    RTS_CTS_rate:	61.18%
-  DATA_fail_rate:	0.00%
-all_success_rate:	58.53%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	459
-        CTS_recv:	267
-       DATA_send:	276
-        ACK_recv:	262
-
-     	RTS_recv:	349
-        CTS_send:	279
-       DATA_recv:	279
-        ACK_send:	279
-
-   RetransmitRTS:	192
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	41.83%
-    RTS_CTS_rate:	58.17%
-  DATA_fail_rate:	0.00%
-all_success_rate:	55.98%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	400
-        CTS_recv:	259
-       DATA_send:	268
-        ACK_recv:	256
-
-     	RTS_recv:	336
-        CTS_send:	272
-       DATA_recv:	262
-        ACK_send:	262
-
-   RetransmitRTS:	141
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	35.25%
-    RTS_CTS_rate:	64.75%
-  DATA_fail_rate:	0.00%
-all_success_rate:	62.59%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	317
-        CTS_recv:	256
-       DATA_send:	266
-        ACK_recv:	256
-
-     	RTS_recv:	301
-        CTS_send:	259
-       DATA_recv:	256
-        ACK_send:	256
-
-   RetransmitRTS:	61
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	19.24%
-    RTS_CTS_rate:	80.76%
-  DATA_fail_rate:	0.00%
-all_success_rate:	78.29%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	310
-        CTS_recv:	256
-       DATA_send:	265
-        ACK_recv:	256
-
-     	RTS_recv:	279
-        CTS_send:	256
-       DATA_recv:	256
-        ACK_send:	256
-
-   RetransmitRTS:	54
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	17.42%
-    RTS_CTS_rate:	82.58%
-  DATA_fail_rate:	0.00%
-all_success_rate:	80.25%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	288
-        CTS_recv:	256
-       DATA_send:	265
-        ACK_recv:	255
-
-     	RTS_recv:	275
-        CTS_send:	256
-       DATA_recv:	256
-        ACK_send:	256
+     	RTS_send:	6278
+        CTS_recv:	6246
+       DATA_send:	6259
+        ACK_recv:	6246
+
+     	RTS_recv:	6310
+        CTS_send:	6247
+       DATA_recv:	6246
+        ACK_send:	6246
 
    RetransmitRTS:	32
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	11.11%
-    RTS_CTS_rate:	88.89%
+   RTS_fail_rate:	0.51%
+    RTS_CTS_rate:	99.49%
   DATA_fail_rate:	0.00%
-all_success_rate:	85.86%
+all_success_rate:	99.28%
 
 
---------------------------NODE: 8--------------------
-     	RTS_send:	276
-        CTS_recv:	255
-       DATA_send:	264
-        ACK_recv:	255
+--------------------------NODE: 4--------------------
+     	RTS_send:	12
+        CTS_recv:	12
+       DATA_send:	13
+        ACK_recv:	12
 
-     	RTS_recv:	267
-        CTS_send:	256
-       DATA_recv:	256
-        ACK_send:	256
-
-   RetransmitRTS:	21
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	7.61%
-    RTS_CTS_rate:	92.39%
-  DATA_fail_rate:	0.00%
-all_success_rate:	89.47%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	265
-        CTS_recv:	255
-       DATA_send:	263
-        ACK_recv:	255
-
-     	RTS_recv:	259
-        CTS_send:	255
-       DATA_recv:	255
-        ACK_send:	255
-
-   RetransmitRTS:	10
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	3.77%
-    RTS_CTS_rate:	96.23%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.41%
-
-
---------------------------NODE: 10--------------------
-     	RTS_send:	255
-        CTS_recv:	255
-       DATA_send:	263
-        ACK_recv:	255
-
-     	RTS_recv:	257
-        CTS_send:	255
-       DATA_recv:	255
-        ACK_send:	255
+     	RTS_recv:	6266
+        CTS_send:	6234
+       DATA_recv:	6234
+        ACK_send:	6234
 
    RetransmitRTS:	0
   RetransmitDATA:	0
@@ -2245,1059 +313,1397 @@ all_success_rate:	93.41%
    RTS_fail_rate:	0.00%
     RTS_CTS_rate:	100.00%
   DATA_fail_rate:	0.00%
-all_success_rate:	96.96%
+all_success_rate:	92.31%
 
-
---------------------------NODE: 11--------------------
-     	RTS_send:	255
-        CTS_recv:	255
-       DATA_send:	263
-        ACK_recv:	255
-
-     	RTS_recv:	255
-        CTS_send:	255
-       DATA_recv:	255
-        ACK_send:	255
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.96%
-
-
---------------------------NODE: 12--------------------
-     	RTS_send:	255
-        CTS_recv:	255
-       DATA_send:	263
-        ACK_recv:	255
-
-     	RTS_recv:	255
-        CTS_send:	255
-       DATA_recv:	255
-        ACK_send:	255
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.96%
-
-
---------------------------NODE: 13--------------------
-     	RTS_send:	8
-        CTS_recv:	7
-       DATA_send:	8
-        ACK_recv:	7
-
-     	RTS_recv:	248
-        CTS_send:	248
-       DATA_recv:	248
-        ACK_send:	248
-
-   RetransmitRTS:	1
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	12.50%
-    RTS_CTS_rate:	87.50%
-  DATA_fail_rate:	0.00%
-all_success_rate:	77.78%
-
---- Hop Node Number:15 ---
-num_nodes is set 15
+--- Hop Node Number:6 ---
+num_nodes is set 6
 
 --------------------------NODE: 0--------------------
-     	RTS_send:	675
-        CTS_recv:	306
-       DATA_send:	322
-        ACK_recv:	306
+     	RTS_send:	10239
+        CTS_recv:	5583
+       DATA_send:	5779
+        ACK_recv:	5581
 
-     	RTS_recv:	6
-        CTS_send:	6
-       DATA_recv:	6
-        ACK_send:	6
+     	RTS_recv:	71
+        CTS_send:	69
+       DATA_recv:	69
+        ACK_send:	69
 
-   RetransmitRTS:	369
-  RetransmitDATA:	0
-      RTS Droped:	5
+   RetransmitRTS:	4656
+  RetransmitDATA:	1
+      RTS Droped:	71
      DATA Droped:	0
 
-   RTS_fail_rate:	54.67%
-    RTS_CTS_rate:	45.33%
-  DATA_fail_rate:	0.00%
-all_success_rate:	44.28%
+   RTS_fail_rate:	45.47%
+    RTS_CTS_rate:	54.53%
+  DATA_fail_rate:	0.02%
+all_success_rate:	53.48%
 
 
 --------------------------NODE: 1--------------------
-     	RTS_send:	497
-        CTS_recv:	294
-       DATA_send:	308
-        ACK_recv:	294
+     	RTS_send:	10087
+        CTS_recv:	4369
+       DATA_send:	4483
+        ACK_recv:	4367
 
-     	RTS_recv:	470
-        CTS_send:	312
-       DATA_recv:	312
-        ACK_send:	312
+     	RTS_recv:	7168
+        CTS_send:	5652
+       DATA_recv:	5650
+        ACK_send:	5650
 
-   RetransmitRTS:	203
+   RetransmitRTS:	5718
+  RetransmitDATA:	2
+      RTS Droped:	8
+     DATA Droped:	0
+
+   RTS_fail_rate:	56.69%
+    RTS_CTS_rate:	43.31%
+  DATA_fail_rate:	0.04%
+all_success_rate:	42.81%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	4530
+        CTS_recv:	4367
+       DATA_send:	4445
+        ACK_recv:	4367
+
+     	RTS_recv:	6297
+        CTS_send:	4369
+       DATA_recv:	4367
+        ACK_send:	4367
+
+   RetransmitRTS:	163
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.60%
+    RTS_CTS_rate:	96.40%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.77%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	4509
+        CTS_recv:	4378
+       DATA_send:	4442
+        ACK_recv:	4367
+
+     	RTS_recv:	4489
+        CTS_send:	4368
+       DATA_recv:	4367
+        ACK_send:	4367
+
+   RetransmitRTS:	131
+  RetransmitDATA:	0
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.91%
+    RTS_CTS_rate:	97.09%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.50%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4459
+        CTS_recv:	4369
+       DATA_send:	4438
+        ACK_recv:	4367
+
+     	RTS_recv:	4448
+        CTS_send:	4392
+       DATA_recv:	4367
+        ACK_send:	4367
+
+   RetransmitRTS:	90
+  RetransmitDATA:	1
+      RTS Droped:	5
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.02%
+    RTS_CTS_rate:	97.98%
+  DATA_fail_rate:	0.02%
+all_success_rate:	96.44%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	101
+        CTS_recv:	73
+       DATA_send:	74
+        ACK_recv:	69
+
+     	RTS_recv:	4337
+        CTS_send:	4300
+       DATA_recv:	4298
+        ACK_send:	4298
+
+   RetransmitRTS:	28
+  RetransmitDATA:	4
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	27.72%
+    RTS_CTS_rate:	72.28%
+  DATA_fail_rate:	5.41%
+all_success_rate:	67.65%
+
+--- Hop Node Number:7 ---
+num_nodes is set 7
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	10621
+        CTS_recv:	4998
+       DATA_send:	5224
+        ACK_recv:	4997
+
+     	RTS_recv:	91
+        CTS_send:	86
+       DATA_recv:	86
+        ACK_send:	86
+
+   RetransmitRTS:	5623
+  RetransmitDATA:	1
+      RTS Droped:	81
+     DATA Droped:	0
+
+   RTS_fail_rate:	52.94%
+    RTS_CTS_rate:	47.06%
+  DATA_fail_rate:	0.02%
+all_success_rate:	46.07%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	7964
+        CTS_recv:	4215
+       DATA_send:	4644
+        ACK_recv:	4215
+
+     	RTS_recv:	7437
+        CTS_send:	5081
+       DATA_recv:	5080
+        ACK_send:	5080
+
+   RetransmitRTS:	3749
+  RetransmitDATA:	0
+      RTS Droped:	17
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.07%
+    RTS_CTS_rate:	52.93%
+  DATA_fail_rate:	0.00%
+all_success_rate:	50.22%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	7341
+        CTS_recv:	4187
+       DATA_send:	4290
+        ACK_recv:	4184
+
+     	RTS_recv:	5474
+        CTS_send:	4210
+       DATA_recv:	4210
+        ACK_send:	4210
+
+   RetransmitRTS:	3154
+  RetransmitDATA:	1
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	42.96%
+    RTS_CTS_rate:	57.04%
+  DATA_fail_rate:	0.02%
+all_success_rate:	56.21%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	4337
+        CTS_recv:	4192
+       DATA_send:	4269
+        ACK_recv:	4182
+
+     	RTS_recv:	5205
+        CTS_send:	4185
+       DATA_recv:	4182
+        ACK_send:	4182
+
+   RetransmitRTS:	145
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.34%
+    RTS_CTS_rate:	96.66%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.74%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4283
+        CTS_recv:	4188
+       DATA_send:	4265
+        ACK_recv:	4182
+
+     	RTS_recv:	4289
+        CTS_send:	4205
+       DATA_recv:	4183
+        ACK_send:	4183
+
+   RetransmitRTS:	95
+  RetransmitDATA:	0
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.22%
+    RTS_CTS_rate:	97.78%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.92%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	4211
+        CTS_recv:	4186
+       DATA_send:	4267
+        ACK_recv:	4183
+
+     	RTS_recv:	4231
+        CTS_send:	4195
+       DATA_recv:	4182
+        ACK_send:	4182
+
+   RetransmitRTS:	25
+  RetransmitDATA:	2
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.59%
+    RTS_CTS_rate:	99.41%
+  DATA_fail_rate:	0.05%
+all_success_rate:	97.46%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	99
+        CTS_recv:	83
+       DATA_send:	84
+        ACK_recv:	81
+
+     	RTS_recv:	4113
+        CTS_send:	4102
+       DATA_recv:	4101
+        ACK_send:	4101
+
+   RetransmitRTS:	16
+  RetransmitDATA:	2
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	16.16%
+    RTS_CTS_rate:	83.84%
+  DATA_fail_rate:	2.38%
+all_success_rate:	81.00%
+
+--- Hop Node Number:8 ---
+num_nodes is set 8
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	9310
+        CTS_recv:	4749
+       DATA_send:	4913
+        ACK_recv:	4747
+
+     	RTS_recv:	66
+        CTS_send:	66
+       DATA_recv:	66
+        ACK_send:	66
+
+   RetransmitRTS:	4561
+  RetransmitDATA:	2
+      RTS Droped:	64
+     DATA Droped:	0
+
+   RTS_fail_rate:	48.99%
+    RTS_CTS_rate:	51.01%
+  DATA_fail_rate:	0.04%
+all_success_rate:	50.11%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	7149
+        CTS_recv:	3629
+       DATA_send:	3969
+        ACK_recv:	3628
+
+     	RTS_recv:	6855
+        CTS_send:	4815
+       DATA_recv:	4813
+        ACK_send:	4813
+
+   RetransmitRTS:	3520
+  RetransmitDATA:	1
+      RTS Droped:	20
+     DATA Droped:	0
+
+   RTS_fail_rate:	49.24%
+    RTS_CTS_rate:	50.76%
+  DATA_fail_rate:	0.03%
+all_success_rate:	48.44%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5993
+        CTS_recv:	3588
+       DATA_send:	3670
+        ACK_recv:	3588
+
+     	RTS_recv:	4931
+        CTS_send:	3629
+       DATA_recv:	3628
+        ACK_send:	3628
+
+   RetransmitRTS:	2405
   RetransmitDATA:	0
       RTS Droped:	1
      DATA Droped:	0
 
-   RTS_fail_rate:	40.85%
-    RTS_CTS_rate:	59.15%
+   RTS_fail_rate:	40.13%
+    RTS_CTS_rate:	59.87%
   DATA_fail_rate:	0.00%
-all_success_rate:	57.53%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	547
-        CTS_recv:	293
-       DATA_send:	303
-        ACK_recv:	293
-
-     	RTS_recv:	363
-        CTS_send:	294
-       DATA_recv:	294
-        ACK_send:	294
-
-   RetransmitRTS:	254
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	46.44%
-    RTS_CTS_rate:	53.56%
-  DATA_fail_rate:	0.00%
-all_success_rate:	52.60%
+all_success_rate:	59.06%
 
 
 --------------------------NODE: 3--------------------
-     	RTS_send:	431
-        CTS_recv:	293
-       DATA_send:	302
-        ACK_recv:	292
+     	RTS_send:	5502
+        CTS_recv:	3628
+       DATA_send:	3662
+        ACK_recv:	3588
 
-     	RTS_recv:	403
-        CTS_send:	293
-       DATA_recv:	293
-        ACK_send:	293
+     	RTS_recv:	4385
+        CTS_send:	3589
+       DATA_recv:	3588
+        ACK_send:	3588
 
-   RetransmitRTS:	138
-  RetransmitDATA:	0
+   RetransmitRTS:	1874
+  RetransmitDATA:	1
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	32.02%
-    RTS_CTS_rate:	67.98%
-  DATA_fail_rate:	0.00%
-all_success_rate:	66.36%
+   RTS_fail_rate:	34.06%
+    RTS_CTS_rate:	65.94%
+  DATA_fail_rate:	0.03%
+all_success_rate:	64.81%
 
 
 --------------------------NODE: 4--------------------
-     	RTS_send:	395
-        CTS_recv:	293
-       DATA_send:	301
-        ACK_recv:	292
+     	RTS_send:	3705
+        CTS_recv:	3598
+       DATA_send:	3658
+        ACK_recv:	3587
 
-     	RTS_recv:	338
-        CTS_send:	294
-       DATA_recv:	292
-        ACK_send:	292
+     	RTS_recv:	4247
+        CTS_send:	3663
+       DATA_recv:	3588
+        ACK_send:	3588
 
-   RetransmitRTS:	102
-  RetransmitDATA:	0
+   RetransmitRTS:	107
+  RetransmitDATA:	1
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	25.82%
-    RTS_CTS_rate:	74.18%
-  DATA_fail_rate:	0.00%
-all_success_rate:	72.46%
+   RTS_fail_rate:	2.89%
+    RTS_CTS_rate:	97.11%
+  DATA_fail_rate:	0.03%
+all_success_rate:	95.27%
 
 
 --------------------------NODE: 5--------------------
-     	RTS_send:	350
-        CTS_recv:	293
-       DATA_send:	301
-        ACK_recv:	291
+     	RTS_send:	3642
+        CTS_recv:	3592
+       DATA_send:	3657
+        ACK_recv:	3587
 
-     	RTS_recv:	331
-        CTS_send:	293
-       DATA_recv:	292
-        ACK_send:	292
+     	RTS_recv:	3662
+        CTS_send:	3608
+       DATA_recv:	3587
+        ACK_send:	3587
 
-   RetransmitRTS:	57
-  RetransmitDATA:	0
+   RetransmitRTS:	50
+  RetransmitDATA:	2
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	16.29%
-    RTS_CTS_rate:	83.71%
-  DATA_fail_rate:	0.00%
-all_success_rate:	81.28%
+   RTS_fail_rate:	1.37%
+    RTS_CTS_rate:	98.63%
+  DATA_fail_rate:	0.05%
+all_success_rate:	96.76%
 
 
 --------------------------NODE: 6--------------------
-     	RTS_send:	336
-        CTS_recv:	291
-       DATA_send:	300
-        ACK_recv:	291
+     	RTS_send:	3617
+        CTS_recv:	3587
+       DATA_send:	3654
+        ACK_recv:	3587
 
-     	RTS_recv:	310
-        CTS_send:	294
-       DATA_recv:	292
-        ACK_send:	292
+     	RTS_recv:	3620
+        CTS_send:	3601
+       DATA_recv:	3587
+        ACK_send:	3587
 
-   RetransmitRTS:	45
+   RetransmitRTS:	30
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	13.39%
-    RTS_CTS_rate:	86.61%
+   RTS_fail_rate:	0.83%
+    RTS_CTS_rate:	99.17%
   DATA_fail_rate:	0.00%
-all_success_rate:	84.35%
+all_success_rate:	97.37%
 
 
 --------------------------NODE: 7--------------------
-     	RTS_send:	327
-        CTS_recv:	291
-       DATA_send:	299
-        ACK_recv:	291
+     	RTS_send:	80
+        CTS_recv:	68
+       DATA_send:	69
+        ACK_recv:	66
 
-     	RTS_recv:	303
-        CTS_send:	292
-       DATA_recv:	291
-        ACK_send:	291
+     	RTS_recv:	3530
+        CTS_send:	3521
+       DATA_recv:	3521
+        ACK_send:	3521
 
-   RetransmitRTS:	36
+   RetransmitRTS:	12
+  RetransmitDATA:	2
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	15.00%
+    RTS_CTS_rate:	85.00%
+  DATA_fail_rate:	2.90%
+all_success_rate:	81.48%
+
+--- Hop Node Number:9 ---
+num_nodes is set 9
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	8712
+        CTS_recv:	4170
+       DATA_send:	4338
+        ACK_recv:	4169
+
+     	RTS_recv:	67
+        CTS_send:	65
+       DATA_recv:	65
+        ACK_send:	65
+
+   RetransmitRTS:	4542
+  RetransmitDATA:	1
+      RTS Droped:	69
+     DATA Droped:	0
+
+   RTS_fail_rate:	52.13%
+    RTS_CTS_rate:	47.87%
+  DATA_fail_rate:	0.02%
+all_success_rate:	46.95%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6776
+        CTS_recv:	3633
+       DATA_send:	3902
+        ACK_recv:	3633
+
+     	RTS_recv:	6260
+        CTS_send:	4235
+       DATA_recv:	4234
+        ACK_send:	4234
+
+   RetransmitRTS:	3142
+  RetransmitDATA:	0
+      RTS Droped:	17
+     DATA Droped:	0
+
+   RTS_fail_rate:	46.37%
+    RTS_CTS_rate:	53.62%
+  DATA_fail_rate:	0.00%
+all_success_rate:	51.58%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5996
+        CTS_recv:	3510
+       DATA_send:	3611
+        ACK_recv:	3509
+
+     	RTS_recv:	4912
+        CTS_send:	3633
+       DATA_recv:	3633
+        ACK_send:	3633
+
+   RetransmitRTS:	2486
+  RetransmitDATA:	0
+      RTS Droped:	9
+     DATA Droped:	0
+
+   RTS_fail_rate:	41.46%
+    RTS_CTS_rate:	58.54%
+  DATA_fail_rate:	0.00%
+all_success_rate:	57.55%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	5343
+        CTS_recv:	3512
+       DATA_send:	3559
+        ACK_recv:	3475
+
+     	RTS_recv:	4451
+        CTS_send:	3510
+       DATA_recv:	3509
+        ACK_send:	3509
+
+   RetransmitRTS:	1831
+  RetransmitDATA:	0
+      RTS Droped:	3
+     DATA Droped:	0
+
+   RTS_fail_rate:	34.27%
+    RTS_CTS_rate:	65.73%
+  DATA_fail_rate:	0.00%
+all_success_rate:	64.47%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4813
+        CTS_recv:	3491
+       DATA_send:	3547
+        ACK_recv:	3473
+
+     	RTS_recv:	4115
+        CTS_send:	3547
+       DATA_recv:	3475
+        ACK_send:	3475
+
+   RetransmitRTS:	1322
+  RetransmitDATA:	0
+      RTS Droped:	4
+     DATA Droped:	0
+
+   RTS_fail_rate:	27.47%
+    RTS_CTS_rate:	72.53%
+  DATA_fail_rate:	0.00%
+all_success_rate:	71.33%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	3563
+        CTS_recv:	3483
+       DATA_send:	3539
+        ACK_recv:	3473
+
+     	RTS_recv:	3953
+        CTS_send:	3504
+       DATA_recv:	3473
+        ACK_send:	3473
+
+   RetransmitRTS:	80
+  RetransmitDATA:	0
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.25%
+    RTS_CTS_rate:	97.75%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.97%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3522
+        CTS_recv:	3478
+       DATA_send:	3539
+        ACK_recv:	3473
+
+     	RTS_recv:	3520
+        CTS_send:	3493
+       DATA_recv:	3473
+        ACK_send:	3473
+
+   RetransmitRTS:	44
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	11.01%
-    RTS_CTS_rate:	88.99%
+   RTS_fail_rate:	1.25%
+    RTS_CTS_rate:	98.75%
   DATA_fail_rate:	0.00%
-all_success_rate:	86.87%
+all_success_rate:	96.93%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3513
+        CTS_recv:	3477
+       DATA_send:	3542
+        ACK_recv:	3473
+
+     	RTS_recv:	3504
+        CTS_send:	3483
+       DATA_recv:	3473
+        ACK_send:	3473
+
+   RetransmitRTS:	36
+  RetransmitDATA:	3
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	1.02%
+    RTS_CTS_rate:	98.98%
+  DATA_fail_rate:	0.08%
+all_success_rate:	97.07%
 
 
 --------------------------NODE: 8--------------------
-     	RTS_send:	318
-        CTS_recv:	291
-       DATA_send:	299
-        ACK_recv:	291
+     	RTS_send:	74
+        CTS_recv:	65
+       DATA_send:	66
+        ACK_recv:	65
 
-     	RTS_recv:	303
-        CTS_send:	291
-       DATA_recv:	291
-        ACK_send:	291
+     	RTS_recv:	3417
+        CTS_send:	3409
+       DATA_recv:	3408
+        ACK_send:	3408
 
-   RetransmitRTS:	27
+   RetransmitRTS:	9
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	8.49%
-    RTS_CTS_rate:	91.51%
+   RTS_fail_rate:	12.16%
+    RTS_CTS_rate:	87.84%
   DATA_fail_rate:	0.00%
-all_success_rate:	89.26%
+all_success_rate:	86.67%
+
+--- Hop Node Number:10 ---
+num_nodes is set 10
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	8191
+        CTS_recv:	4153
+       DATA_send:	4326
+        ACK_recv:	4148
+
+     	RTS_recv:	65
+        CTS_send:	63
+       DATA_recv:	63
+        ACK_send:	63
+
+   RetransmitRTS:	4037
+  RetransmitDATA:	5
+      RTS Droped:	63
+     DATA Droped:	0
+
+   RTS_fail_rate:	49.29%
+    RTS_CTS_rate:	50.70%
+  DATA_fail_rate:	0.12%
+all_success_rate:	49.60%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6264
+        CTS_recv:	3313
+       DATA_send:	3598
+        ACK_recv:	3312
+
+     	RTS_recv:	6031
+        CTS_send:	4216
+       DATA_recv:	4211
+        ACK_send:	4211
+
+   RetransmitRTS:	2951
+  RetransmitDATA:	1
+      RTS Droped:	24
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.11%
+    RTS_CTS_rate:	52.89%
+  DATA_fail_rate:	0.03%
+all_success_rate:	50.57%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5501
+        CTS_recv:	3223
+       DATA_send:	3320
+        ACK_recv:	3218
+
+     	RTS_recv:	4513
+        CTS_send:	3313
+       DATA_recv:	3312
+        ACK_send:	3312
+
+   RetransmitRTS:	2278
+  RetransmitDATA:	2
+      RTS Droped:	5
+     DATA Droped:	0
+
+   RTS_fail_rate:	41.41%
+    RTS_CTS_rate:	58.59%
+  DATA_fail_rate:	0.06%
+all_success_rate:	57.48%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	5187
+        CTS_recv:	3250
+       DATA_send:	3294
+        ACK_recv:	3209
+
+     	RTS_recv:	4093
+        CTS_send:	3224
+       DATA_recv:	3218
+        ACK_send:	3218
+
+   RetransmitRTS:	1937
+  RetransmitDATA:	0
+      RTS Droped:	3
+     DATA Droped:	0
+
+   RTS_fail_rate:	37.34%
+    RTS_CTS_rate:	62.66%
+  DATA_fail_rate:	0.00%
+all_success_rate:	61.35%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4402
+        CTS_recv:	3225
+       DATA_send:	3279
+        ACK_recv:	3209
+
+     	RTS_recv:	3919
+        CTS_send:	3288
+       DATA_recv:	3209
+        ACK_send:	3209
+
+   RetransmitRTS:	1177
+  RetransmitDATA:	1
+      RTS Droped:	3
+     DATA Droped:	0
+
+   RTS_fail_rate:	26.74%
+    RTS_CTS_rate:	73.26%
+  DATA_fail_rate:	0.03%
+all_success_rate:	72.02%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	3969
+        CTS_recv:	3220
+       DATA_send:	3275
+        ACK_recv:	3208
+
+     	RTS_recv:	3569
+        CTS_send:	3232
+       DATA_recv:	3209
+        ACK_send:	3209
+
+   RetransmitRTS:	749
+  RetransmitDATA:	2
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	18.87%
+    RTS_CTS_rate:	81.13%
+  DATA_fail_rate:	0.06%
+all_success_rate:	79.72%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3258
+        CTS_recv:	3211
+       DATA_send:	3272
+        ACK_recv:	3207
+
+     	RTS_recv:	3436
+        CTS_send:	3227
+       DATA_recv:	3208
+        ACK_send:	3208
+
+   RetransmitRTS:	46
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	1.41%
+    RTS_CTS_rate:	98.56%
+  DATA_fail_rate:	0.03%
+all_success_rate:	96.65%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3237
+        CTS_recv:	3211
+       DATA_send:	3271
+        ACK_recv:	3207
+
+     	RTS_recv:	3234
+        CTS_send:	3215
+       DATA_recv:	3207
+        ACK_send:	3207
+
+   RetransmitRTS:	26
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.80%
+    RTS_CTS_rate:	99.20%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.27%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3222
+        CTS_recv:	3208
+       DATA_send:	3272
+        ACK_recv:	3207
+
+     	RTS_recv:	3226
+        CTS_send:	3212
+       DATA_recv:	3207
+        ACK_send:	3207
+
+   RetransmitRTS:	14
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.43%
+    RTS_CTS_rate:	99.57%
+  DATA_fail_rate:	0.03%
+all_success_rate:	97.60%
 
 
 --------------------------NODE: 9--------------------
-     	RTS_send:	319
-        CTS_recv:	291
-       DATA_send:	299
-        ACK_recv:	291
+     	RTS_send:	67
+        CTS_recv:	63
+       DATA_send:	64
+        ACK_recv:	63
 
-     	RTS_recv:	297
-        CTS_send:	291
-       DATA_recv:	291
-        ACK_send:	291
-
-   RetransmitRTS:	28
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	8.78%
-    RTS_CTS_rate:	91.22%
-  DATA_fail_rate:	0.00%
-all_success_rate:	88.99%
-
-
---------------------------NODE: 10--------------------
-     	RTS_send:	306
-        CTS_recv:	291
-       DATA_send:	299
-        ACK_recv:	291
-
-     	RTS_recv:	296
-        CTS_send:	291
-       DATA_recv:	291
-        ACK_send:	291
-
-   RetransmitRTS:	15
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	4.90%
-    RTS_CTS_rate:	95.10%
-  DATA_fail_rate:	0.00%
-all_success_rate:	92.68%
-
-
---------------------------NODE: 11--------------------
-     	RTS_send:	292
-        CTS_recv:	291
-       DATA_send:	298
-        ACK_recv:	291
-
-     	RTS_recv:	295
-        CTS_send:	291
-       DATA_recv:	291
-        ACK_send:	291
-
-   RetransmitRTS:	1
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.34%
-    RTS_CTS_rate:	99.66%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.32%
-
-
---------------------------NODE: 12--------------------
-     	RTS_send:	292
-        CTS_recv:	291
-       DATA_send:	298
-        ACK_recv:	291
-
-     	RTS_recv:	293
-        CTS_send:	291
-       DATA_recv:	291
-        ACK_send:	291
-
-   RetransmitRTS:	1
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.34%
-    RTS_CTS_rate:	99.66%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.32%
-
-
---------------------------NODE: 13--------------------
-     	RTS_send:	295
-        CTS_recv:	291
-       DATA_send:	298
-        ACK_recv:	290
-
-     	RTS_recv:	292
-        CTS_send:	291
-       DATA_recv:	291
-        ACK_send:	291
+     	RTS_recv:	3149
+        CTS_send:	3144
+       DATA_recv:	3144
+        ACK_send:	3144
 
    RetransmitRTS:	4
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	1.36%
-    RTS_CTS_rate:	98.64%
+   RTS_fail_rate:	5.97%
+    RTS_CTS_rate:	94.03%
   DATA_fail_rate:	0.00%
-all_success_rate:	96.03%
+all_success_rate:	92.65%
 
-
---------------------------NODE: 14--------------------
-     	RTS_send:	6
-        CTS_recv:	6
-       DATA_send:	7
-        ACK_recv:	6
-
-     	RTS_recv:	285
-        CTS_send:	285
-       DATA_recv:	284
-        ACK_send:	284
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	85.71%
-
---- Hop Node Number:16 ---
-num_nodes is set 16
+--- Hop Node Number:11 ---
+num_nodes is set 11
 
 --------------------------NODE: 0--------------------
-     	RTS_send:	765
-        CTS_recv:	324
-       DATA_send:	339
-        ACK_recv:	324
+     	RTS_send:	8279
+        CTS_recv:	4178
+       DATA_send:	4347
+        ACK_recv:	4177
 
-     	RTS_recv:	5
-        CTS_send:	5
-       DATA_recv:	5
-        ACK_send:	5
+     	RTS_recv:	59
+        CTS_send:	59
+       DATA_recv:	59
+        ACK_send:	59
 
-   RetransmitRTS:	441
-  RetransmitDATA:	0
-      RTS Droped:	4
+   RetransmitRTS:	4101
+  RetransmitDATA:	1
+      RTS Droped:	59
      DATA Droped:	0
 
-   RTS_fail_rate:	57.65%
-    RTS_CTS_rate:	42.35%
-  DATA_fail_rate:	0.00%
-all_success_rate:	41.54%
+   RTS_fail_rate:	49.53%
+    RTS_CTS_rate:	50.47%
+  DATA_fail_rate:	0.02%
+all_success_rate:	49.44%
 
 
 --------------------------NODE: 1--------------------
-     	RTS_send:	561
-        CTS_recv:	314
-       DATA_send:	328
-        ACK_recv:	314
+     	RTS_send:	6508
+        CTS_recv:	3469
+       DATA_send:	3674
+        ACK_recv:	3467
 
-     	RTS_recv:	534
-        CTS_send:	329
-       DATA_recv:	329
-        ACK_send:	329
+     	RTS_recv:	6198
+        CTS_send:	4237
+       DATA_recv:	4236
+        ACK_send:	4236
 
-   RetransmitRTS:	247
-  RetransmitDATA:	0
-      RTS Droped:	1
+   RetransmitRTS:	3039
+  RetransmitDATA:	2
+      RTS Droped:	20
      DATA Droped:	0
 
-   RTS_fail_rate:	44.03%
-    RTS_CTS_rate:	55.97%
-  DATA_fail_rate:	0.00%
-all_success_rate:	54.61%
+   RTS_fail_rate:	46.70%
+    RTS_CTS_rate:	53.30%
+  DATA_fail_rate:	0.05%
+all_success_rate:	51.65%
 
 
 --------------------------NODE: 2--------------------
-     	RTS_send:	561
-        CTS_recv:	313
-       DATA_send:	322
-        ACK_recv:	313
+     	RTS_send:	5790
+        CTS_recv:	3333
+       DATA_send:	3440
+        ACK_recv:	3332
 
-     	RTS_recv:	415
-        CTS_send:	314
-       DATA_recv:	314
-        ACK_send:	314
+     	RTS_recv:	4721
+        CTS_send:	3469
+       DATA_recv:	3467
+        ACK_send:	3467
 
-   RetransmitRTS:	248
+   RetransmitRTS:	2457
   RetransmitDATA:	0
-      RTS Droped:	0
+      RTS Droped:	10
      DATA Droped:	0
 
-   RTS_fail_rate:	44.21%
-    RTS_CTS_rate:	55.79%
+   RTS_fail_rate:	42.44%
+    RTS_CTS_rate:	57.56%
   DATA_fail_rate:	0.00%
-all_success_rate:	54.91%
+all_success_rate:	56.50%
 
 
 --------------------------NODE: 3--------------------
-     	RTS_send:	487
-        CTS_recv:	316
-       DATA_send:	320
-        ACK_recv:	311
+     	RTS_send:	5268
+        CTS_recv:	3338
+       DATA_send:	3391
+        ACK_recv:	3301
 
-     	RTS_recv:	426
-        CTS_send:	313
-       DATA_recv:	313
-        ACK_send:	313
+     	RTS_recv:	4246
+        CTS_send:	3333
+       DATA_recv:	3332
+        ACK_send:	3332
 
-   RetransmitRTS:	170
-  RetransmitDATA:	0
-      RTS Droped:	0
+   RetransmitRTS:	1930
+  RetransmitDATA:	2
+      RTS Droped:	2
      DATA Droped:	0
 
-   RTS_fail_rate:	34.91%
-    RTS_CTS_rate:	64.89%
-  DATA_fail_rate:	0.00%
-all_success_rate:	63.47%
+   RTS_fail_rate:	36.64%
+    RTS_CTS_rate:	63.36%
+  DATA_fail_rate:	0.06%
+all_success_rate:	62.04%
 
 
 --------------------------NODE: 4--------------------
-     	RTS_send:	428
-        CTS_recv:	313
-       DATA_send:	319
-        ACK_recv:	311
+     	RTS_send:	4613
+        CTS_recv:	3311
+       DATA_send:	3376
+        ACK_recv:	3300
 
-     	RTS_recv:	373
-        CTS_send:	318
-       DATA_recv:	311
-        ACK_send:	311
+     	RTS_recv:	4074
+        CTS_send:	3377
+       DATA_recv:	3301
+        ACK_send:	3301
 
-   RetransmitRTS:	115
+   RetransmitRTS:	1302
   RetransmitDATA:	0
-      RTS Droped:	0
+      RTS Droped:	2
      DATA Droped:	0
 
-   RTS_fail_rate:	26.87%
-    RTS_CTS_rate:	73.13%
+   RTS_fail_rate:	28.22%
+    RTS_CTS_rate:	71.78%
   DATA_fail_rate:	0.00%
-all_success_rate:	71.66%
+all_success_rate:	70.54%
 
 
 --------------------------NODE: 5--------------------
-     	RTS_send:	369
-        CTS_recv:	311
-       DATA_send:	318
-        ACK_recv:	311
-
-     	RTS_recv:	346
-        CTS_send:	314
-       DATA_recv:	311
-        ACK_send:	311
-
-   RetransmitRTS:	58
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	15.72%
-    RTS_CTS_rate:	84.28%
-  DATA_fail_rate:	0.00%
-all_success_rate:	82.71%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	350
-        CTS_recv:	311
-       DATA_send:	318
-        ACK_recv:	311
-
-     	RTS_recv:	329
-        CTS_send:	312
-       DATA_recv:	311
-        ACK_send:	311
-
-   RetransmitRTS:	39
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	11.14%
-    RTS_CTS_rate:	88.86%
-  DATA_fail_rate:	0.00%
-all_success_rate:	87.11%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	345
-        CTS_recv:	312
-       DATA_send:	318
-        ACK_recv:	311
-
-     	RTS_recv:	323
-        CTS_send:	311
-       DATA_recv:	311
-        ACK_send:	311
-
-   RetransmitRTS:	33
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	9.57%
-    RTS_CTS_rate:	90.43%
-  DATA_fail_rate:	0.00%
-all_success_rate:	88.60%
-
-
---------------------------NODE: 8--------------------
-     	RTS_send:	341
-        CTS_recv:	312
-       DATA_send:	318
-        ACK_recv:	310
-
-     	RTS_recv:	324
-        CTS_send:	312
-       DATA_recv:	311
-        ACK_send:	311
-
-   RetransmitRTS:	29
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	8.50%
-    RTS_CTS_rate:	91.50%
-  DATA_fail_rate:	0.00%
-all_success_rate:	89.34%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	324
-        CTS_recv:	310
-       DATA_send:	317
-        ACK_recv:	310
-
-     	RTS_recv:	321
-        CTS_send:	312
-       DATA_recv:	311
-        ACK_send:	311
-
-   RetransmitRTS:	14
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	4.32%
-    RTS_CTS_rate:	95.68%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.66%
-
-
---------------------------NODE: 10--------------------
-     	RTS_send:	328
-        CTS_recv:	310
-       DATA_send:	317
-        ACK_recv:	310
-
-     	RTS_recv:	314
-        CTS_send:	310
-       DATA_recv:	310
-        ACK_send:	310
-
-   RetransmitRTS:	18
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	5.49%
-    RTS_CTS_rate:	94.51%
-  DATA_fail_rate:	0.00%
-all_success_rate:	92.54%
-
-
---------------------------NODE: 11--------------------
-     	RTS_send:	327
-        CTS_recv:	310
-       DATA_send:	316
-        ACK_recv:	310
-
-     	RTS_recv:	313
-        CTS_send:	310
-       DATA_recv:	310
-        ACK_send:	310
-
-   RetransmitRTS:	17
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	5.20%
-    RTS_CTS_rate:	94.80%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.09%
-
-
---------------------------NODE: 12--------------------
-     	RTS_send:	311
-        CTS_recv:	310
-       DATA_send:	316
-        ACK_recv:	310
-
-     	RTS_recv:	315
-        CTS_send:	311
-       DATA_recv:	310
-        ACK_send:	310
-
-   RetransmitRTS:	1
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.32%
-    RTS_CTS_rate:	99.68%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.79%
-
-
---------------------------NODE: 13--------------------
-     	RTS_send:	310
-        CTS_recv:	310
-       DATA_send:	316
-        ACK_recv:	309
-
-     	RTS_recv:	311
-        CTS_send:	310
-       DATA_recv:	310
-        ACK_send:	310
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.78%
-
-
---------------------------NODE: 14--------------------
-     	RTS_send:	309
-        CTS_recv:	309
-       DATA_send:	315
-        ACK_recv:	309
-
-     	RTS_recv:	310
-        CTS_send:	310
-       DATA_recv:	310
-        ACK_send:	310
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	98.10%
-
-
---------------------------NODE: 15--------------------
-     	RTS_send:	5
-        CTS_recv:	5
-       DATA_send:	6
-        ACK_recv:	5
-
-     	RTS_recv:	304
-        CTS_send:	304
-       DATA_recv:	304
-        ACK_send:	304
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	83.33%
-
---- Hop Node Number:17 ---
-num_nodes is set 17
-
---------------------------NODE: 0--------------------
-     	RTS_send:	630
-        CTS_recv:	394
-       DATA_send:	409
-        ACK_recv:	394
-
-     	RTS_recv:	5
-        CTS_send:	5
-       DATA_recv:	5
-        ACK_send:	5
-
-   RetransmitRTS:	236
-  RetransmitDATA:	0
-      RTS Droped:	5
-     DATA Droped:	0
-
-   RTS_fail_rate:	37.46%
-    RTS_CTS_rate:	62.54%
-  DATA_fail_rate:	0.00%
-all_success_rate:	61.09%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	491
-        CTS_recv:	249
-       DATA_send:	269
-        ACK_recv:	249
-
-     	RTS_recv:	492
-        CTS_send:	399
-       DATA_recv:	399
-        ACK_send:	399
-
-   RetransmitRTS:	242
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	49.29%
-    RTS_CTS_rate:	50.71%
-  DATA_fail_rate:	0.00%
-all_success_rate:	48.73%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	424
-        CTS_recv:	236
-       DATA_send:	247
-        ACK_recv:	236
-
-     	RTS_recv:	349
-        CTS_send:	249
-       DATA_recv:	249
-        ACK_send:	249
-
-   RetransmitRTS:	188
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	44.34%
-    RTS_CTS_rate:	55.66%
-  DATA_fail_rate:	0.00%
-all_success_rate:	54.25%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	327
-        CTS_recv:	231
-       DATA_send:	240
-        ACK_recv:	226
-
-     	RTS_recv:	318
-        CTS_send:	236
-       DATA_recv:	236
-        ACK_send:	236
-
-   RetransmitRTS:	96
+     	RTS_send:	4311
+        CTS_recv:	3317
+       DATA_send:	3369
+        ACK_recv:	3300
+
+     	RTS_recv:	3786
+        CTS_send:	3331
+       DATA_recv:	3300
+        ACK_send:	3300
+
+   RetransmitRTS:	994
   RetransmitDATA:	1
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	29.36%
-    RTS_CTS_rate:	70.64%
-  DATA_fail_rate:	0.42%
-all_success_rate:	67.26%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	325
-        CTS_recv:	224
-       DATA_send:	235
-        ACK_recv:	224
-
-     	RTS_recv:	270
-        CTS_send:	231
-       DATA_recv:	226
-        ACK_send:	226
-
-   RetransmitRTS:	101
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	31.08%
-    RTS_CTS_rate:	68.92%
-  DATA_fail_rate:	0.00%
-all_success_rate:	66.67%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	289
-        CTS_recv:	217
-       DATA_send:	224
-        ACK_recv:	216
-
-     	RTS_recv:	253
-        CTS_send:	225
-       DATA_recv:	224
-        ACK_send:	224
-
-   RetransmitRTS:	72
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	24.91%
-    RTS_CTS_rate:	75.09%
-  DATA_fail_rate:	0.00%
-all_success_rate:	72.97%
+   RTS_fail_rate:	23.06%
+    RTS_CTS_rate:	76.94%
+  DATA_fail_rate:	0.03%
+all_success_rate:	75.64%
 
 
 --------------------------NODE: 6--------------------
-     	RTS_send:	251
-        CTS_recv:	216
-       DATA_send:	223
-        ACK_recv:	216
+     	RTS_send:	3932
+        CTS_recv:	3304
+       DATA_send:	3366
+        ACK_recv:	3300
 
-     	RTS_recv:	236
-        CTS_send:	217
-       DATA_recv:	216
-        ACK_send:	216
+     	RTS_recv:	3662
+        CTS_send:	3332
+       DATA_recv:	3300
+        ACK_send:	3300
+
+   RetransmitRTS:	628
+  RetransmitDATA:	2
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	15.97%
+    RTS_CTS_rate:	84.03%
+  DATA_fail_rate:	0.06%
+all_success_rate:	82.62%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3340
+        CTS_recv:	3305
+       DATA_send:	3360
+        ACK_recv:	3299
+
+     	RTS_recv:	3520
+        CTS_send:	3312
+       DATA_recv:	3300
+        ACK_send:	3300
 
    RetransmitRTS:	35
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	13.94%
-    RTS_CTS_rate:	86.06%
+   RTS_fail_rate:	1.05%
+    RTS_CTS_rate:	98.95%
   DATA_fail_rate:	0.00%
-all_success_rate:	83.72%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	272
-        CTS_recv:	217
-       DATA_send:	223
-        ACK_recv:	216
-
-     	RTS_recv:	228
-        CTS_send:	217
-       DATA_recv:	216
-        ACK_send:	216
-
-   RetransmitRTS:	55
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	20.22%
-    RTS_CTS_rate:	79.78%
-  DATA_fail_rate:	0.00%
-all_success_rate:	77.70%
+all_success_rate:	97.17%
 
 
 --------------------------NODE: 8--------------------
-     	RTS_send:	238
-        CTS_recv:	216
-       DATA_send:	223
-        ACK_recv:	216
+     	RTS_send:	3319
+        CTS_recv:	3301
+       DATA_send:	3359
+        ACK_recv:	3299
 
-     	RTS_recv:	227
-        CTS_send:	220
-       DATA_recv:	216
-        ACK_send:	216
-
-   RetransmitRTS:	22
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	9.24%
-    RTS_CTS_rate:	90.76%
-  DATA_fail_rate:	0.00%
-all_success_rate:	88.16%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	238
-        CTS_recv:	216
-       DATA_send:	223
-        ACK_recv:	216
-
-     	RTS_recv:	225
-        CTS_send:	216
-       DATA_recv:	216
-        ACK_send:	216
-
-   RetransmitRTS:	22
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	9.24%
-    RTS_CTS_rate:	90.76%
-  DATA_fail_rate:	0.00%
-all_success_rate:	88.16%
-
-
---------------------------NODE: 10--------------------
-     	RTS_send:	234
-        CTS_recv:	216
-       DATA_send:	222
-        ACK_recv:	216
-
-     	RTS_recv:	228
-        CTS_send:	217
-       DATA_recv:	216
-        ACK_send:	216
+     	RTS_recv:	3320
+        CTS_send:	3308
+       DATA_recv:	3299
+        ACK_send:	3299
 
    RetransmitRTS:	18
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	7.69%
-    RTS_CTS_rate:	92.31%
+   RTS_fail_rate:	0.54%
+    RTS_CTS_rate:	99.46%
   DATA_fail_rate:	0.00%
-all_success_rate:	90.00%
+all_success_rate:	97.69%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3304
+        CTS_recv:	3299
+       DATA_send:	3359
+        ACK_recv:	3299
+
+     	RTS_recv:	3311
+        CTS_send:	3303
+       DATA_recv:	3299
+        ACK_send:	3299
+
+   RetransmitRTS:	5
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.15%
+    RTS_CTS_rate:	99.85%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.07%
+
+
+--------------------------NODE: 10--------------------
+     	RTS_send:	60
+        CTS_recv:	60
+       DATA_send:	61
+        ACK_recv:	59
+
+     	RTS_recv:	3241
+        CTS_send:	3240
+       DATA_recv:	3240
+        ACK_send:	3240
+
+   RetransmitRTS:	0
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.00%
+    RTS_CTS_rate:	100.00%
+  DATA_fail_rate:	1.64%
+all_success_rate:	96.72%
+
+--- Hop Node Number:12 ---
+num_nodes is set 12
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	8384
+        CTS_recv:	4443
+       DATA_send:	4609
+        ACK_recv:	4442
+
+     	RTS_recv:	58
+        CTS_send:	58
+       DATA_recv:	58
+        ACK_send:	58
+
+   RetransmitRTS:	3941
+  RetransmitDATA:	1
+      RTS Droped:	59
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.01%
+    RTS_CTS_rate:	52.99%
+  DATA_fail_rate:	0.02%
+all_success_rate:	51.95%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6511
+        CTS_recv:	3395
+       DATA_send:	3524
+        ACK_recv:	3390
+
+     	RTS_recv:	6333
+        CTS_send:	4501
+       DATA_recv:	4500
+        ACK_send:	4500
+
+   RetransmitRTS:	3116
+  RetransmitDATA:	4
+      RTS Droped:	19
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.86%
+    RTS_CTS_rate:	52.14%
+  DATA_fail_rate:	0.11%
+all_success_rate:	51.05%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5788
+        CTS_recv:	3331
+       DATA_send:	3419
+        ACK_recv:	3330
+
+     	RTS_recv:	4654
+        CTS_send:	3395
+       DATA_recv:	3391
+        ACK_send:	3391
+
+   RetransmitRTS:	2457
+  RetransmitDATA:	1
+      RTS Droped:	4
+     DATA Droped:	0
+
+   RTS_fail_rate:	42.45%
+    RTS_CTS_rate:	57.55%
+  DATA_fail_rate:	0.03%
+all_success_rate:	56.67%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	5407
+        CTS_recv:	3371
+       DATA_send:	3410
+        ACK_recv:	3328
+
+     	RTS_recv:	4290
+        CTS_send:	3331
+       DATA_recv:	3330
+        ACK_send:	3330
+
+   RetransmitRTS:	2036
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	37.65%
+    RTS_CTS_rate:	62.35%
+  DATA_fail_rate:	0.03%
+all_success_rate:	61.11%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4636
+        CTS_recv:	3339
+       DATA_send:	3403
+        ACK_recv:	3328
+
+     	RTS_recv:	4167
+        CTS_send:	3406
+       DATA_recv:	3328
+        ACK_send:	3328
+
+   RetransmitRTS:	1297
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	27.98%
+    RTS_CTS_rate:	72.02%
+  DATA_fail_rate:	0.00%
+all_success_rate:	70.81%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	4150
+        CTS_recv:	3325
+       DATA_send:	3380
+        ACK_recv:	3310
+
+     	RTS_recv:	3811
+        CTS_send:	3354
+       DATA_recv:	3328
+        ACK_send:	3328
+
+   RetransmitRTS:	825
+  RetransmitDATA:	0
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	19.88%
+    RTS_CTS_rate:	80.12%
+  DATA_fail_rate:	0.00%
+all_success_rate:	78.72%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3909
+        CTS_recv:	3318
+       DATA_send:	3376
+        ACK_recv:	3310
+
+     	RTS_recv:	3598
+        CTS_send:	3336
+       DATA_recv:	3310
+        ACK_send:	3310
+
+   RetransmitRTS:	591
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	15.12%
+    RTS_CTS_rate:	84.88%
+  DATA_fail_rate:	0.00%
+all_success_rate:	83.44%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3762
+        CTS_recv:	3315
+       DATA_send:	3370
+        ACK_recv:	3309
+
+     	RTS_recv:	3497
+        CTS_send:	3323
+       DATA_recv:	3310
+        ACK_send:	3310
+
+   RetransmitRTS:	447
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	11.88%
+    RTS_CTS_rate:	88.12%
+  DATA_fail_rate:	0.00%
+all_success_rate:	86.69%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3343
+        CTS_recv:	3311
+       DATA_send:	3368
+        ACK_recv:	3309
+
+     	RTS_recv:	3469
+        CTS_send:	3318
+       DATA_recv:	3309
+        ACK_send:	3309
+
+   RetransmitRTS:	32
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.96%
+    RTS_CTS_rate:	99.04%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.32%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3328
+        CTS_recv:	3312
+       DATA_send:	3368
+        ACK_recv:	3309
+
+     	RTS_recv:	3330
+        CTS_send:	3311
+       DATA_recv:	3309
+        ACK_send:	3309
+
+   RetransmitRTS:	16
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.48%
+    RTS_CTS_rate:	99.52%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.78%
+
+
+--------------------------NODE: 10--------------------
+     	RTS_send:	3321
+        CTS_recv:	3309
+       DATA_send:	3368
+        ACK_recv:	3309
+
+     	RTS_recv:	3317
+        CTS_send:	3313
+       DATA_recv:	3309
+        ACK_send:	3309
+
+   RetransmitRTS:	12
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.36%
+    RTS_CTS_rate:	99.64%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.90%
 
 
 --------------------------NODE: 11--------------------
-     	RTS_send:	224
-        CTS_recv:	216
-       DATA_send:	222
-        ACK_recv:	216
+     	RTS_send:	58
+        CTS_recv:	58
+       DATA_send:	59
+        ACK_recv:	58
 
-     	RTS_recv:	223
-        CTS_send:	216
-       DATA_recv:	216
-        ACK_send:	216
-
-   RetransmitRTS:	8
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	3.57%
-    RTS_CTS_rate:	96.43%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.91%
-
-
---------------------------NODE: 12--------------------
-     	RTS_send:	226
-        CTS_recv:	216
-       DATA_send:	222
-        ACK_recv:	216
-
-     	RTS_recv:	219
-        CTS_send:	216
-       DATA_recv:	216
-        ACK_send:	216
-
-   RetransmitRTS:	10
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	4.42%
-    RTS_CTS_rate:	95.58%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.10%
-
-
---------------------------NODE: 13--------------------
-     	RTS_send:	216
-        CTS_recv:	216
-       DATA_send:	222
-        ACK_recv:	216
-
-     	RTS_recv:	220
-        CTS_send:	216
-       DATA_recv:	216
-        ACK_send:	216
+     	RTS_recv:	3254
+        CTS_send:	3251
+       DATA_recv:	3251
+        ACK_send:	3251
 
    RetransmitRTS:	0
   RetransmitDATA:	0
@@ -3307,43 +1713,221 @@ all_success_rate:	93.10%
    RTS_fail_rate:	0.00%
     RTS_CTS_rate:	100.00%
   DATA_fail_rate:	0.00%
-all_success_rate:	97.30%
+all_success_rate:	98.31%
+
+--- Hop Node Number:13 ---
+num_nodes is set 13
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	8184
+        CTS_recv:	4322
+       DATA_send:	4493
+        ACK_recv:	4319
+
+     	RTS_recv:	54
+        CTS_send:	54
+       DATA_recv:	54
+        ACK_send:	54
+
+   RetransmitRTS:	3862
+  RetransmitDATA:	3
+      RTS Droped:	53
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.19%
+    RTS_CTS_rate:	52.81%
+  DATA_fail_rate:	0.07%
+all_success_rate:	51.69%
 
 
---------------------------NODE: 14--------------------
-     	RTS_send:	216
-        CTS_recv:	216
-       DATA_send:	222
-        ACK_recv:	216
+--------------------------NODE: 1--------------------
+     	RTS_send:	6443
+        CTS_recv:	3316
+       DATA_send:	3486
+        ACK_recv:	3313
 
-     	RTS_recv:	217
-        CTS_send:	216
-       DATA_recv:	216
-        ACK_send:	216
+     	RTS_recv:	6132
+        CTS_send:	4376
+       DATA_recv:	4373
+        ACK_send:	4373
 
-   RetransmitRTS:	0
+   RetransmitRTS:	3127
+  RetransmitDATA:	3
+      RTS Droped:	21
+     DATA Droped:	0
+
+   RTS_fail_rate:	48.53%
+    RTS_CTS_rate:	51.47%
+  DATA_fail_rate:	0.09%
+all_success_rate:	50.10%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5689
+        CTS_recv:	3266
+       DATA_send:	3361
+        ACK_recv:	3266
+
+     	RTS_recv:	4616
+        CTS_send:	3316
+       DATA_recv:	3313
+        ACK_send:	3313
+
+   RetransmitRTS:	2423
+  RetransmitDATA:	0
+      RTS Droped:	7
+     DATA Droped:	0
+
+   RTS_fail_rate:	42.59%
+    RTS_CTS_rate:	57.41%
+  DATA_fail_rate:	0.00%
+all_success_rate:	56.47%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	5073
+        CTS_recv:	3284
+       DATA_send:	3326
+        ACK_recv:	3245
+
+     	RTS_recv:	4183
+        CTS_send:	3266
+       DATA_recv:	3266
+        ACK_send:	3266
+
+   RetransmitRTS:	1789
+  RetransmitDATA:	1
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	35.27%
+    RTS_CTS_rate:	64.73%
+  DATA_fail_rate:	0.03%
+all_success_rate:	63.44%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4501
+        CTS_recv:	3254
+       DATA_send:	3310
+        ACK_recv:	3244
+
+     	RTS_recv:	4003
+        CTS_send:	3310
+       DATA_recv:	3245
+        ACK_send:	3245
+
+   RetransmitRTS:	1247
+  RetransmitDATA:	0
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	27.70%
+    RTS_CTS_rate:	72.30%
+  DATA_fail_rate:	0.00%
+all_success_rate:	71.19%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	4234
+        CTS_recv:	3254
+       DATA_send:	3306
+        ACK_recv:	3244
+
+     	RTS_recv:	3714
+        CTS_send:	3269
+       DATA_recv:	3244
+        ACK_send:	3244
+
+   RetransmitRTS:	980
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
+   RTS_fail_rate:	23.15%
+    RTS_CTS_rate:	76.85%
   DATA_fail_rate:	0.00%
-all_success_rate:	97.30%
+all_success_rate:	75.69%
 
 
---------------------------NODE: 15--------------------
-     	RTS_send:	217
-        CTS_recv:	216
-       DATA_send:	222
-        ACK_recv:	216
+--------------------------NODE: 6--------------------
+     	RTS_send:	4053
+        CTS_recv:	3255
+       DATA_send:	3303
+        ACK_recv:	3244
 
-     	RTS_recv:	216
-        CTS_send:	216
-       DATA_recv:	216
-        ACK_send:	216
+     	RTS_recv:	3597
+        CTS_send:	3267
+       DATA_recv:	3244
+        ACK_send:	3244
 
-   RetransmitRTS:	1
+   RetransmitRTS:	798
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	19.69%
+    RTS_CTS_rate:	80.31%
+  DATA_fail_rate:	0.00%
+all_success_rate:	79.10%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3735
+        CTS_recv:	3248
+       DATA_send:	3301
+        ACK_recv:	3244
+
+     	RTS_recv:	3533
+        CTS_send:	3266
+       DATA_recv:	3244
+        ACK_send:	3244
+
+   RetransmitRTS:	487
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	13.04%
+    RTS_CTS_rate:	86.96%
+  DATA_fail_rate:	0.00%
+all_success_rate:	85.64%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3584
+        CTS_recv:	3247
+       DATA_send:	3299
+        ACK_recv:	3244
+
+     	RTS_recv:	3375
+        CTS_send:	3254
+       DATA_recv:	3244
+        ACK_send:	3244
+
+   RetransmitRTS:	337
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	9.40%
+    RTS_CTS_rate:	90.60%
+  DATA_fail_rate:	0.00%
+all_success_rate:	89.22%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3258
+        CTS_recv:	3243
+       DATA_send:	3298
+        ACK_recv:	3242
+
+     	RTS_recv:	3341
+        CTS_send:	3251
+       DATA_recv:	3244
+        ACK_send:	3244
+
+   RetransmitRTS:	15
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
@@ -3351,1235 +1935,1833 @@ all_success_rate:	97.30%
    RTS_fail_rate:	0.46%
     RTS_CTS_rate:	99.54%
   DATA_fail_rate:	0.00%
-all_success_rate:	96.86%
-
-
---------------------------NODE: 16--------------------
-     	RTS_send:	5
-        CTS_recv:	5
-       DATA_send:	6
-        ACK_recv:	5
-
-     	RTS_recv:	211
-        CTS_send:	211
-       DATA_recv:	211
-        ACK_send:	211
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	83.33%
-
---- Hop Node Number:18 ---
-num_nodes is set 18
-
---------------------------NODE: 0--------------------
-     	RTS_send:	695
-        CTS_recv:	334
-       DATA_send:	352
-        ACK_recv:	334
-
-     	RTS_recv:	6
-        CTS_send:	6
-       DATA_recv:	6
-        ACK_send:	6
-
-   RetransmitRTS:	361
-  RetransmitDATA:	0
-      RTS Droped:	6
-     DATA Droped:	0
-
-   RTS_fail_rate:	51.94%
-    RTS_CTS_rate:	48.06%
-  DATA_fail_rate:	0.00%
-all_success_rate:	46.84%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	582
-        CTS_recv:	289
-       DATA_send:	307
-        ACK_recv:	289
-
-     	RTS_recv:	510
-        CTS_send:	340
-       DATA_recv:	340
-        ACK_send:	340
-
-   RetransmitRTS:	293
-  RetransmitDATA:	0
-      RTS Droped:	2
-     DATA Droped:	0
-
-   RTS_fail_rate:	50.34%
-    RTS_CTS_rate:	49.66%
-  DATA_fail_rate:	0.00%
-all_success_rate:	48.17%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	460
-        CTS_recv:	285
-       DATA_send:	302
-        ACK_recv:	285
-
-     	RTS_recv:	413
-        CTS_send:	289
-       DATA_recv:	289
-        ACK_send:	289
-
-   RetransmitRTS:	175
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	38.04%
-    RTS_CTS_rate:	61.96%
-  DATA_fail_rate:	0.00%
-all_success_rate:	59.75%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	463
-        CTS_recv:	285
-       DATA_send:	296
-        ACK_recv:	282
-
-     	RTS_recv:	353
-        CTS_send:	285
-       DATA_recv:	285
-        ACK_send:	285
-
-   RetransmitRTS:	178
-  RetransmitDATA:	0
-      RTS Droped:	1
-     DATA Droped:	0
-
-   RTS_fail_rate:	38.44%
-    RTS_CTS_rate:	61.56%
-  DATA_fail_rate:	0.00%
-all_success_rate:	59.49%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	374
-        CTS_recv:	286
-       DATA_send:	292
-        ACK_recv:	282
-
-     	RTS_recv:	367
-        CTS_send:	291
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	88
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	23.53%
-    RTS_CTS_rate:	76.47%
-  DATA_fail_rate:	0.00%
-all_success_rate:	74.21%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	336
-        CTS_recv:	282
-       DATA_send:	291
-        ACK_recv:	282
-
-     	RTS_recv:	314
-        CTS_send:	286
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	54
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	16.07%
-    RTS_CTS_rate:	83.93%
-  DATA_fail_rate:	0.00%
-all_success_rate:	81.74%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	322
-        CTS_recv:	283
-       DATA_send:	291
-        ACK_recv:	282
-
-     	RTS_recv:	296
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	39
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	12.11%
-    RTS_CTS_rate:	87.89%
-  DATA_fail_rate:	0.00%
-all_success_rate:	85.45%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	316
-        CTS_recv:	282
-       DATA_send:	290
-        ACK_recv:	282
-
-     	RTS_recv:	289
-        CTS_send:	283
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	34
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	10.76%
-    RTS_CTS_rate:	89.24%
-  DATA_fail_rate:	0.00%
-all_success_rate:	87.04%
-
-
---------------------------NODE: 8--------------------
-     	RTS_send:	294
-        CTS_recv:	282
-       DATA_send:	290
-        ACK_recv:	282
-
-     	RTS_recv:	293
-        CTS_send:	283
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	12
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	4.08%
-    RTS_CTS_rate:	95.92%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.38%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	296
-        CTS_recv:	282
-       DATA_send:	290
-        ACK_recv:	282
-
-     	RTS_recv:	286
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	14
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	4.73%
-    RTS_CTS_rate:	95.27%
-  DATA_fail_rate:	0.00%
-all_success_rate:	92.76%
+all_success_rate:	97.86%
 
 
 --------------------------NODE: 10--------------------
-     	RTS_send:	295
-        CTS_recv:	282
-       DATA_send:	290
-        ACK_recv:	282
+     	RTS_send:	3255
+        CTS_recv:	3244
+       DATA_send:	3297
+        ACK_recv:	3242
 
-     	RTS_recv:	287
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	13
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	4.41%
-    RTS_CTS_rate:	95.59%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.07%
-
-
---------------------------NODE: 11--------------------
-     	RTS_send:	283
-        CTS_recv:	282
-       DATA_send:	289
-        ACK_recv:	282
-
-     	RTS_recv:	283
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	1
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.35%
-    RTS_CTS_rate:	99.65%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.24%
-
-
---------------------------NODE: 12--------------------
-     	RTS_send:	294
-        CTS_recv:	282
-       DATA_send:	289
-        ACK_recv:	282
-
-     	RTS_recv:	282
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	12
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	4.08%
-    RTS_CTS_rate:	95.92%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.69%
-
-
---------------------------NODE: 13--------------------
-     	RTS_send:	293
-        CTS_recv:	282
-       DATA_send:	289
-        ACK_recv:	282
-
-     	RTS_recv:	283
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
+     	RTS_recv:	3250
+        CTS_send:	3244
+       DATA_recv:	3242
+        ACK_send:	3242
 
    RetransmitRTS:	11
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	3.75%
-    RTS_CTS_rate:	96.25%
+   RTS_fail_rate:	0.34%
+    RTS_CTS_rate:	99.66%
   DATA_fail_rate:	0.00%
-all_success_rate:	94.00%
+all_success_rate:	98.00%
 
 
---------------------------NODE: 14--------------------
-     	RTS_send:	282
-        CTS_recv:	282
-       DATA_send:	289
-        ACK_recv:	282
+--------------------------NODE: 11--------------------
+     	RTS_send:	3245
+        CTS_recv:	3242
+       DATA_send:	3297
+        ACK_recv:	3242
 
-     	RTS_recv:	283
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
+     	RTS_recv:	3253
+        CTS_send:	3245
+       DATA_recv:	3242
+        ACK_send:	3242
 
-   RetransmitRTS:	0
+   RetransmitRTS:	3
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
+   RTS_fail_rate:	0.09%
+    RTS_CTS_rate:	99.91%
   DATA_fail_rate:	0.00%
-all_success_rate:	97.58%
+all_success_rate:	98.24%
 
 
---------------------------NODE: 15--------------------
-     	RTS_send:	282
-        CTS_recv:	282
-       DATA_send:	289
-        ACK_recv:	282
+--------------------------NODE: 12--------------------
+     	RTS_send:	57
+        CTS_recv:	54
+       DATA_send:	55
+        ACK_recv:	54
 
-     	RTS_recv:	282
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
+     	RTS_recv:	3190
+        CTS_send:	3188
+       DATA_recv:	3188
+        ACK_send:	3188
 
-   RetransmitRTS:	0
+   RetransmitRTS:	3
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
+   RTS_fail_rate:	5.26%
+    RTS_CTS_rate:	94.74%
   DATA_fail_rate:	0.00%
-all_success_rate:	97.58%
+all_success_rate:	93.10%
 
-
---------------------------NODE: 16--------------------
-     	RTS_send:	282
-        CTS_recv:	282
-       DATA_send:	289
-        ACK_recv:	282
-
-     	RTS_recv:	282
-        CTS_send:	282
-       DATA_recv:	282
-        ACK_send:	282
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.58%
-
-
---------------------------NODE: 17--------------------
-     	RTS_send:	6
-        CTS_recv:	6
-       DATA_send:	7
-        ACK_recv:	6
-
-     	RTS_recv:	276
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	85.71%
-
---- Hop Node Number:19 ---
-num_nodes is set 19
+--- Hop Node Number:14 ---
+num_nodes is set 14
 
 --------------------------NODE: 0--------------------
-     	RTS_send:	711
-        CTS_recv:	365
-       DATA_send:	379
-        ACK_recv:	365
+     	RTS_send:	7601
+        CTS_recv:	4144
+       DATA_send:	4320
+        ACK_recv:	4142
 
-     	RTS_recv:	5
-        CTS_send:	5
-       DATA_recv:	5
-        ACK_send:	5
+     	RTS_recv:	60
+        CTS_send:	60
+       DATA_recv:	60
+        ACK_send:	60
 
-   RetransmitRTS:	346
-  RetransmitDATA:	0
-      RTS Droped:	3
+   RetransmitRTS:	3457
+  RetransmitDATA:	2
+      RTS Droped:	62
      DATA Droped:	0
 
-   RTS_fail_rate:	48.66%
-    RTS_CTS_rate:	51.34%
-  DATA_fail_rate:	0.00%
-all_success_rate:	50.34%
+   RTS_fail_rate:	45.48%
+    RTS_CTS_rate:	54.52%
+  DATA_fail_rate:	0.05%
+all_success_rate:	53.26%
 
 
 --------------------------NODE: 1--------------------
-     	RTS_send:	598
-        CTS_recv:	303
-       DATA_send:	317
-        ACK_recv:	303
+     	RTS_send:	6292
+        CTS_recv:	3153
+       DATA_send:	3351
+        ACK_recv:	3153
 
-     	RTS_recv:	520
-        CTS_send:	370
-       DATA_recv:	370
-        ACK_send:	370
+     	RTS_recv:	5808
+        CTS_send:	4204
+       DATA_recv:	4202
+        ACK_send:	4202
 
-   RetransmitRTS:	295
+   RetransmitRTS:	3139
   RetransmitDATA:	0
-      RTS Droped:	1
+      RTS Droped:	19
      DATA Droped:	0
 
-   RTS_fail_rate:	49.33%
-    RTS_CTS_rate:	50.67%
+   RTS_fail_rate:	49.89%
+    RTS_CTS_rate:	50.11%
   DATA_fail_rate:	0.00%
-all_success_rate:	49.51%
+all_success_rate:	48.58%
 
 
 --------------------------NODE: 2--------------------
-     	RTS_send:	552
-        CTS_recv:	302
-       DATA_send:	311
-        ACK_recv:	302
+     	RTS_send:	5304
+        CTS_recv:	3082
+       DATA_send:	3194
+        ACK_recv:	3081
 
-     	RTS_recv:	425
-        CTS_send:	303
-       DATA_recv:	303
-        ACK_send:	303
+     	RTS_recv:	4461
+        CTS_send:	3153
+       DATA_recv:	3153
+        ACK_send:	3153
 
-   RetransmitRTS:	250
+   RetransmitRTS:	2222
   RetransmitDATA:	0
-      RTS Droped:	0
+      RTS Droped:	5
      DATA Droped:	0
 
-   RTS_fail_rate:	45.29%
-    RTS_CTS_rate:	54.71%
+   RTS_fail_rate:	41.89%
+    RTS_CTS_rate:	58.11%
   DATA_fail_rate:	0.00%
-all_success_rate:	53.83%
+all_success_rate:	56.89%
 
 
 --------------------------NODE: 3--------------------
-     	RTS_send:	496
-        CTS_recv:	305
-       DATA_send:	311
-        ACK_recv:	302
+     	RTS_send:	4844
+        CTS_recv:	3055
+       DATA_send:	3134
+        ACK_recv:	3032
 
-     	RTS_recv:	405
-        CTS_send:	302
-       DATA_recv:	302
-        ACK_send:	302
+     	RTS_recv:	3909
+        CTS_send:	3083
+       DATA_recv:	3081
+        ACK_send:	3081
 
-   RetransmitRTS:	191
-  RetransmitDATA:	0
-      RTS Droped:	0
+   RetransmitRTS:	1788
+  RetransmitDATA:	1
+      RTS Droped:	5
      DATA Droped:	0
 
-   RTS_fail_rate:	38.51%
-    RTS_CTS_rate:	61.49%
-  DATA_fail_rate:	0.00%
-all_success_rate:	60.16%
+   RTS_fail_rate:	36.91%
+    RTS_CTS_rate:	63.07%
+  DATA_fail_rate:	0.03%
+all_success_rate:	61.60%
 
 
 --------------------------NODE: 4--------------------
-     	RTS_send:	430
-        CTS_recv:	303
-       DATA_send:	309
-        ACK_recv:	302
+     	RTS_send:	4342
+        CTS_recv:	3047
+       DATA_send:	3111
+        ACK_recv:	3028
 
-     	RTS_recv:	379
-        CTS_send:	309
-       DATA_recv:	302
-        ACK_send:	302
+     	RTS_recv:	3750
+        CTS_send:	3082
+       DATA_recv:	3032
+        ACK_send:	3032
 
-   RetransmitRTS:	127
-  RetransmitDATA:	0
-      RTS Droped:	0
+   RetransmitRTS:	1295
+  RetransmitDATA:	1
+      RTS Droped:	2
      DATA Droped:	0
 
-   RTS_fail_rate:	29.53%
-    RTS_CTS_rate:	70.47%
-  DATA_fail_rate:	0.00%
-all_success_rate:	69.27%
+   RTS_fail_rate:	29.82%
+    RTS_CTS_rate:	70.18%
+  DATA_fail_rate:	0.03%
+all_success_rate:	68.72%
 
 
 --------------------------NODE: 5--------------------
-     	RTS_send:	374
-        CTS_recv:	302
-       DATA_send:	308
-        ACK_recv:	302
+     	RTS_send:	3895
+        CTS_recv:	3038
+       DATA_send:	3102
+        ACK_recv:	3027
 
-     	RTS_recv:	340
-        CTS_send:	303
-       DATA_recv:	302
-        ACK_send:	302
+     	RTS_recv:	3512
+        CTS_send:	3057
+       DATA_recv:	3028
+        ACK_send:	3028
 
-   RetransmitRTS:	72
+   RetransmitRTS:	857
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	19.25%
-    RTS_CTS_rate:	80.75%
+   RTS_fail_rate:	22.00%
+    RTS_CTS_rate:	78.00%
   DATA_fail_rate:	0.00%
-all_success_rate:	79.47%
+all_success_rate:	76.46%
 
 
 --------------------------NODE: 6--------------------
-     	RTS_send:	343
-        CTS_recv:	302
-       DATA_send:	307
-        ACK_recv:	301
+     	RTS_send:	3621
+        CTS_recv:	3032
+       DATA_send:	3094
+        ACK_recv:	3027
 
-     	RTS_recv:	326
-        CTS_send:	302
-       DATA_recv:	302
-        ACK_send:	302
+     	RTS_recv:	3355
+        CTS_send:	3049
+       DATA_recv:	3027
+        ACK_send:	3027
 
-   RetransmitRTS:	41
+   RetransmitRTS:	589
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	11.95%
-    RTS_CTS_rate:	88.05%
+   RTS_fail_rate:	16.27%
+    RTS_CTS_rate:	83.73%
   DATA_fail_rate:	0.00%
-all_success_rate:	86.49%
+all_success_rate:	82.19%
 
 
 --------------------------NODE: 7--------------------
-     	RTS_send:	347
-        CTS_recv:	301
-       DATA_send:	307
-        ACK_recv:	301
+     	RTS_send:	3398
+        CTS_recv:	3031
+       DATA_send:	3094
+        ACK_recv:	3027
 
-     	RTS_recv:	322
-        CTS_send:	302
-       DATA_recv:	301
-        ACK_send:	301
+     	RTS_recv:	3242
+        CTS_send:	3036
+       DATA_recv:	3027
+        ACK_send:	3027
 
-   RetransmitRTS:	46
+   RetransmitRTS:	367
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	13.26%
-    RTS_CTS_rate:	86.74%
+   RTS_fail_rate:	10.80%
+    RTS_CTS_rate:	89.20%
   DATA_fail_rate:	0.00%
-all_success_rate:	85.27%
+all_success_rate:	87.46%
 
 
 --------------------------NODE: 8--------------------
-     	RTS_send:	336
-        CTS_recv:	301
-       DATA_send:	307
-        ACK_recv:	301
+     	RTS_send:	3301
+        CTS_recv:	3032
+       DATA_send:	3092
+        ACK_recv:	3026
 
-     	RTS_recv:	308
-        CTS_send:	302
-       DATA_recv:	301
-        ACK_send:	301
+     	RTS_recv:	3147
+        CTS_send:	3034
+       DATA_recv:	3027
+        ACK_send:	3027
 
-   RetransmitRTS:	35
+   RetransmitRTS:	269
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	10.42%
-    RTS_CTS_rate:	89.58%
+   RTS_fail_rate:	8.15%
+    RTS_CTS_rate:	91.85%
   DATA_fail_rate:	0.00%
-all_success_rate:	88.01%
+all_success_rate:	90.03%
 
 
 --------------------------NODE: 9--------------------
-     	RTS_send:	308
-        CTS_recv:	301
-       DATA_send:	307
-        ACK_recv:	301
+     	RTS_send:	3245
+        CTS_recv:	3028
+       DATA_send:	3089
+        ACK_recv:	3026
 
-     	RTS_recv:	313
-        CTS_send:	301
-       DATA_recv:	301
-        ACK_send:	301
+     	RTS_recv:	3099
+        CTS_send:	3034
+       DATA_recv:	3026
+        ACK_send:	3026
 
-   RetransmitRTS:	7
+   RetransmitRTS:	217
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	2.27%
-    RTS_CTS_rate:	97.73%
+   RTS_fail_rate:	6.69%
+    RTS_CTS_rate:	93.31%
   DATA_fail_rate:	0.00%
-all_success_rate:	95.86%
+all_success_rate:	91.53%
 
 
 --------------------------NODE: 10--------------------
-     	RTS_send:	310
-        CTS_recv:	300
-       DATA_send:	306
-        ACK_recv:	300
+     	RTS_send:	3038
+        CTS_recv:	3026
+       DATA_send:	3088
+        ACK_recv:	3026
 
-     	RTS_recv:	302
-        CTS_send:	301
-       DATA_recv:	301
-        ACK_send:	301
+     	RTS_recv:	3095
+        CTS_send:	3029
+       DATA_recv:	3026
+        ACK_send:	3026
+
+   RetransmitRTS:	12
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.39%
+    RTS_CTS_rate:	99.61%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.61%
+
+
+--------------------------NODE: 11--------------------
+     	RTS_send:	3039
+        CTS_recv:	3027
+       DATA_send:	3087
+        ACK_recv:	3026
+
+     	RTS_recv:	3031
+        CTS_send:	3026
+       DATA_recv:	3026
+        ACK_send:	3026
+
+   RetransmitRTS:	12
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.39%
+    RTS_CTS_rate:	99.61%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.64%
+
+
+--------------------------NODE: 12--------------------
+     	RTS_send:	3035
+        CTS_recv:	3026
+       DATA_send:	3087
+        ACK_recv:	3025
+
+     	RTS_recv:	3040
+        CTS_send:	3030
+       DATA_recv:	3026
+        ACK_send:	3026
 
    RetransmitRTS:	9
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	2.90%
-    RTS_CTS_rate:	96.77%
+   RTS_fail_rate:	0.30%
+    RTS_CTS_rate:	99.70%
   DATA_fail_rate:	0.00%
-all_success_rate:	95.24%
-
-
---------------------------NODE: 11--------------------
-     	RTS_send:	306
-        CTS_recv:	300
-       DATA_send:	306
-        ACK_recv:	300
-
-     	RTS_recv:	302
-        CTS_send:	300
-       DATA_recv:	300
-        ACK_send:	300
-
-   RetransmitRTS:	6
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.96%
-    RTS_CTS_rate:	98.04%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.15%
-
-
---------------------------NODE: 12--------------------
-     	RTS_send:	303
-        CTS_recv:	300
-       DATA_send:	306
-        ACK_recv:	300
-
-     	RTS_recv:	301
-        CTS_send:	300
-       DATA_recv:	300
-        ACK_send:	300
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.99%
-    RTS_CTS_rate:	99.01%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.09%
+all_success_rate:	97.71%
 
 
 --------------------------NODE: 13--------------------
-     	RTS_send:	303
-        CTS_recv:	300
-       DATA_send:	306
-        ACK_recv:	300
-
-     	RTS_recv:	300
-        CTS_send:	300
-       DATA_recv:	300
-        ACK_send:	300
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.99%
-    RTS_CTS_rate:	99.01%
-  DATA_fail_rate:	0.00%
-all_success_rate:	97.09%
-
-
---------------------------NODE: 14--------------------
-     	RTS_send:	307
-        CTS_recv:	299
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	300
-        CTS_send:	300
-       DATA_recv:	300
-        ACK_send:	300
-
-   RetransmitRTS:	7
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	2.28%
-    RTS_CTS_rate:	97.39%
-  DATA_fail_rate:	0.00%
-all_success_rate:	95.83%
-
-
---------------------------NODE: 15--------------------
-     	RTS_send:	299
-        CTS_recv:	299
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	301
-        CTS_send:	299
-       DATA_recv:	299
-        ACK_send:	299
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	98.03%
-
-
---------------------------NODE: 16--------------------
-     	RTS_send:	299
-        CTS_recv:	299
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	299
-        CTS_send:	299
-       DATA_recv:	299
-        ACK_send:	299
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	98.03%
-
-
---------------------------NODE: 17--------------------
-     	RTS_send:	299
-        CTS_recv:	299
-       DATA_send:	305
-        ACK_recv:	299
-
-     	RTS_recv:	299
-        CTS_send:	299
-       DATA_recv:	299
-        ACK_send:	299
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	98.03%
-
-
---------------------------NODE: 18--------------------
-     	RTS_send:	5
-        CTS_recv:	5
-       DATA_send:	6
-        ACK_recv:	5
-
-     	RTS_recv:	294
-        CTS_send:	294
-       DATA_recv:	294
-        ACK_send:	294
-
-   RetransmitRTS:	0
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
-  DATA_fail_rate:	0.00%
-all_success_rate:	83.33%
-
---- Hop Node Number:20 ---
-num_nodes is set 20
-
---------------------------NODE: 0--------------------
-     	RTS_send:	817
-        CTS_recv:	450
-       DATA_send:	467
-        ACK_recv:	450
-
-     	RTS_recv:	5
-        CTS_send:	5
-       DATA_recv:	5
-        ACK_send:	5
-
-   RetransmitRTS:	367
-  RetransmitDATA:	0
-      RTS Droped:	5
-     DATA Droped:	0
-
-   RTS_fail_rate:	44.92%
-    RTS_CTS_rate:	55.08%
-  DATA_fail_rate:	0.00%
-all_success_rate:	53.96%
-
-
---------------------------NODE: 1--------------------
-     	RTS_send:	549
-        CTS_recv:	276
-       DATA_send:	311
-        ACK_recv:	276
-
-     	RTS_recv:	634
-        CTS_send:	455
-       DATA_recv:	455
-        ACK_send:	455
-
-   RetransmitRTS:	273
-  RetransmitDATA:	0
-      RTS Droped:	4
-     DATA Droped:	0
-
-   RTS_fail_rate:	49.73%
-    RTS_CTS_rate:	50.27%
-  DATA_fail_rate:	0.00%
-all_success_rate:	47.26%
-
-
---------------------------NODE: 2--------------------
-     	RTS_send:	475
-        CTS_recv:	276
-       DATA_send:	287
-        ACK_recv:	276
-
-     	RTS_recv:	377
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	199
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	41.89%
-    RTS_CTS_rate:	58.11%
-  DATA_fail_rate:	0.00%
-all_success_rate:	56.79%
-
-
---------------------------NODE: 3--------------------
-     	RTS_send:	438
-        CTS_recv:	280
-       DATA_send:	285
-        ACK_recv:	276
-
-     	RTS_recv:	342
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	158
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	36.07%
-    RTS_CTS_rate:	63.93%
-  DATA_fail_rate:	0.00%
-all_success_rate:	62.30%
-
-
---------------------------NODE: 4--------------------
-     	RTS_send:	364
-        CTS_recv:	277
-       DATA_send:	285
-        ACK_recv:	276
-
-     	RTS_recv:	342
-        CTS_send:	284
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	87
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	23.90%
-    RTS_CTS_rate:	76.10%
-  DATA_fail_rate:	0.00%
-all_success_rate:	74.19%
-
-
---------------------------NODE: 5--------------------
-     	RTS_send:	359
-        CTS_recv:	278
-       DATA_send:	285
-        ACK_recv:	276
-
-     	RTS_recv:	303
-        CTS_send:	280
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	81
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	22.56%
-    RTS_CTS_rate:	77.44%
-  DATA_fail_rate:	0.00%
-all_success_rate:	75.41%
-
-
---------------------------NODE: 6--------------------
-     	RTS_send:	344
-        CTS_recv:	277
-       DATA_send:	284
-        ACK_recv:	276
-
-     	RTS_recv:	306
-        CTS_send:	278
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	67
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	19.48%
-    RTS_CTS_rate:	80.52%
-  DATA_fail_rate:	0.00%
-all_success_rate:	78.63%
-
-
---------------------------NODE: 7--------------------
-     	RTS_send:	322
-        CTS_recv:	277
-       DATA_send:	284
-        ACK_recv:	276
-
-     	RTS_recv:	298
-        CTS_send:	278
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	45
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	13.98%
-    RTS_CTS_rate:	86.02%
-  DATA_fail_rate:	0.00%
-all_success_rate:	83.89%
-
-
---------------------------NODE: 8--------------------
-     	RTS_send:	312
-        CTS_recv:	277
-       DATA_send:	283
-        ACK_recv:	276
-
-     	RTS_recv:	293
-        CTS_send:	277
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	35
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	11.22%
-    RTS_CTS_rate:	88.78%
-  DATA_fail_rate:	0.00%
-all_success_rate:	86.79%
-
-
---------------------------NODE: 9--------------------
-     	RTS_send:	298
-        CTS_recv:	276
-       DATA_send:	283
-        ACK_recv:	276
-
-     	RTS_recv:	293
-        CTS_send:	277
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	22
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	7.38%
-    RTS_CTS_rate:	92.62%
-  DATA_fail_rate:	0.00%
-all_success_rate:	90.49%
-
-
---------------------------NODE: 10--------------------
-     	RTS_send:	297
-        CTS_recv:	276
-       DATA_send:	283
-        ACK_recv:	276
-
-     	RTS_recv:	282
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	21
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	7.07%
-    RTS_CTS_rate:	92.93%
-  DATA_fail_rate:	0.00%
-all_success_rate:	90.79%
-
-
---------------------------NODE: 11--------------------
-     	RTS_send:	283
-        CTS_recv:	276
-       DATA_send:	283
-        ACK_recv:	276
-
-     	RTS_recv:	284
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	7
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	2.47%
-    RTS_CTS_rate:	97.53%
-  DATA_fail_rate:	0.00%
-all_success_rate:	95.17%
-
-
---------------------------NODE: 12--------------------
-     	RTS_send:	287
-        CTS_recv:	276
-       DATA_send:	283
-        ACK_recv:	276
-
-     	RTS_recv:	277
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	11
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	3.83%
-    RTS_CTS_rate:	96.17%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.88%
-
-
---------------------------NODE: 13--------------------
-     	RTS_send:	287
-        CTS_recv:	276
-       DATA_send:	283
-        ACK_recv:	276
-
-     	RTS_recv:	277
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	11
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	3.83%
-    RTS_CTS_rate:	96.17%
-  DATA_fail_rate:	0.00%
-all_success_rate:	93.88%
-
-
---------------------------NODE: 14--------------------
-     	RTS_send:	279
-        CTS_recv:	276
-       DATA_send:	283
-        ACK_recv:	276
-
-     	RTS_recv:	280
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
-
-   RetransmitRTS:	3
-  RetransmitDATA:	0
-      RTS Droped:	0
-     DATA Droped:	0
-
-   RTS_fail_rate:	1.08%
-    RTS_CTS_rate:	98.92%
-  DATA_fail_rate:	0.00%
-all_success_rate:	96.50%
-
-
---------------------------NODE: 15--------------------
-     	RTS_send:	280
-        CTS_recv:	276
-       DATA_send:	282
-        ACK_recv:	276
-
-     	RTS_recv:	277
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
+     	RTS_send:	64
+        CTS_recv:	60
+       DATA_send:	61
+        ACK_recv:	60
+
+     	RTS_recv:	2966
+        CTS_send:	2966
+       DATA_recv:	2965
+        ACK_send:	2965
 
    RetransmitRTS:	4
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	1.43%
-    RTS_CTS_rate:	98.57%
+   RTS_fail_rate:	6.25%
+    RTS_CTS_rate:	93.75%
   DATA_fail_rate:	0.00%
-all_success_rate:	96.50%
+all_success_rate:	92.31%
+
+--- Hop Node Number:15 ---
+num_nodes is set 15
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	7468
+        CTS_recv:	3625
+       DATA_send:	3807
+        ACK_recv:	3625
+
+     	RTS_recv:	58
+        CTS_send:	58
+       DATA_recv:	58
+        ACK_send:	58
+
+   RetransmitRTS:	3843
+  RetransmitDATA:	0
+      RTS Droped:	63
+     DATA Droped:	0
+
+   RTS_fail_rate:	51.46%
+    RTS_CTS_rate:	48.54%
+  DATA_fail_rate:	0.00%
+all_success_rate:	47.39%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6092
+        CTS_recv:	3149
+       DATA_send:	3313
+        ACK_recv:	3148
+
+     	RTS_recv:	5487
+        CTS_send:	3683
+       DATA_recv:	3683
+        ACK_send:	3683
+
+   RetransmitRTS:	2943
+  RetransmitDATA:	1
+      RTS Droped:	17
+     DATA Droped:	0
+
+   RTS_fail_rate:	48.31%
+    RTS_CTS_rate:	51.69%
+  DATA_fail_rate:	0.03%
+all_success_rate:	50.32%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5492
+        CTS_recv:	3113
+       DATA_send:	3217
+        ACK_recv:	3111
+
+     	RTS_recv:	4289
+        CTS_send:	3149
+       DATA_recv:	3148
+        ACK_send:	3148
+
+   RetransmitRTS:	2379
+  RetransmitDATA:	2
+      RTS Droped:	4
+     DATA Droped:	0
+
+   RTS_fail_rate:	43.32%
+    RTS_CTS_rate:	56.68%
+  DATA_fail_rate:	0.06%
+all_success_rate:	55.59%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	4847
+        CTS_recv:	3135
+       DATA_send:	3200
+        ACK_recv:	3106
+
+     	RTS_recv:	4020
+        CTS_send:	3113
+       DATA_recv:	3111
+        ACK_send:	3111
+
+   RetransmitRTS:	1712
+  RetransmitDATA:	0
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	35.32%
+    RTS_CTS_rate:	64.68%
+  DATA_fail_rate:	0.00%
+all_success_rate:	63.23%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4095
+        CTS_recv:	3112
+       DATA_send:	3184
+        ACK_recv:	3098
+
+     	RTS_recv:	3755
+        CTS_send:	3166
+       DATA_recv:	3106
+        ACK_send:	3106
+
+   RetransmitRTS:	983
+  RetransmitDATA:	1
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	24.00%
+    RTS_CTS_rate:	76.00%
+  DATA_fail_rate:	0.03%
+all_success_rate:	74.35%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	3832
+        CTS_recv:	3105
+       DATA_send:	3177
+        ACK_recv:	3097
+
+     	RTS_recv:	3479
+        CTS_send:	3124
+       DATA_recv:	3098
+        ACK_send:	3098
+
+   RetransmitRTS:	727
+  RetransmitDATA:	0
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	18.97%
+    RTS_CTS_rate:	81.03%
+  DATA_fail_rate:	0.00%
+all_success_rate:	79.33%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3687
+        CTS_recv:	3106
+       DATA_send:	3172
+        ACK_recv:	3095
+
+     	RTS_recv:	3353
+        CTS_send:	3110
+       DATA_recv:	3097
+        ACK_send:	3097
+
+   RetransmitRTS:	581
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	15.76%
+    RTS_CTS_rate:	84.24%
+  DATA_fail_rate:	0.00%
+all_success_rate:	82.47%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3481
+        CTS_recv:	3097
+       DATA_send:	3167
+        ACK_recv:	3095
+
+     	RTS_recv:	3302
+        CTS_send:	3116
+       DATA_recv:	3095
+        ACK_send:	3095
+
+   RetransmitRTS:	384
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	11.03%
+    RTS_CTS_rate:	88.97%
+  DATA_fail_rate:	0.00%
+all_success_rate:	87.16%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3364
+        CTS_recv:	3095
+       DATA_send:	3163
+        ACK_recv:	3095
+
+     	RTS_recv:	3194
+        CTS_send:	3098
+       DATA_recv:	3095
+        ACK_send:	3095
+
+   RetransmitRTS:	269
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	8.00%
+    RTS_CTS_rate:	92.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	90.18%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3307
+        CTS_recv:	3096
+       DATA_send:	3162
+        ACK_recv:	3095
+
+     	RTS_recv:	3178
+        CTS_send:	3096
+       DATA_recv:	3095
+        ACK_send:	3095
+
+   RetransmitRTS:	211
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	6.38%
+    RTS_CTS_rate:	93.62%
+  DATA_fail_rate:	0.00%
+all_success_rate:	91.76%
+
+
+--------------------------NODE: 10--------------------
+     	RTS_send:	3260
+        CTS_recv:	3096
+       DATA_send:	3159
+        ACK_recv:	3095
+
+     	RTS_recv:	3146
+        CTS_send:	3096
+       DATA_recv:	3095
+        ACK_send:	3095
+
+   RetransmitRTS:	164
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	5.03%
+    RTS_CTS_rate:	94.97%
+  DATA_fail_rate:	0.00%
+all_success_rate:	93.14%
+
+
+--------------------------NODE: 11--------------------
+     	RTS_send:	3101
+        CTS_recv:	3095
+       DATA_send:	3154
+        ACK_recv:	3094
+
+     	RTS_recv:	3143
+        CTS_send:	3098
+       DATA_recv:	3095
+        ACK_send:	3095
+
+   RetransmitRTS:	6
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.19%
+    RTS_CTS_rate:	99.81%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.91%
+
+
+--------------------------NODE: 12--------------------
+     	RTS_send:	3100
+        CTS_recv:	3095
+       DATA_send:	3153
+        ACK_recv:	3094
+
+     	RTS_recv:	3102
+        CTS_send:	3096
+       DATA_recv:	3094
+        ACK_send:	3094
+
+   RetransmitRTS:	5
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.16%
+    RTS_CTS_rate:	99.84%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.97%
+
+
+--------------------------NODE: 13--------------------
+     	RTS_send:	3104
+        CTS_recv:	3094
+       DATA_send:	3153
+        ACK_recv:	3094
+
+     	RTS_recv:	3099
+        CTS_send:	3096
+       DATA_recv:	3094
+        ACK_send:	3094
+
+   RetransmitRTS:	10
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.32%
+    RTS_CTS_rate:	99.68%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.82%
+
+
+--------------------------NODE: 14--------------------
+     	RTS_send:	61
+        CTS_recv:	59
+       DATA_send:	60
+        ACK_recv:	58
+
+     	RTS_recv:	3039
+        CTS_send:	3036
+       DATA_recv:	3036
+        ACK_send:	3036
+
+   RetransmitRTS:	2
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.28%
+    RTS_CTS_rate:	96.72%
+  DATA_fail_rate:	1.67%
+all_success_rate:	93.55%
+
+--- Hop Node Number:16 ---
+num_nodes is set 16
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	8334
+        CTS_recv:	4348
+       DATA_send:	4517
+        ACK_recv:	4348
+
+     	RTS_recv:	53
+        CTS_send:	53
+       DATA_recv:	53
+        ACK_send:	53
+
+   RetransmitRTS:	3986
+  RetransmitDATA:	0
+      RTS Droped:	50
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.83%
+    RTS_CTS_rate:	52.17%
+  DATA_fail_rate:	0.00%
+all_success_rate:	51.13%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6524
+        CTS_recv:	3273
+       DATA_send:	3425
+        ACK_recv:	3270
+
+     	RTS_recv:	6191
+        CTS_send:	4401
+       DATA_recv:	4401
+        ACK_send:	4401
+
+   RetransmitRTS:	3251
+  RetransmitDATA:	3
+      RTS Droped:	22
+     DATA Droped:	0
+
+   RTS_fail_rate:	49.83%
+    RTS_CTS_rate:	50.17%
+  DATA_fail_rate:	0.09%
+all_success_rate:	48.98%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5369
+        CTS_recv:	3240
+       DATA_send:	3353
+        ACK_recv:	3238
+
+     	RTS_recv:	4571
+        CTS_send:	3273
+       DATA_recv:	3270
+        ACK_send:	3270
+
+   RetransmitRTS:	2129
+  RetransmitDATA:	1
+      RTS Droped:	7
+     DATA Droped:	0
+
+   RTS_fail_rate:	39.65%
+    RTS_CTS_rate:	60.35%
+  DATA_fail_rate:	0.03%
+all_success_rate:	59.07%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	4938
+        CTS_recv:	3251
+       DATA_send:	3316
+        ACK_recv:	3213
+
+     	RTS_recv:	4083
+        CTS_send:	3240
+       DATA_recv:	3238
+        ACK_send:	3238
+
+   RetransmitRTS:	1686
+  RetransmitDATA:	0
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	34.14%
+    RTS_CTS_rate:	65.84%
+  DATA_fail_rate:	0.00%
+all_success_rate:	64.23%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4491
+        CTS_recv:	3216
+       DATA_send:	3288
+        ACK_recv:	3200
+
+     	RTS_recv:	3881
+        CTS_send:	3290
+       DATA_recv:	3213
+        ACK_send:	3213
+
+   RetransmitRTS:	1275
+  RetransmitDATA:	0
+      RTS Droped:	3
+     DATA Droped:	0
+
+   RTS_fail_rate:	28.39%
+    RTS_CTS_rate:	71.61%
+  DATA_fail_rate:	0.00%
+all_success_rate:	70.13%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	4125
+        CTS_recv:	3206
+       DATA_send:	3273
+        ACK_recv:	3200
+
+     	RTS_recv:	3694
+        CTS_send:	3239
+       DATA_recv:	3200
+        ACK_send:	3200
+
+   RetransmitRTS:	919
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	22.28%
+    RTS_CTS_rate:	77.72%
+  DATA_fail_rate:	0.00%
+all_success_rate:	76.34%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3836
+        CTS_recv:	3207
+       DATA_send:	3267
+        ACK_recv:	3200
+
+     	RTS_recv:	3541
+        CTS_send:	3216
+       DATA_recv:	3200
+        ACK_send:	3200
+
+   RetransmitRTS:	629
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	16.40%
+    RTS_CTS_rate:	83.60%
+  DATA_fail_rate:	0.00%
+all_success_rate:	82.14%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3609
+        CTS_recv:	3204
+       DATA_send:	3260
+        ACK_recv:	3200
+
+     	RTS_recv:	3441
+        CTS_send:	3211
+       DATA_recv:	3200
+        ACK_send:	3200
+
+   RetransmitRTS:	405
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	11.22%
+    RTS_CTS_rate:	88.78%
+  DATA_fail_rate:	0.03%
+all_success_rate:	87.31%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3503
+        CTS_recv:	3202
+       DATA_send:	3257
+        ACK_recv:	3200
+
+     	RTS_recv:	3336
+        CTS_send:	3204
+       DATA_recv:	3200
+        ACK_send:	3200
+
+   RetransmitRTS:	301
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	8.59%
+    RTS_CTS_rate:	91.41%
+  DATA_fail_rate:	0.00%
+all_success_rate:	89.94%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3393
+        CTS_recv:	3201
+       DATA_send:	3257
+        ACK_recv:	3199
+
+     	RTS_recv:	3292
+        CTS_send:	3202
+       DATA_recv:	3200
+        ACK_send:	3200
+
+   RetransmitRTS:	192
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	5.66%
+    RTS_CTS_rate:	94.34%
+  DATA_fail_rate:	0.00%
+all_success_rate:	92.75%
+
+
+--------------------------NODE: 10--------------------
+     	RTS_send:	3333
+        CTS_recv:	3200
+       DATA_send:	3255
+        ACK_recv:	3199
+
+     	RTS_recv:	3248
+        CTS_send:	3202
+       DATA_recv:	3200
+        ACK_send:	3200
+
+   RetransmitRTS:	133
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.99%
+    RTS_CTS_rate:	96.01%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.42%
+
+
+--------------------------NODE: 11--------------------
+     	RTS_send:	3314
+        CTS_recv:	3199
+       DATA_send:	3253
+        ACK_recv:	3199
+
+     	RTS_recv:	3230
+        CTS_send:	3201
+       DATA_recv:	3199
+        ACK_send:	3199
+
+   RetransmitRTS:	115
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.47%
+    RTS_CTS_rate:	96.53%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.98%
+
+
+--------------------------NODE: 12--------------------
+     	RTS_send:	3208
+        CTS_recv:	3201
+       DATA_send:	3253
+        ACK_recv:	3199
+
+     	RTS_recv:	3228
+        CTS_send:	3201
+       DATA_recv:	3199
+        ACK_send:	3199
+
+   RetransmitRTS:	7
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.22%
+    RTS_CTS_rate:	99.78%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.13%
+
+
+--------------------------NODE: 13--------------------
+     	RTS_send:	3204
+        CTS_recv:	3199
+       DATA_send:	3253
+        ACK_recv:	3199
+
+     	RTS_recv:	3204
+        CTS_send:	3201
+       DATA_recv:	3199
+        ACK_send:	3199
+
+   RetransmitRTS:	5
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.16%
+    RTS_CTS_rate:	99.84%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.19%
+
+
+--------------------------NODE: 14--------------------
+     	RTS_send:	3199
+        CTS_recv:	3198
+       DATA_send:	3252
+        ACK_recv:	3198
+
+     	RTS_recv:	3204
+        CTS_send:	3200
+       DATA_recv:	3199
+        ACK_send:	3199
+
+   RetransmitRTS:	0
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.00%
+    RTS_CTS_rate:	99.97%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.34%
+
+
+--------------------------NODE: 15--------------------
+     	RTS_send:	53
+        CTS_recv:	53
+       DATA_send:	54
+        ACK_recv:	53
+
+     	RTS_recv:	3146
+        CTS_send:	3146
+       DATA_recv:	3145
+        ACK_send:	3145
+
+   RetransmitRTS:	0
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.00%
+    RTS_CTS_rate:	100.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.15%
+
+--- Hop Node Number:17 ---
+num_nodes is set 17
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	7859
+        CTS_recv:	4199
+       DATA_send:	4375
+        ACK_recv:	4198
+
+     	RTS_recv:	55
+        CTS_send:	55
+       DATA_recv:	55
+        ACK_send:	55
+
+   RetransmitRTS:	3660
+  RetransmitDATA:	1
+      RTS Droped:	63
+     DATA Droped:	0
+
+   RTS_fail_rate:	46.57%
+    RTS_CTS_rate:	53.43%
+  DATA_fail_rate:	0.02%
+all_success_rate:	52.25%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6631
+        CTS_recv:	3418
+       DATA_send:	3590
+        ACK_recv:	3418
+
+     	RTS_recv:	5880
+        CTS_send:	4254
+       DATA_recv:	4253
+        ACK_send:	4253
+
+   RetransmitRTS:	3213
+  RetransmitDATA:	0
+      RTS Droped:	20
+     DATA Droped:	0
+
+   RTS_fail_rate:	48.45%
+    RTS_CTS_rate:	51.55%
+  DATA_fail_rate:	0.00%
+all_success_rate:	50.24%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5709
+        CTS_recv:	3260
+       DATA_send:	3366
+        ACK_recv:	3257
+
+     	RTS_recv:	4715
+        CTS_send:	3418
+       DATA_recv:	3418
+        ACK_send:	3418
+
+   RetransmitRTS:	2449
+  RetransmitDATA:	1
+      RTS Droped:	6
+     DATA Droped:	0
+
+   RTS_fail_rate:	42.90%
+    RTS_CTS_rate:	57.10%
+  DATA_fail_rate:	0.03%
+all_success_rate:	56.01%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	5042
+        CTS_recv:	3270
+       DATA_send:	3336
+        ACK_recv:	3236
+
+     	RTS_recv:	4187
+        CTS_send:	3260
+       DATA_recv:	3257
+        ACK_send:	3257
+
+   RetransmitRTS:	1772
+  RetransmitDATA:	1
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	35.14%
+    RTS_CTS_rate:	64.86%
+  DATA_fail_rate:	0.03%
+all_success_rate:	63.35%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4611
+        CTS_recv:	3247
+       DATA_send:	3324
+        ACK_recv:	3233
+
+     	RTS_recv:	3951
+        CTS_send:	3296
+       DATA_recv:	3236
+        ACK_send:	3236
+
+   RetransmitRTS:	1364
+  RetransmitDATA:	0
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	29.58%
+    RTS_CTS_rate:	70.42%
+  DATA_fail_rate:	0.00%
+all_success_rate:	68.96%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	4138
+        CTS_recv:	3232
+       DATA_send:	3303
+        ACK_recv:	3224
+
+     	RTS_recv:	3724
+        CTS_send:	3270
+       DATA_recv:	3233
+        ACK_send:	3233
+
+   RetransmitRTS:	906
+  RetransmitDATA:	0
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	21.89%
+    RTS_CTS_rate:	78.11%
+  DATA_fail_rate:	0.00%
+all_success_rate:	76.60%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3839
+        CTS_recv:	3230
+       DATA_send:	3295
+        ACK_recv:	3223
+
+     	RTS_recv:	3522
+        CTS_send:	3239
+       DATA_recv:	3224
+        ACK_send:	3224
+
+   RetransmitRTS:	609
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	15.86%
+    RTS_CTS_rate:	84.14%
+  DATA_fail_rate:	0.00%
+all_success_rate:	82.56%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3761
+        CTS_recv:	3227
+       DATA_send:	3290
+        ACK_recv:	3222
+
+     	RTS_recv:	3432
+        CTS_send:	3237
+       DATA_recv:	3224
+        ACK_send:	3224
+
+   RetransmitRTS:	534
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	14.20%
+    RTS_CTS_rate:	85.80%
+  DATA_fail_rate:	0.00%
+all_success_rate:	84.26%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3605
+        CTS_recv:	3222
+       DATA_send:	3286
+        ACK_recv:	3221
+
+     	RTS_recv:	3384
+        CTS_send:	3232
+       DATA_recv:	3222
+        ACK_send:	3222
+
+   RetransmitRTS:	383
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	10.62%
+    RTS_CTS_rate:	89.38%
+  DATA_fail_rate:	0.00%
+all_success_rate:	87.79%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3485
+        CTS_recv:	3223
+       DATA_send:	3282
+        ACK_recv:	3220
+
+     	RTS_recv:	3338
+        CTS_send:	3226
+       DATA_recv:	3221
+        ACK_send:	3221
+
+   RetransmitRTS:	261
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	7.49%
+    RTS_CTS_rate:	92.48%
+  DATA_fail_rate:	0.00%
+all_success_rate:	90.88%
+
+
+--------------------------NODE: 10--------------------
+     	RTS_send:	3409
+        CTS_recv:	3221
+       DATA_send:	3278
+        ACK_recv:	3220
+
+     	RTS_recv:	3310
+        CTS_send:	3228
+       DATA_recv:	3220
+        ACK_send:	3220
+
+   RetransmitRTS:	188
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	5.51%
+    RTS_CTS_rate:	94.49%
+  DATA_fail_rate:	0.00%
+all_success_rate:	92.90%
+
+
+--------------------------NODE: 11--------------------
+     	RTS_send:	3347
+        CTS_recv:	3221
+       DATA_send:	3277
+        ACK_recv:	3220
+
+     	RTS_recv:	3270
+        CTS_send:	3224
+       DATA_recv:	3220
+        ACK_send:	3220
+
+   RetransmitRTS:	126
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.76%
+    RTS_CTS_rate:	96.24%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.62%
+
+
+--------------------------NODE: 12--------------------
+     	RTS_send:	3312
+        CTS_recv:	3222
+       DATA_send:	3277
+        ACK_recv:	3220
+
+     	RTS_recv:	3262
+        CTS_send:	3222
+       DATA_recv:	3220
+        ACK_send:	3220
+
+   RetransmitRTS:	90
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.72%
+    RTS_CTS_rate:	97.28%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.63%
+
+
+--------------------------NODE: 13--------------------
+     	RTS_send:	3227
+        CTS_recv:	3220
+       DATA_send:	3276
+        ACK_recv:	3219
+
+     	RTS_recv:	3243
+        CTS_send:	3222
+       DATA_recv:	3220
+        ACK_send:	3220
+
+   RetransmitRTS:	7
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.22%
+    RTS_CTS_rate:	99.78%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.05%
+
+
+--------------------------NODE: 14--------------------
+     	RTS_send:	3228
+        CTS_recv:	3219
+       DATA_send:	3275
+        ACK_recv:	3219
+
+     	RTS_recv:	3222
+        CTS_send:	3220
+       DATA_recv:	3219
+        ACK_send:	3219
+
+   RetransmitRTS:	9
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.28%
+    RTS_CTS_rate:	99.72%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.02%
+
+
+--------------------------NODE: 15--------------------
+     	RTS_send:	3222
+        CTS_recv:	3219
+       DATA_send:	3275
+        ACK_recv:	3219
+
+     	RTS_recv:	3222
+        CTS_send:	3220
+       DATA_recv:	3219
+        ACK_send:	3219
+
+   RetransmitRTS:	3
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.09%
+    RTS_CTS_rate:	99.91%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.20%
 
 
 --------------------------NODE: 16--------------------
-     	RTS_send:	276
-        CTS_recv:	276
-       DATA_send:	282
-        ACK_recv:	276
+     	RTS_send:	56
+        CTS_recv:	55
+       DATA_send:	56
+        ACK_recv:	55
 
-     	RTS_recv:	276
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
+     	RTS_recv:	3165
+        CTS_send:	3164
+       DATA_recv:	3164
+        ACK_send:	3164
 
-   RetransmitRTS:	0
+   RetransmitRTS:	1
   RetransmitDATA:	0
       RTS Droped:	0
      DATA Droped:	0
 
-   RTS_fail_rate:	0.00%
-    RTS_CTS_rate:	100.00%
+   RTS_fail_rate:	1.79%
+    RTS_CTS_rate:	98.21%
   DATA_fail_rate:	0.00%
-all_success_rate:	97.87%
+all_success_rate:	96.49%
+
+--- Hop Node Number:18 ---
+num_nodes is set 18
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	7769
+        CTS_recv:	4078
+       DATA_send:	4247
+        ACK_recv:	4077
+
+     	RTS_recv:	53
+        CTS_send:	53
+       DATA_recv:	53
+        ACK_send:	53
+
+   RetransmitRTS:	3691
+  RetransmitDATA:	1
+      RTS Droped:	54
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.51%
+    RTS_CTS_rate:	52.49%
+  DATA_fail_rate:	0.02%
+all_success_rate:	51.36%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6336
+        CTS_recv:	3280
+       DATA_send:	3445
+        ACK_recv:	3279
+
+     	RTS_recv:	5804
+        CTS_send:	4131
+       DATA_recv:	4130
+        ACK_send:	4130
+
+   RetransmitRTS:	3056
+  RetransmitDATA:	1
+      RTS Droped:	17
+     DATA Droped:	0
+
+   RTS_fail_rate:	48.23%
+    RTS_CTS_rate:	51.77%
+  DATA_fail_rate:	0.03%
+all_success_rate:	50.44%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5222
+        CTS_recv:	3132
+       DATA_send:	3253
+        ACK_recv:	3132
+
+     	RTS_recv:	4513
+        CTS_send:	3280
+       DATA_recv:	3279
+        ACK_send:	3279
+
+   RetransmitRTS:	2090
+  RetransmitDATA:	0
+      RTS Droped:	4
+     DATA Droped:	0
+
+   RTS_fail_rate:	40.02%
+    RTS_CTS_rate:	59.98%
+  DATA_fail_rate:	0.00%
+all_success_rate:	58.62%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	4973
+        CTS_recv:	3123
+       DATA_send:	3183
+        ACK_recv:	3082
+
+     	RTS_recv:	3949
+        CTS_send:	3132
+       DATA_recv:	3132
+        ACK_send:	3132
+
+   RetransmitRTS:	1850
+  RetransmitDATA:	0
+      RTS Droped:	4
+     DATA Droped:	0
+
+   RTS_fail_rate:	37.20%
+    RTS_CTS_rate:	62.80%
+  DATA_fail_rate:	0.00%
+all_success_rate:	61.24%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4407
+        CTS_recv:	3092
+       DATA_send:	3156
+        ACK_recv:	3069
+
+     	RTS_recv:	3854
+        CTS_send:	3153
+       DATA_recv:	3082
+        ACK_send:	3082
+
+   RetransmitRTS:	1315
+  RetransmitDATA:	1
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	29.84%
+    RTS_CTS_rate:	70.16%
+  DATA_fail_rate:	0.03%
+all_success_rate:	68.64%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	3956
+        CTS_recv:	3076
+       DATA_send:	3146
+        ACK_recv:	3069
+
+     	RTS_recv:	3577
+        CTS_send:	3106
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	880
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	22.24%
+    RTS_CTS_rate:	77.76%
+  DATA_fail_rate:	0.03%
+all_success_rate:	76.23%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3729
+        CTS_recv:	3080
+       DATA_send:	3141
+        ACK_recv:	3069
+
+     	RTS_recv:	3385
+        CTS_send:	3089
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	649
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	17.40%
+    RTS_CTS_rate:	82.60%
+  DATA_fail_rate:	0.00%
+all_success_rate:	80.98%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3572
+        CTS_recv:	3074
+       DATA_send:	3136
+        ACK_recv:	3069
+
+     	RTS_recv:	3262
+        CTS_send:	3086
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	498
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	13.94%
+    RTS_CTS_rate:	86.06%
+  DATA_fail_rate:	0.00%
+all_success_rate:	84.45%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3399
+        CTS_recv:	3073
+       DATA_send:	3133
+        ACK_recv:	3069
+
+     	RTS_recv:	3231
+        CTS_send:	3079
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	326
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	9.59%
+    RTS_CTS_rate:	90.41%
+  DATA_fail_rate:	0.00%
+all_success_rate:	88.73%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3325
+        CTS_recv:	3071
+       DATA_send:	3130
+        ACK_recv:	3069
+
+     	RTS_recv:	3168
+        CTS_send:	3075
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	254
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	7.64%
+    RTS_CTS_rate:	92.36%
+  DATA_fail_rate:	0.00%
+all_success_rate:	90.69%
+
+
+--------------------------NODE: 10--------------------
+     	RTS_send:	3253
+        CTS_recv:	3070
+       DATA_send:	3128
+        ACK_recv:	3069
+
+     	RTS_recv:	3142
+        CTS_send:	3073
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	183
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	5.63%
+    RTS_CTS_rate:	94.37%
+  DATA_fail_rate:	0.00%
+all_success_rate:	92.69%
+
+
+--------------------------NODE: 11--------------------
+     	RTS_send:	3202
+        CTS_recv:	3072
+       DATA_send:	3126
+        ACK_recv:	3069
+
+     	RTS_recv:	3122
+        CTS_send:	3071
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	130
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	4.06%
+    RTS_CTS_rate:	95.94%
+  DATA_fail_rate:	0.03%
+all_success_rate:	94.26%
+
+
+--------------------------NODE: 12--------------------
+     	RTS_send:	3164
+        CTS_recv:	3069
+       DATA_send:	3124
+        ACK_recv:	3069
+
+     	RTS_recv:	3106
+        CTS_send:	3073
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	95
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.00%
+    RTS_CTS_rate:	97.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.34%
+
+
+--------------------------NODE: 13--------------------
+     	RTS_send:	3168
+        CTS_recv:	3070
+       DATA_send:	3123
+        ACK_recv:	3069
+
+     	RTS_recv:	3091
+        CTS_send:	3069
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	98
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.09%
+    RTS_CTS_rate:	96.91%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.28%
+
+
+--------------------------NODE: 14--------------------
+     	RTS_send:	3076
+        CTS_recv:	3070
+       DATA_send:	3123
+        ACK_recv:	3069
+
+     	RTS_recv:	3090
+        CTS_send:	3070
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	6
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.20%
+    RTS_CTS_rate:	99.80%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.08%
+
+
+--------------------------NODE: 15--------------------
+     	RTS_send:	3072
+        CTS_recv:	3069
+       DATA_send:	3123
+        ACK_recv:	3069
+
+     	RTS_recv:	3071
+        CTS_send:	3070
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	3
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.10%
+    RTS_CTS_rate:	99.90%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.18%
+
+
+--------------------------NODE: 16--------------------
+     	RTS_send:	3071
+        CTS_recv:	3069
+       DATA_send:	3123
+        ACK_recv:	3069
+
+     	RTS_recv:	3070
+        CTS_send:	3070
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	2
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.07%
+    RTS_CTS_rate:	99.93%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.21%
 
 
 --------------------------NODE: 17--------------------
-     	RTS_send:	276
-        CTS_recv:	276
-       DATA_send:	282
-        ACK_recv:	276
+     	RTS_send:	53
+        CTS_recv:	53
+       DATA_send:	54
+        ACK_recv:	53
 
-     	RTS_recv:	276
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
+     	RTS_recv:	3016
+        CTS_send:	3016
+       DATA_recv:	3016
+        ACK_send:	3016
 
    RetransmitRTS:	0
   RetransmitDATA:	0
@@ -4589,19 +3771,417 @@ all_success_rate:	97.87%
    RTS_fail_rate:	0.00%
     RTS_CTS_rate:	100.00%
   DATA_fail_rate:	0.00%
-all_success_rate:	97.87%
+all_success_rate:	98.15%
+
+--- Hop Node Number:19 ---
+num_nodes is set 19
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	7387
+        CTS_recv:	3843
+       DATA_send:	4013
+        ACK_recv:	3840
+
+     	RTS_recv:	51
+        CTS_send:	51
+       DATA_recv:	51
+        ACK_send:	51
+
+   RetransmitRTS:	3544
+  RetransmitDATA:	2
+      RTS Droped:	52
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.98%
+    RTS_CTS_rate:	52.02%
+  DATA_fail_rate:	0.05%
+all_success_rate:	50.81%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6009
+        CTS_recv:	3199
+       DATA_send:	3346
+        ACK_recv:	3199
+
+     	RTS_recv:	5507
+        CTS_send:	3894
+       DATA_recv:	3891
+        ACK_send:	3891
+
+   RetransmitRTS:	2810
+  RetransmitDATA:	0
+      RTS Droped:	18
+     DATA Droped:	0
+
+   RTS_fail_rate:	46.76%
+    RTS_CTS_rate:	53.24%
+  DATA_fail_rate:	0.00%
+all_success_rate:	51.97%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5477
+        CTS_recv:	3121
+       DATA_send:	3225
+        ACK_recv:	3118
+
+     	RTS_recv:	4291
+        CTS_send:	3199
+       DATA_recv:	3199
+        ACK_send:	3199
+
+   RetransmitRTS:	2356
+  RetransmitDATA:	2
+      RTS Droped:	7
+     DATA Droped:	0
+
+   RTS_fail_rate:	43.02%
+    RTS_CTS_rate:	56.98%
+  DATA_fail_rate:	0.06%
+all_success_rate:	55.87%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	4827
+        CTS_recv:	3095
+       DATA_send:	3165
+        ACK_recv:	3069
+
+     	RTS_recv:	4083
+        CTS_send:	3121
+       DATA_recv:	3118
+        ACK_send:	3118
+
+   RetransmitRTS:	1732
+  RetransmitDATA:	0
+      RTS Droped:	5
+     DATA Droped:	0
+
+   RTS_fail_rate:	35.88%
+    RTS_CTS_rate:	64.12%
+  DATA_fail_rate:	0.00%
+all_success_rate:	62.67%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4311
+        CTS_recv:	3082
+       DATA_send:	3139
+        ACK_recv:	3060
+
+     	RTS_recv:	3745
+        CTS_send:	3118
+       DATA_recv:	3069
+        ACK_send:	3069
+
+   RetransmitRTS:	1229
+  RetransmitDATA:	0
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	28.51%
+    RTS_CTS_rate:	71.49%
+  DATA_fail_rate:	0.00%
+all_success_rate:	70.05%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	3958
+        CTS_recv:	3067
+       DATA_send:	3131
+        ACK_recv:	3060
+
+     	RTS_recv:	3493
+        CTS_send:	3097
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	891
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	22.51%
+    RTS_CTS_rate:	77.49%
+  DATA_fail_rate:	0.00%
+all_success_rate:	76.08%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3631
+        CTS_recv:	3065
+       DATA_send:	3130
+        ACK_recv:	3060
+
+     	RTS_recv:	3353
+        CTS_send:	3075
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	566
+  RetransmitDATA:	1
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	15.59%
+    RTS_CTS_rate:	84.41%
+  DATA_fail_rate:	0.03%
+all_success_rate:	82.79%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3511
+        CTS_recv:	3066
+       DATA_send:	3124
+        ACK_recv:	3060
+
+     	RTS_recv:	3272
+        CTS_send:	3070
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	445
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	12.67%
+    RTS_CTS_rate:	87.33%
+  DATA_fail_rate:	0.00%
+all_success_rate:	85.74%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3393
+        CTS_recv:	3063
+       DATA_send:	3120
+        ACK_recv:	3060
+
+     	RTS_recv:	3194
+        CTS_send:	3070
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	330
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	9.73%
+    RTS_CTS_rate:	90.27%
+  DATA_fail_rate:	0.00%
+all_success_rate:	88.70%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3338
+        CTS_recv:	3062
+       DATA_send:	3118
+        ACK_recv:	3060
+
+     	RTS_recv:	3155
+        CTS_send:	3065
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	276
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	8.27%
+    RTS_CTS_rate:	91.73%
+  DATA_fail_rate:	0.00%
+all_success_rate:	90.16%
+
+
+--------------------------NODE: 10--------------------
+     	RTS_send:	3258
+        CTS_recv:	3061
+       DATA_send:	3117
+        ACK_recv:	3060
+
+     	RTS_recv:	3141
+        CTS_send:	3063
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	197
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	6.05%
+    RTS_CTS_rate:	93.95%
+  DATA_fail_rate:	0.00%
+all_success_rate:	92.34%
+
+
+--------------------------NODE: 11--------------------
+     	RTS_send:	3187
+        CTS_recv:	3060
+       DATA_send:	3116
+        ACK_recv:	3060
+
+     	RTS_recv:	3103
+        CTS_send:	3061
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	127
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.98%
+    RTS_CTS_rate:	96.02%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.36%
+
+
+--------------------------NODE: 12--------------------
+     	RTS_send:	3162
+        CTS_recv:	3060
+       DATA_send:	3115
+        ACK_recv:	3060
+
+     	RTS_recv:	3089
+        CTS_send:	3060
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	102
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.23%
+    RTS_CTS_rate:	96.77%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.12%
+
+
+--------------------------NODE: 13--------------------
+     	RTS_send:	3125
+        CTS_recv:	3060
+       DATA_send:	3114
+        ACK_recv:	3060
+
+     	RTS_recv:	3082
+        CTS_send:	3060
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	65
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.08%
+    RTS_CTS_rate:	97.92%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.26%
+
+
+--------------------------NODE: 14--------------------
+     	RTS_send:	3135
+        CTS_recv:	3060
+       DATA_send:	3112
+        ACK_recv:	3060
+
+     	RTS_recv:	3074
+        CTS_send:	3060
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	75
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.39%
+    RTS_CTS_rate:	97.61%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.02%
+
+
+--------------------------NODE: 15--------------------
+     	RTS_send:	3062
+        CTS_recv:	3060
+       DATA_send:	3112
+        ACK_recv:	3060
+
+     	RTS_recv:	3081
+        CTS_send:	3060
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	2
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.07%
+    RTS_CTS_rate:	99.93%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.27%
+
+
+--------------------------NODE: 16--------------------
+     	RTS_send:	3063
+        CTS_recv:	3062
+       DATA_send:	3112
+        ACK_recv:	3060
+
+     	RTS_recv:	3062
+        CTS_send:	3061
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	1
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.03%
+    RTS_CTS_rate:	99.97%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.30%
+
+
+--------------------------NODE: 17--------------------
+     	RTS_send:	3060
+        CTS_recv:	3060
+       DATA_send:	3112
+        ACK_recv:	3060
+
+     	RTS_recv:	3063
+        CTS_send:	3063
+       DATA_recv:	3060
+        ACK_send:	3060
+
+   RetransmitRTS:	0
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.00%
+    RTS_CTS_rate:	100.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.33%
 
 
 --------------------------NODE: 18--------------------
-     	RTS_send:	276
-        CTS_recv:	276
-       DATA_send:	282
-        ACK_recv:	276
+     	RTS_send:	51
+        CTS_recv:	51
+       DATA_send:	52
+        ACK_recv:	51
 
-     	RTS_recv:	276
-        CTS_send:	276
-       DATA_recv:	276
-        ACK_send:	276
+     	RTS_recv:	3009
+        CTS_send:	3009
+       DATA_recv:	3009
+        ACK_send:	3009
 
    RetransmitRTS:	0
   RetransmitDATA:	0
@@ -4611,19 +4191,439 @@ all_success_rate:	97.87%
    RTS_fail_rate:	0.00%
     RTS_CTS_rate:	100.00%
   DATA_fail_rate:	0.00%
-all_success_rate:	97.87%
+all_success_rate:	98.08%
+
+--- Hop Node Number:20 ---
+num_nodes is set 20
+
+--------------------------NODE: 0--------------------
+     	RTS_send:	7308
+        CTS_recv:	3812
+       DATA_send:	3989
+        ACK_recv:	3808
+
+     	RTS_recv:	52
+        CTS_send:	52
+       DATA_recv:	52
+        ACK_send:	52
+
+   RetransmitRTS:	3496
+  RetransmitDATA:	4
+      RTS Droped:	57
+     DATA Droped:	0
+
+   RTS_fail_rate:	47.84%
+    RTS_CTS_rate:	52.16%
+  DATA_fail_rate:	0.10%
+all_success_rate:	50.88%
+
+
+--------------------------NODE: 1--------------------
+     	RTS_send:	6004
+        CTS_recv:	3084
+       DATA_send:	3280
+        ACK_recv:	3083
+
+     	RTS_recv:	5375
+        CTS_send:	3864
+       DATA_recv:	3860
+        ACK_send:	3860
+
+   RetransmitRTS:	2920
+  RetransmitDATA:	1
+      RTS Droped:	22
+     DATA Droped:	0
+
+   RTS_fail_rate:	48.63%
+    RTS_CTS_rate:	51.37%
+  DATA_fail_rate:	0.03%
+all_success_rate:	49.73%
+
+
+--------------------------NODE: 2--------------------
+     	RTS_send:	5271
+        CTS_recv:	3061
+       DATA_send:	3165
+        ACK_recv:	3059
+
+     	RTS_recv:	4250
+        CTS_send:	3084
+       DATA_recv:	3083
+        ACK_send:	3083
+
+   RetransmitRTS:	2210
+  RetransmitDATA:	1
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	41.93%
+    RTS_CTS_rate:	58.07%
+  DATA_fail_rate:	0.03%
+all_success_rate:	56.91%
+
+
+--------------------------NODE: 3--------------------
+     	RTS_send:	4627
+        CTS_recv:	3079
+       DATA_send:	3145
+        ACK_recv:	3051
+
+     	RTS_recv:	3891
+        CTS_send:	3061
+       DATA_recv:	3059
+        ACK_send:	3059
+
+   RetransmitRTS:	1548
+  RetransmitDATA:	0
+      RTS Droped:	2
+     DATA Droped:	0
+
+   RTS_fail_rate:	33.46%
+    RTS_CTS_rate:	66.54%
+  DATA_fail_rate:	0.00%
+all_success_rate:	65.01%
+
+
+--------------------------NODE: 4--------------------
+     	RTS_send:	4257
+        CTS_recv:	3051
+       DATA_send:	3128
+        ACK_recv:	3041
+
+     	RTS_recv:	3646
+        CTS_send:	3100
+       DATA_recv:	3051
+        ACK_send:	3051
+
+   RetransmitRTS:	1206
+  RetransmitDATA:	0
+      RTS Droped:	1
+     DATA Droped:	0
+
+   RTS_fail_rate:	28.33%
+    RTS_CTS_rate:	71.67%
+  DATA_fail_rate:	0.00%
+all_success_rate:	70.17%
+
+
+--------------------------NODE: 5--------------------
+     	RTS_send:	3893
+        CTS_recv:	3051
+       DATA_send:	3112
+        ACK_recv:	3040
+
+     	RTS_recv:	3465
+        CTS_send:	3068
+       DATA_recv:	3041
+        ACK_send:	3041
+
+   RetransmitRTS:	841
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	21.60%
+    RTS_CTS_rate:	78.37%
+  DATA_fail_rate:	0.00%
+all_success_rate:	76.90%
+
+
+--------------------------NODE: 6--------------------
+     	RTS_send:	3607
+        CTS_recv:	3049
+       DATA_send:	3107
+        ACK_recv:	3040
+
+     	RTS_recv:	3348
+        CTS_send:	3057
+       DATA_recv:	3040
+        ACK_send:	3040
+
+   RetransmitRTS:	558
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	15.47%
+    RTS_CTS_rate:	84.53%
+  DATA_fail_rate:	0.00%
+all_success_rate:	82.95%
+
+
+--------------------------NODE: 7--------------------
+     	RTS_send:	3452
+        CTS_recv:	3044
+       DATA_send:	3104
+        ACK_recv:	3040
+
+     	RTS_recv:	3227
+        CTS_send:	3053
+       DATA_recv:	3040
+        ACK_send:	3040
+
+   RetransmitRTS:	408
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	11.82%
+    RTS_CTS_rate:	88.18%
+  DATA_fail_rate:	0.00%
+all_success_rate:	86.56%
+
+
+--------------------------NODE: 8--------------------
+     	RTS_send:	3349
+        CTS_recv:	3041
+       DATA_send:	3100
+        ACK_recv:	3040
+
+     	RTS_recv:	3160
+        CTS_send:	3045
+       DATA_recv:	3040
+        ACK_send:	3040
+
+   RetransmitRTS:	308
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	9.20%
+    RTS_CTS_rate:	90.80%
+  DATA_fail_rate:	0.00%
+all_success_rate:	89.20%
+
+
+--------------------------NODE: 9--------------------
+     	RTS_send:	3287
+        CTS_recv:	3040
+       DATA_send:	3098
+        ACK_recv:	3039
+
+     	RTS_recv:	3138
+        CTS_send:	3042
+       DATA_recv:	3040
+        ACK_send:	3040
+
+   RetransmitRTS:	246
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	7.48%
+    RTS_CTS_rate:	92.49%
+  DATA_fail_rate:	0.00%
+all_success_rate:	90.88%
+
+
+--------------------------NODE: 10--------------------
+     	RTS_send:	3184
+        CTS_recv:	3040
+       DATA_send:	3096
+        ACK_recv:	3039
+
+     	RTS_recv:	3107
+        CTS_send:	3044
+       DATA_recv:	3039
+        ACK_send:	3039
+
+   RetransmitRTS:	144
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	4.52%
+    RTS_CTS_rate:	95.48%
+  DATA_fail_rate:	0.00%
+all_success_rate:	93.80%
+
+
+--------------------------NODE: 11--------------------
+     	RTS_send:	3164
+        CTS_recv:	3040
+       DATA_send:	3094
+        ACK_recv:	3039
+
+     	RTS_recv:	3078
+        CTS_send:	3040
+       DATA_recv:	3039
+        ACK_send:	3039
+
+   RetransmitRTS:	124
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.92%
+    RTS_CTS_rate:	96.08%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.44%
+
+
+--------------------------NODE: 12--------------------
+     	RTS_send:	3157
+        CTS_recv:	3039
+       DATA_send:	3093
+        ACK_recv:	3039
+
+     	RTS_recv:	3072
+        CTS_send:	3040
+       DATA_recv:	3039
+        ACK_send:	3039
+
+   RetransmitRTS:	118
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	3.74%
+    RTS_CTS_rate:	96.26%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.64%
+
+
+--------------------------NODE: 13--------------------
+     	RTS_send:	3115
+        CTS_recv:	3039
+       DATA_send:	3092
+        ACK_recv:	3039
+
+     	RTS_recv:	3068
+        CTS_send:	3040
+       DATA_recv:	3039
+        ACK_send:	3039
+
+   RetransmitRTS:	76
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.44%
+    RTS_CTS_rate:	97.56%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.93%
+
+
+--------------------------NODE: 14--------------------
+     	RTS_send:	3101
+        CTS_recv:	3039
+       DATA_send:	3092
+        ACK_recv:	3039
+
+     	RTS_recv:	3057
+        CTS_send:	3039
+       DATA_recv:	3039
+        ACK_send:	3039
+
+   RetransmitRTS:	62
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	2.00%
+    RTS_CTS_rate:	98.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.35%
+
+
+--------------------------NODE: 15--------------------
+     	RTS_send:	3088
+        CTS_recv:	3039
+       DATA_send:	3091
+        ACK_recv:	3038
+
+     	RTS_recv:	3048
+        CTS_send:	3039
+       DATA_recv:	3039
+        ACK_send:	3039
+
+   RetransmitRTS:	49
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	1.59%
+    RTS_CTS_rate:	98.41%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.75%
+
+
+--------------------------NODE: 16--------------------
+     	RTS_send:	3039
+        CTS_recv:	3038
+       DATA_send:	3091
+        ACK_recv:	3038
+
+     	RTS_recv:	3045
+        CTS_send:	3039
+       DATA_recv:	3038
+        ACK_send:	3038
+
+   RetransmitRTS:	1
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.03%
+    RTS_CTS_rate:	99.97%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.25%
+
+
+--------------------------NODE: 17--------------------
+     	RTS_send:	3038
+        CTS_recv:	3038
+       DATA_send:	3091
+        ACK_recv:	3038
+
+     	RTS_recv:	3039
+        CTS_send:	3038
+       DATA_recv:	3038
+        ACK_send:	3038
+
+   RetransmitRTS:	0
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.00%
+    RTS_CTS_rate:	100.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.29%
+
+
+--------------------------NODE: 18--------------------
+     	RTS_send:	3038
+        CTS_recv:	3038
+       DATA_send:	3091
+        ACK_recv:	3038
+
+     	RTS_recv:	3038
+        CTS_send:	3038
+       DATA_recv:	3038
+        ACK_send:	3038
+
+   RetransmitRTS:	0
+  RetransmitDATA:	0
+      RTS Droped:	0
+     DATA Droped:	0
+
+   RTS_fail_rate:	0.00%
+    RTS_CTS_rate:	100.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.29%
 
 
 --------------------------NODE: 19--------------------
-     	RTS_send:	5
-        CTS_recv:	5
-       DATA_send:	6
-        ACK_recv:	5
+     	RTS_send:	52
+        CTS_recv:	52
+       DATA_send:	53
+        ACK_recv:	52
 
-     	RTS_recv:	271
-        CTS_send:	271
-       DATA_recv:	271
-        ACK_send:	271
+     	RTS_recv:	2986
+        CTS_send:	2986
+       DATA_recv:	2986
+        ACK_send:	2986
 
    RetransmitRTS:	0
   RetransmitDATA:	0
@@ -4633,5 +4633,5 @@ all_success_rate:	97.87%
    RTS_fail_rate:	0.00%
     RTS_CTS_rate:	100.00%
   DATA_fail_rate:	0.00%
-all_success_rate:	83.33%
+all_success_rate:	98.11%
 
