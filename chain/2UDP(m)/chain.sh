@@ -24,6 +24,8 @@ while [ $i -lt 21 ]; do
     gawk -f ../../trace2stats_v05b/avgStatsForUDP.awk chain.tr >> udp.txt
     gawk -f ../../trace2stats_v05b/avgStatsForMultiUDP.awk flow=0 chain.tr >> udp0.txt
     gawk -f ../../trace2stats_v05b/avgStatsForMultiUDP.awk flow=1 chain.tr >> udp1.txt
+    gawk -f ../../trace2stats_v05b/instantThroughputForUdp.awk tic=1 src=0 dst=$endnode flow=0 pkt=512 chain.tr > HopsResultInst.txt_0\(hops\=$i\)
+    gawk -f ../../trace2stats_v05b/instantThroughputForUdp.awk tic=1 src=$endnode dst=0 flow=1 pkt=512 chain.tr > HopsResultInst.txt_1\(hops\=$i\)
     let i=i+1    
     echo
 done
@@ -43,3 +45,4 @@ gawk -f ../../trace2stats_v05b/brief.awk flag="delay" udp1.txt > delay_1
 
 ./throughput.sh
 ./delay.sh
+./drawAll.sh

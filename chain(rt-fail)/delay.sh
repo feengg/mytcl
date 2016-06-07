@@ -15,8 +15,8 @@ set xrange [1:20]
 plot    './semitcp/delay' u 1:2 t 'semitcp' with linespoints, \
         './matcp/delay' u 1:2 t 'matcp' with linespoints, \
         './tcpap/delay' u 1:2 t 'tcpap' with linespoints, \
-        #'./newreno(m)/delay' u 1:2 t 'newreno(m)' with linespoints, \
-        #'./newreno(d)/delay' u 1:2 t 'newreno(d)' with linespoints
+        './newreno(m)/delay' u 1:2 t 'newreno(m)' with linespoints, \
+        './newreno(d)/delay' u 1:2 t 'newreno(d)' with linespoints
 	
 set output
 quit

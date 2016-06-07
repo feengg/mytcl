@@ -8,7 +8,7 @@ date > HopsResultAvg_flow1.txt
 date > q_length.txt
 date > drop.txt
 
-    ../../../tcpap/tcpap chain.tcl 2 4 200 7 >> /dev/null
+    ../../../tcpap/tcpap chain.tcl 2 4 200 7 0 >> q_length.txt
 	echo FINISH simulation, start to analyze...
 	echo >> HopsResultAvg_flow0.txt
     echo >> HopsResultAvg_flow1.txt

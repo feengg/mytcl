@@ -9,7 +9,7 @@ date > aodv_col.txt
 date > q_length.txt
 date > drop.txt
 
-    ../../../semitcp/semitcp chain.tcl 0 4 200 7 1 1 1 0 1 >> q_length.txt
+    ../../../semitcp/semitcp chain.tcl 0 4 200 7 0 0 1 1 1 >> q_length.txt
 	echo FINISH simulation, start to analyze...
 	echo >> HopsResultAvg_flow0.txt
     echo >> HopsResultAvg_flow1.txt

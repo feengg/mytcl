@@ -15,7 +15,7 @@ echo SIMULATION DURATION: 300.0S, AODV+UDP >> udp.txt
 while [ $i -lt 21 ]; do
     rate=2000
 	echo --- Hop Node Number:$i --- >> $q_length
-    ../../../matcp/matcp chain.tcl 1 $i 300 7 1 0 1 1 $rate"Kb" >> $q_length
+    ../../../matcp/matcp chain.tcl 1 $i 100 7 1 0 1 1 $rate"Kb" >> $q_length
     let j=$i-1
 	echo FINISH $j simulations, start to analyze...
     echo >> udp.txt
@@ -24,6 +24,8 @@ while [ $i -lt 21 ]; do
     gawk -f ../../trace2stats_v05b/avgStatsForUDP.awk chain.tr >> udp.txt
     gawk -f ../../trace2stats_v05b/avgStatsForMultiUDP.awk flow=0 chain.tr >> udp0.txt
     gawk -f ../../trace2stats_v05b/avgStatsForMultiUDP.awk flow=1 chain.tr >> udp1.txt
+    gawk -f ../../trace2stats_v05b/instantThroughputForUdp.awk tic=1 src=0 dst=$endnode flow=0 pkt=512 chain.tr > HopsResultInst.txt_0\(hops\=$i\)
+    gawk -f ../../trace2stats_v05b/instantThroughputForUdp.awk tic=1 src=$endnode dst=0 flow=1 pkt=512 chain.tr > HopsResultInst.txt_1\(hops\=$i\)
     let i=i+1    
     echo
 done
@@ -43,3 +45,5 @@ gawk -f ../../trace2stats_v05b/brief.awk flag="delay" udp1.txt > delay_1
 
 ./throughput.sh
 ./delay.sh
+
+./drawAll.sh
