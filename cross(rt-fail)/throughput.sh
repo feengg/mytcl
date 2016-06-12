@@ -14,7 +14,7 @@ set boxwidth 20
 
 plot    './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
         './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \
-        './tcpap/throughput' u 1:2 t 'tcpap' with linespoints, \
+        #'./tcpap/throughput' u 1:2 t 'tcpap' with linespoints, \
         #'./newreno(d)/throughput' u 1:2 t 'newreno(d)' with linespoints, \
         #'./newreno(m)/throughput' u 1:2 t 'newreno(m)' with linespoints
 	

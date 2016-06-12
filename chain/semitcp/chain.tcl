@@ -164,9 +164,15 @@ proc create_tcp_connection {id src dst} {
 		#attatch tcp agent to aodv agent
 		set rt($src) [$node_($src) agent 255]
 		$rt($src) aodv-get-semitcp $tcp_($id)
+        # 4.2 AODV---->TCPSink
+        set rt($dst) [$node_($dst) agent 255]
+        $rt($dst) aodv-get-tcpsink $sink_($id)
 		# 5.1 SEMITCP--->MAC
 		set mymac($src) [$node_($src) set mac_(0)]
 		$tcp_($id) semitcp-get-mac $mymac($src)
+        # 5.2 TCPSink----MAC
+        set mymac($dst) [$node_($dst) set mac_(0)]
+        $sink_($id) tcpsink-get-mac $mymac($dst)
 	}
 }
 

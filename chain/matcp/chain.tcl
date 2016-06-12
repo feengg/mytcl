@@ -167,6 +167,9 @@ proc create_tcp_connection {id src dst} {
 		# 5.1 SEMITCP--->MAC
 		set mymac($src) [$node_($src) set mac_(0)]
 		$tcp_($id) semitcp-get-mac $mymac($src)
+        # 5.2 TCPSink--->MAC
+        set mymac($dst) [$node_($dst) set mac_(0)]
+        $sink_($id) tcpsink-get-mac $mymac($dst)
 	}
 }
 
@@ -184,9 +187,11 @@ for {set i 0} {$i < $val(nn)} {incr i} {
 
 # Call the mac procedure to print the average queue length
 set t2 [expr $val(stop) -0.0000001]
-for {set i 0} {$i < $val(nn) } {incr i} {
-    set mac($i) [$node_($i) set mac_(0)]
-	$ns_ at $t2 "$mac($i) printavgqlen"
+if {$Program == 0 || $Program == 1} {
+    for {set i 0} {$i < $val(nn) } {incr i} {
+    	$ns_ at $t2 "set mymac($i) [$node_($i) set mac_(0)] 
+    	$mymac($i) printavgqlen"
+    }
 }
 
 $ns_ at  $val(stop).002 "finish" ; # Call the finish procedure

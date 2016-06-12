@@ -1,0 +1,6518 @@
+2016年 06月 10日 星期五 16:30:51 CST
+--- Hop Node Number:2 ---
+num_nodes is set 2
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	14274
+        CTS_recv:	13406
+       CTSC_recv:	0
+       DATA_send:	13410
+        ACK_recv:	13406
+
+     RTS(C)_recv:	13537
+        CTS_send:	13537
+       CTSC_send:	0
+       DATA_recv:	13536
+        ACK_send:	13536
+
+   RetransmitRTS:	868
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	45.69
+       max_whole:	50
+   RTS_fail_rate:	6.08%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	93.92%
+  DATA_fail_rate:	0.00%
+all_success_rate:	93.89%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	14404
+        CTS_recv:	13537
+       CTSC_recv:	0
+       DATA_send:	13543
+        ACK_recv:	13536
+
+     RTS(C)_recv:	13407
+        CTS_send:	13406
+       CTSC_send:	0
+       DATA_recv:	13406
+        ACK_send:	13406
+
+   RetransmitRTS:	867
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	1
+ dead_lock(CTSC):	0
+
+       avg_whole:	43.27
+       max_whole:	50
+   RTS_fail_rate:	6.02%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	93.98%
+  DATA_fail_rate:	0.00%
+all_success_rate:	93.93%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:3 ---
+num_nodes is set 3
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	10736
+        CTS_recv:	6515
+       CTSC_recv:	0
+       DATA_send:	6517
+        ACK_recv:	6515
+
+     RTS(C)_recv:	6679
+        CTS_send:	6554
+       CTSC_send:	0
+       DATA_recv:	6554
+        ACK_send:	6554
+
+   RetransmitRTS:	144
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	5.87
+       max_whole:	50
+   RTS_fail_rate:	1.34%
+ RTS_refuse_rate:	38.49%
+    RTS_CTS_rate:	60.68%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.81%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	13330
+        CTS_recv:	13063
+       CTSC_recv:	0
+       DATA_send:	13071
+        ACK_recv:	13063
+
+     RTS(C)_recv:	21087
+        CTS_send:	13072
+       CTSC_send:	0
+       DATA_recv:	13072
+        ACK_send:	13072
+
+   RetransmitRTS:	267
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	8015
+ dead_lock(CTSC):	0
+
+       avg_whole:	48.18
+       max_whole:	2
+   RTS_fail_rate:	2.00%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	98.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.94%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	10626
+        CTS_recv:	6557
+       CTSC_recv:	0
+       DATA_send:	6558
+        ACK_recv:	6556
+
+     RTS(C)_recv:	6647
+        CTS_send:	6509
+       CTSC_send:	0
+       DATA_recv:	6509
+        ACK_send:	6509
+
+   RetransmitRTS:	131
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	4.73
+       max_whole:	50
+   RTS_fail_rate:	1.23%
+ RTS_refuse_rate:	37.52%
+    RTS_CTS_rate:	61.71%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.01%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:4 ---
+num_nodes is set 4
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	8130
+        CTS_recv:	4550
+       CTSC_recv:	0
+       DATA_send:	4843
+        ACK_recv:	4549
+
+     RTS(C)_recv:	4024
+        CTS_send:	4019
+       CTSC_send:	0
+       DATA_recv:	4018
+        ACK_send:	4018
+
+   RetransmitRTS:	1516
+  RetransmitDATA:	1
+      RTS droped:	113
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	11.18
+       max_whole:	95
+   RTS_fail_rate:	18.65%
+ RTS_refuse_rate:	31.21%
+    RTS_CTS_rate:	55.97%
+  DATA_fail_rate:	0.02%
+all_success_rate:	71.54%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	8867
+        CTS_recv:	8553
+       CTSC_recv:	15
+       DATA_send:	8777
+        ACK_recv:	8567
+
+     RTS(C)_recv:	11323
+        CTS_send:	8542
+       CTSC_send:	15
+       DATA_recv:	8556
+        ACK_send:	8556
+
+   RetransmitRTS:	153
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	2225
+ dead_lock(CTSC):	15
+
+       avg_whole:	41.13
+       max_whole:	3
+   RTS_fail_rate:	1.73%
+ RTS_refuse_rate:	1.68%
+    RTS_CTS_rate:	96.63%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.94%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	8858
+        CTS_recv:	8567
+       CTSC_recv:	15
+       DATA_send:	8777
+        ACK_recv:	8579
+
+     RTS(C)_recv:	11067
+        CTS_send:	8530
+       CTSC_send:	15
+       DATA_recv:	8545
+        ACK_send:	8545
+
+   RetransmitRTS:	146
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	2019
+ dead_lock(CTSC):	15
+
+       avg_whole:	37.89
+       max_whole:	5
+   RTS_fail_rate:	1.65%
+ RTS_refuse_rate:	1.49%
+    RTS_CTS_rate:	96.88%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.14%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	7356
+        CTS_recv:	3996
+       CTSC_recv:	0
+       DATA_send:	4276
+        ACK_recv:	3996
+
+     RTS(C)_recv:	4580
+        CTS_send:	4576
+       CTSC_send:	0
+       DATA_recv:	4572
+        ACK_send:	4572
+
+   RetransmitRTS:	1513
+  RetransmitDATA:	0
+      RTS droped:	119
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	22.52
+       max_whole:	100
+   RTS_fail_rate:	20.57%
+ RTS_refuse_rate:	31.61%
+    RTS_CTS_rate:	54.32%
+  DATA_fail_rate:	0.00%
+all_success_rate:	69.03%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:5 ---
+num_nodes is set 5
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	11642
+        CTS_recv:	2880
+       CTSC_recv:	0
+       DATA_send:	3053
+        ACK_recv:	2838
+
+     RTS(C)_recv:	3390
+        CTS_send:	3385
+       CTSC_send:	0
+       DATA_recv:	3382
+        ACK_send:	3382
+
+   RetransmitRTS:	7145
+  RetransmitDATA:	42
+      RTS droped:	65
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	6.29
+       max_whole:	102
+   RTS_fail_rate:	61.37%
+ RTS_refuse_rate:	35.96%
+    RTS_CTS_rate:	24.74%
+  DATA_fail_rate:	1.38%
+all_success_rate:	27.83%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	7700
+        CTS_recv:	5920
+       CTSC_recv:	304
+       DATA_send:	6355
+        ACK_recv:	6221
+
+     RTS(C)_recv:	10383
+        CTS_send:	5875
+       CTSC_send:	387
+       DATA_recv:	6219
+        ACK_send:	6219
+
+   RetransmitRTS:	1212
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	1945
+ dead_lock(CTSC):	387
+
+       avg_whole:	18.83
+       max_whole:	3
+   RTS_fail_rate:	15.74%
+ RTS_refuse_rate:	4.07%
+    RTS_CTS_rate:	80.83%
+  DATA_fail_rate:	0.02%
+all_success_rate:	82.21%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6853
+        CTS_recv:	5451
+       CTSC_recv:	771
+       DATA_send:	6335
+        ACK_recv:	6220
+
+     RTS(C)_recv:	7510
+        CTS_send:	5645
+       CTSC_send:	576
+       DATA_recv:	6220
+        ACK_send:	6220
+
+   RetransmitRTS:	43
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	560
+ dead_lock(CTSC):	576
+
+       avg_whole:	25.46
+       max_whole:	3
+   RTS_fail_rate:	0.63%
+ RTS_refuse_rate:	8.63%
+    RTS_CTS_rate:	90.79%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.52%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	7676
+        CTS_recv:	5952
+       CTSC_recv:	272
+       DATA_send:	6397
+        ACK_recv:	6221
+
+     RTS(C)_recv:	11006
+        CTS_send:	5915
+       CTSC_send:	384
+       DATA_recv:	6259
+        ACK_send:	6259
+
+   RetransmitRTS:	1162
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	2170
+ dead_lock(CTSC):	384
+
+       avg_whole:	12.67
+       max_whole:	6
+   RTS_fail_rate:	15.14%
+ RTS_refuse_rate:	4.45%
+    RTS_CTS_rate:	81.08%
+  DATA_fail_rate:	0.00%
+all_success_rate:	82.30%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	13561
+        CTS_recv:	3459
+       CTSC_recv:	0
+       DATA_send:	3616
+        ACK_recv:	3420
+
+     RTS(C)_recv:	2847
+        CTS_send:	2843
+       CTSC_send:	0
+       DATA_recv:	2840
+        ACK_send:	2840
+
+   RetransmitRTS:	8213
+  RetransmitDATA:	39
+      RTS droped:	57
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.61
+       max_whole:	82
+   RTS_fail_rate:	60.56%
+ RTS_refuse_rate:	35.32%
+    RTS_CTS_rate:	25.51%
+  DATA_fail_rate:	1.08%
+all_success_rate:	28.91%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:6 ---
+num_nodes is set 6
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	10909
+        CTS_recv:	2725
+       CTSC_recv:	0
+       DATA_send:	2814
+        ACK_recv:	2700
+
+     RTS(C)_recv:	3175
+        CTS_send:	3169
+       CTSC_send:	0
+       DATA_recv:	3157
+        ACK_send:	3157
+
+   RetransmitRTS:	6530
+  RetransmitDATA:	25
+      RTS droped:	26
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	2.83
+       max_whole:	111
+   RTS_fail_rate:	59.86%
+ RTS_refuse_rate:	37.77%
+    RTS_CTS_rate:	24.98%
+  DATA_fail_rate:	0.89%
+all_success_rate:	28.90%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	7882
+        CTS_recv:	5695
+       CTSC_recv:	179
+       DATA_send:	5936
+        ACK_recv:	5851
+
+     RTS(C)_recv:	9925
+        CTS_send:	5574
+       CTSC_send:	322
+       DATA_recv:	5857
+        ACK_send:	5857
+
+   RetransmitRTS:	1682
+  RetransmitDATA:	13
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	1787
+ dead_lock(CTSC):	322
+
+       avg_whole:	3.80
+       max_whole:	4
+   RTS_fail_rate:	21.34%
+ RTS_refuse_rate:	5.26%
+    RTS_CTS_rate:	74.52%
+  DATA_fail_rate:	0.22%
+all_success_rate:	76.80%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6818
+        CTS_recv:	5185
+       CTSC_recv:	676
+       DATA_send:	5905
+        ACK_recv:	5848
+
+     RTS(C)_recv:	7123
+        CTS_send:	5340
+       CTSC_send:	526
+       DATA_recv:	5850
+        ACK_send:	5850
+
+   RetransmitRTS:	629
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	560
+ dead_lock(CTSC):	526
+
+       avg_whole:	14.87
+       max_whole:	3
+   RTS_fail_rate:	9.23%
+ RTS_refuse_rate:	5.30%
+    RTS_CTS_rate:	85.96%
+  DATA_fail_rate:	0.02%
+all_success_rate:	89.50%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6801
+        CTS_recv:	5201
+       CTSC_recv:	657
+       DATA_send:	5896
+        ACK_recv:	5848
+
+     RTS(C)_recv:	7198
+        CTS_send:	5347
+       CTSC_send:	515
+       DATA_recv:	5845
+        ACK_send:	5845
+
+   RetransmitRTS:	602
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	542
+ dead_lock(CTSC):	515
+
+       avg_whole:	14.02
+       max_whole:	4
+   RTS_fail_rate:	8.85%
+ RTS_refuse_rate:	5.50%
+    RTS_CTS_rate:	86.13%
+  DATA_fail_rate:	0.02%
+all_success_rate:	90.00%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	8077
+        CTS_recv:	5745
+       CTSC_recv:	161
+       DATA_send:	5954
+        ACK_recv:	5882
+
+     RTS(C)_recv:	10357
+        CTS_send:	5573
+       CTSC_send:	310
+       DATA_recv:	5847
+        ACK_send:	5847
+
+   RetransmitRTS:	1831
+  RetransmitDATA:	15
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	1961
+ dead_lock(CTSC):	310
+
+       avg_whole:	4.10
+       max_whole:	9
+   RTS_fail_rate:	22.67%
+ RTS_refuse_rate:	5.44%
+    RTS_CTS_rate:	73.12%
+  DATA_fail_rate:	0.25%
+all_success_rate:	75.56%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	12600
+        CTS_recv:	3180
+       CTSC_recv:	0
+       DATA_send:	3282
+        ACK_recv:	3155
+
+     RTS(C)_recv:	2743
+        CTS_send:	2741
+       CTSC_send:	0
+       DATA_recv:	2728
+        ACK_send:	2728
+
+   RetransmitRTS:	7576
+  RetransmitDATA:	25
+      RTS droped:	19
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	2.06
+       max_whole:	76
+   RTS_fail_rate:	60.13%
+ RTS_refuse_rate:	36.70%
+    RTS_CTS_rate:	25.24%
+  DATA_fail_rate:	0.76%
+all_success_rate:	29.06%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:7 ---
+num_nodes is set 7
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	2468
+        CTS_recv:	605
+       CTSC_recv:	0
+       DATA_send:	646
+        ACK_recv:	600
+
+     RTS(C)_recv:	5177
+        CTS_send:	5176
+       CTSC_send:	0
+       DATA_recv:	5173
+        ACK_send:	5173
+
+   RetransmitRTS:	1485
+  RetransmitDATA:	5
+      RTS droped:	6
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	5.50
+       max_whole:	79
+   RTS_fail_rate:	60.17%
+ RTS_refuse_rate:	38.45%
+    RTS_CTS_rate:	24.51%
+  DATA_fail_rate:	0.77%
+all_success_rate:	28.16%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	6344
+        CTS_recv:	5724
+       CTSC_recv:	55
+       DATA_send:	5810
+        ACK_recv:	5772
+
+     RTS(C)_recv:	6747
+        CTS_send:	5696
+       CTSC_send:	88
+       DATA_recv:	5774
+        ACK_send:	5774
+
+   RetransmitRTS:	448
+  RetransmitDATA:	5
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	414
+ dead_lock(CTSC):	88
+
+       avg_whole:	1.55
+       max_whole:	3
+   RTS_fail_rate:	7.06%
+ RTS_refuse_rate:	1.98%
+    RTS_CTS_rate:	91.09%
+  DATA_fail_rate:	0.09%
+all_success_rate:	92.23%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6206
+        CTS_recv:	5590
+       CTSC_recv:	196
+       DATA_send:	5806
+        ACK_recv:	5773
+
+     RTS(C)_recv:	6206
+        CTS_send:	5620
+       CTSC_send:	165
+       DATA_recv:	5774
+        ACK_send:	5774
+
+   RetransmitRTS:	296
+  RetransmitDATA:	8
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	203
+ dead_lock(CTSC):	165
+
+       avg_whole:	1.91
+       max_whole:	3
+   RTS_fail_rate:	4.77%
+ RTS_refuse_rate:	2.10%
+    RTS_CTS_rate:	93.23%
+  DATA_fail_rate:	0.14%
+all_success_rate:	94.61%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6200
+        CTS_recv:	5573
+       CTSC_recv:	207
+       DATA_send:	5792
+        ACK_recv:	5773
+
+     RTS(C)_recv:	6187
+        CTS_send:	5586
+       CTSC_send:	199
+       DATA_recv:	5773
+        ACK_send:	5773
+
+   RetransmitRTS:	278
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	193
+ dead_lock(CTSC):	199
+
+       avg_whole:	11.06
+       max_whole:	3
+   RTS_fail_rate:	4.48%
+ RTS_refuse_rate:	2.40%
+    RTS_CTS_rate:	93.23%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.11%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6391
+        CTS_recv:	5598
+       CTSC_recv:	177
+       DATA_send:	5791
+        ACK_recv:	5772
+
+     RTS(C)_recv:	6822
+        CTS_send:	5646
+       CTSC_send:	136
+       DATA_recv:	5772
+        ACK_send:	5772
+
+   RetransmitRTS:	482
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	341
+ dead_lock(CTSC):	136
+
+       avg_whole:	23.15
+       max_whole:	3
+   RTS_fail_rate:	7.54%
+ RTS_refuse_rate:	2.27%
+    RTS_CTS_rate:	90.36%
+  DATA_fail_rate:	0.00%
+all_success_rate:	92.01%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	7868
+        CTS_recv:	5742
+       CTSC_recv:	35
+       DATA_send:	5851
+        ACK_recv:	5772
+
+     RTS(C)_recv:	12455
+        CTS_send:	5750
+       CTSC_send:	87
+       DATA_recv:	5828
+        ACK_send:	5828
+
+   RetransmitRTS:	1810
+  RetransmitDATA:	1
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	2607
+ dead_lock(CTSC):	87
+
+       avg_whole:	5.19
+       max_whole:	9
+   RTS_fail_rate:	23.00%
+ RTS_refuse_rate:	4.64%
+    RTS_CTS_rate:	73.42%
+  DATA_fail_rate:	0.02%
+all_success_rate:	75.34%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	19539
+        CTS_recv:	5237
+       CTSC_recv:	0
+       DATA_send:	5264
+        ACK_recv:	5230
+
+     RTS(C)_recv:	609
+        CTS_send:	603
+       CTSC_send:	0
+       DATA_recv:	598
+        ACK_send:	598
+
+   RetransmitRTS:	11726
+  RetransmitDATA:	7
+      RTS droped:	7
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	12.23
+       max_whole:	76
+   RTS_fail_rate:	60.01%
+ RTS_refuse_rate:	32.97%
+    RTS_CTS_rate:	26.80%
+  DATA_fail_rate:	0.13%
+all_success_rate:	30.78%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:8 ---
+num_nodes is set 8
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	19027
+        CTS_recv:	5105
+       CTSC_recv:	0
+       DATA_send:	5129
+        ACK_recv:	5103
+
+     RTS(C)_recv:	670
+        CTS_send:	668
+       CTSC_send:	0
+       DATA_recv:	667
+        ACK_send:	667
+
+   RetransmitRTS:	11437
+  RetransmitDATA:	2
+      RTS droped:	6
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	6.69
+       max_whole:	92
+   RTS_fail_rate:	60.11%
+ RTS_refuse_rate:	32.74%
+    RTS_CTS_rate:	26.83%
+  DATA_fail_rate:	0.04%
+all_success_rate:	30.80%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	7779
+        CTS_recv:	5708
+       CTSC_recv:	38
+       DATA_send:	5795
+        ACK_recv:	5742
+
+     RTS(C)_recv:	12134
+        CTS_send:	5718
+       CTSC_send:	57
+       DATA_recv:	5770
+        ACK_send:	5770
+
+   RetransmitRTS:	1780
+  RetransmitDATA:	4
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	2515
+ dead_lock(CTSC):	57
+
+       avg_whole:	16.23
+       max_whole:	4
+   RTS_fail_rate:	22.88%
+ RTS_refuse_rate:	4.22%
+    RTS_CTS_rate:	73.87%
+  DATA_fail_rate:	0.07%
+all_success_rate:	75.80%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6276
+        CTS_recv:	5647
+       CTSC_recv:	105
+       DATA_send:	5762
+        ACK_recv:	5744
+
+     RTS(C)_recv:	6667
+        CTS_send:	5642
+       CTSC_send:	102
+       DATA_recv:	5740
+        ACK_send:	5740
+
+   RetransmitRTS:	429
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	285
+ dead_lock(CTSC):	102
+
+       avg_whole:	0.05
+       max_whole:	2
+   RTS_fail_rate:	6.84%
+ RTS_refuse_rate:	1.62%
+    RTS_CTS_rate:	91.65%
+  DATA_fail_rate:	0.02%
+all_success_rate:	92.78%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6175
+        CTS_recv:	5606
+       CTSC_recv:	133
+       DATA_send:	5758
+        ACK_recv:	5736
+
+     RTS(C)_recv:	6012
+        CTS_send:	5628
+       CTSC_send:	127
+       DATA_recv:	5744
+        ACK_send:	5744
+
+   RetransmitRTS:	346
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	117
+ dead_lock(CTSC):	127
+
+       avg_whole:	10.21
+       max_whole:	3
+   RTS_fail_rate:	5.60%
+ RTS_refuse_rate:	1.54%
+    RTS_CTS_rate:	92.94%
+  DATA_fail_rate:	0.02%
+all_success_rate:	93.97%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6072
+        CTS_recv:	5601
+       CTSC_recv:	146
+       DATA_send:	5761
+        ACK_recv:	5739
+
+     RTS(C)_recv:	5987
+        CTS_send:	5624
+       CTSC_send:	119
+       DATA_recv:	5735
+        ACK_send:	5735
+
+   RetransmitRTS:	242
+  RetransmitDATA:	3
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	125
+ dead_lock(CTSC):	119
+
+       avg_whole:	13.76
+       max_whole:	3
+   RTS_fail_rate:	3.99%
+ RTS_refuse_rate:	1.42%
+    RTS_CTS_rate:	94.65%
+  DATA_fail_rate:	0.05%
+all_success_rate:	95.60%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6034
+        CTS_recv:	5641
+       CTSC_recv:	99
+       DATA_send:	5762
+        ACK_recv:	5736
+
+     RTS(C)_recv:	5997
+        CTS_send:	5644
+       CTSC_send:	95
+       DATA_recv:	5736
+        ACK_send:	5736
+
+   RetransmitRTS:	209
+  RetransmitDATA:	3
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	103
+ dead_lock(CTSC):	95
+
+       avg_whole:	6.55
+       max_whole:	2
+   RTS_fail_rate:	3.46%
+ RTS_refuse_rate:	1.46%
+    RTS_CTS_rate:	95.13%
+  DATA_fail_rate:	0.05%
+all_success_rate:	96.06%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6246
+        CTS_recv:	5755
+       CTSC_recv:	28
+       DATA_send:	5815
+        ACK_recv:	5782
+
+     RTS(C)_recv:	6748
+        CTS_send:	5693
+       CTSC_send:	49
+       DATA_recv:	5738
+        ACK_send:	5738
+
+   RetransmitRTS:	392
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	404
+ dead_lock(CTSC):	49
+
+       avg_whole:	11.31
+       max_whole:	9
+   RTS_fail_rate:	6.28%
+ RTS_refuse_rate:	1.21%
+    RTS_CTS_rate:	92.59%
+  DATA_fail_rate:	0.02%
+all_success_rate:	93.15%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	2641
+        CTS_recv:	670
+       CTSC_recv:	0
+       DATA_send:	755
+        ACK_recv:	666
+
+     RTS(C)_recv:	5120
+        CTS_send:	5118
+       CTSC_send:	0
+       DATA_recv:	5118
+        ACK_send:	5118
+
+   RetransmitRTS:	1587
+  RetransmitDATA:	4
+      RTS droped:	5
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	84
+   RTS_fail_rate:	60.09%
+ RTS_refuse_rate:	36.43%
+    RTS_CTS_rate:	25.37%
+  DATA_fail_rate:	0.53%
+all_success_rate:	28.44%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:9 ---
+num_nodes is set 9
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	2263
+        CTS_recv:	623
+       CTSC_recv:	0
+       DATA_send:	664
+        ACK_recv:	615
+
+     RTS(C)_recv:	5264
+        CTS_send:	5263
+       CTSC_send:	0
+       DATA_recv:	5262
+        ACK_send:	5262
+
+   RetransmitRTS:	1274
+  RetransmitDATA:	8
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	82
+   RTS_fail_rate:	56.30%
+ RTS_refuse_rate:	37.01%
+    RTS_CTS_rate:	27.53%
+  DATA_fail_rate:	1.20%
+all_success_rate:	31.73%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	6327
+        CTS_recv:	5750
+       CTSC_recv:	29
+       DATA_send:	5918
+        ACK_recv:	5774
+
+     RTS(C)_recv:	6754
+        CTS_send:	5826
+       CTSC_send:	60
+       DATA_recv:	5877
+        ACK_send:	5877
+
+   RetransmitRTS:	431
+  RetransmitDATA:	4
+      RTS droped:	5
+     DATA droped:	0
+  refuse(no CTS):	390
+ dead_lock(CTSC):	60
+
+       avg_whole:	3.09
+       max_whole:	5
+   RTS_fail_rate:	6.81%
+ RTS_refuse_rate:	1.98%
+    RTS_CTS_rate:	91.34%
+  DATA_fail_rate:	0.07%
+all_success_rate:	90.94%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6128
+        CTS_recv:	5660
+       CTSC_recv:	111
+       DATA_send:	5802
+        ACK_recv:	5769
+
+     RTS(C)_recv:	6122
+        CTS_send:	5684
+       CTSC_send:	96
+       DATA_recv:	5774
+        ACK_send:	5774
+
+   RetransmitRTS:	250
+  RetransmitDATA:	1
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	156
+ dead_lock(CTSC):	96
+
+       avg_whole:	15.90
+       max_whole:	3
+   RTS_fail_rate:	4.08%
+ RTS_refuse_rate:	1.82%
+    RTS_CTS_rate:	94.17%
+  DATA_fail_rate:	0.02%
+all_success_rate:	95.32%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6181
+        CTS_recv:	5625
+       CTSC_recv:	149
+       DATA_send:	5792
+        ACK_recv:	5770
+
+     RTS(C)_recv:	6112
+        CTS_send:	5651
+       CTSC_send:	128
+       DATA_recv:	5770
+        ACK_send:	5770
+
+   RetransmitRTS:	276
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	165
+ dead_lock(CTSC):	128
+
+       avg_whole:	4.23
+       max_whole:	18
+   RTS_fail_rate:	4.47%
+ RTS_refuse_rate:	2.22%
+    RTS_CTS_rate:	93.42%
+  DATA_fail_rate:	0.02%
+all_success_rate:	95.09%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6451
+        CTS_recv:	5625
+       CTSC_recv:	157
+       DATA_send:	5801
+        ACK_recv:	5771
+
+     RTS(C)_recv:	6114
+        CTS_send:	5621
+       CTSC_send:	163
+       DATA_recv:	5771
+        ACK_send:	5771
+
+   RetransmitRTS:	510
+  RetransmitDATA:	5
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	190
+ dead_lock(CTSC):	163
+
+       avg_whole:	1.15
+       max_whole:	3
+   RTS_fail_rate:	7.91%
+ RTS_refuse_rate:	2.68%
+    RTS_CTS_rate:	89.63%
+  DATA_fail_rate:	0.09%
+all_success_rate:	91.44%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6357
+        CTS_recv:	5628
+       CTSC_recv:	150
+       DATA_send:	5794
+        ACK_recv:	5769
+
+     RTS(C)_recv:	6156
+        CTS_send:	5652
+       CTSC_send:	133
+       DATA_recv:	5776
+        ACK_send:	5776
+
+   RetransmitRTS:	445
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	200
+ dead_lock(CTSC):	133
+
+       avg_whole:	6.55
+       max_whole:	15
+   RTS_fail_rate:	7.00%
+ RTS_refuse_rate:	2.27%
+    RTS_CTS_rate:	90.89%
+  DATA_fail_rate:	0.03%
+all_success_rate:	92.47%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6373
+        CTS_recv:	5666
+       CTSC_recv:	116
+       DATA_send:	5797
+        ACK_recv:	5774
+
+     RTS(C)_recv:	6916
+        CTS_send:	5669
+       CTSC_send:	107
+       DATA_recv:	5772
+        ACK_send:	5772
+
+   RetransmitRTS:	452
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	375
+ dead_lock(CTSC):	107
+
+       avg_whole:	0.72
+       max_whole:	3
+   RTS_fail_rate:	7.09%
+ RTS_refuse_rate:	2.35%
+    RTS_CTS_rate:	90.73%
+  DATA_fail_rate:	0.03%
+all_success_rate:	92.40%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	8143
+        CTS_recv:	5743
+       CTSC_recv:	35
+       DATA_send:	5820
+        ACK_recv:	5773
+
+     RTS(C)_recv:	12495
+        CTS_send:	5740
+       CTSC_send:	63
+       DATA_recv:	5796
+        ACK_send:	5796
+
+   RetransmitRTS:	2032
+  RetransmitDATA:	3
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	2758
+ dead_lock(CTSC):	63
+
+       avg_whole:	1.50
+       max_whole:	3
+   RTS_fail_rate:	24.95%
+ RTS_refuse_rate:	5.45%
+    RTS_CTS_rate:	70.96%
+  DATA_fail_rate:	0.05%
+all_success_rate:	73.52%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	19976
+        CTS_recv:	5292
+       CTSC_recv:	0
+       DATA_send:	5311
+        ACK_recv:	5289
+
+     RTS(C)_recv:	515
+        CTS_send:	512
+       CTSC_send:	0
+       DATA_recv:	507
+        ACK_send:	507
+
+   RetransmitRTS:	11947
+  RetransmitDATA:	3
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.77
+       max_whole:	90
+   RTS_fail_rate:	59.81%
+ RTS_refuse_rate:	34.09%
+    RTS_CTS_rate:	26.49%
+  DATA_fail_rate:	0.06%
+all_success_rate:	30.65%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:10 ---
+num_nodes is set 10
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	14828
+        CTS_recv:	3974
+       CTSC_recv:	0
+       DATA_send:	4032
+        ACK_recv:	3965
+
+     RTS(C)_recv:	1409
+        CTS_send:	1403
+       CTSC_send:	0
+       DATA_recv:	1400
+        ACK_send:	1400
+
+   RetransmitRTS:	8811
+  RetransmitDATA:	9
+      RTS droped:	10
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	2.12
+       max_whole:	92
+   RTS_fail_rate:	59.42%
+ RTS_refuse_rate:	33.95%
+    RTS_CTS_rate:	26.80%
+  DATA_fail_rate:	0.22%
+all_success_rate:	30.87%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	7231
+        CTS_recv:	5126
+       CTSC_recv:	71
+       DATA_send:	5422
+        ACK_recv:	5192
+
+     RTS(C)_recv:	10546
+        CTS_send:	5238
+       CTSC_send:	144
+       DATA_recv:	5366
+        ACK_send:	5366
+
+   RetransmitRTS:	1669
+  RetransmitDATA:	4
+      RTS droped:	5
+     DATA droped:	0
+  refuse(no CTS):	2109
+ dead_lock(CTSC):	144
+
+       avg_whole:	0.47
+       max_whole:	9
+   RTS_fail_rate:	23.08%
+ RTS_refuse_rate:	6.56%
+    RTS_CTS_rate:	71.87%
+  DATA_fail_rate:	0.07%
+all_success_rate:	73.22%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6120
+        CTS_recv:	4943
+       CTSC_recv:	246
+       DATA_send:	5244
+        ACK_recv:	5176
+
+     RTS(C)_recv:	6323
+        CTS_send:	4979
+       CTSC_send:	220
+       DATA_recv:	5192
+        ACK_send:	5192
+
+   RetransmitRTS:	656
+  RetransmitDATA:	6
+      RTS droped:	8
+     DATA droped:	0
+  refuse(no CTS):	460
+ dead_lock(CTSC):	220
+
+       avg_whole:	1.59
+       max_whole:	3
+   RTS_fail_rate:	10.72%
+ RTS_refuse_rate:	5.03%
+    RTS_CTS_rate:	84.79%
+  DATA_fail_rate:	0.11%
+all_success_rate:	87.73%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6125
+        CTS_recv:	4877
+       CTSC_recv:	317
+       DATA_send:	5225
+        ACK_recv:	5179
+
+     RTS(C)_recv:	5946
+        CTS_send:	4915
+       CTSC_send:	282
+       DATA_recv:	5176
+        ACK_send:	5176
+
+   RetransmitRTS:	618
+  RetransmitDATA:	7
+      RTS droped:	3
+     DATA droped:	0
+  refuse(no CTS):	410
+ dead_lock(CTSC):	282
+
+       avg_whole:	5.04
+       max_whole:	24
+   RTS_fail_rate:	10.09%
+ RTS_refuse_rate:	5.68%
+    RTS_CTS_rate:	84.80%
+  DATA_fail_rate:	0.13%
+all_success_rate:	88.64%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6605
+        CTS_recv:	4868
+       CTSC_recv:	327
+       DATA_send:	5231
+        ACK_recv:	5179
+
+     RTS(C)_recv:	6065
+        CTS_send:	5000
+       CTSC_send:	331
+       DATA_recv:	5303
+        ACK_send:	5303
+
+   RetransmitRTS:	1021
+  RetransmitDATA:	14
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	449
+ dead_lock(CTSC):	331
+
+       avg_whole:	3.97
+       max_whole:	65
+   RTS_fail_rate:	15.46%
+ RTS_refuse_rate:	6.97%
+    RTS_CTS_rate:	78.65%
+  DATA_fail_rate:	0.27%
+all_success_rate:	82.84%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6496
+        CTS_recv:	5006
+       CTSC_recv:	316
+       DATA_send:	5366
+        ACK_recv:	5305
+
+     RTS(C)_recv:	6069
+        CTS_send:	5037
+       CTSC_send:	293
+       DATA_recv:	5308
+        ACK_send:	5308
+
+   RetransmitRTS:	808
+  RetransmitDATA:	14
+      RTS droped:	8
+     DATA droped:	0
+  refuse(no CTS):	412
+ dead_lock(CTSC):	293
+
+       avg_whole:	0.02
+       max_whole:	3
+   RTS_fail_rate:	12.44%
+ RTS_refuse_rate:	6.43%
+    RTS_CTS_rate:	81.93%
+  DATA_fail_rate:	0.26%
+all_success_rate:	85.92%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6247
+        CTS_recv:	5046
+       CTSC_recv:	279
+       DATA_send:	5372
+        ACK_recv:	5310
+
+     RTS(C)_recv:	6024
+        CTS_send:	5075
+       CTSC_send:	263
+       DATA_recv:	5322
+        ACK_send:	5322
+
+   RetransmitRTS:	642
+  RetransmitDATA:	4
+      RTS droped:	6
+     DATA droped:	0
+  refuse(no CTS):	390
+ dead_lock(CTSC):	263
+
+       avg_whole:	0.03
+       max_whole:	3
+   RTS_fail_rate:	10.28%
+ RTS_refuse_rate:	5.00%
+    RTS_CTS_rate:	85.24%
+  DATA_fail_rate:	0.07%
+all_success_rate:	88.29%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	6142
+        CTS_recv:	5102
+       CTSC_recv:	225
+       DATA_send:	5388
+        ACK_recv:	5324
+
+     RTS(C)_recv:	6202
+        CTS_send:	5159
+       CTSC_send:	183
+       DATA_recv:	5335
+        ACK_send:	5335
+
+   RetransmitRTS:	538
+  RetransmitDATA:	1
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	400
+ dead_lock(CTSC):	183
+
+       avg_whole:	7.23
+       max_whole:	3
+   RTS_fail_rate:	8.76%
+ RTS_refuse_rate:	4.94%
+    RTS_CTS_rate:	86.73%
+  DATA_fail_rate:	0.02%
+all_success_rate:	89.84%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	6710
+        CTS_recv:	5297
+       CTSC_recv:	44
+       DATA_send:	5589
+        ACK_recv:	5338
+
+     RTS(C)_recv:	7940
+        CTS_send:	5409
+       CTSC_send:	122
+       DATA_recv:	5526
+        ACK_send:	5526
+
+   RetransmitRTS:	1037
+  RetransmitDATA:	2
+      RTS droped:	6
+     DATA droped:	0
+  refuse(no CTS):	1055
+ dead_lock(CTSC):	122
+
+       avg_whole:	2.01
+       max_whole:	5
+   RTS_fail_rate:	15.45%
+ RTS_refuse_rate:	5.85%
+    RTS_CTS_rate:	79.60%
+  DATA_fail_rate:	0.04%
+all_success_rate:	80.56%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	6420
+        CTS_recv:	1747
+       CTSC_recv:	0
+       DATA_send:	1799
+        ACK_recv:	1743
+
+     RTS(C)_recv:	3797
+        CTS_send:	3787
+       CTSC_send:	0
+       DATA_recv:	3785
+        ACK_send:	3785
+
+   RetransmitRTS:	3657
+  RetransmitDATA:	4
+      RTS droped:	3
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	104
+   RTS_fail_rate:	56.96%
+ RTS_refuse_rate:	36.77%
+    RTS_CTS_rate:	27.21%
+  DATA_fail_rate:	0.22%
+all_success_rate:	31.95%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:11 ---
+num_nodes is set 11
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	17435
+        CTS_recv:	4659
+       CTSC_recv:	0
+       DATA_send:	4673
+        ACK_recv:	4658
+
+     RTS(C)_recv:	1195
+        CTS_send:	1195
+       CTSC_send:	0
+       DATA_recv:	1195
+        ACK_send:	1195
+
+   RetransmitRTS:	10484
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.46
+       max_whole:	65
+   RTS_fail_rate:	60.13%
+ RTS_refuse_rate:	32.97%
+    RTS_CTS_rate:	26.72%
+  DATA_fail_rate:	0.00%
+all_success_rate:	30.73%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	7898
+        CTS_recv:	5828
+       CTSC_recv:	15
+       DATA_send:	5873
+        ACK_recv:	5841
+
+     RTS(C)_recv:	11684
+        CTS_send:	5826
+       CTSC_send:	29
+       DATA_recv:	5853
+        ACK_send:	5853
+
+   RetransmitRTS:	1782
+  RetransmitDATA:	2
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	2302
+ dead_lock(CTSC):	29
+
+       avg_whole:	4.24
+       max_whole:	7
+   RTS_fail_rate:	22.56%
+ RTS_refuse_rate:	4.46%
+    RTS_CTS_rate:	73.98%
+  DATA_fail_rate:	0.03%
+all_success_rate:	76.30%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6373
+        CTS_recv:	5784
+       CTSC_recv:	61
+       DATA_send:	5858
+        ACK_recv:	5839
+
+     RTS(C)_recv:	6775
+        CTS_send:	5792
+       CTSC_send:	51
+       DATA_recv:	5841
+        ACK_send:	5841
+
+   RetransmitRTS:	437
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	292
+ dead_lock(CTSC):	51
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	6.86%
+ RTS_refuse_rate:	1.53%
+    RTS_CTS_rate:	91.72%
+  DATA_fail_rate:	0.02%
+all_success_rate:	92.76%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6247
+        CTS_recv:	5767
+       CTSC_recv:	72
+       DATA_send:	5857
+        ACK_recv:	5837
+
+     RTS(C)_recv:	6052
+        CTS_send:	5773
+       CTSC_send:	71
+       DATA_recv:	5839
+        ACK_send:	5839
+
+   RetransmitRTS:	335
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	99
+ dead_lock(CTSC):	71
+
+       avg_whole:	4.10
+       max_whole:	3
+   RTS_fail_rate:	5.36%
+ RTS_refuse_rate:	1.23%
+    RTS_CTS_rate:	93.47%
+  DATA_fail_rate:	0.02%
+all_success_rate:	94.27%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6212
+        CTS_recv:	5760
+       CTSC_recv:	73
+       DATA_send:	5851
+        ACK_recv:	5832
+
+     RTS(C)_recv:	6005
+        CTS_send:	5766
+       CTSC_send:	78
+       DATA_recv:	5837
+        ACK_send:	5837
+
+   RetransmitRTS:	311
+  RetransmitDATA:	1
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	86
+ dead_lock(CTSC):	78
+
+       avg_whole:	1.28
+       max_whole:	2
+   RTS_fail_rate:	5.01%
+ RTS_refuse_rate:	1.15%
+    RTS_CTS_rate:	93.90%
+  DATA_fail_rate:	0.02%
+all_success_rate:	94.64%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6244
+        CTS_recv:	5758
+       CTSC_recv:	78
+       DATA_send:	5849
+        ACK_recv:	5832
+
+     RTS(C)_recv:	6003
+        CTS_send:	5762
+       CTSC_send:	76
+       DATA_recv:	5832
+        ACK_send:	5832
+
+   RetransmitRTS:	316
+  RetransmitDATA:	3
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	83
+ dead_lock(CTSC):	76
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	5.06%
+ RTS_refuse_rate:	1.55%
+    RTS_CTS_rate:	93.47%
+  DATA_fail_rate:	0.05%
+all_success_rate:	94.60%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6226
+        CTS_recv:	5757
+       CTSC_recv:	79
+       DATA_send:	5848
+        ACK_recv:	5831
+
+     RTS(C)_recv:	6033
+        CTS_send:	5769
+       CTSC_send:	71
+       DATA_recv:	5832
+        ACK_send:	5832
+
+   RetransmitRTS:	313
+  RetransmitDATA:	3
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	109
+ dead_lock(CTSC):	71
+
+       avg_whole:	1.16
+       max_whole:	3
+   RTS_fail_rate:	5.03%
+ RTS_refuse_rate:	1.30%
+    RTS_CTS_rate:	93.74%
+  DATA_fail_rate:	0.05%
+all_success_rate:	94.64%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	6120
+        CTS_recv:	5761
+       CTSC_recv:	76
+       DATA_send:	5855
+        ACK_recv:	5831
+
+     RTS(C)_recv:	6025
+        CTS_send:	5772
+       CTSC_send:	67
+       DATA_recv:	5833
+        ACK_send:	5833
+
+   RetransmitRTS:	222
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	96
+ dead_lock(CTSC):	67
+
+       avg_whole:	7.24
+       max_whole:	3
+   RTS_fail_rate:	3.63%
+ RTS_refuse_rate:	1.03%
+    RTS_CTS_rate:	95.38%
+  DATA_fail_rate:	0.03%
+all_success_rate:	95.95%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	6101
+        CTS_recv:	5778
+       CTSC_recv:	59
+       DATA_send:	5859
+        ACK_recv:	5834
+
+     RTS(C)_recv:	6145
+        CTS_send:	5781
+       CTSC_send:	54
+       DATA_recv:	5834
+        ACK_send:	5834
+
+   RetransmitRTS:	202
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	123
+ dead_lock(CTSC):	54
+
+       avg_whole:	0.64
+       max_whole:	2
+   RTS_fail_rate:	3.31%
+ RTS_refuse_rate:	1.05%
+    RTS_CTS_rate:	95.67%
+  DATA_fail_rate:	0.02%
+all_success_rate:	96.25%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	6451
+        CTS_recv:	5823
+       CTSC_recv:	13
+       DATA_send:	5940
+        ACK_recv:	5835
+
+     RTS(C)_recv:	7479
+        CTS_send:	5886
+       CTSC_send:	31
+       DATA_recv:	5911
+        ACK_send:	5911
+
+   RetransmitRTS:	508
+  RetransmitDATA:	1
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	651
+ dead_lock(CTSC):	31
+
+       avg_whole:	3.90
+       max_whole:	3
+   RTS_fail_rate:	7.87%
+ RTS_refuse_rate:	1.80%
+    RTS_CTS_rate:	90.47%
+  DATA_fail_rate:	0.02%
+all_success_rate:	90.49%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	4679
+        CTS_recv:	1279
+       CTSC_recv:	0
+       DATA_send:	1307
+        ACK_recv:	1274
+
+     RTS(C)_recv:	4642
+        CTS_send:	4639
+       CTSC_send:	0
+       DATA_recv:	4637
+        ACK_send:	4637
+
+   RetransmitRTS:	2760
+  RetransmitDATA:	5
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.14
+       max_whole:	71
+   RTS_fail_rate:	58.99%
+ RTS_refuse_rate:	33.35%
+    RTS_CTS_rate:	27.33%
+  DATA_fail_rate:	0.38%
+all_success_rate:	31.33%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:12 ---
+num_nodes is set 12
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	9400
+        CTS_recv:	2632
+       CTSC_recv:	0
+       DATA_send:	2700
+        ACK_recv:	2627
+
+     RTS(C)_recv:	2916
+        CTS_send:	2904
+       CTSC_send:	0
+       DATA_recv:	2903
+        ACK_send:	2903
+
+   RetransmitRTS:	5454
+  RetransmitDATA:	5
+      RTS droped:	7
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.23
+       max_whole:	106
+   RTS_fail_rate:	58.02%
+ RTS_refuse_rate:	33.30%
+    RTS_CTS_rate:	28.00%
+  DATA_fail_rate:	0.19%
+all_success_rate:	32.22%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	6702
+        CTS_recv:	5171
+       CTSC_recv:	44
+       DATA_send:	5595
+        ACK_recv:	5214
+
+     RTS(C)_recv:	8819
+        CTS_send:	5444
+       CTSC_send:	93
+       DATA_recv:	5529
+        ACK_send:	5529
+
+   RetransmitRTS:	1197
+  RetransmitDATA:	1
+      RTS droped:	10
+     DATA droped:	0
+  refuse(no CTS):	1366
+ dead_lock(CTSC):	93
+
+       avg_whole:	0.00
+       max_whole:	7
+   RTS_fail_rate:	17.86%
+ RTS_refuse_rate:	5.27%
+    RTS_CTS_rate:	77.81%
+  DATA_fail_rate:	0.02%
+all_success_rate:	76.77%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	5975
+        CTS_recv:	5050
+       CTSC_recv:	163
+       DATA_send:	5275
+        ACK_recv:	5204
+
+     RTS(C)_recv:	6066
+        CTS_send:	5079
+       CTSC_send:	139
+       DATA_recv:	5214
+        ACK_send:	5214
+
+   RetransmitRTS:	517
+  RetransmitDATA:	2
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	359
+ dead_lock(CTSC):	139
+
+       avg_whole:	4.08
+       max_whole:	3
+   RTS_fail_rate:	8.65%
+ RTS_refuse_rate:	4.49%
+    RTS_CTS_rate:	87.25%
+  DATA_fail_rate:	0.04%
+all_success_rate:	89.85%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6012
+        CTS_recv:	5019
+       CTSC_recv:	191
+       DATA_send:	5264
+        ACK_recv:	5200
+
+     RTS(C)_recv:	5865
+        CTS_send:	5047
+       CTSC_send:	177
+       DATA_recv:	5206
+        ACK_send:	5206
+
+   RetransmitRTS:	571
+  RetransmitDATA:	4
+      RTS droped:	5
+     DATA droped:	0
+  refuse(no CTS):	341
+ dead_lock(CTSC):	177
+
+       avg_whole:	8.28
+       max_whole:	20
+   RTS_fail_rate:	9.50%
+ RTS_refuse_rate:	4.25%
+    RTS_CTS_rate:	86.66%
+  DATA_fail_rate:	0.08%
+all_success_rate:	89.12%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6392
+        CTS_recv:	4999
+       CTSC_recv:	220
+       DATA_send:	5261
+        ACK_recv:	5207
+
+     RTS(C)_recv:	5927
+        CTS_send:	5045
+       CTSC_send:	213
+       DATA_recv:	5238
+        ACK_send:	5238
+
+   RetransmitRTS:	875
+  RetransmitDATA:	5
+      RTS droped:	5
+     DATA droped:	0
+  refuse(no CTS):	353
+ dead_lock(CTSC):	213
+
+       avg_whole:	0.50
+       max_whole:	64
+   RTS_fail_rate:	13.69%
+ RTS_refuse_rate:	5.40%
+    RTS_CTS_rate:	81.65%
+  DATA_fail_rate:	0.10%
+all_success_rate:	84.86%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6415
+        CTS_recv:	5030
+       CTSC_recv:	221
+       DATA_send:	5297
+        ACK_recv:	5235
+
+     RTS(C)_recv:	5846
+        CTS_send:	5094
+       CTSC_send:	219
+       DATA_recv:	5298
+        ACK_send:	5298
+
+   RetransmitRTS:	839
+  RetransmitDATA:	10
+      RTS droped:	6
+     DATA droped:	0
+  refuse(no CTS):	288
+ dead_lock(CTSC):	219
+
+       avg_whole:	0.72
+       max_whole:	65
+   RTS_fail_rate:	13.08%
+ RTS_refuse_rate:	5.83%
+    RTS_CTS_rate:	81.86%
+  DATA_fail_rate:	0.19%
+all_success_rate:	85.32%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6217
+        CTS_recv:	5100
+       CTSC_recv:	205
+       DATA_send:	5342
+        ACK_recv:	5292
+
+     RTS(C)_recv:	5826
+        CTS_send:	5096
+       CTSC_send:	206
+       DATA_recv:	5288
+        ACK_send:	5288
+
+   RetransmitRTS:	668
+  RetransmitDATA:	4
+      RTS droped:	5
+     DATA droped:	0
+  refuse(no CTS):	301
+ dead_lock(CTSC):	206
+
+       avg_whole:	0.03
+       max_whole:	3
+   RTS_fail_rate:	10.74%
+ RTS_refuse_rate:	4.40%
+    RTS_CTS_rate:	85.33%
+  DATA_fail_rate:	0.07%
+all_success_rate:	88.05%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	6235
+        CTS_recv:	5104
+       CTSC_recv:	207
+       DATA_send:	5365
+        ACK_recv:	5293
+
+     RTS(C)_recv:	5837
+        CTS_send:	5115
+       CTSC_send:	208
+       DATA_recv:	5305
+        ACK_send:	5305
+
+   RetransmitRTS:	689
+  RetransmitDATA:	13
+      RTS droped:	8
+     DATA droped:	0
+  refuse(no CTS):	303
+ dead_lock(CTSC):	208
+
+       avg_whole:	0.01
+       max_whole:	3
+   RTS_fail_rate:	11.05%
+ RTS_refuse_rate:	4.24%
+    RTS_CTS_rate:	85.18%
+  DATA_fail_rate:	0.24%
+all_success_rate:	87.43%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	6133
+        CTS_recv:	5110
+       CTSC_recv:	212
+       DATA_send:	5379
+        ACK_recv:	5311
+
+     RTS(C)_recv:	5867
+        CTS_send:	5164
+       CTSC_send:	175
+       DATA_recv:	5316
+        ACK_send:	5316
+
+   RetransmitRTS:	565
+  RetransmitDATA:	2
+      RTS droped:	3
+     DATA droped:	0
+  refuse(no CTS):	280
+ dead_lock(CTSC):	175
+
+       avg_whole:	0.00
+       max_whole:	31
+   RTS_fail_rate:	9.21%
+ RTS_refuse_rate:	4.42%
+    RTS_CTS_rate:	86.78%
+  DATA_fail_rate:	0.04%
+all_success_rate:	89.35%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	6123
+        CTS_recv:	5162
+       CTSC_recv:	166
+       DATA_send:	5398
+        ACK_recv:	5320
+
+     RTS(C)_recv:	6301
+        CTS_send:	5200
+       CTSC_send:	141
+       DATA_recv:	5334
+        ACK_send:	5334
+
+   RetransmitRTS:	564
+  RetransmitDATA:	2
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	403
+ dead_lock(CTSC):	141
+
+       avg_whole:	6.33
+       max_whole:	3
+   RTS_fail_rate:	9.21%
+ RTS_refuse_rate:	4.16%
+    RTS_CTS_rate:	87.02%
+  DATA_fail_rate:	0.04%
+all_success_rate:	89.23%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	7091
+        CTS_recv:	5303
+       CTSC_recv:	36
+       DATA_send:	5661
+        ACK_recv:	5335
+
+     RTS(C)_recv:	9810
+        CTS_send:	5500
+       CTSC_send:	98
+       DATA_recv:	5591
+        ACK_send:	5591
+
+   RetransmitRTS:	1408
+  RetransmitDATA:	4
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	1705
+ dead_lock(CTSC):	98
+
+       avg_whole:	2.16
+       max_whole:	5
+   RTS_fail_rate:	19.86%
+ RTS_refuse_rate:	6.05%
+    RTS_CTS_rate:	75.29%
+  DATA_fail_rate:	0.07%
+all_success_rate:	75.47%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	12018
+        CTS_recv:	3294
+       CTSC_recv:	0
+       DATA_send:	3355
+        ACK_recv:	3286
+
+     RTS(C)_recv:	2312
+        CTS_send:	2306
+       CTSC_send:	1
+       DATA_recv:	2304
+        ACK_send:	2304
+
+   RetransmitRTS:	7050
+  RetransmitDATA:	7
+      RTS droped:	8
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	1
+
+       avg_whole:	1.70
+       max_whole:	88
+   RTS_fail_rate:	58.66%
+ RTS_refuse_rate:	33.70%
+    RTS_CTS_rate:	27.41%
+  DATA_fail_rate:	0.21%
+all_success_rate:	31.58%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:13 ---
+num_nodes is set 13
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	2973
+        CTS_recv:	871
+       CTSC_recv:	0
+       DATA_send:	922
+        ACK_recv:	867
+
+     RTS(C)_recv:	4064
+        CTS_send:	4059
+       CTSC_send:	0
+       DATA_recv:	4058
+        ACK_send:	4058
+
+   RetransmitRTS:	1663
+  RetransmitDATA:	4
+      RTS droped:	8
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.92
+       max_whole:	96
+   RTS_fail_rate:	55.94%
+ RTS_refuse_rate:	33.51%
+    RTS_CTS_rate:	29.30%
+  DATA_fail_rate:	0.43%
+all_success_rate:	33.54%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	5341
+        CTS_recv:	4714
+       CTSC_recv:	23
+       DATA_send:	4977
+        ACK_recv:	4736
+
+     RTS(C)_recv:	6037
+        CTS_send:	4871
+       CTSC_send:	60
+       DATA_recv:	4925
+        ACK_send:	4925
+
+   RetransmitRTS:	442
+  RetransmitDATA:	1
+      RTS droped:	3
+     DATA droped:	0
+  refuse(no CTS):	462
+ dead_lock(CTSC):	60
+
+       avg_whole:	15.04
+       max_whole:	4
+   RTS_fail_rate:	8.28%
+ RTS_refuse_rate:	3.31%
+    RTS_CTS_rate:	88.69%
+  DATA_fail_rate:	0.02%
+all_success_rate:	87.40%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	5127
+        CTS_recv:	4634
+       CTSC_recv:	95
+       DATA_send:	4776
+        ACK_recv:	4726
+
+     RTS(C)_recv:	5110
+        CTS_send:	4652
+       CTSC_send:	86
+       DATA_recv:	4735
+        ACK_send:	4735
+
+   RetransmitRTS:	282
+  RetransmitDATA:	2
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	179
+ dead_lock(CTSC):	86
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	5.50%
+ RTS_refuse_rate:	2.39%
+    RTS_CTS_rate:	92.24%
+  DATA_fail_rate:	0.04%
+all_success_rate:	93.44%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	5170
+        CTS_recv:	4610
+       CTSC_recv:	119
+       DATA_send:	4763
+        ACK_recv:	4724
+
+     RTS(C)_recv:	5093
+        CTS_send:	4624
+       CTSC_send:	112
+       DATA_recv:	4726
+        ACK_send:	4726
+
+   RetransmitRTS:	319
+  RetransmitDATA:	2
+      RTS droped:	3
+     DATA droped:	0
+  refuse(no CTS):	179
+ dead_lock(CTSC):	112
+
+       avg_whole:	6.26
+       max_whole:	11
+   RTS_fail_rate:	6.17%
+ RTS_refuse_rate:	2.51%
+    RTS_CTS_rate:	91.47%
+  DATA_fail_rate:	0.04%
+all_success_rate:	92.96%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	5472
+        CTS_recv:	4592
+       CTSC_recv:	135
+       DATA_send:	4760
+        ACK_recv:	4718
+
+     RTS(C)_recv:	5773
+        CTS_send:	5320
+       CTSC_send:	125
+       DATA_recv:	5440
+        ACK_send:	5440
+
+   RetransmitRTS:	573
+  RetransmitDATA:	8
+      RTS droped:	3
+     DATA droped:	0
+  refuse(no CTS):	182
+ dead_lock(CTSC):	125
+
+       avg_whole:	0.03
+       max_whole:	65
+   RTS_fail_rate:	10.47%
+ RTS_refuse_rate:	3.51%
+    RTS_CTS_rate:	86.39%
+  DATA_fail_rate:	0.17%
+all_success_rate:	88.47%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6066
+        CTS_recv:	5291
+       CTSC_recv:	149
+       DATA_send:	5466
+        ACK_recv:	5434
+
+     RTS(C)_recv:	5785
+        CTS_send:	5296
+       CTSC_send:	141
+       DATA_recv:	5429
+        ACK_send:	5429
+
+   RetransmitRTS:	446
+  RetransmitDATA:	4
+      RTS droped:	3
+     DATA droped:	0
+  refuse(no CTS):	194
+ dead_lock(CTSC):	141
+
+       avg_whole:	0.02
+       max_whole:	3
+   RTS_fail_rate:	7.35%
+ RTS_refuse_rate:	3.20%
+    RTS_CTS_rate:	89.68%
+  DATA_fail_rate:	0.07%
+all_success_rate:	91.91%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6095
+        CTS_recv:	5278
+       CTSC_recv:	159
+       DATA_send:	5466
+        ACK_recv:	5431
+
+     RTS(C)_recv:	5821
+        CTS_send:	5281
+       CTSC_send:	162
+       DATA_recv:	5433
+        ACK_send:	5433
+
+   RetransmitRTS:	472
+  RetransmitDATA:	3
+      RTS droped:	3
+     DATA droped:	0
+  refuse(no CTS):	233
+ dead_lock(CTSC):	162
+
+       avg_whole:	1.25
+       max_whole:	3
+   RTS_fail_rate:	7.74%
+ RTS_refuse_rate:	3.31%
+    RTS_CTS_rate:	89.20%
+  DATA_fail_rate:	0.05%
+all_success_rate:	91.46%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	6136
+        CTS_recv:	5290
+       CTSC_recv:	149
+       DATA_send:	5474
+        ACK_recv:	5433
+
+     RTS(C)_recv:	5807
+        CTS_send:	5313
+       CTSC_send:	136
+       DATA_recv:	5443
+        ACK_send:	5443
+
+   RetransmitRTS:	518
+  RetransmitDATA:	1
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	210
+ dead_lock(CTSC):	136
+
+       avg_whole:	0.00
+       max_whole:	4
+   RTS_fail_rate:	8.44%
+ RTS_refuse_rate:	3.19%
+    RTS_CTS_rate:	88.64%
+  DATA_fail_rate:	0.02%
+all_success_rate:	90.67%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	6123
+        CTS_recv:	5320
+       CTSC_recv:	130
+       DATA_send:	5487
+        ACK_recv:	5444
+
+     RTS(C)_recv:	5791
+        CTS_send:	5337
+       CTSC_send:	126
+       DATA_recv:	5448
+        ACK_send:	5448
+
+   RetransmitRTS:	493
+  RetransmitDATA:	6
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	175
+ dead_lock(CTSC):	126
+
+       avg_whole:	0.54
+       max_whole:	5
+   RTS_fail_rate:	8.05%
+ RTS_refuse_rate:	3.20%
+    RTS_CTS_rate:	89.01%
+  DATA_fail_rate:	0.11%
+all_success_rate:	91.04%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	6103
+        CTS_recv:	5333
+       CTSC_recv:	127
+       DATA_send:	5496
+        ACK_recv:	5452
+
+     RTS(C)_recv:	5843
+        CTS_send:	5346
+       CTSC_send:	124
+       DATA_recv:	5457
+        ACK_send:	5457
+
+   RetransmitRTS:	485
+  RetransmitDATA:	3
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	198
+ dead_lock(CTSC):	124
+
+       avg_whole:	0.68
+       max_whole:	3
+   RTS_fail_rate:	7.95%
+ RTS_refuse_rate:	2.81%
+    RTS_CTS_rate:	89.46%
+  DATA_fail_rate:	0.05%
+all_success_rate:	91.16%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	6147
+        CTS_recv:	5356
+       CTSC_recv:	114
+       DATA_send:	5505
+        ACK_recv:	5459
+
+     RTS(C)_recv:	6515
+        CTS_send:	5378
+       CTSC_send:	93
+       DATA_recv:	5468
+        ACK_send:	5468
+
+   RetransmitRTS:	519
+  RetransmitDATA:	3
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	352
+ dead_lock(CTSC):	93
+
+       avg_whole:	1.26
+       max_whole:	3
+   RTS_fail_rate:	8.44%
+ RTS_refuse_rate:	2.81%
+    RTS_CTS_rate:	88.99%
+  DATA_fail_rate:	0.05%
+all_success_rate:	90.62%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	7724
+        CTS_recv:	5449
+       CTSC_recv:	23
+       DATA_send:	5692
+        ACK_recv:	5469
+
+     RTS(C)_recv:	11929
+        CTS_send:	5595
+       CTSC_send:	65
+       DATA_recv:	5651
+        ACK_send:	5651
+
+   RetransmitRTS:	1938
+  RetransmitDATA:	1
+      RTS droped:	6
+     DATA droped:	0
+  refuse(no CTS):	2477
+ dead_lock(CTSC):	65
+
+       avg_whole:	14.08
+       max_whole:	4
+   RTS_fail_rate:	25.09%
+ RTS_refuse_rate:	5.43%
+    RTS_CTS_rate:	70.84%
+  DATA_fail_rate:	0.02%
+all_success_rate:	71.68%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	18278
+        CTS_recv:	4990
+       CTSC_recv:	0
+       DATA_send:	5022
+        ACK_recv:	4986
+
+     RTS(C)_recv:	675
+        CTS_send:	668
+       CTSC_send:	0
+       DATA_recv:	666
+        ACK_send:	666
+
+   RetransmitRTS:	10836
+  RetransmitDATA:	4
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	3.07
+       max_whole:	68
+   RTS_fail_rate:	59.28%
+ RTS_refuse_rate:	32.95%
+    RTS_CTS_rate:	27.30%
+  DATA_fail_rate:	0.08%
+all_success_rate:	31.44%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:14 ---
+num_nodes is set 14
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	21512
+        CTS_recv:	5769
+       CTSC_recv:	0
+       DATA_send:	5774
+        ACK_recv:	5769
+
+     RTS(C)_recv:	18
+        CTS_send:	18
+       CTSC_send:	0
+       DATA_recv:	18
+        ACK_send:	18
+
+   RetransmitRTS:	12915
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.59
+       max_whole:	65
+   RTS_fail_rate:	60.04%
+ RTS_refuse_rate:	32.90%
+    RTS_CTS_rate:	26.82%
+  DATA_fail_rate:	0.00%
+all_success_rate:	30.87%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	8032
+        CTS_recv:	5771
+       CTSC_recv:	3
+       DATA_send:	5798
+        ACK_recv:	5772
+
+     RTS(C)_recv:	12888
+        CTS_send:	5782
+       CTSC_send:	5
+       DATA_recv:	5787
+        ACK_send:	5787
+
+   RetransmitRTS:	2005
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	2832
+ dead_lock(CTSC):	5
+
+       avg_whole:	2.63
+       max_whole:	5
+   RTS_fail_rate:	24.96%
+ RTS_refuse_rate:	4.20%
+    RTS_CTS_rate:	71.89%
+  DATA_fail_rate:	0.02%
+all_success_rate:	73.97%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6170
+        CTS_recv:	5779
+       CTSC_recv:	9
+       DATA_send:	5787
+        ACK_recv:	5774
+
+     RTS(C)_recv:	6699
+        CTS_send:	5765
+       CTSC_send:	9
+       DATA_recv:	5773
+        ACK_send:	5773
+
+   RetransmitRTS:	340
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	257
+ dead_lock(CTSC):	9
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	5.51%
+ RTS_refuse_rate:	0.72%
+    RTS_CTS_rate:	93.81%
+  DATA_fail_rate:	0.02%
+all_success_rate:	94.24%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6054
+        CTS_recv:	5758
+       CTSC_recv:	10
+       DATA_send:	5784
+        ACK_recv:	5767
+
+     RTS(C)_recv:	5894
+        CTS_send:	5786
+       CTSC_send:	8
+       DATA_recv:	5779
+        ACK_send:	5779
+
+   RetransmitRTS:	266
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	46
+ dead_lock(CTSC):	8
+
+       avg_whole:	0.70
+       max_whole:	4
+   RTS_fail_rate:	4.39%
+ RTS_refuse_rate:	0.35%
+    RTS_CTS_rate:	95.28%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.32%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6014
+        CTS_recv:	5765
+       CTSC_recv:	6
+       DATA_send:	5781
+        ACK_recv:	5771
+
+     RTS(C)_recv:	5820
+        CTS_send:	5764
+       CTSC_send:	9
+       DATA_recv:	5769
+        ACK_send:	5769
+
+   RetransmitRTS:	223
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	22
+ dead_lock(CTSC):	9
+
+       avg_whole:	0.01
+       max_whole:	3
+   RTS_fail_rate:	3.71%
+ RTS_refuse_rate:	0.35%
+    RTS_CTS_rate:	95.96%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.12%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	5981
+        CTS_recv:	5761
+       CTSC_recv:	8
+       DATA_send:	5779
+        ACK_recv:	5767
+
+     RTS(C)_recv:	5802
+        CTS_send:	5758
+       CTSC_send:	10
+       DATA_recv:	5767
+        ACK_send:	5767
+
+   RetransmitRTS:	196
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	18
+ dead_lock(CTSC):	10
+
+       avg_whole:	1.20
+       max_whole:	3
+   RTS_fail_rate:	3.28%
+ RTS_refuse_rate:	0.28%
+    RTS_CTS_rate:	96.46%
+  DATA_fail_rate:	0.02%
+all_success_rate:	96.52%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	5955
+        CTS_recv:	5752
+       CTSC_recv:	12
+       DATA_send:	5775
+        ACK_recv:	5762
+
+     RTS(C)_recv:	5803
+        CTS_send:	5759
+       CTSC_send:	9
+       DATA_recv:	5766
+        ACK_send:	5766
+
+   RetransmitRTS:	176
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	19
+ dead_lock(CTSC):	9
+
+       avg_whole:	2.12
+       max_whole:	3
+   RTS_fail_rate:	2.96%
+ RTS_refuse_rate:	0.26%
+    RTS_CTS_rate:	96.79%
+  DATA_fail_rate:	0.03%
+all_success_rate:	96.82%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	5932
+        CTS_recv:	5751
+       CTSC_recv:	11
+       DATA_send:	5771
+        ACK_recv:	5762
+
+     RTS(C)_recv:	5808
+        CTS_send:	5754
+       CTSC_send:	11
+       DATA_recv:	5762
+        ACK_send:	5762
+
+   RetransmitRTS:	152
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	19
+ dead_lock(CTSC):	11
+
+       avg_whole:	2.75
+       max_whole:	3
+   RTS_fail_rate:	2.56%
+ RTS_refuse_rate:	0.31%
+    RTS_CTS_rate:	97.13%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.28%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	5937
+        CTS_recv:	5750
+       CTSC_recv:	14
+       DATA_send:	5775
+        ACK_recv:	5762
+
+     RTS(C)_recv:	5803
+        CTS_send:	5750
+       CTSC_send:	13
+       DATA_recv:	5762
+        ACK_send:	5762
+
+   RetransmitRTS:	158
+  RetransmitDATA:	2
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	26
+ dead_lock(CTSC):	13
+
+       avg_whole:	0.01
+       max_whole:	4
+   RTS_fail_rate:	2.66%
+ RTS_refuse_rate:	0.26%
+    RTS_CTS_rate:	97.09%
+  DATA_fail_rate:	0.03%
+all_success_rate:	97.12%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	5926
+        CTS_recv:	5750
+       CTSC_recv:	14
+       DATA_send:	5775
+        ACK_recv:	5762
+
+     RTS(C)_recv:	5798
+        CTS_send:	5754
+       CTSC_send:	9
+       DATA_recv:	5762
+        ACK_send:	5762
+
+   RetransmitRTS:	145
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	16
+ dead_lock(CTSC):	9
+
+       avg_whole:	2.65
+       max_whole:	2
+   RTS_fail_rate:	2.45%
+ RTS_refuse_rate:	0.29%
+    RTS_CTS_rate:	97.27%
+  DATA_fail_rate:	0.02%
+all_success_rate:	97.33%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	5820
+        CTS_recv:	5752
+       CTSC_recv:	9
+       DATA_send:	5774
+        ACK_recv:	5761
+
+     RTS(C)_recv:	5796
+        CTS_send:	5747
+       CTSC_send:	17
+       DATA_recv:	5762
+        ACK_send:	5762
+
+   RetransmitRTS:	42
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	18
+ dead_lock(CTSC):	17
+
+       avg_whole:	0.60
+       max_whole:	7
+   RTS_fail_rate:	0.72%
+ RTS_refuse_rate:	0.29%
+    RTS_CTS_rate:	98.99%
+  DATA_fail_rate:	0.00%
+all_success_rate:	99.05%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	5809
+        CTS_recv:	5744
+       CTSC_recv:	17
+       DATA_send:	5777
+        ACK_recv:	5761
+
+     RTS(C)_recv:	5803
+        CTS_send:	5750
+       CTSC_send:	11
+       DATA_recv:	5761
+        ACK_send:	5761
+
+   RetransmitRTS:	30
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	23
+ dead_lock(CTSC):	11
+
+       avg_whole:	7.43
+       max_whole:	2
+   RTS_fail_rate:	0.52%
+ RTS_refuse_rate:	0.31%
+    RTS_CTS_rate:	99.17%
+  DATA_fail_rate:	0.00%
+all_success_rate:	99.21%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	5803
+        CTS_recv:	5758
+       CTSC_recv:	3
+       DATA_send:	5821
+        ACK_recv:	5761
+
+     RTS(C)_recv:	5857
+        CTS_send:	5796
+       CTSC_send:	7
+       DATA_recv:	5802
+        ACK_send:	5802
+
+   RetransmitRTS:	29
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	25
+ dead_lock(CTSC):	7
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	0.50%
+ RTS_refuse_rate:	0.23%
+    RTS_CTS_rate:	99.28%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.48%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	135
+        CTS_recv:	61
+       CTSC_recv:	0
+       DATA_send:	80
+        ACK_recv:	60
+
+     RTS(C)_recv:	5742
+        CTS_send:	5742
+       CTSC_send:	0
+       DATA_recv:	5742
+        ACK_send:	5742
+
+   RetransmitRTS:	53
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	73
+   RTS_fail_rate:	39.26%
+ RTS_refuse_rate:	25.61%
+    RTS_CTS_rate:	45.19%
+  DATA_fail_rate:	1.25%
+all_success_rate:	45.11%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:15 ---
+num_nodes is set 15
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	13332
+        CTS_recv:	3591
+       CTSC_recv:	0
+       DATA_send:	3630
+        ACK_recv:	3588
+
+     RTS(C)_recv:	2077
+        CTS_send:	2076
+       CTSC_send:	0
+       DATA_recv:	2075
+        ACK_send:	2075
+
+   RetransmitRTS:	7971
+  RetransmitDATA:	3
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.83
+       max_whole:	85
+   RTS_fail_rate:	59.79%
+ RTS_refuse_rate:	33.02%
+    RTS_CTS_rate:	26.94%
+  DATA_fail_rate:	0.08%
+all_success_rate:	30.93%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	7208
+        CTS_recv:	5552
+       CTSC_recv:	16
+       DATA_send:	5707
+        ACK_recv:	5566
+
+     RTS(C)_recv:	10218
+        CTS_send:	5621
+       CTSC_send:	47
+       DATA_recv:	5663
+        ACK_send:	5663
+
+   RetransmitRTS:	1377
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	1786
+ dead_lock(CTSC):	47
+
+       avg_whole:	3.47
+       max_whole:	4
+   RTS_fail_rate:	19.10%
+ RTS_refuse_rate:	4.51%
+    RTS_CTS_rate:	77.25%
+  DATA_fail_rate:	0.02%
+all_success_rate:	78.57%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6096
+        CTS_recv:	5481
+       CTSC_recv:	83
+       DATA_send:	5600
+        ACK_recv:	5556
+
+     RTS(C)_recv:	6359
+        CTS_send:	5501
+       CTSC_send:	70
+       DATA_recv:	5567
+        ACK_send:	5567
+
+   RetransmitRTS:	417
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	290
+ dead_lock(CTSC):	70
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	6.84%
+ RTS_refuse_rate:	2.03%
+    RTS_CTS_rate:	91.27%
+  DATA_fail_rate:	0.00%
+all_success_rate:	92.34%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6013
+        CTS_recv:	5454
+       CTSC_recv:	102
+       DATA_send:	5591
+        ACK_recv:	5552
+
+     RTS(C)_recv:	5836
+        CTS_send:	5483
+       CTSC_send:	86
+       DATA_recv:	5556
+        ACK_send:	5556
+
+   RetransmitRTS:	335
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	136
+ dead_lock(CTSC):	86
+
+       avg_whole:	0.01
+       max_whole:	3
+   RTS_fail_rate:	5.57%
+ RTS_refuse_rate:	2.15%
+    RTS_CTS_rate:	92.40%
+  DATA_fail_rate:	0.02%
+all_success_rate:	93.69%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6064
+        CTS_recv:	5452
+       CTSC_recv:	95
+       DATA_send:	5584
+        ACK_recv:	5541
+
+     RTS(C)_recv:	5804
+        CTS_send:	5455
+       CTSC_send:	100
+       DATA_recv:	5551
+        ACK_send:	5551
+
+   RetransmitRTS:	418
+  RetransmitDATA:	3
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	147
+ dead_lock(CTSC):	100
+
+       avg_whole:	0.87
+       max_whole:	3
+   RTS_fail_rate:	6.89%
+ RTS_refuse_rate:	1.75%
+    RTS_CTS_rate:	91.47%
+  DATA_fail_rate:	0.05%
+all_success_rate:	92.32%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6088
+        CTS_recv:	5435
+       CTSC_recv:	99
+       DATA_send:	5570
+        ACK_recv:	5533
+
+     RTS(C)_recv:	5784
+        CTS_send:	5454
+       CTSC_send:	93
+       DATA_recv:	5541
+        ACK_send:	5541
+
+   RetransmitRTS:	432
+  RetransmitDATA:	1
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	122
+ dead_lock(CTSC):	93
+
+       avg_whole:	0.54
+       max_whole:	3
+   RTS_fail_rate:	7.10%
+ RTS_refuse_rate:	2.16%
+    RTS_CTS_rate:	90.90%
+  DATA_fail_rate:	0.02%
+all_success_rate:	92.19%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6023
+        CTS_recv:	5434
+       CTSC_recv:	99
+       DATA_send:	5563
+        ACK_recv:	5530
+
+     RTS(C)_recv:	5798
+        CTS_send:	5448
+       CTSC_send:	91
+       DATA_recv:	5533
+        ACK_send:	5533
+
+   RetransmitRTS:	362
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	136
+ dead_lock(CTSC):	91
+
+       avg_whole:	3.17
+       max_whole:	3
+   RTS_fail_rate:	6.01%
+ RTS_refuse_rate:	2.26%
+    RTS_CTS_rate:	91.86%
+  DATA_fail_rate:	0.04%
+all_success_rate:	93.33%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	6041
+        CTS_recv:	5443
+       CTSC_recv:	86
+       DATA_send:	5555
+        ACK_recv:	5523
+
+     RTS(C)_recv:	5771
+        CTS_send:	5435
+       CTSC_send:	99
+       DATA_recv:	5527
+        ACK_send:	5527
+
+   RetransmitRTS:	385
+  RetransmitDATA:	4
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	130
+ dead_lock(CTSC):	99
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	6.37%
+ RTS_refuse_rate:	2.25%
+    RTS_CTS_rate:	91.52%
+  DATA_fail_rate:	0.07%
+all_success_rate:	92.98%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	6078
+        CTS_recv:	5439
+       CTSC_recv:	92
+       DATA_send:	5552
+        ACK_recv:	5523
+
+     RTS(C)_recv:	5805
+        CTS_send:	5435
+       CTSC_send:	94
+       DATA_recv:	5524
+        ACK_send:	5524
+
+   RetransmitRTS:	414
+  RetransmitDATA:	3
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	143
+ dead_lock(CTSC):	94
+
+       avg_whole:	0.70
+       max_whole:	4
+   RTS_fail_rate:	6.81%
+ RTS_refuse_rate:	2.35%
+    RTS_CTS_rate:	91.00%
+  DATA_fail_rate:	0.05%
+all_success_rate:	92.57%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	5864
+        CTS_recv:	5152
+       CTSC_recv:	90
+       DATA_send:	5267
+        ACK_recv:	5238
+
+     RTS(C)_recv:	5804
+        CTS_send:	5460
+       CTSC_send:	77
+       DATA_recv:	5529
+        ACK_send:	5529
+
+   RetransmitRTS:	486
+  RetransmitDATA:	4
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	148
+ dead_lock(CTSC):	77
+
+       avg_whole:	0.00
+       max_whole:	65
+   RTS_fail_rate:	8.29%
+ RTS_refuse_rate:	2.53%
+    RTS_CTS_rate:	89.39%
+  DATA_fail_rate:	0.08%
+all_success_rate:	91.05%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	5807
+        CTS_recv:	5178
+       CTSC_recv:	63
+       DATA_send:	5262
+        ACK_recv:	5239
+
+     RTS(C)_recv:	5543
+        CTS_send:	5171
+       CTSC_send:	77
+       DATA_recv:	5239
+        ACK_send:	5239
+
+   RetransmitRTS:	450
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	139
+ dead_lock(CTSC):	77
+
+       avg_whole:	1.68
+       max_whole:	3
+   RTS_fail_rate:	7.75%
+ RTS_refuse_rate:	2.17%
+    RTS_CTS_rate:	90.25%
+  DATA_fail_rate:	0.00%
+all_success_rate:	91.72%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	5624
+        CTS_recv:	5164
+       CTSC_recv:	69
+       DATA_send:	5261
+        ACK_recv:	5227
+
+     RTS(C)_recv:	5541
+        CTS_send:	5195
+       CTSC_send:	56
+       DATA_recv:	5242
+        ACK_send:	5242
+
+   RetransmitRTS:	284
+  RetransmitDATA:	3
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	138
+ dead_lock(CTSC):	56
+
+       avg_whole:	0.00
+       max_whole:	60
+   RTS_fail_rate:	5.05%
+ RTS_refuse_rate:	2.00%
+    RTS_CTS_rate:	93.05%
+  DATA_fail_rate:	0.06%
+all_success_rate:	94.27%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	5641
+        CTS_recv:	5181
+       CTSC_recv:	57
+       DATA_send:	5269
+        ACK_recv:	5232
+
+     RTS(C)_recv:	5788
+        CTS_send:	5185
+       CTSC_send:	53
+       DATA_recv:	5234
+        ACK_send:	5234
+
+   RetransmitRTS:	292
+  RetransmitDATA:	3
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	203
+ dead_lock(CTSC):	53
+
+       avg_whole:	2.18
+       max_whole:	4
+   RTS_fail_rate:	5.18%
+ RTS_refuse_rate:	2.08%
+    RTS_CTS_rate:	92.86%
+  DATA_fail_rate:	0.06%
+all_success_rate:	94.08%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	6297
+        CTS_recv:	5217
+       CTSC_recv:	18
+       DATA_send:	5348
+        ACK_recv:	5234
+
+     RTS(C)_recv:	8110
+        CTS_send:	5282
+       CTSC_send:	34
+       DATA_recv:	5314
+        ACK_send:	5314
+
+   RetransmitRTS:	894
+  RetransmitDATA:	1
+      RTS droped:	4
+     DATA droped:	0
+  refuse(no CTS):	1123
+ dead_lock(CTSC):	34
+
+       avg_whole:	0.00
+       max_whole:	4
+   RTS_fail_rate:	14.20%
+ RTS_refuse_rate:	3.11%
+    RTS_CTS_rate:	83.13%
+  DATA_fail_rate:	0.02%
+all_success_rate:	83.85%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 14--------------------
+     RTS(C)_send:	8074
+        CTS_recv:	2165
+       CTSC_recv:	0
+       DATA_send:	2195
+        ACK_recv:	2163
+
+     RTS(C)_recv:	3157
+        CTS_send:	3151
+       CTSC_send:	0
+       DATA_recv:	3151
+        ACK_send:	3151
+
+   RetransmitRTS:	4807
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.40
+       max_whole:	92
+   RTS_fail_rate:	59.54%
+ RTS_refuse_rate:	33.73%
+    RTS_CTS_rate:	26.81%
+  DATA_fail_rate:	0.09%
+all_success_rate:	30.89%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:16 ---
+num_nodes is set 16
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	2846
+        CTS_recv:	753
+       CTSC_recv:	0
+       DATA_send:	767
+        ACK_recv:	753
+
+     RTS(C)_recv:	5033
+        CTS_send:	5033
+       CTSC_send:	0
+       DATA_recv:	5033
+        ACK_send:	5033
+
+   RetransmitRTS:	1695
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.67
+       max_whole:	65
+   RTS_fail_rate:	59.56%
+ RTS_refuse_rate:	34.58%
+    RTS_CTS_rate:	26.46%
+  DATA_fail_rate:	0.00%
+all_success_rate:	30.58%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	6118
+        CTS_recv:	5785
+       CTSC_recv:	2
+       DATA_send:	5797
+        ACK_recv:	5785
+
+     RTS(C)_recv:	6751
+        CTS_send:	5777
+       CTSC_send:	9
+       DATA_recv:	5786
+        ACK_send:	5786
+
+   RetransmitRTS:	291
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	399
+ dead_lock(CTSC):	9
+
+       avg_whole:	1.46
+       max_whole:	2
+   RTS_fail_rate:	4.76%
+ RTS_refuse_rate:	0.69%
+    RTS_CTS_rate:	94.59%
+  DATA_fail_rate:	0.02%
+all_success_rate:	95.02%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	5863
+        CTS_recv:	5768
+       CTSC_recv:	18
+       DATA_send:	5793
+        ACK_recv:	5785
+
+     RTS(C)_recv:	5942
+        CTS_send:	5777
+       CTSC_send:	10
+       DATA_recv:	5786
+        ACK_send:	5786
+
+   RetransmitRTS:	63
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	46
+ dead_lock(CTSC):	10
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	1.07%
+ RTS_refuse_rate:	0.24%
+    RTS_CTS_rate:	98.69%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.79%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	5875
+        CTS_recv:	5769
+       CTSC_recv:	17
+       DATA_send:	5791
+        ACK_recv:	5785
+
+     RTS(C)_recv:	5826
+        CTS_send:	5769
+       CTSC_send:	17
+       DATA_recv:	5785
+        ACK_send:	5785
+
+   RetransmitRTS:	71
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	23
+ dead_lock(CTSC):	17
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	1.21%
+ RTS_refuse_rate:	0.31%
+    RTS_CTS_rate:	98.49%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.69%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	5941
+        CTS_recv:	5770
+       CTSC_recv:	15
+       DATA_send:	5792
+        ACK_recv:	5785
+
+     RTS(C)_recv:	5824
+        CTS_send:	5771
+       CTSC_send:	15
+       DATA_recv:	5785
+        ACK_send:	5785
+
+   RetransmitRTS:	139
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	18
+ dead_lock(CTSC):	15
+
+       avg_whole:	1.99
+       max_whole:	2
+   RTS_fail_rate:	2.34%
+ RTS_refuse_rate:	0.29%
+    RTS_CTS_rate:	97.37%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.54%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	5920
+        CTS_recv:	5773
+       CTSC_recv:	12
+       DATA_send:	5792
+        ACK_recv:	5785
+
+     RTS(C)_recv:	5809
+        CTS_send:	5775
+       CTSC_send:	13
+       DATA_recv:	5785
+        ACK_send:	5785
+
+   RetransmitRTS:	125
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	12
+ dead_lock(CTSC):	13
+
+       avg_whole:	1.90
+       max_whole:	2
+   RTS_fail_rate:	2.11%
+ RTS_refuse_rate:	0.17%
+    RTS_CTS_rate:	97.72%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.77%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	5922
+        CTS_recv:	5777
+       CTSC_recv:	10
+       DATA_send:	5794
+        ACK_recv:	5785
+
+     RTS(C)_recv:	5806
+        CTS_send:	5776
+       CTSC_send:	10
+       DATA_recv:	5785
+        ACK_send:	5785
+
+   RetransmitRTS:	126
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	10
+ dead_lock(CTSC):	10
+
+       avg_whole:	22.71
+       max_whole:	3
+   RTS_fail_rate:	2.13%
+ RTS_refuse_rate:	0.16%
+    RTS_CTS_rate:	97.72%
+  DATA_fail_rate:	0.02%
+all_success_rate:	97.72%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	5931
+        CTS_recv:	5777
+       CTSC_recv:	9
+       DATA_send:	5793
+        ACK_recv:	5785
+
+     RTS(C)_recv:	5817
+        CTS_send:	5781
+       CTSC_send:	10
+       DATA_recv:	5787
+        ACK_send:	5787
+
+   RetransmitRTS:	136
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	9
+ dead_lock(CTSC):	10
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.29%
+ RTS_refuse_rate:	0.16%
+    RTS_CTS_rate:	97.56%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.57%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	5941
+        CTS_recv:	5779
+       CTSC_recv:	7
+       DATA_send:	5793
+        ACK_recv:	5786
+
+     RTS(C)_recv:	5804
+        CTS_send:	5779
+       CTSC_send:	7
+       DATA_recv:	5786
+        ACK_send:	5786
+
+   RetransmitRTS:	149
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	11
+ dead_lock(CTSC):	7
+
+       avg_whole:	1.45
+       max_whole:	3
+   RTS_fail_rate:	2.51%
+ RTS_refuse_rate:	0.10%
+    RTS_CTS_rate:	97.39%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.37%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	5943
+        CTS_recv:	5780
+       CTSC_recv:	5
+       DATA_send:	5792
+        ACK_recv:	5785
+
+     RTS(C)_recv:	5797
+        CTS_send:	5780
+       CTSC_send:	5
+       DATA_recv:	5785
+        ACK_send:	5785
+
+   RetransmitRTS:	148
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	5
+ dead_lock(CTSC):	5
+
+       avg_whole:	0.02
+       max_whole:	2
+   RTS_fail_rate:	2.49%
+ RTS_refuse_rate:	0.17%
+    RTS_CTS_rate:	97.34%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.39%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	5950
+        CTS_recv:	5780
+       CTSC_recv:	5
+       DATA_send:	5793
+        ACK_recv:	5785
+
+     RTS(C)_recv:	5799
+        CTS_send:	5782
+       CTSC_send:	3
+       DATA_recv:	5785
+        ACK_send:	5785
+
+   RetransmitRTS:	159
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	6
+ dead_lock(CTSC):	3
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.67%
+ RTS_refuse_rate:	0.10%
+    RTS_CTS_rate:	97.23%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.19%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	5960
+        CTS_recv:	5782
+       CTSC_recv:	2
+       DATA_send:	5792
+        ACK_recv:	5784
+
+     RTS(C)_recv:	5795
+        CTS_send:	5783
+       CTSC_send:	4
+       DATA_recv:	5785
+        ACK_send:	5785
+
+   RetransmitRTS:	169
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	6
+ dead_lock(CTSC):	4
+
+       avg_whole:	1.03
+       max_whole:	3
+   RTS_fail_rate:	2.84%
+ RTS_refuse_rate:	0.12%
+    RTS_CTS_rate:	97.05%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.03%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	5970
+        CTS_recv:	5783
+       CTSC_recv:	1
+       DATA_send:	5792
+        ACK_recv:	5784
+
+     RTS(C)_recv:	5834
+        CTS_send:	5787
+       CTSC_send:	3
+       DATA_recv:	5784
+        ACK_send:	5784
+
+   RetransmitRTS:	182
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	16
+ dead_lock(CTSC):	3
+
+       avg_whole:	2.30
+       max_whole:	3
+   RTS_fail_rate:	3.05%
+ RTS_refuse_rate:	0.07%
+    RTS_CTS_rate:	96.88%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.82%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	6099
+        CTS_recv:	5787
+       CTSC_recv:	2
+       DATA_send:	5792
+        ACK_recv:	5784
+
+     RTS(C)_recv:	6514
+        CTS_send:	5784
+       CTSC_send:	0
+       DATA_recv:	5784
+        ACK_send:	5784
+
+   RetransmitRTS:	296
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	209
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	4.85%
+ RTS_refuse_rate:	0.24%
+    RTS_CTS_rate:	94.92%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.01%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 14--------------------
+     RTS(C)_send:	7685
+        CTS_recv:	5784
+       CTSC_recv:	0
+       DATA_send:	5794
+        ACK_recv:	5784
+
+     RTS(C)_recv:	12090
+        CTS_send:	5785
+       CTSC_send:	1
+       DATA_recv:	5786
+        ACK_send:	5786
+
+   RetransmitRTS:	1692
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	2488
+ dead_lock(CTSC):	1
+
+       avg_whole:	0.66
+       max_whole:	2
+   RTS_fail_rate:	22.02%
+ RTS_refuse_rate:	3.49%
+    RTS_CTS_rate:	75.26%
+  DATA_fail_rate:	0.00%
+all_success_rate:	77.26%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 15--------------------
+     RTS(C)_send:	18845
+        CTS_recv:	5036
+       CTSC_recv:	0
+       DATA_send:	5042
+        ACK_recv:	5036
+
+     RTS(C)_recv:	752
+        CTS_send:	750
+       CTSC_send:	0
+       DATA_recv:	750
+        ACK_send:	750
+
+   RetransmitRTS:	11321
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	65
+   RTS_fail_rate:	60.07%
+ RTS_refuse_rate:	33.07%
+    RTS_CTS_rate:	26.72%
+  DATA_fail_rate:	0.00%
+all_success_rate:	30.78%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:17 ---
+num_nodes is set 17
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	21952
+        CTS_recv:	5890
+       CTSC_recv:	0
+       DATA_send:	5891
+        ACK_recv:	5890
+
+     RTS(C)_recv:	1
+        CTS_send:	1
+       CTSC_send:	0
+       DATA_recv:	1
+        ACK_send:	1
+
+   RetransmitRTS:	13202
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	50
+   RTS_fail_rate:	60.14%
+ RTS_refuse_rate:	32.69%
+    RTS_CTS_rate:	26.83%
+  DATA_fail_rate:	0.00%
+all_success_rate:	30.85%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	8221
+        CTS_recv:	5890
+       CTSC_recv:	0
+       DATA_send:	5892
+        ACK_recv:	5890
+
+     RTS(C)_recv:	13147
+        CTS_send:	5891
+       CTSC_send:	0
+       DATA_recv:	5891
+        ACK_send:	5891
+
+   RetransmitRTS:	2084
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	2859
+ dead_lock(CTSC):	0
+
+       avg_whole:	2.61
+       max_whole:	1
+   RTS_fail_rate:	25.35%
+ RTS_refuse_rate:	4.02%
+    RTS_CTS_rate:	71.65%
+  DATA_fail_rate:	0.00%
+all_success_rate:	73.85%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6268
+        CTS_recv:	5894
+       CTSC_recv:	0
+       DATA_send:	5892
+        ACK_recv:	5890
+
+     RTS(C)_recv:	6858
+        CTS_send:	5890
+       CTSC_send:	0
+       DATA_recv:	5890
+        ACK_send:	5890
+
+   RetransmitRTS:	361
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	247
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	1
+   RTS_fail_rate:	5.76%
+ RTS_refuse_rate:	0.22%
+    RTS_CTS_rate:	94.03%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.19%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6117
+        CTS_recv:	5891
+       CTSC_recv:	0
+       DATA_send:	5893
+        ACK_recv:	5890
+
+     RTS(C)_recv:	5941
+        CTS_send:	5894
+       CTSC_send:	0
+       DATA_recv:	5890
+        ACK_send:	5890
+
+   RetransmitRTS:	224
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	13
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.91
+       max_whole:	2
+   RTS_fail_rate:	3.66%
+ RTS_refuse_rate:	0.03%
+    RTS_CTS_rate:	96.31%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.29%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6082
+        CTS_recv:	5890
+       CTSC_recv:	0
+       DATA_send:	5894
+        ACK_recv:	5890
+
+     RTS(C)_recv:	5903
+        CTS_send:	5893
+       CTSC_send:	0
+       DATA_recv:	5890
+        ACK_send:	5890
+
+   RetransmitRTS:	191
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	2
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	3.14%
+ RTS_refuse_rate:	0.02%
+    RTS_CTS_rate:	96.84%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.80%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6079
+        CTS_recv:	5889
+       CTSC_recv:	0
+       DATA_send:	5893
+        ACK_recv:	5889
+
+     RTS(C)_recv:	5899
+        CTS_send:	5890
+       CTSC_send:	0
+       DATA_recv:	5890
+        ACK_send:	5890
+
+   RetransmitRTS:	189
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	1
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	3.11%
+ RTS_refuse_rate:	0.02%
+    RTS_CTS_rate:	96.87%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.83%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6050
+        CTS_recv:	5889
+       CTSC_recv:	0
+       DATA_send:	5893
+        ACK_recv:	5889
+
+     RTS(C)_recv:	5897
+        CTS_send:	5889
+       CTSC_send:	0
+       DATA_recv:	5889
+        ACK_send:	5889
+
+   RetransmitRTS:	161
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.69
+       max_whole:	2
+   RTS_fail_rate:	2.66%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	97.34%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.27%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	6045
+        CTS_recv:	5889
+       CTSC_recv:	0
+       DATA_send:	5893
+        ACK_recv:	5889
+
+     RTS(C)_recv:	5891
+        CTS_send:	5889
+       CTSC_send:	0
+       DATA_recv:	5889
+        ACK_send:	5889
+
+   RetransmitRTS:	155
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.56%
+ RTS_refuse_rate:	0.02%
+    RTS_CTS_rate:	97.42%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.37%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	6035
+        CTS_recv:	5890
+       CTSC_recv:	0
+       DATA_send:	5894
+        ACK_recv:	5889
+
+     RTS(C)_recv:	5894
+        CTS_send:	5889
+       CTSC_send:	0
+       DATA_recv:	5889
+        ACK_send:	5889
+
+   RetransmitRTS:	145
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	1
+ dead_lock(CTSC):	0
+
+       avg_whole:	6.66
+       max_whole:	2
+   RTS_fail_rate:	2.40%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	97.60%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.52%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	6026
+        CTS_recv:	5888
+       CTSC_recv:	0
+       DATA_send:	5894
+        ACK_recv:	5887
+
+     RTS(C)_recv:	5892
+        CTS_send:	5890
+       CTSC_send:	0
+       DATA_recv:	5889
+        ACK_send:	5889
+
+   RetransmitRTS:	138
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.68
+       max_whole:	2
+   RTS_fail_rate:	2.29%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	97.71%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.60%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	5996
+        CTS_recv:	5887
+       CTSC_recv:	0
+       DATA_send:	5892
+        ACK_recv:	5887
+
+     RTS(C)_recv:	5890
+        CTS_send:	5888
+       CTSC_send:	0
+       DATA_recv:	5887
+        ACK_send:	5887
+
+   RetransmitRTS:	109
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.60
+       max_whole:	2
+   RTS_fail_rate:	1.82%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	98.18%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.10%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	5998
+        CTS_recv:	5887
+       CTSC_recv:	0
+       DATA_send:	5892
+        ACK_recv:	5887
+
+     RTS(C)_recv:	5891
+        CTS_send:	5887
+       CTSC_send:	0
+       DATA_recv:	5887
+        ACK_send:	5887
+
+   RetransmitRTS:	111
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	5.58
+       max_whole:	1
+   RTS_fail_rate:	1.85%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	98.15%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.07%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	5994
+        CTS_recv:	5887
+       CTSC_recv:	0
+       DATA_send:	5893
+        ACK_recv:	5887
+
+     RTS(C)_recv:	5888
+        CTS_send:	5887
+       CTSC_send:	0
+       DATA_recv:	5887
+        ACK_send:	5887
+
+   RetransmitRTS:	107
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	1.79%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	98.21%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.12%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	5888
+        CTS_recv:	5887
+       CTSC_recv:	0
+       DATA_send:	5894
+        ACK_recv:	5886
+
+     RTS(C)_recv:	5889
+        CTS_send:	5887
+       CTSC_send:	0
+       DATA_recv:	5887
+        ACK_send:	5887
+
+   RetransmitRTS:	1
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	0.02%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	99.98%
+  DATA_fail_rate:	0.00%
+all_success_rate:	99.85%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 14--------------------
+     RTS(C)_send:	5886
+        CTS_recv:	5886
+       CTSC_recv:	0
+       DATA_send:	5897
+        ACK_recv:	5886
+
+     RTS(C)_recv:	5887
+        CTS_send:	5887
+       CTSC_send:	0
+       DATA_recv:	5886
+        ACK_send:	5886
+
+   RetransmitRTS:	0
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.64
+       max_whole:	2
+   RTS_fail_rate:	0.00%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	100.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	99.81%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 15--------------------
+     RTS(C)_send:	5886
+        CTS_recv:	5886
+       CTSC_recv:	0
+       DATA_send:	5901
+        ACK_recv:	5886
+
+     RTS(C)_recv:	5886
+        CTS_send:	5886
+       CTSC_send:	0
+       DATA_recv:	5886
+        ACK_send:	5886
+
+   RetransmitRTS:	0
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.57
+       max_whole:	2
+   RTS_fail_rate:	0.00%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	100.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	99.75%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 16--------------------
+     RTS(C)_send:	1
+        CTS_recv:	1
+       CTSC_recv:	0
+       DATA_send:	17
+        ACK_recv:	1
+
+     RTS(C)_recv:	5885
+        CTS_send:	5885
+       CTSC_send:	0
+       DATA_recv:	5885
+        ACK_send:	5885
+
+   RetransmitRTS:	0
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.77
+       max_whole:	65
+   RTS_fail_rate:	0.00%
+ RTS_refuse_rate:	0.00%
+    RTS_CTS_rate:	100.00%
+  DATA_fail_rate:	0.00%
+all_success_rate:	5.88%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:18 ---
+num_nodes is set 18
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	19858
+        CTS_recv:	5332
+       CTSC_recv:	0
+       DATA_send:	5340
+        ACK_recv:	5332
+
+     RTS(C)_recv:	529
+        CTS_send:	529
+       CTSC_send:	0
+       DATA_recv:	529
+        ACK_send:	529
+
+   RetransmitRTS:	11903
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.04
+       max_whole:	65
+   RTS_fail_rate:	59.94%
+ RTS_refuse_rate:	32.97%
+    RTS_CTS_rate:	26.85%
+  DATA_fail_rate:	0.00%
+all_success_rate:	30.92%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	8000
+        CTS_recv:	5858
+       CTSC_recv:	1
+       DATA_send:	5872
+        ACK_recv:	5859
+
+     RTS(C)_recv:	12520
+        CTS_send:	5859
+       CTSC_send:	2
+       DATA_recv:	5861
+        ACK_send:	5861
+
+   RetransmitRTS:	1880
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	2625
+ dead_lock(CTSC):	2
+
+       avg_whole:	3.71
+       max_whole:	3
+   RTS_fail_rate:	23.50%
+ RTS_refuse_rate:	4.26%
+    RTS_CTS_rate:	73.24%
+  DATA_fail_rate:	0.00%
+all_success_rate:	75.58%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6264
+        CTS_recv:	5865
+       CTSC_recv:	3
+       DATA_send:	5868
+        ACK_recv:	5856
+
+     RTS(C)_recv:	6730
+        CTS_send:	5858
+       CTSC_send:	2
+       DATA_recv:	5859
+        ACK_send:	5859
+
+   RetransmitRTS:	362
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	261
+ dead_lock(CTSC):	2
+
+       avg_whole:	7.52
+       max_whole:	2
+   RTS_fail_rate:	5.78%
+ RTS_refuse_rate:	0.58%
+    RTS_CTS_rate:	93.68%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.00%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	6100
+        CTS_recv:	5853
+       CTSC_recv:	2
+       DATA_send:	5865
+        ACK_recv:	5854
+
+     RTS(C)_recv:	5948
+        CTS_send:	5867
+       CTSC_send:	2
+       DATA_recv:	5857
+        ACK_send:	5857
+
+   RetransmitRTS:	234
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	33
+ dead_lock(CTSC):	2
+
+       avg_whole:	3.72
+       max_whole:	3
+   RTS_fail_rate:	3.84%
+ RTS_refuse_rate:	0.19%
+    RTS_CTS_rate:	95.98%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.98%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	6076
+        CTS_recv:	5853
+       CTSC_recv:	2
+       DATA_send:	5862
+        ACK_recv:	5855
+
+     RTS(C)_recv:	5883
+        CTS_send:	5852
+       CTSC_send:	4
+       DATA_recv:	5855
+        ACK_send:	5855
+
+   RetransmitRTS:	213
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	12
+ dead_lock(CTSC):	4
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	3.51%
+ RTS_refuse_rate:	0.14%
+    RTS_CTS_rate:	96.36%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.38%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	6073
+        CTS_recv:	5851
+       CTSC_recv:	5
+       DATA_send:	5864
+        ACK_recv:	5855
+
+     RTS(C)_recv:	5880
+        CTS_send:	5853
+       CTSC_send:	3
+       DATA_recv:	5855
+        ACK_send:	5855
+
+   RetransmitRTS:	209
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	9
+ dead_lock(CTSC):	3
+
+       avg_whole:	0.65
+       max_whole:	2
+   RTS_fail_rate:	3.44%
+ RTS_refuse_rate:	0.14%
+    RTS_CTS_rate:	96.43%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.41%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	6085
+        CTS_recv:	5851
+       CTSC_recv:	6
+       DATA_send:	5863
+        ACK_recv:	5855
+
+     RTS(C)_recv:	5882
+        CTS_send:	5851
+       CTSC_send:	6
+       DATA_recv:	5855
+        ACK_send:	5855
+
+   RetransmitRTS:	217
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	10
+ dead_lock(CTSC):	6
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	3.57%
+ RTS_refuse_rate:	0.19%
+    RTS_CTS_rate:	96.25%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.30%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	6043
+        CTS_recv:	5849
+       CTSC_recv:	8
+       DATA_send:	5865
+        ACK_recv:	5856
+
+     RTS(C)_recv:	5892
+        CTS_send:	5846
+       CTSC_send:	11
+       DATA_recv:	5856
+        ACK_send:	5856
+
+   RetransmitRTS:	172
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	13
+ dead_lock(CTSC):	11
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.85%
+ RTS_refuse_rate:	0.24%
+    RTS_CTS_rate:	96.92%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.00%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	6041
+        CTS_recv:	5846
+       CTSC_recv:	12
+       DATA_send:	5867
+        ACK_recv:	5856
+
+     RTS(C)_recv:	5894
+        CTS_send:	5843
+       CTSC_send:	14
+       DATA_recv:	5856
+        ACK_send:	5856
+
+   RetransmitRTS:	174
+  RetransmitDATA:	2
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	18
+ dead_lock(CTSC):	14
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.88%
+ RTS_refuse_rate:	0.15%
+    RTS_CTS_rate:	96.97%
+  DATA_fail_rate:	0.03%
+all_success_rate:	96.94%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	6061
+        CTS_recv:	5839
+       CTSC_recv:	16
+       DATA_send:	5865
+        ACK_recv:	5855
+
+     RTS(C)_recv:	5885
+        CTS_send:	5845
+       CTSC_send:	13
+       DATA_recv:	5855
+        ACK_send:	5855
+
+   RetransmitRTS:	191
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	11
+ dead_lock(CTSC):	13
+
+       avg_whole:	1.18
+       max_whole:	2
+   RTS_fail_rate:	3.15%
+ RTS_refuse_rate:	0.26%
+    RTS_CTS_rate:	96.60%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.68%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	6032
+        CTS_recv:	5836
+       CTSC_recv:	19
+       DATA_send:	5865
+        ACK_recv:	5855
+
+     RTS(C)_recv:	5897
+        CTS_send:	5848
+       CTSC_send:	11
+       DATA_recv:	5855
+        ACK_send:	5855
+
+   RetransmitRTS:	166
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	13
+ dead_lock(CTSC):	11
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.75%
+ RTS_refuse_rate:	0.19%
+    RTS_CTS_rate:	97.07%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.08%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	6015
+        CTS_recv:	5843
+       CTSC_recv:	15
+       DATA_send:	5867
+        ACK_recv:	5855
+
+     RTS(C)_recv:	5887
+        CTS_send:	5838
+       CTSC_send:	18
+       DATA_recv:	5856
+        ACK_send:	5856
+
+   RetransmitRTS:	146
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	12
+ dead_lock(CTSC):	18
+
+       avg_whole:	0.97
+       max_whole:	2
+   RTS_fail_rate:	2.43%
+ RTS_refuse_rate:	0.19%
+    RTS_CTS_rate:	97.39%
+  DATA_fail_rate:	0.02%
+all_success_rate:	97.37%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	6007
+        CTS_recv:	5837
+       CTSC_recv:	21
+       DATA_send:	5868
+        ACK_recv:	5856
+
+     RTS(C)_recv:	5905
+        CTS_send:	5840
+       CTSC_send:	18
+       DATA_recv:	5856
+        ACK_send:	5856
+
+   RetransmitRTS:	137
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	25
+ dead_lock(CTSC):	18
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	2.28%
+ RTS_refuse_rate:	0.20%
+    RTS_CTS_rate:	97.52%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.52%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	6072
+        CTS_recv:	5832
+       CTSC_recv:	24
+       DATA_send:	5867
+        ACK_recv:	5856
+
+     RTS(C)_recv:	5895
+        CTS_send:	5838
+       CTSC_send:	22
+       DATA_recv:	5856
+        ACK_send:	5856
+
+   RetransmitRTS:	195
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	21
+ dead_lock(CTSC):	22
+
+       avg_whole:	2.98
+       max_whole:	2
+   RTS_fail_rate:	3.21%
+ RTS_refuse_rate:	0.36%
+    RTS_CTS_rate:	96.44%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.60%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 14--------------------
+     RTS(C)_send:	5942
+        CTS_recv:	5834
+       CTSC_recv:	22
+       DATA_send:	5868
+        ACK_recv:	5856
+
+     RTS(C)_recv:	5908
+        CTS_send:	5827
+       CTSC_send:	29
+       DATA_recv:	5856
+        ACK_send:	5856
+
+   RetransmitRTS:	64
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	27
+ dead_lock(CTSC):	29
+
+       avg_whole:	1.56
+       max_whole:	2
+   RTS_fail_rate:	1.08%
+ RTS_refuse_rate:	0.37%
+    RTS_CTS_rate:	98.55%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.72%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 15--------------------
+     RTS(C)_send:	5938
+        CTS_recv:	5829
+       CTSC_recv:	27
+       DATA_send:	5872
+        ACK_recv:	5856
+
+     RTS(C)_recv:	5994
+        CTS_send:	5842
+       CTSC_send:	16
+       DATA_recv:	5857
+        ACK_send:	5857
+
+   RetransmitRTS:	54
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	41
+ dead_lock(CTSC):	16
+
+       avg_whole:	2.43
+       max_whole:	2
+   RTS_fail_rate:	0.91%
+ RTS_refuse_rate:	0.48%
+    RTS_CTS_rate:	98.62%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.82%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 16--------------------
+     RTS(C)_send:	6139
+        CTS_recv:	5856
+       CTSC_recv:	2
+       DATA_send:	5882
+        ACK_recv:	5857
+
+     RTS(C)_recv:	6580
+        CTS_send:	5844
+       CTSC_send:	14
+       DATA_recv:	5857
+        ACK_send:	5857
+
+   RetransmitRTS:	247
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	309
+ dead_lock(CTSC):	14
+
+       avg_whole:	0.58
+       max_whole:	2
+   RTS_fail_rate:	4.02%
+ RTS_refuse_rate:	0.58%
+    RTS_CTS_rate:	95.42%
+  DATA_fail_rate:	0.02%
+all_success_rate:	95.56%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 17--------------------
+     RTS(C)_send:	2020
+        CTS_recv:	533
+       CTSC_recv:	0
+       DATA_send:	561
+        ACK_recv:	532
+
+     RTS(C)_recv:	5325
+        CTS_send:	5325
+       CTSC_send:	0
+       DATA_recv:	5325
+        ACK_send:	5325
+
+   RetransmitRTS:	1182
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	85
+   RTS_fail_rate:	58.51%
+ RTS_refuse_rate:	36.40%
+    RTS_CTS_rate:	26.39%
+  DATA_fail_rate:	0.18%
+all_success_rate:	30.52%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:19 ---
+num_nodes is set 19
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	21405
+        CTS_recv:	5712
+       CTSC_recv:	0
+       DATA_send:	5721
+        ACK_recv:	5711
+
+     RTS(C)_recv:	25
+        CTS_send:	25
+       CTSC_send:	0
+       DATA_recv:	25
+        ACK_send:	25
+
+   RetransmitRTS:	12838
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.79
+       max_whole:	69
+   RTS_fail_rate:	59.98%
+ RTS_refuse_rate:	33.33%
+    RTS_CTS_rate:	26.69%
+  DATA_fail_rate:	0.02%
+all_success_rate:	30.77%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	7827
+        CTS_recv:	5691
+       CTSC_recv:	1
+       DATA_send:	5751
+        ACK_recv:	5692
+
+     RTS(C)_recv:	12916
+        CTS_send:	5734
+       CTSC_send:	3
+       DATA_recv:	5736
+        ACK_send:	5736
+
+   RetransmitRTS:	1877
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	2857
+ dead_lock(CTSC):	3
+
+       avg_whole:	2.25
+       max_whole:	7
+   RTS_fail_rate:	23.98%
+ RTS_refuse_rate:	4.34%
+    RTS_CTS_rate:	72.72%
+  DATA_fail_rate:	0.00%
+all_success_rate:	74.62%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	6149
+        CTS_recv:	5692
+       CTSC_recv:	3
+       DATA_send:	5705
+        ACK_recv:	5687
+
+     RTS(C)_recv:	6615
+        CTS_send:	5690
+       CTSC_send:	4
+       DATA_recv:	5692
+        ACK_send:	5692
+
+   RetransmitRTS:	418
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	258
+ dead_lock(CTSC):	4
+
+       avg_whole:	3.90
+       max_whole:	3
+   RTS_fail_rate:	6.80%
+ RTS_refuse_rate:	0.63%
+    RTS_CTS_rate:	92.62%
+  DATA_fail_rate:	0.00%
+all_success_rate:	92.88%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	5966
+        CTS_recv:	5683
+       CTSC_recv:	4
+       DATA_send:	5700
+        ACK_recv:	5685
+
+     RTS(C)_recv:	5806
+        CTS_send:	5695
+       CTSC_send:	2
+       DATA_recv:	5687
+        ACK_send:	5687
+
+   RetransmitRTS:	261
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	43
+ dead_lock(CTSC):	2
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	4.37%
+ RTS_refuse_rate:	0.32%
+    RTS_CTS_rate:	95.32%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.37%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	5937
+        CTS_recv:	5681
+       CTSC_recv:	3
+       DATA_send:	5698
+        ACK_recv:	5682
+
+     RTS(C)_recv:	5752
+        CTS_send:	5683
+       CTSC_send:	4
+       DATA_recv:	5685
+        ACK_send:	5685
+
+   RetransmitRTS:	230
+  RetransmitDATA:	2
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	32
+ dead_lock(CTSC):	4
+
+       avg_whole:	4.02
+       max_whole:	2
+   RTS_fail_rate:	3.87%
+ RTS_refuse_rate:	0.40%
+    RTS_CTS_rate:	95.74%
+  DATA_fail_rate:	0.04%
+all_success_rate:	95.85%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	5941
+        CTS_recv:	5678
+       CTSC_recv:	5
+       DATA_send:	5695
+        ACK_recv:	5681
+
+     RTS(C)_recv:	5739
+        CTS_send:	5680
+       CTSC_send:	3
+       DATA_recv:	5682
+        ACK_send:	5682
+
+   RetransmitRTS:	237
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	30
+ dead_lock(CTSC):	3
+
+       avg_whole:	0.70
+       max_whole:	2
+   RTS_fail_rate:	3.99%
+ RTS_refuse_rate:	0.37%
+    RTS_CTS_rate:	95.66%
+  DATA_fail_rate:	0.02%
+all_success_rate:	95.77%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	5886
+        CTS_recv:	5675
+       CTSC_recv:	4
+       DATA_send:	5693
+        ACK_recv:	5679
+
+     RTS(C)_recv:	5733
+        CTS_send:	5678
+       CTSC_send:	5
+       DATA_recv:	5681
+        ACK_send:	5681
+
+   RetransmitRTS:	182
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	19
+ dead_lock(CTSC):	5
+
+       avg_whole:	3.98
+       max_whole:	3
+   RTS_fail_rate:	3.09%
+ RTS_refuse_rate:	0.44%
+    RTS_CTS_rate:	96.48%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.66%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	5884
+        CTS_recv:	5669
+       CTSC_recv:	7
+       DATA_send:	5690
+        ACK_recv:	5675
+
+     RTS(C)_recv:	5716
+        CTS_send:	5672
+       CTSC_send:	7
+       DATA_recv:	5679
+        ACK_send:	5679
+
+   RetransmitRTS:	185
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	22
+ dead_lock(CTSC):	7
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	3.14%
+ RTS_refuse_rate:	0.40%
+    RTS_CTS_rate:	96.46%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.60%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	5922
+        CTS_recv:	5667
+       CTSC_recv:	6
+       DATA_send:	5685
+        ACK_recv:	5673
+
+     RTS(C)_recv:	5721
+        CTS_send:	5665
+       CTSC_send:	12
+       DATA_recv:	5675
+        ACK_send:	5675
+
+   RetransmitRTS:	225
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	21
+ dead_lock(CTSC):	12
+
+       avg_whole:	1.98
+       max_whole:	2
+   RTS_fail_rate:	3.80%
+ RTS_refuse_rate:	0.42%
+    RTS_CTS_rate:	95.80%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.99%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	5852
+        CTS_recv:	5661
+       CTSC_recv:	11
+       DATA_send:	5684
+        ACK_recv:	5671
+
+     RTS(C)_recv:	5722
+        CTS_send:	5667
+       CTSC_send:	7
+       DATA_recv:	5674
+        ACK_send:	5674
+
+   RetransmitRTS:	165
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	21
+ dead_lock(CTSC):	7
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.82%
+ RTS_refuse_rate:	0.26%
+    RTS_CTS_rate:	96.92%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.96%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	5875
+        CTS_recv:	5654
+       CTSC_recv:	18
+       DATA_send:	5685
+        ACK_recv:	5672
+
+     RTS(C)_recv:	5709
+        CTS_send:	5663
+       CTSC_send:	12
+       DATA_recv:	5673
+        ACK_send:	5673
+
+   RetransmitRTS:	175
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	21
+ dead_lock(CTSC):	12
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.98%
+ RTS_refuse_rate:	0.49%
+    RTS_CTS_rate:	96.54%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.79%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	5902
+        CTS_recv:	5659
+       CTSC_recv:	15
+       DATA_send:	5686
+        ACK_recv:	5673
+
+     RTS(C)_recv:	5721
+        CTS_send:	5654
+       CTSC_send:	21
+       DATA_recv:	5674
+        ACK_send:	5674
+
+   RetransmitRTS:	202
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	29
+ dead_lock(CTSC):	21
+
+       avg_whole:	23.50
+       max_whole:	2
+   RTS_fail_rate:	3.42%
+ RTS_refuse_rate:	0.46%
+    RTS_CTS_rate:	96.14%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.35%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	5834
+        CTS_recv:	5656
+       CTSC_recv:	20
+       DATA_send:	5691
+        ACK_recv:	5674
+
+     RTS(C)_recv:	5727
+        CTS_send:	5656
+       CTSC_send:	20
+       DATA_recv:	5675
+        ACK_send:	5675
+
+   RetransmitRTS:	134
+  RetransmitDATA:	2
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	29
+ dead_lock(CTSC):	20
+
+       avg_whole:	12.87
+       max_whole:	2
+   RTS_fail_rate:	2.30%
+ RTS_refuse_rate:	0.42%
+    RTS_CTS_rate:	97.29%
+  DATA_fail_rate:	0.04%
+all_success_rate:	97.41%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	5869
+        CTS_recv:	5655
+       CTSC_recv:	22
+       DATA_send:	5692
+        ACK_recv:	5674
+
+     RTS(C)_recv:	5729
+        CTS_send:	5657
+       CTSC_send:	21
+       DATA_recv:	5676
+        ACK_send:	5676
+
+   RetransmitRTS:	166
+  RetransmitDATA:	2
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	30
+ dead_lock(CTSC):	21
+
+       avg_whole:	2.21
+       max_whole:	2
+   RTS_fail_rate:	2.83%
+ RTS_refuse_rate:	0.46%
+    RTS_CTS_rate:	96.73%
+  DATA_fail_rate:	0.04%
+all_success_rate:	96.86%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 14--------------------
+     RTS(C)_send:	5871
+        CTS_recv:	5655
+       CTSC_recv:	20
+       DATA_send:	5690
+        ACK_recv:	5675
+
+     RTS(C)_recv:	5725
+        CTS_send:	5664
+       CTSC_send:	16
+       DATA_recv:	5676
+        ACK_send:	5676
+
+   RetransmitRTS:	175
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	25
+ dead_lock(CTSC):	16
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	2.98%
+ RTS_refuse_rate:	0.37%
+    RTS_CTS_rate:	96.66%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.76%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 15--------------------
+     RTS(C)_send:	5743
+        CTS_recv:	5655
+       CTSC_recv:	22
+       DATA_send:	5692
+        ACK_recv:	5676
+
+     RTS(C)_recv:	5738
+        CTS_send:	5661
+       CTSC_send:	16
+       DATA_recv:	5676
+        ACK_send:	5676
+
+   RetransmitRTS:	51
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	27
+ dead_lock(CTSC):	16
+
+       avg_whole:	1.71
+       max_whole:	2
+   RTS_fail_rate:	0.89%
+ RTS_refuse_rate:	0.26%
+    RTS_CTS_rate:	98.85%
+  DATA_fail_rate:	0.00%
+all_success_rate:	98.83%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 16--------------------
+     RTS(C)_send:	5743
+        CTS_recv:	5660
+       CTSC_recv:	18
+       DATA_send:	5698
+        ACK_recv:	5677
+
+     RTS(C)_recv:	5737
+        CTS_send:	5660
+       CTSC_send:	19
+       DATA_recv:	5679
+        ACK_send:	5679
+
+   RetransmitRTS:	41
+  RetransmitDATA:	1
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	26
+ dead_lock(CTSC):	19
+
+       avg_whole:	1.89
+       max_whole:	2
+   RTS_fail_rate:	0.71%
+ RTS_refuse_rate:	0.42%
+    RTS_CTS_rate:	98.87%
+  DATA_fail_rate:	0.02%
+all_success_rate:	98.92%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 17--------------------
+     RTS(C)_send:	5761
+        CTS_recv:	5675
+       CTSC_recv:	5
+       DATA_send:	5794
+        ACK_recv:	5679
+
+     RTS(C)_recv:	5863
+        CTS_send:	5760
+       CTSC_send:	12
+       DATA_recv:	5772
+        ACK_send:	5772
+
+   RetransmitRTS:	56
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	46
+ dead_lock(CTSC):	12
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	0.97%
+ RTS_refuse_rate:	0.44%
+    RTS_CTS_rate:	98.59%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.08%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 18--------------------
+     RTS(C)_send:	263
+        CTS_recv:	126
+       CTSC_recv:	0
+       DATA_send:	149
+        ACK_recv:	126
+
+     RTS(C)_recv:	5647
+        CTS_send:	5646
+       CTSC_send:	0
+       DATA_recv:	5646
+        ACK_send:	5646
+
+   RetransmitRTS:	95
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.00
+       max_whole:	66
+   RTS_fail_rate:	36.12%
+ RTS_refuse_rate:	25.00%
+    RTS_CTS_rate:	47.91%
+  DATA_fail_rate:	0.00%
+all_success_rate:	51.64%
+
+ maxAckQueueSize:	0
+
+--- Hop Node Number:20 ---
+num_nodes is set 20
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	1216
+        CTS_recv:	351
+       CTSC_recv:	0
+       DATA_send:	388
+        ACK_recv:	350
+
+     RTS(C)_recv:	5322
+        CTS_send:	5319
+       CTSC_send:	0
+       DATA_recv:	5319
+        ACK_send:	5319
+
+   RetransmitRTS:	689
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	0.86
+       max_whole:	65
+   RTS_fail_rate:	56.66%
+ RTS_refuse_rate:	33.40%
+    RTS_CTS_rate:	28.87%
+  DATA_fail_rate:	0.26%
+all_success_rate:	32.50%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	5862
+        CTS_recv:	5612
+       CTSC_recv:	6
+       DATA_send:	5704
+        ACK_recv:	5617
+
+     RTS(C)_recv:	6118
+        CTS_send:	5655
+       CTSC_send:	15
+       DATA_recv:	5669
+        ACK_send:	5669
+
+   RetransmitRTS:	189
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	179
+ dead_lock(CTSC):	15
+
+       avg_whole:	12.25
+       max_whole:	3
+   RTS_fail_rate:	3.22%
+ RTS_refuse_rate:	0.97%
+    RTS_CTS_rate:	95.84%
+  DATA_fail_rate:	0.00%
+all_success_rate:	95.32%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	5754
+        CTS_recv:	5591
+       CTSC_recv:	23
+       DATA_send:	5648
+        ACK_recv:	5613
+
+     RTS(C)_recv:	5747
+        CTS_send:	5601
+       CTSC_send:	18
+       DATA_recv:	5618
+        ACK_send:	5618
+
+   RetransmitRTS:	91
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	60
+ dead_lock(CTSC):	18
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	1.58%
+ RTS_refuse_rate:	0.87%
+    RTS_CTS_rate:	97.57%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.80%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	5743
+        CTS_recv:	5593
+       CTSC_recv:	19
+       DATA_send:	5639
+        ACK_recv:	5610
+
+     RTS(C)_recv:	5694
+        CTS_send:	5594
+       CTSC_send:	20
+       DATA_recv:	5613
+        ACK_send:	5613
+
+   RetransmitRTS:	101
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	51
+ dead_lock(CTSC):	20
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	1.76%
+ RTS_refuse_rate:	0.53%
+    RTS_CTS_rate:	97.72%
+  DATA_fail_rate:	0.00%
+all_success_rate:	97.74%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	5818
+        CTS_recv:	5590
+       CTSC_recv:	18
+       DATA_send:	5634
+        ACK_recv:	5608
+
+     RTS(C)_recv:	5668
+        CTS_send:	5595
+       CTSC_send:	19
+       DATA_recv:	5611
+        ACK_send:	5611
+
+   RetransmitRTS:	190
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	30
+ dead_lock(CTSC):	19
+
+       avg_whole:	0.71
+       max_whole:	2
+   RTS_fail_rate:	3.27%
+ RTS_refuse_rate:	0.36%
+    RTS_CTS_rate:	96.39%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.29%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	5798
+        CTS_recv:	5589
+       CTSC_recv:	18
+       DATA_send:	5631
+        ACK_recv:	5606
+
+     RTS(C)_recv:	5662
+        CTS_send:	5592
+       CTSC_send:	18
+       DATA_recv:	5609
+        ACK_send:	5609
+
+   RetransmitRTS:	159
+  RetransmitDATA:	0
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	17
+ dead_lock(CTSC):	18
+
+       avg_whole:	0.56
+       max_whole:	2
+   RTS_fail_rate:	2.74%
+ RTS_refuse_rate:	0.57%
+    RTS_CTS_rate:	96.71%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.82%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	5825
+        CTS_recv:	5586
+       CTSC_recv:	21
+       DATA_send:	5627
+        ACK_recv:	5606
+
+     RTS(C)_recv:	5669
+        CTS_send:	5585
+       CTSC_send:	22
+       DATA_recv:	5607
+        ACK_send:	5607
+
+   RetransmitRTS:	190
+  RetransmitDATA:	1
+      RTS droped:	0
+     DATA droped:	0
+  refuse(no CTS):	38
+ dead_lock(CTSC):	22
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	3.26%
+ RTS_refuse_rate:	0.50%
+    RTS_CTS_rate:	96.26%
+  DATA_fail_rate:	0.02%
+all_success_rate:	96.37%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	5831
+        CTS_recv:	5576
+       CTSC_recv:	26
+       DATA_send:	5624
+        ACK_recv:	5602
+
+     RTS(C)_recv:	5677
+        CTS_send:	5587
+       CTSC_send:	21
+       DATA_recv:	5606
+        ACK_send:	5606
+
+   RetransmitRTS:	203
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	38
+ dead_lock(CTSC):	21
+
+       avg_whole:	2.82
+       max_whole:	3
+   RTS_fail_rate:	3.48%
+ RTS_refuse_rate:	0.46%
+    RTS_CTS_rate:	96.07%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.14%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	5843
+        CTS_recv:	5584
+       CTSC_recv:	21
+       DATA_send:	5618
+        ACK_recv:	5604
+
+     RTS(C)_recv:	5659
+        CTS_send:	5587
+       CTSC_send:	16
+       DATA_recv:	5600
+        ACK_send:	5600
+
+   RetransmitRTS:	213
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	27
+ dead_lock(CTSC):	16
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	3.65%
+ RTS_refuse_rate:	0.44%
+    RTS_CTS_rate:	95.93%
+  DATA_fail_rate:	0.00%
+all_success_rate:	96.11%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	5813
+        CTS_recv:	5583
+       CTSC_recv:	18
+       DATA_send:	5617
+        ACK_recv:	5600
+
+     RTS(C)_recv:	5672
+        CTS_send:	5587
+       CTSC_send:	22
+       DATA_recv:	5603
+        ACK_send:	5603
+
+   RetransmitRTS:	183
+  RetransmitDATA:	1
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	24
+ dead_lock(CTSC):	22
+
+       avg_whole:	0.00
+       max_whole:	2
+   RTS_fail_rate:	3.15%
+ RTS_refuse_rate:	0.52%
+    RTS_CTS_rate:	96.35%
+  DATA_fail_rate:	0.02%
+all_success_rate:	96.55%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	5853
+        CTS_recv:	5579
+       CTSC_recv:	27
+       DATA_send:	5619
+        ACK_recv:	5603
+
+     RTS(C)_recv:	5674
+        CTS_send:	5577
+       CTSC_send:	25
+       DATA_recv:	5601
+        ACK_send:	5601
+
+   RetransmitRTS:	223
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	32
+ dead_lock(CTSC):	25
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	3.81%
+ RTS_refuse_rate:	0.43%
+    RTS_CTS_rate:	95.78%
+  DATA_fail_rate:	0.04%
+all_success_rate:	95.91%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	5902
+        CTS_recv:	5464
+       CTSC_recv:	31
+       DATA_send:	5508
+        ACK_recv:	5495
+
+     RTS(C)_recv:	5683
+        CTS_send:	5575
+       CTSC_send:	32
+       DATA_recv:	5605
+        ACK_send:	5605
+
+   RetransmitRTS:	347
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	31
+ dead_lock(CTSC):	32
+
+       avg_whole:	0.00
+       max_whole:	65
+   RTS_fail_rate:	5.88%
+ RTS_refuse_rate:	1.08%
+    RTS_CTS_rate:	93.10%
+  DATA_fail_rate:	0.00%
+all_success_rate:	93.85%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	5834
+        CTS_recv:	5469
+       CTSC_recv:	33
+       DATA_send:	5512
+        ACK_recv:	5497
+
+     RTS(C)_recv:	5645
+        CTS_send:	5457
+       CTSC_send:	41
+       DATA_recv:	5496
+        ACK_send:	5496
+
+   RetransmitRTS:	284
+  RetransmitDATA:	3
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	74
+ dead_lock(CTSC):	41
+
+       avg_whole:	2.59
+       max_whole:	13
+   RTS_fail_rate:	4.87%
+ RTS_refuse_rate:	0.86%
+    RTS_CTS_rate:	94.31%
+  DATA_fail_rate:	0.05%
+all_success_rate:	94.84%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	5862
+        CTS_recv:	5464
+       CTSC_recv:	36
+       DATA_send:	5511
+        ACK_recv:	5496
+
+     RTS(C)_recv:	5615
+        CTS_send:	5471
+       CTSC_send:	29
+       DATA_recv:	5496
+        ACK_send:	5496
+
+   RetransmitRTS:	301
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	55
+ dead_lock(CTSC):	29
+
+       avg_whole:	0.00
+       max_whole:	18
+   RTS_fail_rate:	5.13%
+ RTS_refuse_rate:	1.10%
+    RTS_CTS_rate:	93.82%
+  DATA_fail_rate:	0.04%
+all_success_rate:	94.56%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 14--------------------
+     RTS(C)_send:	5865
+        CTS_recv:	5469
+       CTSC_recv:	29
+       DATA_send:	5510
+        ACK_recv:	5496
+
+     RTS(C)_recv:	5629
+        CTS_send:	5473
+       CTSC_send:	29
+       DATA_recv:	5497
+        ACK_send:	5497
+
+   RetransmitRTS:	310
+  RetransmitDATA:	0
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	60
+ dead_lock(CTSC):	29
+
+       avg_whole:	0.64
+       max_whole:	18
+   RTS_fail_rate:	5.29%
+ RTS_refuse_rate:	1.03%
+    RTS_CTS_rate:	93.74%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.43%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 15--------------------
+     RTS(C)_send:	5838
+        CTS_recv:	5472
+       CTSC_recv:	27
+       DATA_send:	5511
+        ACK_recv:	5496
+
+     RTS(C)_recv:	5632
+        CTS_send:	5470
+       CTSC_send:	31
+       DATA_recv:	5497
+        ACK_send:	5497
+
+   RetransmitRTS:	295
+  RetransmitDATA:	2
+      RTS droped:	1
+     DATA droped:	0
+  refuse(no CTS):	71
+ dead_lock(CTSC):	31
+
+       avg_whole:	0.00
+       max_whole:	8
+   RTS_fail_rate:	5.05%
+ RTS_refuse_rate:	0.79%
+    RTS_CTS_rate:	94.19%
+  DATA_fail_rate:	0.04%
+all_success_rate:	94.66%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 16--------------------
+     RTS(C)_send:	5872
+        CTS_recv:	5469
+       CTSC_recv:	29
+       DATA_send:	5513
+        ACK_recv:	5496
+
+     RTS(C)_recv:	5688
+        CTS_send:	5480
+       CTSC_send:	27
+       DATA_recv:	5500
+        ACK_send:	5500
+
+   RetransmitRTS:	329
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	83
+ dead_lock(CTSC):	27
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	5.60%
+ RTS_refuse_rate:	0.81%
+    RTS_CTS_rate:	93.63%
+  DATA_fail_rate:	0.00%
+all_success_rate:	94.08%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 17--------------------
+     RTS(C)_send:	5987
+        CTS_recv:	5478
+       CTSC_recv:	27
+       DATA_send:	5518
+        ACK_recv:	5500
+
+     RTS(C)_recv:	6492
+        CTS_send:	5486
+       CTSC_send:	21
+       DATA_recv:	5503
+        ACK_send:	5503
+
+   RetransmitRTS:	408
+  RetransmitDATA:	0
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	275
+ dead_lock(CTSC):	21
+
+       avg_whole:	0.00
+       max_whole:	3
+   RTS_fail_rate:	6.81%
+ RTS_refuse_rate:	1.33%
+    RTS_CTS_rate:	91.95%
+  DATA_fail_rate:	0.00%
+all_success_rate:	92.81%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 18--------------------
+     RTS(C)_send:	7684
+        CTS_recv:	5500
+       CTSC_recv:	7
+       DATA_send:	5670
+        ACK_recv:	5504
+
+     RTS(C)_recv:	12383
+        CTS_send:	5645
+       CTSC_send:	12
+       DATA_recv:	5650
+        ACK_send:	5650
+
+   RetransmitRTS:	1914
+  RetransmitDATA:	2
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	2686
+ dead_lock(CTSC):	12
+
+       avg_whole:	0.40
+       max_whole:	4
+   RTS_fail_rate:	24.91%
+ RTS_refuse_rate:	4.56%
+    RTS_CTS_rate:	71.67%
+  DATA_fail_rate:	0.04%
+all_success_rate:	72.57%
+
+ maxAckQueueSize:	0
+
+
+--------------------------NODE: 19--------------------
+     RTS(C)_send:	20143
+        CTS_recv:	5480
+       CTSC_recv:	0
+       DATA_send:	5494
+        ACK_recv:	5475
+
+     RTS(C)_recv:	177
+        CTS_send:	176
+       CTSC_send:	0
+       DATA_recv:	176
+        ACK_send:	176
+
+   RetransmitRTS:	11985
+  RetransmitDATA:	5
+      RTS droped:	2
+     DATA droped:	0
+  refuse(no CTS):	0
+ dead_lock(CTSC):	0
+
+       avg_whole:	1.15
+       max_whole:	76
+   RTS_fail_rate:	59.50%
+ RTS_refuse_rate:	32.83%
+    RTS_CTS_rate:	27.21%
+  DATA_fail_rate:	0.09%
+all_success_rate:	31.32%
+
+ maxAckQueueSize:	0
+

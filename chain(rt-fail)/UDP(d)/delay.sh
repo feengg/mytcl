@@ -11,7 +11,7 @@ set autoscale
 set boxwidth 20
 #set yrange [0:1000]
 
-plot    './delay' u 1:2 t 'UDP(m)' with linespoints
+plot    './delay' u 1:2 t 'UDP(d)' with linespoints
 	
 set output
 quit

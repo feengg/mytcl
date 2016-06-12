@@ -182,7 +182,7 @@ proc create_tcp_connection {id src dst} {
 	}
 }
 
-proc create_udp_connection {id src dst} {
+proc create_udp_connection {id src dst startTime} {
     global ns_ node_ udprate
 
     set udp_($id) [new Agent/UDP]
@@ -197,11 +197,11 @@ proc create_udp_connection {id src dst} {
     $cbr_($id) set packetSize_ 512
     $cbr_($id) set rate_ $udprate
     $udp_($id) set fid_ $id
-    $ns_ at 1.0 "$cbr_($id) start"
+    $ns_ at $startTime "$cbr_($id) start"
 }
 
-create_udp_connection 0 0 [expr $val(nn)-1]
-create_udp_connection 1 [expr $val(nn)-1] 0
+create_udp_connection 0 0 [expr $val(nn)-1] 1.0
+create_udp_connection 1 [expr $val(nn)-1] 0 1.0
 
 # Set up the size of nodes in nam
 #for {set i 0} {$i < $val(nn)} {incr i} {

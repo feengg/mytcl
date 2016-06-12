@@ -11,9 +11,9 @@ set autoscale
 set boxwidth 20
 #set yrange [0:1000]
 
-plot    './delay_0' u 1:2 t 'UDP(m)(flow 0)' with linespoints, \
-        './delay_1' u 1:2 t 'UDP(m)(flow 1)' with linespoints, \
-        './delay' u 1:2 t 'UDP(m)(sum)' with linespoints
+plot    './delay_0' u 1:2 t 'UDP(d)(flow 0)' with linespoints, \
+        './delay_1' u 1:2 t 'UDP(d)(flow 1)' with linespoints, \
+        './delay' u 1:2 t 'UDP(d)(sum)' with linespoints
 	
 set output
 quit

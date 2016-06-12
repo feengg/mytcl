@@ -11,7 +11,7 @@ set autoscale
 set grid
 set boxwidth 20
 #set xrange [0:4]
-set yrange [:600]
+set yrange [:400]
 
 plot    './throughput_0' u 1:2 t 'UDP(m)(flow 0)' with linespoints, \
         './throughput_1' u 1:2 t 'UDP(m)(flow 1)' with linespoints, \
