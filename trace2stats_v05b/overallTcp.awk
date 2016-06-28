@@ -79,6 +79,17 @@ BEGIN {
 				}
 			}
 		}
+        if (level == "AGT" && i_type == "ack") {
+            seqno = $47
+            if (event == "r"){
+                ackRecvdNum++;
+                if (seqno > maxAckedSeqno)
+                    maxAckedSeqno = seqno
+            }
+            if (event == "s"){
+                ackSentNum++;    
+            }
+        }
 	}
 }
 
@@ -117,6 +128,9 @@ END {
 	printf(" %15s:  %g\n", "receivedUniquePkts", recvUnique)
 	printf(" %15s:  %g\n", "avgTput[kbps]", (recvdSize/(stopTime-startTime))*(8/1000))
 	printf(" %15s:  %g\n", "avgDelay[ms]", avg_delay*1000)
+    printf(" %15s:  %g\n", "max ACKed Seqno", maxAckedSeqno)
+    printf(" %15s:  %g\n", "ACKs sent", ackSentNum)
+    printf(" %15s:  %g\n", "ACKs received", ackRecvdNum)
 	printf(" %15s:  %g\n", "avgPathLength", avgPathLength)
 	printf(" %15s:  %g\n", "dropCount", drop_count)
 	printf(" %15s:  %g\n", "totalSent", total_sent)

@@ -157,7 +157,7 @@ proc create_tcp_connection {id src dst} {
 	$tcp_($id) set packetSize_ 512;
 	$tcp_($id) set fid_ $id
 
-    if {$id == 0} {
+    if {$id == 1} {
         $ns_ at 1.0 "$ftp_($id) start"
     } else {
         $ns_ at 40.0 "$ftp_($id) start"

@@ -10,7 +10,7 @@ i=2
 while [ $i -lt 21 ]; do
     echo >> q_length.txt
 	echo --- Hop Node Number:$i --- >> q_length.txt
-	../../../semitcp/semitcp chain.tcl 0 $i 100 7 1 0 1 1 1 >> q_length.txt
+	../../../semitcp/semitcp chain.tcl 0 $i 300 7 1 0 1 1 1 >> q_length.txt
     let j=$i-1
 	echo FINISH $j simulations, start to analyze...
 	endnode=`expr $i - 1`
@@ -28,4 +28,12 @@ rm tmp
 gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" HopsResultAvg.txt > throughput
 gawk -f ../../trace2stats_v05b/brief.awk flag="delay" HopsResultAvg.txt > delay
 
+gawk -f ../../trace2stats_v05b/brief.awk flag="receivedPkts" HopsResultAvg.txt > generatedACKs
+gawk -f ../../trace2stats_v05b/brief.awk flag="ACKs sent" HopsResultAvg.txt > ACKsSent
+
 ./drawAll.sh
+./ackDraw.sh
+
+cd ../
+./throughput.sh
+./delay.sh

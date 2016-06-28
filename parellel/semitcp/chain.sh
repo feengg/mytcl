@@ -44,3 +44,9 @@ rm throughput
 gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" overall.txt > throughput
 gawk -f ../../trace2stats_v05b/brief.awk flag="delay" overall.txt > delay
 gawk -f ../../trace2stats_v05b/brief.awk flag="dropRate" overall.txt > dropRate
+
+./ackDraw.sh
+
+cd ../
+./throughput.sh
+./delay.sh

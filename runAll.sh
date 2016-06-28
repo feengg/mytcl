@@ -27,5 +27,8 @@ cd ../spindle
 cd ../spindle\(rt-fail\)
 ./runAll.sh
 
+cd ../random
+./runAll.sh
+
 echo "all jobs are finished, type any key to exit..."
 read c

@@ -15,7 +15,7 @@ echo SIMULATION DURATION: 300.0S, AODV+TCP >> drop.txt
 
 while [ $i -lt 21 ]; do
 	echo --- Hop Node Number:$i --- >> q_length.txt
-	../../../semitcp/semitcp chain.tcl 0 $i 100 7 1 0 1 1 >> q_length.txt
+	../../../semitcp/semitcp chain.tcl 0 $i 300 7 1 0 1 1 >> q_length.txt
 	echo FINISH $i simulations, start to alalyze...
 	echo >> HopsResultAvg.txt
 	echo >> overall.txt
@@ -44,3 +44,9 @@ rm throughput
 gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" overall.txt > throughput
 gawk -f ../../trace2stats_v05b/brief.awk flag="delay" overall.txt > delay
 gawk -f ../../trace2stats_v05b/brief.awk flag="dropRate" overall.txt > dropRate
+
+./ackDraw.sh
+
+cd ../
+./throughput.sh
+./delay.sh

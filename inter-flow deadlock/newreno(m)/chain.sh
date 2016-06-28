@@ -9,18 +9,18 @@ date > HopsResultAvg_flow1.txt
 date > q_length.txt
 #date > drop.txt
 
-    ../../../matcp/matcp chain.tcl 1 4 200 7 0 0 1 1 >> q_length.txt
+    ../../../matcp/matcp chain.tcl 1 6 200 7 1 0 1 1 >> q_length.txt
 	echo FINISH simulation, start to analyze...
 	echo >> HopsResultAvg_flow0.txt
     echo >> HopsResultAvg_flow1.txt
 #	echo >> aodv_col.txt
 #	echo >> drop.txt
-	gawk -f ../../trace2stats_v05b/avgStatsForTcp.awk src=0 dst=2 flow=0 pkt=512 chain.tr >> HopsResultAvg_flow0.txt
-	gawk -f ../../trace2stats_v05b/avgStatsForTcp.awk src=1 dst=3 flow=1 pkt=512 chain.tr >> HopsResultAvg_flow1.txt
+	gawk -f ../../trace2stats_v05b/avgStatsForTcp.awk src=0 dst=5 flow=0 pkt=512 chain.tr >> HopsResultAvg_flow0.txt
+	gawk -f ../../trace2stats_v05b/avgStatsForTcp.awk src=2 dst=5 flow=1 pkt=512 chain.tr >> HopsResultAvg_flow1.txt
 #	gawk -f ../../trace2stats_v05b/route.awk chain.tr >> aodv_col.txt
 #	gawk -f ../../trace2stats_v05b/drop.awk chain.tr >> drop.txt
-	gawk -f ../../trace2stats_v05b/instantThroughputForTcp.awk tic=1 src=0 dst=2 flow=0 pkt=512 chain.tr > HopsResultInst_flow0.txt
-	gawk -f ../../trace2stats_v05b/instantThroughputForTcp.awk tic=1 src=1 dst=3 flow=1 pkt=512 chain.tr > HopsResultInst_flow1.txt
+	gawk -f ../../trace2stats_v05b/instantThroughputForTcp.awk tic=1 src=0 dst=5 flow=0 pkt=512 chain.tr > HopsResultInst_flow0.txt
+	gawk -f ../../trace2stats_v05b/instantThroughputForTcp.awk tic=1 src=2 dst=5 flow=1 pkt=512 chain.tr > HopsResultInst_flow1.txt
 
 rm *.tr
 #rm *.nam

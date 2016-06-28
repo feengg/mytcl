@@ -11,7 +11,7 @@ set autoscale
 set grid
 set boxwidth 20
 #set xrange [1:20]
-#set yrange [:400]
+#set yrange [1:400]
 
 plot    './HopsResultInst.txt(hops=9)' u 5:6 t 'hops=9' with linespoints, \
     

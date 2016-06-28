@@ -29,3 +29,8 @@ gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" HopsResultAvg.txt > t
 gawk -f ../../trace2stats_v05b/brief.awk flag="delay" HopsResultAvg.txt > delay
 
 ./drawAll.sh
+./ackDraw.sh
+
+cd ../
+./throughput.sh
+./delay.sh

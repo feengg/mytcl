@@ -19,7 +19,13 @@ BEGIN {
 		printf("%d %g\n", i++, $2)
 	if($1 == "dropRate:" && flag == "dropRate")
 		printf("%d %g\n", i++, $2)
-	
+    if($1 == "receivedPkts:" && flag == "receivedPkts")
+        printf("%d %g\n", i++, $2)
+    if($1 == "ACKs" && $2 == "sent:" && flag == "ACKs sent")
+        printf("%d %g\n", i++, $3)
+    if($1 == "ACKs" && $2 == "received:" && flag == "ACKs received")
+        printf("%d %g\n", i++, $3)
+
 }
 
 END {

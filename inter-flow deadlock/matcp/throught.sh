@@ -12,7 +12,8 @@ set output "Throughput(matcp).eps"
 set autoscale
 #set grid
 set boxwidth 20
-set xrange [0:200]
+#set xrange [0:200]
+set yrange [0:400]
 
 plot './HopsResultInst_flow0.txt' u 5:6 t 'flow0' with linespoints, \
     './HopsResultInst_flow1.txt' u 5:6 t 'flow1' with linespoints

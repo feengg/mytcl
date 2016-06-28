@@ -1,7 +1,7 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "Hop Length"
-set ylabel "Delay / ms"
+set xlabel "Hops length"
+set ylabel "Delay(ms)"
 set key left top reverse
 #set term postscript eps monochrome blacktext "Helvetica" 24
 set term postscript eps enhanced color blacktext "Helvetica" 24
@@ -14,10 +14,7 @@ set xrange [1:20]
 
 plot    './semitcp/delay' u 1:2 t 'semitcp' with linespoints, \
         './matcp/delay' u 1:2 t 'matcp' with linespoints, \
-        #'./tcpap/delay' u 1:2 t 'tcpap' with linespoints, \
-        #'./newreno(m)/delay' u 1:2 t 'newreno(m)' with linespoints, \
-        #'./newreno(d)/delay' u 1:2 t 'newreno(d)' with linespoints
-	
+        #'./tcpap/delay' u 1:2 t 'tcpap' with linespoints
 set output
 quit
 

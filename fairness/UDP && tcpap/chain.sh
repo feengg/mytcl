@@ -13,7 +13,7 @@ echo SIMULATION DURATION: 300.0S, AODV+UDP >> udp.txt
 while [ $i -lt 21 ]; do
     rate=1000
 	echo --- Hop Node Number:$i --- >> q_length.txt
-    ../../../tcpap/tcpap chain.tcl 3 $i 100 7 $rate"Kb" >> /dev/null
+    ../../../tcpap/tcpap chain.tcl 2 $i 100 7 0 $rate"Kb" >> /dev/null
     let j=$i-1
 	echo FINISH $j simulations, start to analyze...
 	echo >> HopsResultAvg.txt

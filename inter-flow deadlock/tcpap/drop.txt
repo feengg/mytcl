@@ -1,35 +1,35 @@
-2016年 06月 07日 星期二 18:41:14 CST
+2016年 06月 14日 星期二 16:36:46 CST
 
                      Node ID
-       0       1       2       3
+       0       1       2       3       4       5
 
                      RTS(C) sent
-       0       0       0       0
+       0       0       0       0       0       0
 
 
 
                      RTS COL
-       0       0       0       0
+       0       0       0       0       0       0
 
                      IFQ DROP
-       0       0       0       0
+       0       0       0       0       1       0
 
                      ROUTE DROP
-       0       0       0       0
+       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
-       0       0       0       0
+       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-       0       0       0       0
+       4      67       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0       0       0
+       0      60      58       1       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0     259
+       0       0       0       0       0     108
 
                      TCP-ACK DROP BECAUSE OF COL
-       0       0       1       0
+       0       0       2      90      19       0
 
  DROP because of ARP failure        0

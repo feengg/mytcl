@@ -1,6 +1,6 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "Node Length"
+set xlabel "Hops length"
 set ylabel "Throghput(Kbps)"
 #set key right bottom
 set key right top Right
@@ -11,13 +11,11 @@ set autoscale
 set grid
 set boxwidth 20
 set xrange [1:20]
-set yrange [:400]
+set yrange [50:350]
 
 plot    './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
         './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \
-        #'./tcpap/throughput' u 1:2 t 'tcpap' with linespoints, \
-        #'./newreno(m)/throughput' u 1:2 t 'newreno(m)' with linespoints, \
-        #'./newreno(d)/throughput' u 1:2 t 'newreno(d)' with linespoints
+        #'./tcpap/throughput' u 1:2 t 'tcpap' with linespoints
     set output
 quit
 

@@ -28,11 +28,13 @@ if {$Program == 0} {
     set NodeNum [lindex $argv 1]
     set Duration [lindex $argv 2]
     Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+    Mac/802_11 set CALLRT_ [lindex $argv 4]
 } elseif { $Program == 3 } {
     #using ns
     set NodeNum [lindex $argv 1]
     set Duration [lindex $argv 2]
     Mac/802_11 set ShortRetryLimit_ [lindex $argv 3]
+    Mac/802_11 set CALLRT_ [lindex $argv 4]
 } else {
     exit 1
 }
@@ -157,7 +159,7 @@ proc create_tcp_connection {id src dst} {
 	$tcp_($id) set packetSize_ 512;
 	$tcp_($id) set fid_ $id
 
-    if {$id == 1} {
+    if {$id == 0} {
         $ns_ at 1.0 "$ftp_($id) start"
     } else {
         $ns_ at 40.0 "$ftp_($id) start"
@@ -181,8 +183,8 @@ proc create_tcp_connection {id src dst} {
     }
 }
 
-create_tcp_connection 0 0 2
-create_tcp_connection 1 1 3
+create_tcp_connection 0 0 5
+create_tcp_connection 1 2 5
 
  #Set up the size of nodes in nam
 #for {set i 0} {$i < $val(nn)} {incr i} {

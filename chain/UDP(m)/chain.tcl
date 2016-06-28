@@ -181,7 +181,7 @@ proc create_tcp_connection {id src dst} {
 }
 
 proc create_udp_connection {id src dst} {
-    global ns_ node_ udprate
+    global ns_ node_ udprate Program
 
     set udp_($id) [new Agent/UDP]
     set null_($id) [new Agent/Null]

@@ -142,7 +142,7 @@ END {
 	printf(" %15s:  %d\n", "max ACKed Seqno", maxAckedSeqno)
 	
 	printf(" %15s:  %d\n", "ACKs sent", ackSentNum)
-	printf(" %15s:  %d\n", "ACKs reveived", ackRecvdNum)
+	printf(" %15s:  %d\n", "ACKs received", ackRecvdNum)
 	printf(" %15s:  %d\n", "RTS(C) Sent", rtsNum)
 	
 #	printf(" %15s:  %d\n", "Tcp dropped RET", tcpDroppedRETNum)

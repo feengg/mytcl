@@ -1,6 +1,6 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "Node Length"
+set xlabel "Hops length"
 set ylabel "Throghput(Kbps)"
 #set key right bottom
 set key right top Right

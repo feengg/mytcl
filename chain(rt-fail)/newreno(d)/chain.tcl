@@ -145,7 +145,7 @@ proc create_tcp_connection {id src dst} {
 	} elseif {$Program == 2} {
 		set tcp_($id) [new Agent/TCP/Newreno/AP]
     } elseif {$Program == 3} {
-        set tcp_($id) [new Agent/TCP]
+        set tcp_($id) [new Agent/TCP/Newreno]
     } else {
         exit 1
     }

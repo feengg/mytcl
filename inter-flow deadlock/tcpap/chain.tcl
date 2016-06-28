@@ -181,8 +181,8 @@ proc create_tcp_connection {id src dst} {
     }
 }
 
-create_tcp_connection 0 0 2
-create_tcp_connection 1 1 3
+create_tcp_connection 0 0 5
+create_tcp_connection 1 2 5
 
  #Set up the size of nodes in nam
 #for {set i 0} {$i < $val(nn)} {incr i} {
