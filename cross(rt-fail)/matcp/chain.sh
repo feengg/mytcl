@@ -12,7 +12,7 @@ echo SIMULATION DURATION: 300.0S, AODV+TCP >> HopsResultAvg.txt
 echo SIMULATION DURATION: 300.0S, AODV+TCP >> overall.txt
 echo SIMULATION DURATION: 300.0S, AODV+TCP >> drop.txt
 
-while [ $i -lt 14 ]; do
+while [ $i -lt 16 ]; do
 	j=`expr $i \* 2 + 1`
 	echo --- Hop Node Number:$i --- >> q_length.txt
 	../../../matcp/matcp chain.tcl 1 $j 300 7 1 0 1 1  >> q_length.txt

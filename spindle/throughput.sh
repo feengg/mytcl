@@ -1,7 +1,7 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "Node Length"
-set ylabel "Throghput(Kbps)"
+set xlabel "Hops length"
+set ylabel "Throughput(Kbps)"
 #set key right bottom
 set key right top Right
 #set term postscript eps monochrome blacktext "Helvetica" 24
@@ -10,7 +10,9 @@ set output 'throughput.eps'
 set autoscale
 set grid
 set boxwidth 20
-set yrange [100:200]
+
+set xrange [1:14]
+#set yrange [100:200]
 
 plot    './matcp/throughput' u 1:2 t 'matcp' with linespoints, \
         './semitcp/throughput' u 1:2 t 'semitcp' with linespoints, \

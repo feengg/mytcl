@@ -7,7 +7,7 @@ date > HopsResultAvg.txt
 # RUN FOUR SIMULATION WITH DIFFERENT CONGETIONTHRESHOLD UNDER THE SAME PATHLENGTH
 i=2
 
-while [ $i -lt 21 ]; do
+while [ $i -lt 16 ]; do
     echo >> q_length.txt
 	echo --- Hop Node Number:$i --- >> q_length.txt
 	../../../semitcp/semitcp chain.tcl 0 $i 300 7 0 0 1 1 1 >> q_length.txt

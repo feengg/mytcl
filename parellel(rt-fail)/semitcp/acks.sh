@@ -10,7 +10,7 @@ set output 'ACKs.eps'
 set autoscale
 set grid
 set boxwidth 20
-#set xrange [1:20]
+set xrange [1:14]
 set yrange [:10000]
 
 plot    './generatedACKs' u 1:2 t 'ACKs generated' with linespoints, \

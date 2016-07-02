@@ -9,7 +9,7 @@ set output 'delay.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [1:20]
+set xrange [1:14]
 #set yrange [0:1000]
 
 plot    './matcp/delay' u 1:2 t 'matcp' with linespoints, \

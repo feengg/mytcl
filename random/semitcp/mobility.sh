@@ -17,7 +17,7 @@ while [ $v -lt 10 ]; do
 		echo velocity: $velocity random seed: $rs >> q_length.txt
 	   	../../bonnmotion-1.4/bin/bm -f RWP -I RWP.params RandomWaypoint -R $rs -l $velocity -h $velocity
 		../../bonnmotion-1.4/bin/bm NSFile -f RWP > /dev/null
-		../../../semitcp/semitcp chain.tcl 0 52 100 7 1 0 1 1 1 >> q_length.txt
+		../../../semitcp/semitcp chain.tcl 0 52 300 7 1 0 1 1 1 >> q_length.txt
 		echo --- Random Seed :$rs velocity: $velocity ---  >> HopsResultAvg.txt
 		echo --- Random Seed :$rs velocity: $velocity ---  >> overall.txt
 		gawk -f ../../trace2stats_v05b/avgStatsForTcp.awk src=48 dst=51 flow=0 pkt=512 chain.tr >> HopsResultAvg.txt
@@ -31,8 +31,8 @@ while [ $v -lt 10 ]; do
   
 done
 
-#rm *.tr
-#rm *.nam
+rm *.tr
+rm *.nam
 
 gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" overall.txt > throughput_all
 gawk -f ../../trace2stats_v05b/brief.awk flag="delay" overall.txt > delay_all

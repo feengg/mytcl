@@ -10,7 +10,7 @@ set output 'dropedNum.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [1:15]
+set xrange [1:14]
 #set yrange [:200]
 
 plot    './matcp/15HopsDroped' u 1:2 t 'matcp' with linespoints, \

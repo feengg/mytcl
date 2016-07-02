@@ -173,6 +173,8 @@ proc create_tcp_connection {id src dst} {
 		# 5.1 SEMITCP--->MAC
 		set mymac($src) [$node_($src) set mac_(0)]
 		$tcp_($id) semitcp-get-mac $mymac($src)
+        # 6.1 MAC--->MATCP
+        $mymac($src) mac-get-matcp $tcp_($id)
         # 5.2 TCPSINK--->MAC
         set mymac($dst) [$node_($dst) set mac_(0)]
         $sink_($id) tcpsink-get-mac $mymac($dst)

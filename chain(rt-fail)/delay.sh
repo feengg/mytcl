@@ -9,11 +9,11 @@ set output 'delay.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [1:20]
+set xrange [1:14]
 #set yrange [0:1000]
 
-plot    './semitcp/delay' u 1:2 t 'semitcp' with linespoints, \
-        './matcp/delay' u 1:2 t 'matcp' with linespoints, \
+plot    './matcp/delay' u 1:2 t 'matcp' with linespoints, \
+        './semitcp/delay' u 1:2 t 'semitcp' with linespoints, \
         #'./tcpap/delay' u 1:2 t 'tcpap' with linespoints
 set output
 quit

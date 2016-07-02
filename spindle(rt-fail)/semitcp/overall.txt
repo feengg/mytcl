@@ -1,362 +1,272 @@
-Thu Jun 23 17:16:22 CST 2016
+Sat Jul  2 12:04:51 CST 2016
 SIMULATION DURATION: 300.0S, AODV+TCP
 
 --- Hop Node Number:1 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  8440
-  rt_request_cnt:  16859
-    receivedPkts:  8430
- receivedUniquePkts:  8407
-   avgTput[kbps]:  347.97
-    avgDelay[ms]:  50.5599
- max ACKed Seqno:  4318
-       ACKs sent:  8413
-   ACKs received:  8403
+        stopTime:  299
+        sentPkts:  25488
+  rt_request_cnt:  50956
+    receivedPkts:  25476
+ receivedUniquePkts:  25371
+   avgTput[kbps]:  347.6
+    avgDelay[ms]:  49.8727
+ max ACKed Seqno:  13540
+       ACKs sent:  25461
+   ACKs received:  25452
    avgPathLength:  2
-       dropCount:  0
-       totalSent:  16855
-        dropRate:  0
+       dropCount:  2
+       totalSent:  50951
+        dropRate:  3.92534e-05
 
 --- Hop Node Number:2 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  7875
-  rt_request_cnt:  8526
-    receivedPkts:  7845
- receivedUniquePkts:  7667
-   avgTput[kbps]:  317.371
-    avgDelay[ms]:  57.2178
- max ACKed Seqno:  288
-       ACKs sent:  579
-   ACKs received:  496
+        stopTime:  287
+        sentPkts:  18425
+  rt_request_cnt:  31887
+    receivedPkts:  18201
+ receivedUniquePkts:  17759
+   avgTput[kbps]:  254.267
+    avgDelay[ms]:  57.7665
+ max ACKed Seqno:  316
+       ACKs sent:  13171
+   ACKs received:  12934
    avgPathLength:  3
-       dropCount:  99
-       totalSent:  8456
-        dropRate:  0.0117077
+       dropCount:  445
+       totalSent:  31598
+        dropRate:  0.0140832
 
 --- Hop Node Number:3 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3754
-  rt_request_cnt:  7477
-    receivedPkts:  3589
- receivedUniquePkts:  3543
-   avgTput[kbps]:  146.693
-    avgDelay[ms]:  103.724
- max ACKed Seqno:  1801
-       ACKs sent:  3591
-   ACKs received:  3567
+        stopTime:  299
+        sentPkts:  11275
+  rt_request_cnt:  22457
+    receivedPkts:  10853
+ receivedUniquePkts:  10730
+   avgTput[kbps]:  147.02
+    avgDelay[ms]:  105.098
+ max ACKed Seqno:  6177
+       ACKs sent:  10855
+   ACKs received:  10785
    avgPathLength:  4
-       dropCount:  182
-       totalSent:  7347
-        dropRate:  0.024772
+       dropCount:  486
+       totalSent:  22132
+        dropRate:  0.0219592
 
 --- Hop Node Number:4 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3406
-  rt_request_cnt:  6803
-    receivedPkts:  3287
- receivedUniquePkts:  3274
-   avgTput[kbps]:  135.591
-    avgDelay[ms]:  117.83
- max ACKed Seqno:  1848
-       ACKs sent:  3290
-   ACKs received:  3263
+        stopTime:  299
+        sentPkts:  10281
+  rt_request_cnt:  20543
+    receivedPkts:  9917
+ receivedUniquePkts:  9862
+   avgTput[kbps]:  135.152
+    avgDelay[ms]:  120.326
+ max ACKed Seqno:  5660
+       ACKs sent:  9915
+   ACKs received:  9818
    avgPathLength:  5
-       dropCount:  133
-       totalSent:  6699
-        dropRate:  0.0198537
+       dropCount:  450
+       totalSent:  20199
+        dropRate:  0.0222783
 
 --- Hop Node Number:5 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3327
-  rt_request_cnt:  6616
-    receivedPkts:  3091
- receivedUniquePkts:  3056
-   avgTput[kbps]:  126.558
-    avgDelay[ms]:  133.161
- max ACKed Seqno:  1476
-       ACKs sent:  3094
-   ACKs received:  3028
+        stopTime:  299
+        sentPkts:  9999
+  rt_request_cnt:  19947
+    receivedPkts:  9317
+ receivedUniquePkts:  9217
+   avgTput[kbps]:  126.295
+    avgDelay[ms]:  137.382
+ max ACKed Seqno:  4506
+       ACKs sent:  9320
+   ACKs received:  9086
    avgPathLength:  6
-       dropCount:  295
-       totalSent:  6424
-        dropRate:  0.0459215
+       dropCount:  909
+       totalSent:  19322
+        dropRate:  0.0470448
 
 --- Hop Node Number:6 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3110
-  rt_request_cnt:  6337
-    receivedPkts:  2910
- receivedUniquePkts:  2903
-   avgTput[kbps]:  120.221
-    avgDelay[ms]:  145.518
- max ACKed Seqno:  1062
-       ACKs sent:  2912
-   ACKs received:  2866
+        stopTime:  299
+        sentPkts:  9132
+  rt_request_cnt:  18554
+    receivedPkts:  8578
+ receivedUniquePkts:  8559
+   avgTput[kbps]:  117.278
+    avgDelay[ms]:  149.74
+ max ACKed Seqno:  4350
+       ACKs sent:  8580
+   ACKs received:  8483
    avgPathLength:  7
-       dropCount:  239
-       totalSent:  6025
-        dropRate:  0.039668
+       dropCount:  642
+       totalSent:  17715
+        dropRate:  0.0362405
 
 --- Hop Node Number:7 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  2902
-  rt_request_cnt:  5866
-    receivedPkts:  2671
- receivedUniquePkts:  2662
-   avgTput[kbps]:  110.251
-    avgDelay[ms]:  169.557
- max ACKed Seqno:  647
-       ACKs sent:  2673
-   ACKs received:  2651
+        stopTime:  299
+        sentPkts:  8686
+  rt_request_cnt:  17636
+    receivedPkts:  8119
+ receivedUniquePkts:  8094
+   avgTput[kbps]:  110.92
+    avgDelay[ms]:  159.948
+ max ACKed Seqno:  1596
+       ACKs sent:  8121
+   ACKs received:  7964
    avgPathLength:  8
-       dropCount:  243
-       totalSent:  5577
-        dropRate:  0.0435718
+       dropCount:  710
+       totalSent:  16809
+        dropRate:  0.0422393
 
 --- Hop Node Number:8 ---
 
        startTime:  1
-        stopTime:  100
-        sentPkts:  2884
-  rt_request_cnt:  5709
-    receivedPkts:  2658
- receivedUniquePkts:  2637
-   avgTput[kbps]:  109.198
-    avgDelay[ms]:  181.018
- max ACKed Seqno:  1109
-       ACKs sent:  2510
-   ACKs received:  2489
+        stopTime:  299
+        sentPkts:  8750
+  rt_request_cnt:  17863
+    receivedPkts:  8067
+ receivedUniquePkts:  7959
+   avgTput[kbps]:  109.068
+    avgDelay[ms]:  180.63
+ max ACKed Seqno:  3955
+       ACKs sent:  8069
+   ACKs received:  7897
    avgPathLength:  9
-       dropCount:  240
-       totalSent:  5397
-        dropRate:  0.0444691
+       dropCount:  844
+       totalSent:  16822
+        dropRate:  0.0501724
 
 --- Hop Node Number:9 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3145
-  rt_request_cnt:  6483
-    receivedPkts:  2859
- receivedUniquePkts:  2773
-   avgTput[kbps]:  114.844
-    avgDelay[ms]:  192.05
- max ACKed Seqno:  427
-       ACKs sent:  2861
-   ACKs received:  2601
+        stopTime:  299
+        sentPkts:  8951
+  rt_request_cnt:  17682
+    receivedPkts:  7582
+ receivedUniquePkts:  7452
+   avgTput[kbps]:  102.12
+    avgDelay[ms]:  206.343
+ max ACKed Seqno:  1606
+       ACKs sent:  7584
+   ACKs received:  7105
    avgPathLength:  10
-       dropCount:  532
-       totalSent:  6008
-        dropRate:  0.0885486
+       dropCount:  1837
+       totalSent:  16537
+        dropRate:  0.111084
 
 --- Hop Node Number:10 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  2977
-  rt_request_cnt:  5919
-    receivedPkts:  2725
- receivedUniquePkts:  2667
-   avgTput[kbps]:  110.471
-    avgDelay[ms]:  198.656
- max ACKed Seqno:  675
-       ACKs sent:  2518
-   ACKs received:  2290
+        stopTime:  299
+        sentPkts:  9237
+  rt_request_cnt:  18880
+    receivedPkts:  8525
+ receivedUniquePkts:  8191
+   avgTput[kbps]:  112.256
+    avgDelay[ms]:  183.048
+ max ACKed Seqno:  960
+       ACKs sent:  8310
+   ACKs received:  7324
    avgPathLength:  11
-       dropCount:  471
-       totalSent:  5497
-        dropRate:  0.0856831
+       dropCount:  1686
+       totalSent:  17549
+        dropRate:  0.0960739
 
 --- Hop Node Number:11 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3296
-  rt_request_cnt:  6250
-    receivedPkts:  3000
- receivedUniquePkts:  2911
-   avgTput[kbps]:  120.605
-    avgDelay[ms]:  189.378
- max ACKed Seqno:  226
-       ACKs sent:  2443
-   ACKs received:  2065
+        stopTime:  299
+        sentPkts:  9542
+  rt_request_cnt:  19621
+    receivedPkts:  8742
+ receivedUniquePkts:  8423
+   avgTput[kbps]:  115.495
+    avgDelay[ms]:  190.803
+ max ACKed Seqno:  336
+       ACKs sent:  8607
+   ACKs received:  7276
    avgPathLength:  12
-       dropCount:  654
-       totalSent:  5741
-        dropRate:  0.113917
+       dropCount:  2121
+       totalSent:  18151
+        dropRate:  0.116853
 
 --- Hop Node Number:12 ---
 
        startTime:  3
-        stopTime:  100
-        sentPkts:  2824
-  rt_request_cnt:  5522
-    receivedPkts:  2520
- receivedUniquePkts:  2516
-   avgTput[kbps]:  106.406
-    avgDelay[ms]:  239.239
- max ACKed Seqno:  111
-       ACKs sent:  2235
-   ACKs received:  1995
+        stopTime:  299
+        sentPkts:  8565
+  rt_request_cnt:  16961
+    receivedPkts:  7088
+ receivedUniquePkts:  7079
+   avgTput[kbps]:  97.927
+    avgDelay[ms]:  279.676
+ max ACKed Seqno:  382
+       ACKs sent:  7090
+   ACKs received:  6305
    avgPathLength:  13
-       dropCount:  535
-       totalSent:  5061
-        dropRate:  0.10571
+       dropCount:  2260
+       totalSent:  15657
+        dropRate:  0.144344
 
 --- Hop Node Number:13 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3302
-  rt_request_cnt:  6433
-    receivedPkts:  2949
- receivedUniquePkts:  2880
-   avgTput[kbps]:  119.333
-    avgDelay[ms]:  221.3
- max ACKed Seqno:  151
-       ACKs sent:  2504
-   ACKs received:  2054
+        stopTime:  299
+        sentPkts:  9767
+  rt_request_cnt:  19645
+    receivedPkts:  8756
+ receivedUniquePkts:  8594
+   avgTput[kbps]:  117.787
+    avgDelay[ms]:  211.444
+ max ACKed Seqno:  737
+       ACKs sent:  8094
+   ACKs received:  6834
    avgPathLength:  14
-       dropCount:  776
-       totalSent:  5808
-        dropRate:  0.133609
+       dropCount:  2258
+       totalSent:  17863
+        dropRate:  0.126407
 
 --- Hop Node Number:14 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3099
-  rt_request_cnt:  5952
-    receivedPkts:  2820
- receivedUniquePkts:  2759
-   avgTput[kbps]:  114.317
-    avgDelay[ms]:  267.426
- max ACKed Seqno:  355
-       ACKs sent:  2466
-   ACKs received:  2257
+        stopTime:  299
+        sentPkts:  9287
+  rt_request_cnt:  18964
+    receivedPkts:  8140
+ receivedUniquePkts:  7892
+   avgTput[kbps]:  108.178
+    avgDelay[ms]:  325.359
+ max ACKed Seqno:  1020
+       ACKs sent:  8143
+   ACKs received:  7141
    avgPathLength:  15
-       dropCount:  479
-       totalSent:  5569
-        dropRate:  0.0860119
+       dropCount:  2130
+       totalSent:  17434
+        dropRate:  0.122175
 
 --- Hop Node Number:15 ---
 
        startTime:  1
-        stopTime:  99
-        sentPkts:  3153
-  rt_request_cnt:  5736
-    receivedPkts:  2844
- receivedUniquePkts:  2819
-   avgTput[kbps]:  116.829
-    avgDelay[ms]:  216.095
- max ACKed Seqno:  130
-       ACKs sent:  2099
-   ACKs received:  1812
+        stopTime:  299
+        sentPkts:  9085
+  rt_request_cnt:  18517
+    receivedPkts:  8102
+ receivedUniquePkts:  8006
+   avgTput[kbps]:  109.742
+    avgDelay[ms]:  243.376
+ max ACKed Seqno:  296
+       ACKs sent:  8104
+   ACKs received:  7270
    avgPathLength:  16
-       dropCount:  576
-       totalSent:  5254
-        dropRate:  0.109631
-
---- Hop Node Number:16 ---
-
-       startTime:  1
-        stopTime:  98
-        sentPkts:  3412
-  rt_request_cnt:  5755
-    receivedPkts:  2702
- receivedUniquePkts:  2692
-   avgTput[kbps]:  113.058
-    avgDelay[ms]:  429.678
- max ACKed Seqno:  230
-       ACKs sent:  1849
-   ACKs received:  1624
-   avgPathLength:  17
-       dropCount:  924
-       totalSent:  5263
-        dropRate:  0.175565
-
---- Hop Node Number:17 ---
-
-       startTime:  1
-        stopTime:  99
-        sentPkts:  3417
-  rt_request_cnt:  5691
-    receivedPkts:  2412
- receivedUniquePkts:  2378
-   avgTput[kbps]:  98.5729
-    avgDelay[ms]:  364.965
- max ACKed Seqno:  270
-       ACKs sent:  1819
-   ACKs received:  1559
-   avgPathLength:  18
-       dropCount:  1254
-       totalSent:  5240
-        dropRate:  0.239313
-
---- Hop Node Number:18 ---
-
-       startTime:  1
-        stopTime:  99
-        sentPkts:  3386
-  rt_request_cnt:  6642
-    receivedPkts:  3068
- receivedUniquePkts:  2990
-   avgTput[kbps]:  123.951
-    avgDelay[ms]:  219.564
- max ACKed Seqno:  190
-       ACKs sent:  2749
-   ACKs received:  2363
-   avgPathLength:  19
-       dropCount:  684
-       totalSent:  6138
-        dropRate:  0.111437
-
---- Hop Node Number:19 ---
-
-       startTime:  1
-        stopTime:  99
-        sentPkts:  3356
-  rt_request_cnt:  5952
-    receivedPkts:  2975
- receivedUniquePkts:  2903
-   avgTput[kbps]:  120.361
-    avgDelay[ms]:  293.946
- max ACKed Seqno:  596
-       ACKs sent:  2132
-   ACKs received:  1737
-   avgPathLength:  20
-       dropCount:  764
-       totalSent:  5492
-        dropRate:  0.139111
-
---- Hop Node Number:20 ---
-
-       startTime:  1
-        stopTime:  99
-        sentPkts:  3003
-  rt_request_cnt:  5745
-    receivedPkts:  2259
- receivedUniquePkts:  2246
-   avgTput[kbps]:  93.9632
-    avgDelay[ms]:  425.221
- max ACKed Seqno:  144
-       ACKs sent:  2200
-   ACKs received:  1890
-   avgPathLength:  21
-       dropCount:  1045
-       totalSent:  5207
-        dropRate:  0.200691
+       dropCount:  1797
+       totalSent:  17191
+        dropRate:  0.104531

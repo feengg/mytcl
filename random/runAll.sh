@@ -7,12 +7,12 @@ echo "type any key to continue..."
 read c
 
 cd ./matcp
-./chain.sh 
+./mobility.sh 
 #cd ../newreno
 #./chain.sh
 
 cd ../semitcp
-./chain.sh
+./mobility.sh
 #cd ../tcpap
 #./chain.sh 
 
