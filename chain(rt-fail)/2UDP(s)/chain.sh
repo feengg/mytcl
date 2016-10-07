@@ -13,7 +13,7 @@ i=2
 echo SIMULATION DURATION: 300.0S, AODV+UDP >> udp.txt
 
 while [ $i -lt 21 ]; do
-    rate=2000
+    rate=1000
 	echo --- Hop Node Number:$i --- >> $q_length
     ../../../semitcp/semitcp chain.tcl 0 $i 100 7 1 0 0 1 1 $rate"Kb" >> $q_length
     let j=$i-1

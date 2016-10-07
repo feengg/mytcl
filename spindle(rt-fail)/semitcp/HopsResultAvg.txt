@@ -1,4 +1,4 @@
-Sat Jul  2 12:04:51 CST 2016
+Fri Oct  7 15:30:31 CST 2016
 SIMULATION DURATION: 300.0S, AODV+TCP
 
 --- Hop Node Number:1 ---
@@ -7,35 +7,35 @@ SIMULATION DURATION: 300.0S, AODV+TCP
          srcNode:  0
         destNode:  3
        startTime:  1
-        stopTime:  299
-        sentPkts:  13596
-  max seqno sent:  13550
-      Tcp retxed:  46
-    receivedPkts:  13591
-  receivedUnique:  13545
-   avgTput[kbps]:  185.604
-    avgDelay[ms]:  47.5672
- max ACKed Seqno:  13540
-       ACKs sent:  13591
-   ACKs received:  13587
-     RTS(C) Sent:  139579
+        stopTime:  298
+        sentPkts:  12689
+  max seqno sent:  12438
+      Tcp retxed:  251
+    receivedPkts:  12682
+  receivedUnique:  12435
+   avgTput[kbps]:  170.959
+    avgDelay[ms]:  48.8365
+ max ACKed Seqno:  12435
+       ACKs sent:  12683
+   ACKs received:  12627
+     RTS(C) Sent:  139817
 
           flowID:  1
          srcNode:  1
         destNode:  4
        startTime:  1
         stopTime:  299
-        sentPkts:  11892
-  max seqno sent:  11831
-      Tcp retxed:  61
-    receivedPkts:  11885
-  receivedUnique:  11826
-   avgTput[kbps]:  162.137
-    avgDelay[ms]:  52.5134
- max ACKed Seqno:  11805
-       ACKs sent:  11870
-   ACKs received:  11865
-     RTS(C) Sent:  139579
+        sentPkts:  12873
+  max seqno sent:  12511
+      Tcp retxed:  362
+    receivedPkts:  12868
+  receivedUnique:  12506
+   avgTput[kbps]:  171.343
+    avgDelay[ms]:  50.0365
+ max ACKed Seqno:  12453
+       ACKs sent:  12869
+   ACKs received:  12669
+     RTS(C) Sent:  139817
 
 --- Hop Node Number:2 ---
 
@@ -43,359 +43,359 @@ SIMULATION DURATION: 300.0S, AODV+TCP
          srcNode:  0
         destNode:  4
        startTime:  1
-        stopTime:  287
-        sentPkts:  9162
-  max seqno sent:  8708
-      Tcp retxed:  454
-    receivedPkts:  9033
-  receivedUnique:  8621
-   avgTput[kbps]:  123.433
-    avgDelay[ms]:  57.7279
- max ACKed Seqno:  6183
-       ACKs sent:  6968
-   ACKs received:  6841
-     RTS(C) Sent:  124385
+        stopTime:  299
+        sentPkts:  5739
+  max seqno sent:  5555
+      Tcp retxed:  184
+    receivedPkts:  5664
+  receivedUnique:  5554
+   avgTput[kbps]:  76.3353
+    avgDelay[ms]:  40.1236
+ max ACKed Seqno:  5428
+       ACKs sent:  5670
+   ACKs received:  2063
+     RTS(C) Sent:  71439
 
           flowID:  1
          srcNode:  1
         destNode:  5
-       startTime:  3
-        stopTime:  257
-        sentPkts:  9263
-  max seqno sent:  9227
-      Tcp retxed:  36
-    receivedPkts:  9168
-  receivedUnique:  9138
-   avgTput[kbps]:  147.043
-    avgDelay[ms]:  57.8029
- max ACKed Seqno:  4788
-       ACKs sent:  6203
-   ACKs received:  6093
-     RTS(C) Sent:  124385
+       startTime:  1
+        stopTime:  299
+        sentPkts:  7267
+  max seqno sent:  6877
+      Tcp retxed:  390
+    receivedPkts:  7125
+  receivedUnique:  6868
+   avgTput[kbps]:  94.0998
+    avgDelay[ms]:  39.1506
+ max ACKed Seqno:  6839
+       ACKs sent:  7126
+   ACKs received:  2877
+     RTS(C) Sent:  71439
 
 --- Hop Node Number:3 ---
 
           flowID:  0
          srcNode:  0
         destNode:  5
-       startTime:  1
+       startTime:  3
         stopTime:  299
-        sentPkts:  6455
-  max seqno sent:  6182
-      Tcp retxed:  273
-    receivedPkts:  6233
-  receivedUnique:  6177
-   avgTput[kbps]:  84.6482
-    avgDelay[ms]:  96.2202
- max ACKed Seqno:  6177
-       ACKs sent:  6234
-   ACKs received:  6199
-     RTS(C) Sent:  145875
+        sentPkts:  3615
+  max seqno sent:  3225
+      Tcp retxed:  390
+    receivedPkts:  3525
+  receivedUnique:  3219
+   avgTput[kbps]:  44.4015
+    avgDelay[ms]:  95.5187
+ max ACKed Seqno:  3219
+       ACKs sent:  3526
+   ACKs received:  3514
+     RTS(C) Sent:  138900
 
           flowID:  1
          srcNode:  1
         destNode:  6
        startTime:  1
         stopTime:  298
-        sentPkts:  4820
-  max seqno sent:  4556
-      Tcp retxed:  264
-    receivedPkts:  4620
-  receivedUnique:  4553
-   avgTput[kbps]:  62.6283
-    avgDelay[ms]:  117.142
- max ACKed Seqno:  4552
-       ACKs sent:  4621
-   ACKs received:  4586
-     RTS(C) Sent:  145875
+        sentPkts:  7598
+  max seqno sent:  6997
+      Tcp retxed:  601
+    receivedPkts:  7513
+  receivedUnique:  6997
+   avgTput[kbps]:  96.2141
+    avgDelay[ms]:  74.1249
+ max ACKed Seqno:  6870
+       ACKs sent:  7514
+   ACKs received:  6832
+     RTS(C) Sent:  138900
 
 --- Hop Node Number:4 ---
 
           flowID:  0
          srcNode:  0
         destNode:  6
-       startTime:  12
+       startTime:  7
         stopTime:  299
-        sentPkts:  4059
-  max seqno sent:  3826
-      Tcp retxed:  233
-    receivedPkts:  3861
-  receivedUnique:  3817
-   avgTput[kbps]:  54.4126
-    avgDelay[ms]:  132.113
- max ACKed Seqno:  3809
-       ACKs sent:  3858
-   ACKs received:  3815
-     RTS(C) Sent:  179047
+        sentPkts:  7467
+  max seqno sent:  7157
+      Tcp retxed:  310
+    receivedPkts:  7371
+  receivedUnique:  7152
+   avgTput[kbps]:  100.004
+    avgDelay[ms]:  90.2691
+ max ACKed Seqno:  7150
+       ACKs sent:  7373
+   ACKs received:  7101
+     RTS(C) Sent:  166349
 
           flowID:  1
          srcNode:  1
         destNode:  7
        startTime:  1
         stopTime:  299
-        sentPkts:  6222
-  max seqno sent:  6080
-      Tcp retxed:  142
-    receivedPkts:  6056
-  receivedUnique:  6045
-   avgTput[kbps]:  82.8427
-    avgDelay[ms]:  112.883
- max ACKed Seqno:  6031
-       ACKs sent:  6057
-   ACKs received:  6003
-     RTS(C) Sent:  179047
+        sentPkts:  2504
+  max seqno sent:  2331
+      Tcp retxed:  173
+    receivedPkts:  2437
+  receivedUnique:  2325
+   avgTput[kbps]:  31.8624
+    avgDelay[ms]:  133.066
+ max ACKed Seqno:  2321
+       ACKs sent:  2438
+   ACKs received:  2224
+     RTS(C) Sent:  166349
 
 --- Hop Node Number:5 ---
 
           flowID:  0
          srcNode:  0
         destNode:  7
-       startTime:  12
+       startTime:  1
         stopTime:  299
-        sentPkts:  5077
-  max seqno sent:  4726
-      Tcp retxed:  351
-    receivedPkts:  4737
-  receivedUnique:  4694
-   avgTput[kbps]:  66.9109
-    avgDelay[ms]:  134.787
- max ACKed Seqno:  4686
-       ACKs sent:  4739
-   ACKs received:  4629
-     RTS(C) Sent:  205072
+        sentPkts:  5253
+  max seqno sent:  4888
+      Tcp retxed:  365
+    receivedPkts:  5107
+  receivedUnique:  4882
+   avgTput[kbps]:  66.8922
+    avgDelay[ms]:  117.038
+ max ACKed Seqno:  4785
+       ACKs sent:  5108
+   ACKs received:  4829
+     RTS(C) Sent:  188237
 
           flowID:  1
          srcNode:  1
         destNode:  8
        startTime:  1
-        stopTime:  298
-        sentPkts:  4922
-  max seqno sent:  4527
-      Tcp retxed:  395
-    receivedPkts:  4580
-  receivedUnique:  4523
-   avgTput[kbps]:  62.2515
-    avgDelay[ms]:  140.075
- max ACKed Seqno:  4522
-       ACKs sent:  4581
-   ACKs received:  4457
-     RTS(C) Sent:  205072
+        stopTime:  297
+        sentPkts:  4320
+  max seqno sent:  3957
+      Tcp retxed:  363
+    receivedPkts:  4168
+  receivedUnique:  3954
+   avgTput[kbps]:  54.596
+    avgDelay[ms]:  126.884
+ max ACKed Seqno:  3953
+       ACKs sent:  4169
+   ACKs received:  3990
+     RTS(C) Sent:  188237
 
 --- Hop Node Number:6 ---
 
           flowID:  0
          srcNode:  0
         destNode:  8
-       startTime:  7
-        stopTime:  288
-        sentPkts:  3869
-  max seqno sent:  3830
-      Tcp retxed:  39
-    receivedPkts:  3579
-  receivedUnique:  3577
-   avgTput[kbps]:  52.1181
-    avgDelay[ms]:  157.702
- max ACKed Seqno:  3523
-       ACKs sent:  3580
-   ACKs received:  3512
-     RTS(C) Sent:  218613
+       startTime:  1
+        stopTime:  293
+        sentPkts:  4805
+  max seqno sent:  4346
+      Tcp retxed:  459
+    receivedPkts:  4608
+  receivedUnique:  4344
+   avgTput[kbps]:  60.8746
+    avgDelay[ms]:  127.644
+ max ACKed Seqno:  4344
+       ACKs sent:  4609
+   ACKs received:  4366
+     RTS(C) Sent:  174818
 
           flowID:  1
          srcNode:  1
         destNode:  9
-       startTime:  1
+       startTime:  30
         stopTime:  299
-        sentPkts:  5263
-  max seqno sent:  5011
-      Tcp retxed:  252
-    receivedPkts:  4999
-  receivedUnique:  4982
-   avgTput[kbps]:  68.265
-    avgDelay[ms]:  144.024
- max ACKed Seqno:  4977
-       ACKs sent:  5000
-   ACKs received:  4971
-     RTS(C) Sent:  218613
+        sentPkts:  2884
+  max seqno sent:  2578
+      Tcp retxed:  306
+    receivedPkts:  2760
+  receivedUnique:  2572
+   avgTput[kbps]:  39.0362
+    avgDelay[ms]:  146.501
+ max ACKed Seqno:  2499
+       ACKs sent:  2762
+   ACKs received:  2491
+     RTS(C) Sent:  174818
 
 --- Hop Node Number:7 ---
 
           flowID:  0
          srcNode:  0
         destNode:  9
-       startTime:  3
-        stopTime:  299
-        sentPkts:  3677
-  max seqno sent:  3643
-      Tcp retxed:  34
-    receivedPkts:  3426
-  receivedUnique:  3422
-   avgTput[kbps]:  47.2107
-    avgDelay[ms]:  169.106
- max ACKed Seqno:  3380
-       ACKs sent:  3427
-   ACKs received:  3384
-     RTS(C) Sent:  240750
+       startTime:  1
+        stopTime:  271
+        sentPkts:  4064
+  max seqno sent:  3682
+      Tcp retxed:  382
+    receivedPkts:  3918
+  receivedUnique:  3679
+   avgTput[kbps]:  55.6623
+    avgDelay[ms]:  142.095
+ max ACKed Seqno:  3678
+       ACKs sent:  3919
+   ACKs received:  3200
+     RTS(C) Sent:  202353
 
           flowID:  1
          srcNode:  1
         destNode:  10
-       startTime:  1
+       startTime:  7
         stopTime:  299
-        sentPkts:  5009
-  max seqno sent:  4859
-      Tcp retxed:  150
-    receivedPkts:  4693
-  receivedUnique:  4672
-   avgTput[kbps]:  64.0597
-    avgDelay[ms]:  153.241
- max ACKed Seqno:  4588
-       ACKs sent:  4694
-   ACKs received:  4580
-     RTS(C) Sent:  240750
+        sentPkts:  3879
+  max seqno sent:  3479
+      Tcp retxed:  400
+    receivedPkts:  3727
+  receivedUnique:  3472
+   avgTput[kbps]:  48.5447
+    avgDelay[ms]:  151.453
+ max ACKed Seqno:  3470
+       ACKs sent:  3729
+   ACKs received:  3285
+     RTS(C) Sent:  202353
 
 --- Hop Node Number:8 ---
 
           flowID:  0
          srcNode:  0
         destNode:  10
-       startTime:  7
-        stopTime:  287
-        sentPkts:  3525
-  max seqno sent:  3484
-      Tcp retxed:  41
-    receivedPkts:  3208
-  receivedUnique:  3205
-   avgTput[kbps]:  46.7628
-    avgDelay[ms]:  197.988
- max ACKed Seqno:  3117
-       ACKs sent:  3209
-   ACKs received:  3118
-     RTS(C) Sent:  277559
+       startTime:  1
+        stopTime:  284
+        sentPkts:  2635
+  max seqno sent:  2260
+      Tcp retxed:  375
+    receivedPkts:  2499
+  receivedUnique:  2256
+   avgTput[kbps]:  32.6207
+    avgDelay[ms]:  179.901
+ max ACKed Seqno:  2254
+       ACKs sent:  2500
+   ACKs received:  2107
+     RTS(C) Sent:  204558
 
           flowID:  1
          srcNode:  1
         destNode:  11
-       startTime:  1
+       startTime:  3
         stopTime:  299
-        sentPkts:  5225
-  max seqno sent:  4812
-      Tcp retxed:  413
-    receivedPkts:  4859
-  receivedUnique:  4754
-   avgTput[kbps]:  65.1473
-    avgDelay[ms]:  168.928
- max ACKed Seqno:  4742
-       ACKs sent:  4860
-   ACKs received:  4779
-     RTS(C) Sent:  277559
+        sentPkts:  4434
+  max seqno sent:  3867
+      Tcp retxed:  567
+    receivedPkts:  4249
+  receivedUnique:  3864
+   avgTput[kbps]:  53.4204
+    avgDelay[ms]:  156.572
+ max ACKed Seqno:  3860
+       ACKs sent:  4250
+   ACKs received:  3652
+     RTS(C) Sent:  204558
 
 --- Hop Node Number:9 ---
 
           flowID:  0
          srcNode:  0
         destNode:  11
-       startTime:  3
+       startTime:  1
         stopTime:  299
-        sentPkts:  4088
-  max seqno sent:  4046
-      Tcp retxed:  42
-    receivedPkts:  3752
-  receivedUnique:  3748
-   avgTput[kbps]:  51.7043
-    avgDelay[ms]:  208.101
- max ACKed Seqno:  3635
-       ACKs sent:  3753
-   ACKs received:  3593
-     RTS(C) Sent:  301615
+        sentPkts:  6211
+  max seqno sent:  5467
+      Tcp retxed:  744
+    receivedPkts:  6010
+  receivedUnique:  5464
+   avgTput[kbps]:  74.9389
+    avgDelay[ms]:  150.424
+ max ACKed Seqno:  5463
+       ACKs sent:  6011
+   ACKs received:  4450
+     RTS(C) Sent:  238909
 
           flowID:  1
          srcNode:  1
         destNode:  12
-       startTime:  1
-        stopTime:  299
-        sentPkts:  4863
-  max seqno sent:  4549
-      Tcp retxed:  314
-    receivedPkts:  3830
-  receivedUnique:  3704
-   avgTput[kbps]:  50.8936
-    avgDelay[ms]:  204.565
- max ACKed Seqno:  3541
-       ACKs sent:  3831
-   ACKs received:  3512
-     RTS(C) Sent:  301615
+       startTime:  41
+        stopTime:  296
+        sentPkts:  1530
+  max seqno sent:  1271
+      Tcp retxed:  259
+    receivedPkts:  1443
+  receivedUnique:  1268
+   avgTput[kbps]:  20.4125
+    avgDelay[ms]:  218.965
+ max ACKed Seqno:  1267
+       ACKs sent:  1445
+   ACKs received:  1252
+     RTS(C) Sent:  238909
 
 --- Hop Node Number:10 ---
 
           flowID:  0
          srcNode:  0
         destNode:  12
-       startTime:  3
-        stopTime:  299
-        sentPkts:  3703
-  max seqno sent:  3669
-      Tcp retxed:  34
-    receivedPkts:  3381
-  receivedUnique:  3374
-   avgTput[kbps]:  46.5689
-    avgDelay[ms]:  210.144
- max ACKed Seqno:  3076
-       ACKs sent:  3382
-   ACKs received:  3073
-     RTS(C) Sent:  347553
+       startTime:  1
+        stopTime:  294
+        sentPkts:  3382
+  max seqno sent:  2861
+      Tcp retxed:  521
+    receivedPkts:  3225
+  receivedUnique:  2856
+   avgTput[kbps]:  39.8248
+    avgDelay[ms]:  185.364
+ max ACKed Seqno:  2853
+       ACKs sent:  3226
+   ACKs received:  2516
+     RTS(C) Sent:  259561
 
           flowID:  1
          srcNode:  1
         destNode:  13
-       startTime:  1
-        stopTime:  298
-        sentPkts:  5534
-  max seqno sent:  5067
-      Tcp retxed:  467
-    receivedPkts:  5144
-  receivedUnique:  4817
-   avgTput[kbps]:  66.3429
-    avgDelay[ms]:  164.068
- max ACKed Seqno:  4075
-       ACKs sent:  4928
-   ACKs received:  4251
-     RTS(C) Sent:  347553
+       startTime:  12
+        stopTime:  299
+        sentPkts:  4025
+  max seqno sent:  3244
+      Tcp retxed:  781
+    receivedPkts:  3805
+  receivedUnique:  3237
+   avgTput[kbps]:  46.1399
+    avgDelay[ms]:  180.874
+ max ACKed Seqno:  3234
+       ACKs sent:  3807
+   ACKs received:  3006
+     RTS(C) Sent:  259561
 
 --- Hop Node Number:11 ---
 
           flowID:  0
          srcNode:  0
         destNode:  13
-       startTime:  3
-        stopTime:  295
-        sentPkts:  2680
-  max seqno sent:  2652
-      Tcp retxed:  28
-    receivedPkts:  2337
-  receivedUnique:  2328
-   avgTput[kbps]:  32.6721
-    avgDelay[ms]:  256.849
- max ACKed Seqno:  2043
-       ACKs sent:  2338
-   ACKs received:  2044
-     RTS(C) Sent:  381156
+       startTime:  1
+        stopTime:  297
+        sentPkts:  2914
+  max seqno sent:  2419
+      Tcp retxed:  495
+    receivedPkts:  2770
+  receivedUnique:  2416
+   avgTput[kbps]:  33.4142
+    avgDelay[ms]:  191.89
+ max ACKed Seqno:  2415
+       ACKs sent:  2771
+   ACKs received:  1928
+     RTS(C) Sent:  258670
 
           flowID:  1
          srcNode:  1
         destNode:  14
        startTime:  1
         stopTime:  299
-        sentPkts:  6862
-  max seqno sent:  6481
-      Tcp retxed:  381
-    receivedPkts:  6405
-  receivedUnique:  6095
-   avgTput[kbps]:  83.5738
-    avgDelay[ms]:  165.577
- max ACKed Seqno:  4995
-       ACKs sent:  6269
-   ACKs received:  5232
-     RTS(C) Sent:  381156
+        sentPkts:  4597
+  max seqno sent:  3942
+      Tcp retxed:  655
+    receivedPkts:  4413
+  receivedUnique:  3935
+   avgTput[kbps]:  53.9545
+    avgDelay[ms]:  156.16
+ max ACKed Seqno:  3894
+       ACKs sent:  4414
+   ACKs received:  2867
+     RTS(C) Sent:  258670
 
 --- Hop Node Number:12 ---
 
@@ -403,140 +403,140 @@ SIMULATION DURATION: 300.0S, AODV+TCP
          srcNode:  0
         destNode:  14
        startTime:  3
-        stopTime:  299
-        sentPkts:  3903
-  max seqno sent:  3864
-      Tcp retxed:  39
-    receivedPkts:  3493
-  receivedUnique:  3487
-   avgTput[kbps]:  48.2645
-    avgDelay[ms]:  236.698
- max ACKed Seqno:  3039
-       ACKs sent:  3494
-   ACKs received:  3033
-     RTS(C) Sent:  369926
+        stopTime:  300
+        sentPkts:  3350
+  max seqno sent:  2618
+      Tcp retxed:  732
+    receivedPkts:  3143
+  receivedUnique:  2600
+   avgTput[kbps]:  35.8833
+    avgDelay[ms]:  554.129
+ max ACKed Seqno:  2540
+       ACKs sent:  3144
+   ACKs received:  2361
+     RTS(C) Sent:  277735
 
           flowID:  1
          srcNode:  1
         destNode:  15
-       startTime:  3
-        stopTime:  299
-        sentPkts:  4662
-  max seqno sent:  4627
-      Tcp retxed:  35
-    receivedPkts:  3595
-  receivedUnique:  3592
-   avgTput[kbps]:  49.6898
-    avgDelay[ms]:  321.397
- max ACKed Seqno:  3274
-       ACKs sent:  3596
-   ACKs received:  3272
-     RTS(C) Sent:  369926
+       startTime:  1
+        stopTime:  297
+        sentPkts:  3429
+  max seqno sent:  2726
+      Tcp retxed:  703
+    receivedPkts:  3227
+  receivedUnique:  2723
+   avgTput[kbps]:  37.6086
+    avgDelay[ms]:  211.586
+ max ACKed Seqno:  2722
+       ACKs sent:  3228
+   ACKs received:  2643
+     RTS(C) Sent:  277735
 
 --- Hop Node Number:13 ---
 
           flowID:  0
          srcNode:  0
         destNode:  15
-       startTime:  3
+       startTime:  1
         stopTime:  299
-        sentPkts:  4173
-  max seqno sent:  4148
-      Tcp retxed:  25
-    receivedPkts:  3727
-  receivedUnique:  3717
-   avgTput[kbps]:  51.286
-    avgDelay[ms]:  221.111
- max ACKed Seqno:  2484
-       ACKs sent:  3064
-   ACKs received:  2450
-     RTS(C) Sent:  431577
+        sentPkts:  2824
+  max seqno sent:  2284
+      Tcp retxed:  540
+    receivedPkts:  2626
+  receivedUnique:  2282
+   avgTput[kbps]:  31.3019
+    avgDelay[ms]:  523.11
+ max ACKed Seqno:  2265
+       ACKs sent:  2627
+   ACKs received:  1891
+     RTS(C) Sent:  278878
 
           flowID:  1
          srcNode:  1
         destNode:  16
        startTime:  1
-        stopTime:  294
-        sentPkts:  5594
-  max seqno sent:  5338
-      Tcp retxed:  256
-    receivedPkts:  5029
-  receivedUnique:  4877
-   avgTput[kbps]:  67.9883
-    avgDelay[ms]:  204.076
- max ACKed Seqno:  4371
-       ACKs sent:  5030
-   ACKs received:  4384
-     RTS(C) Sent:  431577
+        stopTime:  296
+        sentPkts:  3709
+  max seqno sent:  2835
+      Tcp retxed:  874
+    receivedPkts:  3428
+  receivedUnique:  2831
+   avgTput[kbps]:  39.263
+    avgDelay[ms]:  487.543
+ max ACKed Seqno:  2827
+       ACKs sent:  3430
+   ACKs received:  2940
+     RTS(C) Sent:  278878
 
 --- Hop Node Number:14 ---
 
           flowID:  0
          srcNode:  0
         destNode:  16
-       startTime:  30
-        stopTime:  299
-        sentPkts:  3917
-  max seqno sent:  3728
-      Tcp retxed:  189
-    receivedPkts:  3307
-  receivedUnique:  3205
-   avgTput[kbps]:  48.6516
-    avgDelay[ms]:  351.101
- max ACKed Seqno:  2738
-       ACKs sent:  3309
-   ACKs received:  2796
-     RTS(C) Sent:  429946
+       startTime:  3
+        stopTime:  298
+        sentPkts:  3178
+  max seqno sent:  2666
+      Tcp retxed:  512
+    receivedPkts:  2988
+  receivedUnique:  2665
+   avgTput[kbps]:  37.0145
+    avgDelay[ms]:  446.722
+ max ACKed Seqno:  2539
+       ACKs sent:  2989
+   ACKs received:  1772
+     RTS(C) Sent:  300689
 
           flowID:  1
          srcNode:  1
         destNode:  17
-       startTime:  1
+       startTime:  12
         stopTime:  299
-        sentPkts:  5370
-  max seqno sent:  5128
-      Tcp retxed:  242
-    receivedPkts:  4833
-  receivedUnique:  4687
-   avgTput[kbps]:  64.4254
-    avgDelay[ms]:  307.757
- max ACKed Seqno:  4274
-       ACKs sent:  4834
-   ACKs received:  4345
-     RTS(C) Sent:  429946
+        sentPkts:  3830
+  max seqno sent:  2924
+      Tcp retxed:  906
+    receivedPkts:  3553
+  receivedUnique:  2912
+   avgTput[kbps]:  41.5091
+    avgDelay[ms]:  295.619
+ max ACKed Seqno:  2903
+       ACKs sent:  3555
+   ACKs received:  2780
+     RTS(C) Sent:  300689
 
 --- Hop Node Number:15 ---
 
           flowID:  0
          srcNode:  0
         destNode:  17
-       startTime:  3
-        stopTime:  299
-        sentPkts:  4676
-  max seqno sent:  4649
-      Tcp retxed:  27
-    receivedPkts:  4176
-  receivedUnique:  4170
-   avgTput[kbps]:  57.5964
-    avgDelay[ms]:  270.542
- max ACKed Seqno:  3768
-       ACKs sent:  4177
-   ACKs received:  3760
-     RTS(C) Sent:  457232
+       startTime:  1
+        stopTime:  283
+        sentPkts:  2979
+  max seqno sent:  2238
+      Tcp retxed:  741
+    receivedPkts:  2749
+  receivedUnique:  2226
+   avgTput[kbps]:  32.3453
+    avgDelay[ms]:  245.298
+ max ACKed Seqno:  2184
+       ACKs sent:  2750
+   ACKs received:  2227
+     RTS(C) Sent:  300632
 
           flowID:  1
          srcNode:  1
         destNode:  18
-       startTime:  1
-        stopTime:  281
-        sentPkts:  4409
-  max seqno sent:  4223
-      Tcp retxed:  186
-    receivedPkts:  3926
-  receivedUnique:  3836
-   avgTput[kbps]:  56.0079
-    avgDelay[ms]:  213.845
- max ACKed Seqno:  3457
-       ACKs sent:  3927
-   ACKs received:  3510
-     RTS(C) Sent:  457232
+       startTime:  3
+        stopTime:  299
+        sentPkts:  3065
+  max seqno sent:  2396
+      Tcp retxed:  669
+    receivedPkts:  2851
+  receivedUnique:  2392
+   avgTput[kbps]:  33.0002
+    avgDelay[ms]:  237.898
+ max ACKed Seqno:  2372
+       ACKs sent:  2852
+   ACKs received:  2130
+     RTS(C) Sent:  300632

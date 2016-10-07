@@ -33,6 +33,7 @@ gawk -f ../../trace2stats_v05b/brief.awk flag="ACKs sent" HopsResultAvg.txt > AC
 
 ./drawAll.sh
 ./ackDraw.sh
+./avgSendTime.sh
 
 cd ../
 ./throughput.sh

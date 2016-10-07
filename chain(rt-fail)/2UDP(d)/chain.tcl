@@ -201,7 +201,7 @@ proc create_udp_connection {id src dst startTime} {
 }
 
 create_udp_connection 0 0 [expr $val(nn)-1] 1.0
-create_udp_connection 1 [expr $val(nn)-1] 0 1.0
+create_udp_connection 1 [expr $val(nn)-1] 0 30.0
 
 # Set up the size of nodes in nam
 #for {set i 0} {$i < $val(nn)} {incr i} {

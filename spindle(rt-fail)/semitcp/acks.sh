@@ -11,7 +11,7 @@ set autoscale
 set grid
 set boxwidth 20
 set xrange [1:14]
-#set yrange [1000:4000]
+set yrange [2000:10000]
 
 plot    './generatedACKs' u 1:2 t 'ACKs generated' with linespoints, \
         './ACKsSent' u 1:2 t 'ACKs sent' with linespoints, \

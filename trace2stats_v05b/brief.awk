@@ -25,7 +25,26 @@ BEGIN {
         printf("%d %g\n", i++, $3)
     if($1 == "ACKs" && $2 == "received:" && flag == "ACKs received")
         printf("%d %g\n", i++, $3)
-
+    if($1 == "RTS(C)_send:" && flag == "RTS(C)_send")
+        printf("%d %g\n", i++, $2)
+    if($1 == "RetransmitRTS:" && flag == "RetransmitRTS")
+        printf("%d %g\n", i++, $2)
+    if($1 == "RetransmitDATA:" && flag == "RetransmitDATA")
+        printf("%d %g\n", i++, $2)
+    if($1 == "RTS" && $2 == "droped:" && flag == "RTS droped")
+        printf("%d %g\n", i++, $3)
+    if($1 == "DATA" && $2 == "droped" && flag == "DATA droped")
+        printf("%d %g\n", i++, $3)
+    if($1 == "avg_whole:" && flag == "avg_whole")
+        printf("%d %g\n", i++, $2)
+    if($1 == "all_success_rate:" && flag == "all_success_rate")
+        printf("%d %g\n", i++, $2)
+    if($1 == "RTS_CTS_rate:" && flag == "RTS_CTS_rate")
+        printf("%d %g\n", i++, $2)
+    if($1 == "avgSendTime:" && flag == "avgSendTime")
+        printf("%d %g\n", i++, $2)
+    if($1 == "minSendTime:" && flag == "minSendTime")
+        printf("%d %g\n", i++, $2)
 }
 
 END {

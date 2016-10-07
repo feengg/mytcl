@@ -38,3 +38,8 @@ gawk -f ../../trace2stats_v05b/brief.awk flag="throughput" overall.txt > through
 gawk -f ../../trace2stats_v05b/brief.awk flag="delay" overall.txt > delay_all
 gawk -f ../../trace2stats_v05b/avg.awk period=5 multiplier=5 throughput_all > throughput
 gawk -f ../../trace2stats_v05b/avg.awk period=5 multiplier=5 delay_all > delay
+
+cd ..
+
+./throughput.sh
+./delay.sh
