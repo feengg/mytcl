@@ -16,7 +16,7 @@ endnode=`expr $i - 1`
 
 gawk -f ../../../trace2stats_v05b/avgStatsForTcp.awk src=0 dst=$endnode flow=0 pkt=512 chain.tr >> HopsResultAvg.txt
 
-gawk -f ../../../trace2stats_v05b/instantThroughputForTcp.awk tic=1 src=0 dst=$endnode flow=0 pkt=512 chain.tr > HopsResultInst.txt
+gawk -f ../../../trace2stats_v05b/instantThroughputForTcp.awk tic=0\.1 src=0 dst=$endnode flow=0 pkt=512 chain.tr > HopsResultInst.txt
 
 rm *.tr
 rm *.nam
@@ -37,6 +37,10 @@ gawk -f ../../../trace2stats_v05b/brief.awk flag="all_success_rate" q_length.txt
 gawk -f ../../../trace2stats_v05b/brief.awk flag="avgSendTime" q_length.txt > avgSendTime
 gawk -f ../../../trace2stats_v05b/brief.awk flag="minSendTime" q_length.txt > minSendTime
 gawk -f ../../../trace2stats_v05b/brief.awk flag="avg_length" q_length.txt > avg_length
+gawk -f ../../../trace2stats_v05b/brief.awk flag="send_time_vec" q_length.txt > send_time_vec_tmp
+
+gawk -f ./send_time_vec.awk send_time_vec_tmp > send_time_vec
+rm send_time_vec_tmp
 
 ./RTS\(C\)_send.sh
 ./RetransmitRTS.sh
@@ -46,5 +50,6 @@ gawk -f ../../../trace2stats_v05b/brief.awk flag="avg_length" q_length.txt > avg
 ./all_success_rate.sh
 ./sendTime.sh
 ./avg_length.sh
+./send_time_vec.sh
 
 ./InstThroughput.sh

@@ -47,6 +47,8 @@ BEGIN {
         printf("%d %g\n", i++, $2)
     if($1 == "avg_length:" && flag == "avg_length")
         printf("%d %g\n", i++, $2)
+    if($1 == "send_time_vec:" && flag == "send_time_vec")
+        printf("%g %g\n", $2, $3)
 }
 
 END {
