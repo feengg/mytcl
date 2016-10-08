@@ -51,5 +51,6 @@ rm send_time_vec_tmp
 ./sendTime.sh
 ./avg_length.sh
 ./send_time_vec.sh
+./send_time_vec_and_inst.sh
 
 ./InstThroughput.sh
