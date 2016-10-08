@@ -6,15 +6,15 @@ set ylabel "# of Packets"
 set key right top Right
 #set term postscript eps monochrome blacktext "Helvetica" 24
 set term postscript eps enhanced color blacktext "Helvetica" 24
-set output 'DATA_droped.eps'
+set output 'avg_length.eps'
 set autoscale
 set grid
 set boxwidth 20
 set xrange [1:15]
-#set yrange [3000:12000]
+#set yrange [-2:2]
 
-plot    './DATA_droped' u 1:2 t 'DATA droped' with linespoints 
-    
+plot    './matcp/15-nodes/avg_length' u 1:2 t 'Semi-TCP-RC' with linespoints, \
+        './semitcp/15-nodes/avg_length' u 1:2 t 'Semi-TCP' with linespoints
     set output
 quit
 

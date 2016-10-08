@@ -32,21 +32,19 @@ gawk -f ../../../trace2stats_v05b/brief.awk flag="RTS(C)_send" q_length.txt > RT
 gawk -f ../../../trace2stats_v05b/brief.awk flag="RetransmitRTS" q_length.txt > RetransmitRTS
 gawk -f ../../../trace2stats_v05b/brief.awk flag="RetransmitDATA" q_length.txt > RetransmitDATA
 gawk -f ../../../trace2stats_v05b/brief.awk flag="RTS droped" q_length.txt > RTS_droped
-gawk -f ../../../trace2stats_v05b/brief.awk flag="DATA droped" q_length.txt > DATA_droped
-gawk -f ../../../trace2stats_v05b/brief.awk flag="avg_whole" q_length.txt > avg_whole
 gawk -f ../../../trace2stats_v05b/brief.awk flag="RTS_CTS_rate" q_length.txt > RTS_CTS_rate
 gawk -f ../../../trace2stats_v05b/brief.awk flag="all_success_rate" q_length.txt > all_success_rate
 gawk -f ../../../trace2stats_v05b/brief.awk flag="avgSendTime" q_length.txt > avgSendTime
 gawk -f ../../../trace2stats_v05b/brief.awk flag="minSendTime" q_length.txt > minSendTime
+gawk -f ../../../trace2stats_v05b/brief.awk flag="avg_length" q_length.txt > avg_length
 
 ./RTS\(C\)_send.sh
 ./RetransmitRTS.sh
 ./RetransmitDATA.sh
 ./RTS_droped.sh
-./DATA_droped.sh
-./avg_whole.sh
 ./RTS_CTS_rate.sh
 ./all_success_rate.sh
 ./sendTime.sh
+./avg_length.sh
 
 ./InstThroughput.sh

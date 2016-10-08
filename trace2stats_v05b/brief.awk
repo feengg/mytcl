@@ -45,6 +45,8 @@ BEGIN {
         printf("%d %g\n", i++, $2)
     if($1 == "minSendTime:" && flag == "minSendTime")
         printf("%d %g\n", i++, $2)
+    if($1 == "avg_length:" && flag == "avg_length")
+        printf("%d %g\n", i++, $2)
 }
 
 END {
