@@ -33,7 +33,7 @@ BEGIN {
         printf("%d %g\n", i++, $2)
     if($1 == "RTS" && $2 == "droped:" && flag == "RTS droped")
         printf("%d %g\n", i++, $3)
-    if($1 == "DATA" && $2 == "droped" && flag == "DATA droped")
+    if($1 == "DATA" && $2 == "droped:" && flag == "DATA droped")
         printf("%d %g\n", i++, $3)
     if($1 == "avg_whole:" && flag == "avg_whole")
         printf("%d %g\n", i++, $2)
@@ -49,6 +49,10 @@ BEGIN {
         printf("%d %g\n", i++, $2)
     if($1 == "send_time_vec:" && flag == "send_time_vec")
         printf("%g %g\n", $2, $3)
+    if($1 == "retransmit_backward_ack:" && flag == "retransmit_backward_ack")
+        printf("%d %g\n", i++, $2)
+    if($1 == "retransmit_forward_data:" && flag == "retransmit_forward_data")
+        printf("%d %g\n", i++, $2)
 }
 
 END {
