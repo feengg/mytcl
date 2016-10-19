@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
-%%Title: RTS_per_forward_data.eps
+%%Title: avg_send_time.eps
 %%Creator: gnuplot 5.0 patchlevel 3
-%%CreationDate: Wed Oct 19 20:46:41 2016
+%%CreationDate: Wed Oct 19 20:48:56 2016
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 410 302
 %%EndComments
@@ -464,13 +464,13 @@ systemdict /pdfmark known not {
   userdict /pdfmark systemdict /cleartomark get put
 } if
 SDict begin [
-  /Title (RTS_per_forward_data.eps)
+  /Title (avg_send_time.eps)
   /Subject (gnuplot plot)
   /Creator (gnuplot 5.0 patchlevel 3)
   /Author (ma)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Wed Oct 19 20:46:41 2016)
+  /CreationDate (Wed Oct 19 20:48:56 2016)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -532,7 +532,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1032 768 M
-[ [(Helvetica) 240.0 0.0 true true 0 ( 1)]
+[ [(Helvetica) 240.0 0.0 true true 0 ( 4)]
 ] -80.0 MRshow
 1.000 UL
 LTb
@@ -552,7 +552,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1032 1337 M
-[ [(Helvetica) 240.0 0.0 true true 0 ( 1.5)]
+[ [(Helvetica) 240.0 0.0 true true 0 ( 4.5)]
 ] -80.0 MRshow
 1.000 UL
 LTb
@@ -572,7 +572,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1032 1906 M
-[ [(Helvetica) 240.0 0.0 true true 0 ( 2)]
+[ [(Helvetica) 240.0 0.0 true true 0 ( 5)]
 ] -80.0 MRshow
 1.000 UL
 LTb
@@ -592,7 +592,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1032 2475 M
-[ [(Helvetica) 240.0 0.0 true true 0 ( 2.5)]
+[ [(Helvetica) 240.0 0.0 true true 0 ( 5.5)]
 ] -80.0 MRshow
 1.000 UL
 LTb
@@ -612,7 +612,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1032 3044 M
-[ [(Helvetica) 240.0 0.0 true true 0 ( 3)]
+[ [(Helvetica) 240.0 0.0 true true 0 ( 6)]
 ] -80.0 MRshow
 1.000 UL
 LTb
@@ -632,7 +632,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1032 3613 M
-[ [(Helvetica) 240.0 0.0 true true 0 ( 3.5)]
+[ [(Helvetica) 240.0 0.0 true true 0 ( 6.5)]
 ] -80.0 MRshow
 1.000 UL
 LTb
@@ -652,7 +652,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1032 4182 M
-[ [(Helvetica) 240.0 0.0 true true 0 ( 4)]
+[ [(Helvetica) 240.0 0.0 true true 0 ( 7)]
 ] -80.0 MRshow
 1.000 UL
 LTb
@@ -672,7 +672,7 @@ LCb setrgbcolor
 -63 0 V
 stroke
 1032 4751 M
-[ [(Helvetica) 240.0 0.0 true true 0 ( 4.5)]
+[ [(Helvetica) 240.0 0.0 true true 0 ( 7.5)]
 ] -80.0 MRshow
 1.000 UL
 LTb
@@ -761,8 +761,8 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 4770 768 M
-0 3440 V
-0 480 R
+0 3680 V
+0 240 R
 0 63 V
 stroke
 1.000 UL
@@ -783,8 +783,8 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 5569 768 M
-0 3440 V
-0 480 R
+0 3680 V
+0 240 R
 0 63 V
 stroke
 1.000 UL
@@ -805,8 +805,8 @@ LCb setrgbcolor
 LTa
 LCa setrgbcolor
 6368 768 M
-0 3440 V
-0 480 R
+0 3680 V
+0 240 R
 0 63 V
 stroke
 1.000 UL
@@ -839,7 +839,7 @@ LCb setrgbcolor
 LCb setrgbcolor
 192 2759 M
 currentpoint gsave translate -270 rotate 0 0 moveto
-[ [(Helvetica) 240.0 0.0 true true 0 (Packets)]
+[ [(Helvetica) 240.0 0.0 true true 0 (Time\(ms\))]
 ] -80.0 MCshow
 grestore
 LTb
@@ -850,96 +850,49 @@ LCb setrgbcolor
 LTb
 % Begin plot #1
 1.000 UP
-1.000 UL
+2.000 UL
 LTb
-LT2
 LCb setrgbcolor
 LCb setrgbcolor
 5696 4568 M
-[ [(Helvetica) 240.0 0.0 true true 0 (Semi-TCP-RC)]
+[ [(Helvetica) 240.0 0.0 true true 0 (avgSendTime)]
 ] -80.0 MRshow
 1.000 UP
-1.000 UL
+2.000 UL
 LTb
-LT2
 LCb setrgbcolor
 5840 4568 M
 639 0 V
-1176 1610 M
-399 -444 V
+1176 4717 M
+1575 2384 L
+400 137 V
+399 -148 V
+399 -194 V
+400 -136 V
+399 -23 V
 400 -57 V
-399 -56 V
-399 -46 V
-400 -34 V
-399 11 V
-400 -23 V
-399 -68 V
-399 23 V
-400 0 V
-5569 779 L
-399 -11 V
-400 0 V
-1176 1610 Box
-1575 1166 Box
-1975 1109 Box
-2374 1053 Box
-2773 1007 Box
-3173 973 Box
-3572 984 Box
-3972 961 Box
-4371 893 Box
-4770 916 Box
-5170 916 Box
-5569 779 Box
-5968 768 Box
-6368 768 Box
-6159 4568 Box
+399 -250 V
+399 91 V
+400 125 V
+399 -558 V
+399 -216 V
+400 -125 V
+1176 4717 Circle
+1575 2384 Circle
+1975 2521 Circle
+2374 2373 Circle
+2773 2179 Circle
+3173 2043 Circle
+3572 2020 Circle
+3972 1963 Circle
+4371 1713 Circle
+4770 1804 Circle
+5170 1929 Circle
+5569 1371 Circle
+5968 1155 Circle
+6368 1030 Circle
+6159 4568 Circle
 % End plot #1
-% Begin plot #2
-1.000 UP
-2.000 UL
-LTb
-LCb setrgbcolor
-LCb setrgbcolor
-5696 4328 M
-[ [(Helvetica) 240.0 0.0 true true 0 (Semi-TCP)]
-] -80.0 MRshow
-1.000 UP
-2.000 UL
-LTb
-LCb setrgbcolor
-5840 4328 M
-639 0 V
-1176 4478 M
-1575 2338 L
-400 -409 V
-399 -307 V
-399 -251 V
-400 -114 V
-399 -102 V
-400 -11 V
-4371 996 L
-399 -12 V
-400 -23 V
-5569 779 L
-399 0 V
-400 -11 V
-1176 4478 Circle
-1575 2338 Circle
-1975 1929 Circle
-2374 1622 Circle
-2773 1371 Circle
-3173 1257 Circle
-3572 1155 Circle
-3972 1144 Circle
-4371 996 Circle
-4770 984 Circle
-5170 961 Circle
-5569 779 Circle
-5968 779 Circle
-6368 768 Circle
-6159 4328 Circle
-% End plot #2
 2.000 UL
 LTb
 LCb setrgbcolor

@@ -1,19 +1,19 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "Time(s)"
+set xlabel "# of node"
 set ylabel "Time(ms)"
 #set key right bottom
 set key right top Right
 set term postscript eps monochrome blacktext "Helvetica" 24
 #set term postscript eps enhanced color blacktext "Helvetica" 24
-set output 'inst_send_time.eps'
+set output 'avg_send_time.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [:10]
-set yrange [:30]
+set xrange [1:15]
+#set yrange [0:10]
 
-plot    './send_time_vec' u 1:2 t 'inst\_send\_time' with linespoints 
+plot    './avgSendTime' u 1:2 t 'avgSendTime' with linespoints lt 5 pt 6
     
     set output
 quit

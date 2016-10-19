@@ -22,6 +22,7 @@ if {$Program == 0} {
 
         Queue/DropTail/PriQueue set CongestionThreshold_ [lindex $argv 5]
         Mac/802_11 set K_ [lindex $argv 6]
+        Agent/TCP/Semi set sendRate [lindex $argv 7]
 } elseif { $Program == 2 } {
     #using tcpap
     set NodeNum [lindex $argv 1]

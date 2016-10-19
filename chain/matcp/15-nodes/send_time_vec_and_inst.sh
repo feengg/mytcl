@@ -17,7 +17,7 @@ set output 'send_time_and_inst.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [10:20]
+set xrange [:10]
 set yrange [:25]
 #set y2range　[100:400]
 

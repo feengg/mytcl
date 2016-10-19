@@ -1,28 +1,28 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "Time(s)"
-set ylabel "Time(ms)"
-set y2label "Throughput(kbps)"
+set xlabel "# of node"
+set ylabel "Packets"
+set y2label "Percent"
 
 set y2tics
 set ytics nomirror
 
-set title "send\\_time vs inst\\_thrghpt"
+set title " "
 
 #set key right bottom
-set key left top left
+set key right top right
 set term postscript eps monochrome blacktext "Helvetica" 16
 #set term postscript eps enhanced color blacktext "Helvetica" 16
-set output 'send_time_and_inst.eps'
+set output 'figure_1.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [:20]
-set yrange [10:40]
+set xrange [1:14]
+#set yrange [10:40]
 #set y2range　[100:400]
 
-plot    './send_time_vec' u 1:2 t 'send\_time' with linespoints axis x1y1 lt 3, \
-        './HopsResultInst.txt' u 5:6 t 'inst\_thrghpt' with linespoints axis x1y2 lt 5
+plot    './RTS_per_forward_data' u 1:2 t 'RTS\_per\_forward\_data' with linespoints axis x1y1 lt 3, \
+    './forward_data_retransmit_rate' u 1:2 t 'forward\_data\_retransmit\_rate' with linespoints axis x1y2 lt 5
     
     set output
 quit
