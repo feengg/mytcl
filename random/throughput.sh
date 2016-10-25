@@ -11,7 +11,7 @@ set autoscale
 #set grid
 set boxwidth 20
 
-plot    './matcp/throughput' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
+plot    './semitcprc/throughput' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
     './semitcp/throughput' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6
     #'./tcpap/throughput' u 1:2 t 'tcpap' with linespoints
     #'./newreno/throughput' u 1:2 t 'newreno' with linespoints

@@ -11,7 +11,7 @@ set grid
 set boxwidth 20
 set xrange [1:14]
 
-plot    './matcp/delay' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
+plot    './semitcprc/delay' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
         './semitcp/delay' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6
         #'./tcpap/delay' u 1:2 t 'tcpap' with linespoints
         #'./newreno(d)/delay' u 1:2 t 'newreno(d)' with linespoints, \

@@ -2,28 +2,28 @@
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
 set xlabel "# of node"
 set ylabel "Packets"
-set y2label "Percent"
+#set y2label "Percent"
 
-set y2tics
-set ytics nomirror
+#set y2tics
+#set ytics nomirror
 
-set title " "
+#set title " "
 
 #set key right bottom
 set key right top right
-set term postscript eps monochrome blacktext "Helvetica" 16
+set term postscript eps monochrome blacktext "Helvetica" 24 
 #set term postscript eps enhanced color blacktext "Helvetica" 16
 set output 'figure_1.eps'
 set autoscale
 set grid
 set boxwidth 20
 set xrange [1:14]
-#set yrange [10:40]
-#set y2range　[100:400]
+#set yrange [0:4]
+#set y2range　[0:50000]
 
-plot    './RTS_per_forward_data' u 1:2 t 'RTS\_per\_forward\_data' with linespoints axis x1y1 lt 3, \
-    './forward_data_retransmit_rate' u 1:2 t 'forward\_data\_retransmit\_rate' with linespoints axis x1y2 lt 5
-    
+plot    './RTS_transmit_per_data' u 1:2 t 'RTS\_transmit\_per\_data' with linespoints axis x1y1 lt 3 pt 4, \
+        './data_transmit_per_data' u 1:2 t 'data\_transmit\_per\_data' with linespoints axis x1y1 lt 5 pt 6
+
     set output
 quit
 

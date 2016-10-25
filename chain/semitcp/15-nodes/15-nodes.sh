@@ -25,31 +25,45 @@ rm tmp
 gawk -f ../../../trace2stats_v05b/brief.awk flag="throughput" HopsResultAvg.txt > throughput
 gawk -f ../../../trace2stats_v05b/brief.awk flag="delay" HopsResultAvg.txt > delay
 
+gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTS_send:" q_length.txt > RTS_send
+gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTSC_send:" q_length.txt > RTSC_send
+gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTSC_rate:" q_length.txt > RTSC_rate
+gawk -f ../../../trace2stats_v05b/retrive.awk flag="CTS_send:" q_length.txt > CTS_send
+gawk -f ../../../trace2stats_v05b/retrive.awk flag="CTSC_send:" q_length.txt > CTSC_send
+gawk -f ../../../trace2stats_v05b/retrive.awk flag="CTSC_rate:" q_length.txt > CTSC_rate
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTS_retransmit_rate:" q_length.txt > RTS_retransmit_rate
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTS_drop_rate:" q_length.txt > RTS_drop_rate
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="forward_data_retransmit_rate:" q_length.txt > forward_data_retransmit_rate
+gawk -f percent_to_rate.awk forward_data_retransmit_rate > data_transmit_per_data
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="forward_data_drop_rate:" q_length.txt > forward_data_drop_rate
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTS_CTS_rate:" q_length.txt > RTS_CTS_rate
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="all_success_rate:" q_length.txt > all_success_rate
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="avgSendTime:" q_length.txt > avgSendTime
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="avg_length:" q_length.txt > avg_length
-gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTS_per_forward_data:" q_length.txt > RTS_per_forward_data
+gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTS_per_forward_data:" q_length.txt > RTS_transmit_per_data
 
 gawk -f ../../../trace2stats_v05b/brief.awk flag="send_time_vec" q_length.txt > send_time_vec_tmp
 
 gawk -f send_time_vec.awk send_time_vec_tmp > send_time_vec
 rm send_time_vec_tmp
 
+./RTS_send.sh
+./RTSC_send.sh
+./RTSC_rate.sh
+./CTS_send.sh
+./CTSC_send.sh
+./CTSC_rate.sh
 ./RTS_retransmit_rate.sh
 ./RTS_drop_rate.sh
 ./forward_data_retransmit_rate.sh
+./data_transmit_per_data.sh
 ./forward_data_drop_rate.sh
 ./RTS_CTS_rate.sh
 ./all_success_rate.sh
 ./sendTime.sh
 ./avg_length.sh
 ./send_time_vec.sh
-./RTS_per_forward_data.sh
+./RTS_transmit_per_data.sh
 
 ./send_time_vec_and_inst.sh
 

@@ -34,4 +34,5 @@ gawk -f ./brief.awk flag="throughput" begin=$init_rate step=$step HopsResultAvg.
 
 ./avgSendTime.sh $init_rate $step
 
-./throughput_and_avg_send_time.sh
+./rate_to_min_send_time.sh
+./figure_4.sh

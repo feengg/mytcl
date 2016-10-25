@@ -12,7 +12,7 @@ set autoscale
 set yrange [:750]
 set boxwidth 20
 
-plot    './matcp/delay' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
+plot    './semitcprc/delay' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
         './semitcp/delay' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6
         #'./tcpap/delay' u 1:2 t 'tcpap' with linespoints 
         #'./newreno/delay' u 1:2 t 'newreno' with linespoints
