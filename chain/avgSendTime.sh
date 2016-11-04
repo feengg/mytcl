@@ -13,7 +13,7 @@ set boxwidth 20
 set xrange [1:14]
 set yrange [:25]
 
-plot    './matcp/avgSendTime' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
+plot    './semitcprc/avgSendTime' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
         './semitcp/avgSendTime' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6
 
 set output

@@ -13,9 +13,12 @@ echo SIMULATION DURATION: 300.0S, AODV+TCP >> HopsResultAvg.txt
 echo SIMULATION DURATION: 300.0S, AODV+TCP >> overall.txt
 echo SIMULATION DURATION: 300.0S, AODV+TCP >> drop.txt
 
+min_RTS_DATA_ratio=1\.8
+max_RTS_DATA_ratio=2\.2
+
 while [ $i -lt 16 ]; do
 	echo --- Hop Node Number:$i --- >> q_length.txt
-	../../../semitcprc/semitcprc chain.tcl 1 $i 300 7 1 0 1 1 >> q_length.txt
+	../../../semitcprc/semitcprc chain.tcl 1 $i 300 7 1 0 1 1 $min_RTS_DATA_ratio $max_RTS_DATA_ratio >> q_length.txt
 	echo FINISH $i simulations, start to alalyze...
 	echo >> HopsResultAvg.txt
 	echo >> overall.txt

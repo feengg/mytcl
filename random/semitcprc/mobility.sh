@@ -8,6 +8,9 @@ date > q_length.txt
 
 # RUN FOUR SIMULATION WITH DIFFERENT TARFFIC FOR THE SAME MOBILTY SCENARIO
 v=1
+min_RTS_DATA_ratio=1\.8
+max_RTS_DATA_ratio=2\.2
+
 while [ $v -lt 10 ]; do
 
 	velocity=`expr $v \* 5`
@@ -17,7 +20,7 @@ while [ $v -lt 10 ]; do
 		echo velocity: $velocity random seed: $rs >> q_length.txt
 	   	../../bonnmotion-1.4/bin/bm -f RWP -I RWP.params RandomWaypoint -R $rs -l $velocity -h $velocity
 		../../bonnmotion-1.4/bin/bm NSFile -f RWP > /dev/null
-		../../../semitcprc/semitcprc chain.tcl 1 52 300 7 1 0 1 1>> q_length.txt
+		../../../semitcprc/semitcprc chain.tcl 1 52 300 7 1 0 1 1 $min_RTS_DATA_ratio $max_RTS_DATA_ratio >> q_length.txt
 		echo --- Random Seed :$rs velocity: $velocity ---  >> HopsResultAvg.txt
 		echo --- Random Seed :$rs velocity: $velocity ---  >> overall.txt
 		gawk -f ../../trace2stats_v05b/avgStatsForTcp.awk src=48 dst=51 flow=0 pkt=512 chain.tr >> HopsResultAvg.txt

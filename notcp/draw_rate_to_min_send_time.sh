@@ -12,7 +12,7 @@ set autoscale
 set grid
 set boxwidth 20
 #set xrange [80:350]
-set yrange [:3]
+#set yrange [:3]
 
 plot    './rate_to_min_send_time' u 1:2 t 'rate\_to\_min\_send\_time' with linespoints lt 3 pt 1
     set output

@@ -11,7 +11,7 @@ set autoscale
 set grid
 set boxwidth 20
 set xrange [1:15]
-set yrange [:2]
+#set yrange [:2]
 
 plot    './forward_data_retransmit_rate' u 1:2 t 'forward\_data\_retransmit\_rate' with linespoints lt 7 pt 8 
     

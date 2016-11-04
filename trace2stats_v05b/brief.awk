@@ -49,6 +49,8 @@ BEGIN {
         printf("%d %g\n", i++, $2)
     if($1 == "send_time_vec:" && flag == "send_time_vec")
         printf("%g %g\n", $2, $3)
+    if($1 == "RTS_ratio_vec:" && flag == "RTS_ratio_vec")
+        printf("%g %g\n", $2, $3)
     if($1 == "retransmit_backward_ack:" && flag == "retransmit_backward_ack")
         printf("%d %g\n", i++, $2)
     if($1 == "retransmit_forward_data:" && flag == "retransmit_forward_data")

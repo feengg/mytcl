@@ -11,13 +11,11 @@ set autoscale
 set grid
 set boxwidth 20
 set xrange [1:14]
-#set yrange [:200]
+set yrange [50:300]
 
-plot    './semitcprc/throughput' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
-        './semitcp/throughput' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6
-        #'./tcpap/throughput' u 1:2 t 'tcpap' with linespoints
-        #'./newreno(d)/throughput' u 1:2 t 'newreno(d)' with linespoints, \
-        #'./newreno(m)/throughput' u 1:2 t 'newreno(m)' with linespoints
+plot    './semitcp/throughput' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6, \
+        './semitcprc/throughput' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
+        #'./matcp/throughput' u 1:2 t 'matcp' with linespoints lt 1 pt 2
 	
 set output
 quit

@@ -10,14 +10,14 @@ set ytics nomirror
 set title "send\\_time vs inst\\_thrghpt"
 
 #set key right bottom
-set key left top left
+set key left top reverse
 set term postscript eps monochrome blacktext "Helvetica" 16
 #set term postscript eps enhanced color blacktext "Helvetica" 16
 set output 'send_time_and_inst.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [:10]
+set xrange [:40]
 set yrange [:25]
 #set y2range　[100:400]
 

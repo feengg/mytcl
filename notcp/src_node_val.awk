@@ -1,6 +1,5 @@
 BEGIN{
     line = 0
-    hop = 14
     nextLine = 1
 }
 {

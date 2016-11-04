@@ -5,11 +5,14 @@ date > q_length.txt
 date > HopsResultAvg.txt
 
 # RUN FOUR SIMULATION WITH DIFFERENT CONGETIONTHRESHOLD UNDER THE SAME PATHLENGTH
-i=15
+i=2
+
+min_RTS_DATA_ratio=1\.8
+max_RTS_DATA_ratio=2\.2
 
 echo >> q_length.txt
 echo --- Hop Node Number:$i --- >> q_length.txt
-../../../../semitcprc/semitcprc ../chain.tcl 1 $i 300 7 1 1 1 >> q_length.txt
+../../../../semitcprc/semitcprc ../chain.tcl 1 $i 300 7 1 1 1 $min_RTS_DATA_ratio $max_RTS_DATA_ratio >> q_length.txt
 let j=$i-1
 echo FINISH $j simulations, start to analyze...
 endnode=`expr $i - 1`
@@ -35,10 +38,13 @@ gawk -f ../../../trace2stats_v05b/retrive.awk flag="avgSendTime:" q_length.txt >
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="avg_length:" q_length.txt > avg_length
 gawk -f ../../../trace2stats_v05b/retrive.awk flag="RTS_per_forward_data:" q_length.txt > RTS_per_forward_data
 
-gawk -f ../../../trace2stats_v05b/brief.awk flag="send_time_vec" q_length.txt > send_time_vec_tmp
+#gawk -f ../../../trace2stats_v05b/brief.awk flag="send_time_vec" q_length.txt > send_time_vec_tmp
+gawk -f ../../../trace2stats_v05b/brief.awk flag="RTS_ratio_vec" q_length.txt > RTS_ratio_vec_tmp
 
-gawk -f send_time_vec.awk send_time_vec_tmp > send_time_vec
-rm send_time_vec_tmp
+#gawk -f send_time_vec.awk send_time_vec_tmp > send_time_vec
+gawk -f send_time_vec.awk RTS_ratio_vec_tmp > RTS_ratio_vec
+#rm send_time_vec_tmp
+rm RTS_ratio_vec_tmp
 
 ./RTS_retransmit_rate.sh
 ./RTS_drop_rate.sh
@@ -46,11 +52,13 @@ rm send_time_vec_tmp
 ./forward_data_drop_rate.sh
 ./RTS_CTS_rate.sh
 ./all_success_rate.sh
-./sendTime.sh
+#./sendTime.sh
 ./avg_length.sh
-./send_time_vec.sh
+#./send_time_vec.sh
+./RTS_ratio_vec.sh
 ./RTS_per_forward_data.sh
 
-./send_time_vec_and_inst.sh
+#./send_time_vec_and_inst.sh
+./RTS_ratio_vec_and_inst.sh
 
 ./InstThroughput.sh

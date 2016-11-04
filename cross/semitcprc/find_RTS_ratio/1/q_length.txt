@@ -1,0 +1,568 @@
+Fri Nov  4 16:47:34 CST 2016
+--- Hop Node Number:1 ---
+num_nodes is set 5
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	3961
+        CTS_recv:	3686
+       CTSC_recv:	0
+       DATA_send:	3690
+forward_data_send:	3687
+backward_ack_send:	0
+        ACK_recv:	3688
+
+     RTS(C)_recv:	0
+        CTS_send:	0
+       CTSC_send:	0
+       DATA_recv:	3688
+        ACK_send:	3688
+
+   RTS_retransmit:	184
+  DATA_retransmit:	0
+backward_ack_retransmit:	0
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.74　mS
+
+  	  avg_length:	0.000000000000
+
+RTS_per_forward_data:	1.07
+
+    RTS_CTS_rate:	93.06%
+all_success_rate:	95.20%
+
+RTS_retransmit_rate:	4.65%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+RTS_ratio_vec:	1.741160	1.200000
+RTS_ratio_vec:	2.571563	1.150000
+RTS_ratio_vec:	3.638953	1.350000
+RTS_ratio_vec:	4.938870	1.500000
+RTS_ratio_vec:	6.387624	1.150000
+RTS_ratio_vec:	7.933437	1.200000
+RTS_ratio_vec:	9.522903	1.250000
+RTS_ratio_vec:	11.124131	1.300000
+RTS_ratio_vec:	12.748905	1.400000
+RTS_ratio_vec:	14.384975	1.800000
+RTS_ratio_vec:	16.016141	1.050000
+RTS_ratio_vec:	17.652383	1.000000
+RTS_ratio_vec:	19.289883	1.000000
+RTS_ratio_vec:	20.927983	1.000000
+RTS_ratio_vec:	22.565424	1.000000
+RTS_ratio_vec:	24.202984	1.000000
+RTS_ratio_vec:	25.847367	1.450000
+RTS_ratio_vec:	27.477905	1.100000
+RTS_ratio_vec:	29.115925	1.000000
+RTS_ratio_vec:	30.753126	1.000000
+RTS_ratio_vec:	32.390826	1.000000
+RTS_ratio_vec:	34.028527	1.000000
+RTS_ratio_vec:	35.666467	1.000000
+RTS_ratio_vec:	37.309187	1.200000
+RTS_ratio_vec:	38.941348	1.000000
+RTS_ratio_vec:	40.579248	1.000000
+RTS_ratio_vec:	42.216649	1.000000
+RTS_ratio_vec:	43.854029	1.000000
+RTS_ratio_vec:	45.491749	1.000000
+RTS_ratio_vec:	47.129450	1.000000
+RTS_ratio_vec:	48.766670	1.250000
+RTS_ratio_vec:	50.404330	1.050000
+RTS_ratio_vec:	52.042331	1.000000
+RTS_ratio_vec:	53.679511	1.000000
+RTS_ratio_vec:	55.317252	1.000000
+RTS_ratio_vec:	56.955092	1.000000
+RTS_ratio_vec:	58.592312	1.000000
+RTS_ratio_vec:	60.230213	1.650000
+RTS_ratio_vec:	61.867613	1.000000
+RTS_ratio_vec:	63.505434	1.000000
+RTS_ratio_vec:	65.143174	1.000000
+RTS_ratio_vec:	66.780594	1.000000
+RTS_ratio_vec:	68.417935	1.000000
+RTS_ratio_vec:	70.065373	1.050000
+RTS_ratio_vec:	71.693196	1.250000
+RTS_ratio_vec:	73.331256	1.000000
+RTS_ratio_vec:	74.968616	1.000000
+RTS_ratio_vec:	76.606337	1.000000
+RTS_ratio_vec:	78.243797	1.000000
+RTS_ratio_vec:	79.881358	1.000000
+RTS_ratio_vec:	81.526513	1.150000
+RTS_ratio_vec:	83.156598	1.200000
+RTS_ratio_vec:	84.794459	1.000000
+RTS_ratio_vec:	86.431499	1.000000
+RTS_ratio_vec:	88.069199	1.000000
+RTS_ratio_vec:	89.706860	1.000000
+RTS_ratio_vec:	91.344380	1.000000
+RTS_ratio_vec:	92.987612	1.150000
+RTS_ratio_vec:	94.619621	1.150000
+RTS_ratio_vec:	96.257461	1.000000
+RTS_ratio_vec:	97.894882	1.000000
+RTS_ratio_vec:	99.532642	1.000000
+RTS_ratio_vec:	101.170103	1.000000
+RTS_ratio_vec:	102.808083	1.000000
+RTS_ratio_vec:	104.449432	1.300000
+RTS_ratio_vec:	106.083064	1.150000
+RTS_ratio_vec:	107.720404	1.000000
+RTS_ratio_vec:	109.358345	1.000000
+RTS_ratio_vec:	110.995925	1.000000
+RTS_ratio_vec:	112.633345	1.000000
+RTS_ratio_vec:	114.271046	1.000000
+RTS_ratio_vec:	115.909951	1.450000
+RTS_ratio_vec:	117.546147	1.000000
+RTS_ratio_vec:	119.183967	1.000000
+RTS_ratio_vec:	120.821087	1.000000
+RTS_ratio_vec:	122.459128	1.000000
+RTS_ratio_vec:	124.096808	1.000000
+RTS_ratio_vec:	125.733928	1.000000
+RTS_ratio_vec:	127.371789	1.400000
+RTS_ratio_vec:	129.009249	1.000000
+RTS_ratio_vec:	130.647090	1.000000
+RTS_ratio_vec:	132.284810	1.000000
+RTS_ratio_vec:	133.922210	1.000000
+RTS_ratio_vec:	135.559691	1.000000
+RTS_ratio_vec:	137.207384	1.100000
+RTS_ratio_vec:	138.835112	1.400000
+RTS_ratio_vec:	140.472292	1.000000
+RTS_ratio_vec:	142.109972	1.000000
+RTS_ratio_vec:	143.747633	1.000000
+RTS_ratio_vec:	145.385133	1.000000
+RTS_ratio_vec:	147.022834	1.000000
+RTS_ratio_vec:	148.667631	1.150000
+RTS_ratio_vec:	150.298434	1.200000
+RTS_ratio_vec:	151.935555	1.000000
+RTS_ratio_vec:	153.573615	1.000000
+RTS_ratio_vec:	155.210835	1.000000
+RTS_ratio_vec:	156.848296	1.000000
+RTS_ratio_vec:	158.486036	1.000000
+RTS_ratio_vec:	160.128770	1.250000
+RTS_ratio_vec:	161.761677	1.200000
+RTS_ratio_vec:	163.398877	1.000000
+RTS_ratio_vec:	165.036878	1.000000
+RTS_ratio_vec:	166.674318	1.000000
+RTS_ratio_vec:	168.311599	1.000000
+RTS_ratio_vec:	169.949579	1.000000
+RTS_ratio_vec:	171.590390	1.350000
+RTS_ratio_vec:	173.224640	1.050000
+RTS_ratio_vec:	174.862160	1.000000
+RTS_ratio_vec:	176.499721	1.000000
+RTS_ratio_vec:	178.137121	1.000000
+RTS_ratio_vec:	179.774941	1.000000
+RTS_ratio_vec:	181.412442	1.000000
+RTS_ratio_vec:	183.051529	1.450000
+RTS_ratio_vec:	184.687903	1.000000
+RTS_ratio_vec:	186.325643	1.000000
+RTS_ratio_vec:	187.963303	1.000000
+RTS_ratio_vec:	189.600604	1.000000
+RTS_ratio_vec:	191.238344	1.000000
+RTS_ratio_vec:	192.875524	1.000000
+RTS_ratio_vec:	194.513105	1.600000
+RTS_ratio_vec:	196.151025	1.000000
+RTS_ratio_vec:	197.788526	1.000000
+RTS_ratio_vec:	199.426066	1.000000
+RTS_ratio_vec:	201.063626	1.000000
+RTS_ratio_vec:	202.701107	1.000000
+RTS_ratio_vec:	204.346185	1.100000
+RTS_ratio_vec:	205.976448	1.450000
+RTS_ratio_vec:	207.614308	1.000000
+RTS_ratio_vec:	209.251648	1.000000
+RTS_ratio_vec:	210.889369	1.000000
+RTS_ratio_vec:	212.527229	1.000000
+RTS_ratio_vec:	214.164630	1.000000
+RTS_ratio_vec:	215.810021	1.150000
+RTS_ratio_vec:	217.439610	1.200000
+RTS_ratio_vec:	219.077431	1.000000
+RTS_ratio_vec:	220.715311	1.000000
+RTS_ratio_vec:	222.352751	1.000000
+RTS_ratio_vec:	223.990512	1.000000
+RTS_ratio_vec:	225.627732	1.000000
+RTS_ratio_vec:	227.271088	1.250000
+RTS_ratio_vec:	228.903013	1.150000
+RTS_ratio_vec:	230.540373	1.000000
+RTS_ratio_vec:	232.178514	1.000000
+RTS_ratio_vec:	233.816014	1.000000
+RTS_ratio_vec:	235.453515	1.000000
+RTS_ratio_vec:	237.091155	1.000000
+RTS_ratio_vec:	238.732048	1.500000
+RTS_ratio_vec:	240.366516	1.050000
+RTS_ratio_vec:	242.003816	1.000000
+RTS_ratio_vec:	243.641117	1.000000
+RTS_ratio_vec:	245.279277	1.000000
+RTS_ratio_vec:	246.916537	1.000000
+RTS_ratio_vec:	248.554238	1.000000
+RTS_ratio_vec:	250.194000	1.450000
+RTS_ratio_vec:	251.829619	1.000000
+RTS_ratio_vec:	253.466859	1.000000
+RTS_ratio_vec:	255.104559	1.000000
+RTS_ratio_vec:	256.742320	1.000000
+RTS_ratio_vec:	258.379700	1.000000
+RTS_ratio_vec:	260.017140	1.000000
+RTS_ratio_vec:	261.655081	1.350000
+RTS_ratio_vec:	263.292461	1.000000
+RTS_ratio_vec:	264.929962	1.000000
+RTS_ratio_vec:	266.567722	1.000000
+RTS_ratio_vec:	268.205442	1.000000
+RTS_ratio_vec:	269.842783	1.000000
+RTS_ratio_vec:	271.488947	1.050000
+RTS_ratio_vec:	273.118104	1.350000
+RTS_ratio_vec:	274.755624	1.000000
+RTS_ratio_vec:	276.393464	1.000000
+RTS_ratio_vec:	278.031025	1.000000
+RTS_ratio_vec:	279.668845	1.000000
+RTS_ratio_vec:	281.306126	1.000000
+RTS_ratio_vec:	282.950946	1.100000
+RTS_ratio_vec:	284.581286	1.050000
+RTS_ratio_vec:	286.219267	1.000000
+RTS_ratio_vec:	287.856787	1.000000
+RTS_ratio_vec:	289.494067	1.000000
+RTS_ratio_vec:	291.131568	1.000000
+RTS_ratio_vec:	292.769588	1.000000
+RTS_ratio_vec:	294.412339	1.350000
+RTS_ratio_vec:	296.044389	1.050000
+RTS_ratio_vec:	297.681969	1.000000
+RTS_ratio_vec:	299.319610	1.000000
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	7397
+        CTS_recv:	7397
+       CTSC_recv:	0
+       DATA_send:	14808
+forward_data_send:	7399
+backward_ack_send:	7401
+        ACK_recv:	14802
+
+     RTS(C)_recv:	7898
+        CTS_send:	7397
+       CTSC_send:	0
+       DATA_recv:	14802
+        ACK_send:	14802
+
+   RTS_retransmit:	0
+  DATA_retransmit:	2
+backward_ack_retransmit:	2
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.20　mS
+
+  	  avg_length:	0.000780789300
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	99.96%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	0
+        CTS_recv:	0
+       CTSC_recv:	0
+       DATA_send:	3692
+forward_data_send:	0
+backward_ack_send:	3689
+        ACK_recv:	3688
+
+     RTS(C)_recv:	3686
+        CTS_send:	3686
+       CTSC_send:	0
+       DATA_recv:	3688
+        ACK_send:	3688
+
+   RTS_retransmit:	0
+  DATA_retransmit:	2
+backward_ack_retransmit:	2
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+  	  avg_length:	0.000013846865
+
+    RTS_CTS_rate:	0.00%
+all_success_rate:	99.89%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	3951
+        CTS_recv:	3711
+       CTSC_recv:	0
+       DATA_send:	3715
+forward_data_send:	3712
+backward_ack_send:	0
+        ACK_recv:	3713
+
+     RTS(C)_recv:	0
+        CTS_send:	0
+       CTSC_send:	0
+       DATA_recv:	3713
+        ACK_send:	3713
+
+   RTS_retransmit:	166
+  DATA_retransmit:	0
+backward_ack_retransmit:	0
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.69　mS
+
+  	  avg_length:	0.000035090922
+
+RTS_per_forward_data:	1.06
+
+    RTS_CTS_rate:	93.93%
+all_success_rate:	95.67%
+
+RTS_retransmit_rate:	4.20%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+RTS_ratio_vec:	1.753156	1.050000
+RTS_ratio_vec:	2.560420	1.150000
+RTS_ratio_vec:	3.649696	1.450000
+RTS_ratio_vec:	4.949874	1.400000
+RTS_ratio_vec:	6.398494	1.250000
+RTS_ratio_vec:	7.925504	1.100000
+RTS_ratio_vec:	9.511939	1.150000
+RTS_ratio_vec:	11.135394	1.200000
+RTS_ratio_vec:	12.759415	1.100000
+RTS_ratio_vec:	14.374964	1.000000
+RTS_ratio_vec:	16.000263	1.000000
+RTS_ratio_vec:	17.626003	1.000000
+RTS_ratio_vec:	19.251762	1.000000
+RTS_ratio_vec:	20.877641	1.000000
+RTS_ratio_vec:	22.503560	1.000000
+RTS_ratio_vec:	24.131195	1.050000
+RTS_ratio_vec:	25.754819	1.100000
+RTS_ratio_vec:	27.380578	1.000000
+RTS_ratio_vec:	29.006337	1.000000
+RTS_ratio_vec:	30.632037	1.000000
+RTS_ratio_vec:	32.257296	1.000000
+RTS_ratio_vec:	33.883155	1.000000
+RTS_ratio_vec:	35.512517	1.100000
+RTS_ratio_vec:	37.134413	1.250000
+RTS_ratio_vec:	38.760273	1.000000
+RTS_ratio_vec:	40.385932	1.000000
+RTS_ratio_vec:	42.011971	1.000000
+RTS_ratio_vec:	43.637610	1.000000
+RTS_ratio_vec:	45.262950	1.000000
+RTS_ratio_vec:	46.895473	1.150000
+RTS_ratio_vec:	48.514648	1.400000
+RTS_ratio_vec:	50.140167	1.000000
+RTS_ratio_vec:	51.766126	1.000000
+RTS_ratio_vec:	53.391566	1.000000
+RTS_ratio_vec:	55.017085	1.000000
+RTS_ratio_vec:	56.643104	1.000000
+RTS_ratio_vec:	58.276496	1.250000
+RTS_ratio_vec:	59.894643	1.200000
+RTS_ratio_vec:	61.520062	1.000000
+RTS_ratio_vec:	63.145501	1.000000
+RTS_ratio_vec:	64.771720	1.000000
+RTS_ratio_vec:	66.396999	1.000000
+RTS_ratio_vec:	68.022879	1.000000
+RTS_ratio_vec:	69.657418	1.300000
+RTS_ratio_vec:	71.274117	1.150000
+RTS_ratio_vec:	72.899776	1.000000
+RTS_ratio_vec:	74.525536	1.000000
+RTS_ratio_vec:	76.151635	1.000000
+RTS_ratio_vec:	77.777074	1.000000
+RTS_ratio_vec:	79.402833	1.000000
+RTS_ratio_vec:	81.039214	1.350000
+RTS_ratio_vec:	82.654492	1.000000
+RTS_ratio_vec:	84.279851	1.000000
+RTS_ratio_vec:	85.905710	1.000000
+RTS_ratio_vec:	87.531409	1.000000
+RTS_ratio_vec:	89.156849	1.000000
+RTS_ratio_vec:	90.782428	1.000000
+RTS_ratio_vec:	92.408687	1.550000
+RTS_ratio_vec:	94.034186	1.000000
+RTS_ratio_vec:	95.659646	1.000000
+RTS_ratio_vec:	97.285485	1.000000
+RTS_ratio_vec:	98.911344	1.000000
+RTS_ratio_vec:	100.536643	1.000000
+RTS_ratio_vec:	102.163113	1.000000
+RTS_ratio_vec:	103.788162	1.300000
+RTS_ratio_vec:	105.414221	1.000000
+RTS_ratio_vec:	107.039580	1.000000
+RTS_ratio_vec:	108.665079	1.000000
+RTS_ratio_vec:	110.291259	1.000000
+RTS_ratio_vec:	111.916578	1.000000
+RTS_ratio_vec:	113.545669	1.100000
+RTS_ratio_vec:	115.167936	1.250000
+RTS_ratio_vec:	116.793635	1.000000
+RTS_ratio_vec:	118.419675	1.000000
+RTS_ratio_vec:	120.045254	1.000000
+RTS_ratio_vec:	121.671153	1.000000
+RTS_ratio_vec:	123.296692	1.000000
+RTS_ratio_vec:	124.925079	1.100000
+RTS_ratio_vec:	126.548291	1.350000
+RTS_ratio_vec:	128.174030	1.000000
+RTS_ratio_vec:	129.799409	1.000000
+RTS_ratio_vec:	131.425068	1.000000
+RTS_ratio_vec:	133.050668	1.000000
+RTS_ratio_vec:	134.676627	1.000000
+RTS_ratio_vec:	136.308254	1.150000
+RTS_ratio_vec:	137.927965	1.350000
+RTS_ratio_vec:	139.553865	1.000000
+RTS_ratio_vec:	141.179304	1.000000
+RTS_ratio_vec:	142.805003	1.000000
+RTS_ratio_vec:	144.430882	1.000000
+RTS_ratio_vec:	146.056541	1.000000
+RTS_ratio_vec:	147.689224	1.050000
+RTS_ratio_vec:	149.307580	1.250000
+RTS_ratio_vec:	150.933599	1.000000
+RTS_ratio_vec:	152.559338	1.000000
+RTS_ratio_vec:	154.184918	1.000000
+RTS_ratio_vec:	155.810817	1.000000
+RTS_ratio_vec:	157.436656	1.000000
+RTS_ratio_vec:	159.069447	1.300000
+RTS_ratio_vec:	160.688055	1.050000
+RTS_ratio_vec:	162.313354	1.000000
+RTS_ratio_vec:	163.939113	1.000000
+RTS_ratio_vec:	165.564732	1.000000
+RTS_ratio_vec:	167.190731	1.000000
+RTS_ratio_vec:	168.816271	1.000000
+RTS_ratio_vec:	170.451342	1.300000
+RTS_ratio_vec:	172.067509	1.000000
+RTS_ratio_vec:	173.693328	1.000000
+RTS_ratio_vec:	175.319268	1.000000
+RTS_ratio_vec:	176.944607	1.000000
+RTS_ratio_vec:	178.570566	1.000000
+RTS_ratio_vec:	180.196425	1.000000
+RTS_ratio_vec:	181.822144	1.600000
+RTS_ratio_vec:	183.447364	1.000000
+RTS_ratio_vec:	185.073403	1.000000
+RTS_ratio_vec:	186.698642	1.000000
+RTS_ratio_vec:	188.324941	1.000000
+RTS_ratio_vec:	189.950581	1.000000
+RTS_ratio_vec:	191.576094	1.000000
+RTS_ratio_vec:	193.201639	1.250000
+RTS_ratio_vec:	194.827698	1.000000
+RTS_ratio_vec:	196.453097	1.000000
+RTS_ratio_vec:	198.078877	1.000000
+RTS_ratio_vec:	199.704436	1.000000
+RTS_ratio_vec:	201.330235	1.000000
+RTS_ratio_vec:	202.958410	1.050000
+RTS_ratio_vec:	204.581574	1.450000
+RTS_ratio_vec:	206.207473	1.000000
+RTS_ratio_vec:	207.832772	1.000000
+RTS_ratio_vec:	209.458791	1.000000
+RTS_ratio_vec:	211.084650	1.000000
+RTS_ratio_vec:	212.710430	1.000000
+RTS_ratio_vec:	214.336363	1.050000
+RTS_ratio_vec:	215.961708	1.350000
+RTS_ratio_vec:	217.587007	1.000000
+RTS_ratio_vec:	219.212667	1.000000
+RTS_ratio_vec:	220.838746	1.000000
+RTS_ratio_vec:	222.464085	1.000000
+RTS_ratio_vec:	224.090024	1.000000
+RTS_ratio_vec:	225.720443	1.100000
+RTS_ratio_vec:	227.341423	1.450000
+RTS_ratio_vec:	228.966922	1.000000
+RTS_ratio_vec:	230.592601	1.000000
+RTS_ratio_vec:	232.218600	1.000000
+RTS_ratio_vec:	233.844120	1.000000
+RTS_ratio_vec:	235.469879	1.000000
+RTS_ratio_vec:	237.101718	1.150000
+RTS_ratio_vec:	238.721337	1.200000
+RTS_ratio_vec:	240.347277	1.000000
+RTS_ratio_vec:	241.972556	1.000000
+RTS_ratio_vec:	243.598595	1.000000
+RTS_ratio_vec:	245.224114	1.000000
+RTS_ratio_vec:	246.849653	1.000000
+RTS_ratio_vec:	248.483161	1.150000
+RTS_ratio_vec:	250.101472	1.150000
+RTS_ratio_vec:	251.727111	1.000000
+RTS_ratio_vec:	253.352870	1.000000
+RTS_ratio_vec:	254.978250	1.000000
+RTS_ratio_vec:	256.604249	1.000000
+RTS_ratio_vec:	258.230008	1.000000
+RTS_ratio_vec:	259.865624	1.300000
+RTS_ratio_vec:	261.481406	1.050000
+RTS_ratio_vec:	263.106686	1.000000
+RTS_ratio_vec:	264.732345	1.000000
+RTS_ratio_vec:	266.358504	1.000000
+RTS_ratio_vec:	267.984063	1.000000
+RTS_ratio_vec:	269.609443	1.000000
+RTS_ratio_vec:	271.245506	1.500000
+RTS_ratio_vec:	272.861101	1.000000
+RTS_ratio_vec:	274.486980	1.000000
+RTS_ratio_vec:	276.112299	1.000000
+RTS_ratio_vec:	277.738259	1.000000
+RTS_ratio_vec:	279.363978	1.000000
+RTS_ratio_vec:	280.989277	1.000000
+RTS_ratio_vec:	282.614956	1.350000
+RTS_ratio_vec:	284.240676	1.000000
+RTS_ratio_vec:	285.866715	1.000000
+RTS_ratio_vec:	287.492074	1.000000
+RTS_ratio_vec:	289.118073	1.000000
+RTS_ratio_vec:	290.743712	1.000000
+RTS_ratio_vec:	292.369918	1.000000
+RTS_ratio_vec:	293.995031	1.500000
+RTS_ratio_vec:	295.620870	1.000000
+RTS_ratio_vec:	297.246469	1.000000
+RTS_ratio_vec:	298.872189	1.000000
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	0
+        CTS_recv:	0
+       CTSC_recv:	0
+       DATA_send:	3715
+forward_data_send:	0
+backward_ack_send:	3712
+        ACK_recv:	3713
+
+     RTS(C)_recv:	3711
+        CTS_send:	3711
+       CTSC_send:	0
+       DATA_recv:	3713
+        ACK_send:	3713
+
+   RTS_retransmit:	0
+  DATA_retransmit:	0
+backward_ack_retransmit:	0
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+  	  avg_length:	0.000000000000
+
+    RTS_CTS_rate:	0.00%
+all_success_rate:	99.95%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+--- Hop Node Number:1 ---

@@ -1,0 +1,2248 @@
+Fri Nov  4 17:29:32 CST 2016
+velocity: 5 random seed: 0
+num_nodes is set 52
+
+--------------------------NODE: 0--------------------
+     RTS(C)_send:	453
+        CTS_recv:	429
+       CTSC_recv:	2
+       DATA_send:	1009
+forward_data_send:	432
+backward_ack_send:	458
+        ACK_recv:	871
+
+     RTS(C)_recv:	433
+        CTS_send:	422
+       CTSC_send:	9
+       DATA_recv:	915
+        ACK_send:	915
+
+   RTS_retransmit:	19
+  DATA_retransmit:	48
+backward_ack_retransmit:	48
+forward_data_retransmit:	0
+
+      RTS_drop:	2
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.68　mS
+	 avgSendTime:	4.41　mS
+
+  	  avg_length:	0.001099836991
+
+RTS_per_forward_data:	1.05
+
+    RTS_CTS_rate:	95.14%
+all_success_rate:	84.73%
+
+RTS_retransmit_rate:	4.19%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.44%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	284
+        CTS_recv:	252
+       CTSC_recv:	2
+       DATA_send:	674
+forward_data_send:	254
+backward_ack_send:	286
+        ACK_recv:	568
+
+     RTS(C)_recv:	255
+        CTS_send:	254
+       CTSC_send:	1
+       DATA_recv:	586
+        ACK_send:	586
+
+   RTS_retransmit:	30
+  DATA_retransmit:	11
+backward_ack_retransmit:	10
+forward_data_retransmit:	1
+
+      RTS_drop:	4
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.30　mS
+
+  	  avg_length:	0.000372152037
+
+RTS_per_forward_data:	1.12
+
+    RTS_CTS_rate:	89.44%
+all_success_rate:	80.68%
+
+RTS_retransmit_rate:	10.56%
+forward_data_retransmit_rate:	0.39%
+RTS_drop_rate:	1.41%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	501
+        CTS_recv:	477
+       CTSC_recv:	0
+       DATA_send:	1087
+forward_data_send:	477
+backward_ack_send:	485
+        ACK_recv:	987
+
+     RTS(C)_recv:	481
+        CTS_send:	481
+       CTSC_send:	0
+       DATA_recv:	982
+        ACK_send:	982
+
+   RTS_retransmit:	24
+  DATA_retransmit:	5
+backward_ack_retransmit:	5
+forward_data_retransmit:	0
+
+      RTS_drop:	3
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.73　mS
+	 avgSendTime:	4.21　mS
+
+  	  avg_length:	0.000047314985
+
+RTS_per_forward_data:	1.05
+
+    RTS_CTS_rate:	95.21%
+all_success_rate:	88.84%
+
+RTS_retransmit_rate:	4.79%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.60%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	340
+        CTS_recv:	317
+       CTSC_recv:	0
+       DATA_send:	735
+forward_data_send:	317
+backward_ack_send:	292
+        ACK_recv:	635
+
+     RTS(C)_recv:	317
+        CTS_send:	317
+       CTSC_send:	0
+       DATA_recv:	679
+        ACK_send:	679
+
+   RTS_retransmit:	12
+  DATA_retransmit:	5
+backward_ack_retransmit:	5
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.85　mS
+
+  	  avg_length:	0.004919318135
+
+RTS_per_forward_data:	1.07
+
+    RTS_CTS_rate:	93.24%
+all_success_rate:	85.01%
+
+RTS_retransmit_rate:	3.53%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.29%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	323
+        CTS_recv:	323
+       CTSC_recv:	0
+       DATA_send:	796
+forward_data_send:	323
+backward_ack_send:	346
+        ACK_recv:	689
+
+     RTS(C)_recv:	323
+        CTS_send:	323
+       CTSC_send:	0
+       DATA_recv:	684
+        ACK_send:	684
+
+   RTS_retransmit:	0
+  DATA_retransmit:	12
+backward_ack_retransmit:	12
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.20　mS
+
+  	  avg_length:	0.000295555207
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	86.56%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	544
+        CTS_recv:	537
+       CTSC_recv:	0
+       DATA_send:	1196
+forward_data_send:	537
+backward_ack_send:	518
+        ACK_recv:	1091
+
+     RTS(C)_recv:	537
+        CTS_send:	537
+       CTSC_send:	0
+       DATA_recv:	1088
+        ACK_send:	1088
+
+   RTS_retransmit:	7
+  DATA_retransmit:	8
+backward_ack_retransmit:	8
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.21　mS
+
+  	  avg_length:	0.000085186290
+
+RTS_per_forward_data:	1.01
+
+    RTS_CTS_rate:	98.71%
+all_success_rate:	90.69%
+
+RTS_retransmit_rate:	1.29%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.18%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	82
+        CTS_recv:	81
+       CTSC_recv:	0
+       DATA_send:	266
+forward_data_send:	81
+backward_ack_send:	81
+        ACK_recv:	175
+
+     RTS(C)_recv:	81
+        CTS_send:	81
+       CTSC_send:	0
+       DATA_recv:	166
+        ACK_send:	166
+
+   RTS_retransmit:	1
+  DATA_retransmit:	2
+backward_ack_retransmit:	2
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.21　mS
+
+  	  avg_length:	0.000013258535
+
+RTS_per_forward_data:	1.01
+
+    RTS_CTS_rate:	98.78%
+all_success_rate:	65.54%
+
+RTS_retransmit_rate:	1.22%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	116
+        CTS_recv:	114
+       CTSC_recv:	0
+       DATA_send:	363
+forward_data_send:	114
+backward_ack_send:	126
+        ACK_recv:	257
+
+     RTS(C)_recv:	115
+        CTS_send:	115
+       CTSC_send:	0
+       DATA_recv:	248
+        ACK_send:	248
+
+   RTS_retransmit:	2
+  DATA_retransmit:	16
+backward_ack_retransmit:	16
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.28　mS
+
+  	  avg_length:	0.000641912734
+
+RTS_per_forward_data:	1.02
+
+    RTS_CTS_rate:	98.28%
+all_success_rate:	70.41%
+
+RTS_retransmit_rate:	1.72%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	127
+        CTS_recv:	118
+       CTSC_recv:	1
+       DATA_send:	323
+forward_data_send:	119
+backward_ack_send:	97
+        ACK_recv:	232
+
+     RTS(C)_recv:	119
+        CTS_send:	119
+       CTSC_send:	0
+       DATA_recv:	230
+        ACK_send:	230
+
+   RTS_retransmit:	8
+  DATA_retransmit:	1
+backward_ack_retransmit:	1
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.31　mS
+
+  	  avg_length:	0.000005003576
+
+RTS_per_forward_data:	1.07
+
+    RTS_CTS_rate:	93.70%
+all_success_rate:	70.09%
+
+RTS_retransmit_rate:	6.30%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.79%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	202
+        CTS_recv:	202
+       CTSC_recv:	0
+       DATA_send:	524
+forward_data_send:	202
+backward_ack_send:	208
+        ACK_recv:	423
+
+     RTS(C)_recv:	204
+        CTS_send:	202
+       CTSC_send:	0
+       DATA_recv:	422
+        ACK_send:	422
+
+   RTS_retransmit:	0
+  DATA_retransmit:	8
+backward_ack_retransmit:	8
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.20　mS
+
+  	  avg_length:	0.000000000000
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	80.73%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	481
+        CTS_recv:	464
+       CTSC_recv:	0
+       DATA_send:	1046
+forward_data_send:	464
+backward_ack_send:	457
+        ACK_recv:	943
+
+     RTS(C)_recv:	466
+        CTS_send:	462
+       CTSC_send:	2
+       DATA_recv:	940
+        ACK_send:	940
+
+   RTS_retransmit:	13
+  DATA_retransmit:	10
+backward_ack_retransmit:	9
+forward_data_retransmit:	1
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.71　mS
+
+  	  avg_length:	0.010431030194
+
+RTS_per_forward_data:	1.04
+
+    RTS_CTS_rate:	96.47%
+all_success_rate:	89.05%
+
+RTS_retransmit_rate:	2.70%
+forward_data_retransmit_rate:	0.22%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	81
+        CTS_recv:	73
+       CTSC_recv:	0
+       DATA_send:	230
+forward_data_send:	73
+backward_ack_send:	52
+        ACK_recv:	131
+
+     RTS(C)_recv:	70
+        CTS_send:	69
+       CTSC_send:	0
+       DATA_recv:	130
+        ACK_send:	130
+
+   RTS_retransmit:	8
+  DATA_retransmit:	12
+backward_ack_retransmit:	7
+forward_data_retransmit:	5
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	1
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.39　mS
+
+  	  avg_length:	0.000036500475
+
+RTS_per_forward_data:	1.11
+
+    RTS_CTS_rate:	90.12%
+all_success_rate:	55.04%
+
+RTS_retransmit_rate:	9.88%
+forward_data_retransmit_rate:	6.85%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	1.37%
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	415
+        CTS_recv:	388
+       CTSC_recv:	6
+       DATA_send:	922
+forward_data_send:	395
+backward_ack_send:	409
+        ACK_recv:	817
+
+     RTS(C)_recv:	432
+        CTS_send:	384
+       CTSC_send:	14
+       DATA_recv:	821
+        ACK_send:	821
+
+   RTS_retransmit:	19
+  DATA_retransmit:	8
+backward_ack_retransmit:	5
+forward_data_retransmit:	3
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.69　mS
+	 avgSendTime:	4.59　mS
+
+  	  avg_length:	0.003032711836
+
+RTS_per_forward_data:	1.05
+
+    RTS_CTS_rate:	94.94%
+all_success_rate:	86.82%
+
+RTS_retransmit_rate:	4.58%
+forward_data_retransmit_rate:	0.76%
+RTS_drop_rate:	0.24%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	108
+        CTS_recv:	108
+       CTSC_recv:	0
+       DATA_send:	343
+forward_data_send:	108
+backward_ack_send:	111
+        ACK_recv:	237
+
+     RTS(C)_recv:	108
+        CTS_send:	108
+       CTSC_send:	0
+       DATA_recv:	222
+        ACK_send:	222
+
+   RTS_retransmit:	0
+  DATA_retransmit:	14
+backward_ack_retransmit:	14
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.19　mS
+
+  	  avg_length:	0.000000000000
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	69.10%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 14--------------------
+     RTS(C)_send:	325
+        CTS_recv:	314
+       CTSC_recv:	1
+       DATA_send:	738
+forward_data_send:	315
+backward_ack_send:	286
+        ACK_recv:	629
+
+     RTS(C)_recv:	316
+        CTS_send:	316
+       CTSC_send:	0
+       DATA_recv:	628
+        ACK_send:	628
+
+   RTS_retransmit:	10
+  DATA_retransmit:	12
+backward_ack_retransmit:	12
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.34　mS
+
+  	  avg_length:	0.000245855619
+
+RTS_per_forward_data:	1.03
+
+    RTS_CTS_rate:	96.92%
+all_success_rate:	84.09%
+
+RTS_retransmit_rate:	3.08%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.31%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 15--------------------
+     RTS(C)_send:	206
+        CTS_recv:	206
+       CTSC_recv:	0
+       DATA_send:	539
+forward_data_send:	206
+backward_ack_send:	207
+        ACK_recv:	433
+
+     RTS(C)_recv:	206
+        CTS_send:	206
+       CTSC_send:	0
+       DATA_recv:	418
+        ACK_send:	418
+
+   RTS_retransmit:	0
+  DATA_retransmit:	12
+backward_ack_retransmit:	12
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.21　mS
+
+  	  avg_length:	0.000005013017
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	80.33%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 16--------------------
+     RTS(C)_send:	222
+        CTS_recv:	182
+       CTSC_recv:	2
+       DATA_send:	471
+forward_data_send:	184
+backward_ack_send:	152
+        ACK_recv:	360
+
+     RTS(C)_recv:	188
+        CTS_send:	183
+       CTSC_send:	1
+       DATA_recv:	351
+        ACK_send:	351
+
+   RTS_retransmit:	28
+  DATA_retransmit:	15
+backward_ack_retransmit:	11
+forward_data_retransmit:	4
+
+      RTS_drop:	2
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.62　mS
+
+  	  avg_length:	0.003547480776
+
+RTS_per_forward_data:	1.21
+
+    RTS_CTS_rate:	82.88%
+all_success_rate:	72.14%
+
+RTS_retransmit_rate:	12.61%
+forward_data_retransmit_rate:	2.17%
+RTS_drop_rate:	0.90%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 17--------------------
+     RTS(C)_send:	222
+        CTS_recv:	200
+       CTSC_recv:	0
+       DATA_send:	491
+forward_data_send:	200
+backward_ack_send:	174
+        ACK_recv:	396
+
+     RTS(C)_recv:	202
+        CTS_send:	202
+       CTSC_send:	0
+       DATA_recv:	395
+        ACK_send:	395
+
+   RTS_retransmit:	22
+  DATA_retransmit:	5
+backward_ack_retransmit:	5
+forward_data_retransmit:	0
+
+      RTS_drop:	3
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.29　mS
+
+  	  avg_length:	0.000015679062
+
+RTS_per_forward_data:	1.11
+
+    RTS_CTS_rate:	90.09%
+all_success_rate:	77.19%
+
+RTS_retransmit_rate:	9.91%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	1.35%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 18--------------------
+     RTS(C)_send:	302
+        CTS_recv:	296
+       CTSC_recv:	0
+       DATA_send:	860
+forward_data_send:	296
+backward_ack_send:	424
+        ACK_recv:	743
+
+     RTS(C)_recv:	299
+        CTS_send:	296
+       CTSC_send:	0
+       DATA_recv:	725
+        ACK_send:	725
+
+   RTS_retransmit:	5
+  DATA_retransmit:	23
+backward_ack_retransmit:	23
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.32　mS
+
+  	  avg_length:	0.000164021465
+
+RTS_per_forward_data:	1.02
+
+    RTS_CTS_rate:	98.01%
+all_success_rate:	85.90%
+
+RTS_retransmit_rate:	1.66%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 19--------------------
+     RTS(C)_send:	529
+        CTS_recv:	529
+       CTSC_recv:	0
+       DATA_send:	1211
+forward_data_send:	529
+backward_ack_send:	554
+        ACK_recv:	1109
+
+     RTS(C)_recv:	534
+        CTS_send:	532
+       CTSC_send:	2
+       DATA_recv:	1100
+        ACK_send:	1100
+
+   RTS_retransmit:	0
+  DATA_retransmit:	9
+backward_ack_retransmit:	9
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.23　mS
+
+  	  avg_length:	0.000784525348
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	91.58%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 20--------------------
+     RTS(C)_send:	233
+        CTS_recv:	199
+       CTSC_recv:	17
+       DATA_send:	547
+forward_data_send:	217
+backward_ack_send:	199
+        ACK_recv:	440
+
+     RTS(C)_recv:	231
+        CTS_send:	205
+       CTSC_send:	15
+       DATA_recv:	424
+        ACK_send:	424
+
+   RTS_retransmit:	17
+  DATA_retransmit:	10
+backward_ack_retransmit:	10
+forward_data_retransmit:	0
+
+      RTS_drop:	2
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.54　mS
+
+  	  avg_length:	0.000400057241
+
+RTS_per_forward_data:	1.07
+
+    RTS_CTS_rate:	92.70%
+all_success_rate:	78.01%
+
+RTS_retransmit_rate:	7.30%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.86%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 21--------------------
+     RTS(C)_send:	400
+        CTS_recv:	384
+       CTSC_recv:	8
+       DATA_send:	946
+forward_data_send:	393
+backward_ack_send:	417
+        ACK_recv:	819
+
+     RTS(C)_recv:	394
+        CTS_send:	375
+       CTSC_send:	18
+       DATA_recv:	797
+        ACK_send:	797
+
+   RTS_retransmit:	7
+  DATA_retransmit:	33
+backward_ack_retransmit:	33
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.65　mS
+	 avgSendTime:	4.32　mS
+
+  	  avg_length:	0.000281914582
+
+RTS_per_forward_data:	1.02
+
+    RTS_CTS_rate:	98.00%
+all_success_rate:	85.94%
+
+RTS_retransmit_rate:	1.75%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.25%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 22--------------------
+     RTS(C)_send:	83
+        CTS_recv:	76
+       CTSC_recv:	0
+       DATA_send:	277
+forward_data_send:	76
+backward_ack_send:	78
+        ACK_recv:	175
+
+     RTS(C)_recv:	77
+        CTS_send:	76
+       CTSC_send:	1
+       DATA_recv:	160
+        ACK_send:	160
+
+   RTS_retransmit:	7
+  DATA_retransmit:	9
+backward_ack_retransmit:	9
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.23　mS
+
+  	  avg_length:	0.000005337014
+
+RTS_per_forward_data:	1.09
+
+    RTS_CTS_rate:	91.57%
+all_success_rate:	61.62%
+
+RTS_retransmit_rate:	8.43%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	1.20%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 23--------------------
+     RTS(C)_send:	241
+        CTS_recv:	232
+       CTSC_recv:	0
+       DATA_send:	598
+forward_data_send:	232
+backward_ack_send:	248
+        ACK_recv:	496
+
+     RTS(C)_recv:	234
+        CTS_send:	233
+       CTSC_send:	0
+       DATA_recv:	497
+        ACK_send:	497
+
+   RTS_retransmit:	9
+  DATA_retransmit:	4
+backward_ack_retransmit:	3
+forward_data_retransmit:	1
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.24　mS
+
+  	  avg_length:	0.000322599823
+
+RTS_per_forward_data:	1.04
+
+    RTS_CTS_rate:	96.27%
+all_success_rate:	81.71%
+
+RTS_retransmit_rate:	3.73%
+forward_data_retransmit_rate:	0.43%
+RTS_drop_rate:	0.41%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 24--------------------
+     RTS(C)_send:	199
+        CTS_recv:	190
+       CTSC_recv:	2
+       DATA_send:	526
+forward_data_send:	192
+backward_ack_send:	209
+        ACK_recv:	423
+
+     RTS(C)_recv:	199
+        CTS_send:	193
+       CTSC_send:	0
+       DATA_recv:	418
+        ACK_send:	418
+
+   RTS_retransmit:	7
+  DATA_retransmit:	6
+backward_ack_retransmit:	6
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.19　mS
+
+  	  avg_length:	0.000286890056
+
+RTS_per_forward_data:	1.04
+
+    RTS_CTS_rate:	96.48%
+all_success_rate:	79.36%
+
+RTS_retransmit_rate:	3.52%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.50%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 25--------------------
+     RTS(C)_send:	184
+        CTS_recv:	170
+       CTSC_recv:	0
+       DATA_send:	433
+forward_data_send:	170
+backward_ack_send:	135
+        ACK_recv:	326
+
+     RTS(C)_recv:	172
+        CTS_send:	172
+       CTSC_send:	0
+       DATA_recv:	326
+        ACK_send:	326
+
+   RTS_retransmit:	14
+  DATA_retransmit:	10
+backward_ack_retransmit:	10
+forward_data_retransmit:	0
+
+      RTS_drop:	2
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.23　mS
+
+  	  avg_length:	0.000000000000
+
+RTS_per_forward_data:	1.08
+
+    RTS_CTS_rate:	92.39%
+all_success_rate:	72.93%
+
+RTS_retransmit_rate:	7.61%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	1.09%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 26--------------------
+     RTS(C)_send:	287
+        CTS_recv:	254
+       CTSC_recv:	5
+       DATA_send:	646
+forward_data_send:	259
+backward_ack_send:	250
+        ACK_recv:	524
+
+     RTS(C)_recv:	278
+        CTS_send:	259
+       CTSC_send:	1
+       DATA_recv:	614
+        ACK_send:	614
+
+   RTS_retransmit:	26
+  DATA_retransmit:	26
+backward_ack_retransmit:	26
+forward_data_retransmit:	0
+
+      RTS_drop:	2
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.64　mS
+	 avgSendTime:	4.56　mS
+
+  	  avg_length:	0.001793608193
+
+RTS_per_forward_data:	1.11
+
+    RTS_CTS_rate:	90.24%
+all_success_rate:	77.98%
+
+RTS_retransmit_rate:	9.06%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.70%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 27--------------------
+     RTS(C)_send:	52
+        CTS_recv:	52
+       CTSC_recv:	0
+       DATA_send:	242
+forward_data_send:	52
+backward_ack_send:	66
+        ACK_recv:	135
+
+     RTS(C)_recv:	52
+        CTS_send:	52
+       CTSC_send:	0
+       DATA_recv:	121
+        ACK_send:	121
+
+   RTS_retransmit:	0
+  DATA_retransmit:	18
+backward_ack_retransmit:	18
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	2
+forward_data_drop:	0
+backward_ack_drop:	2
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.22　mS
+
+  	  avg_length:	0.000230343111
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	55.79%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 28--------------------
+     RTS(C)_send:	280
+        CTS_recv:	237
+       CTSC_recv:	12
+       DATA_send:	599
+forward_data_send:	250
+backward_ack_send:	225
+        ACK_recv:	481
+
+     RTS(C)_recv:	259
+        CTS_send:	246
+       CTSC_send:	6
+       DATA_recv:	496
+        ACK_send:	496
+
+   RTS_retransmit:	28
+  DATA_retransmit:	13
+backward_ack_retransmit:	13
+forward_data_retransmit:	0
+
+      RTS_drop:	2
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.81　mS
+	 avgSendTime:	4.65　mS
+
+  	  avg_length:	0.000713699303
+
+RTS_per_forward_data:	1.12
+
+    RTS_CTS_rate:	88.93%
+all_success_rate:	76.71%
+
+RTS_retransmit_rate:	10.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.71%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 29--------------------
+     RTS(C)_send:	220
+        CTS_recv:	205
+       CTSC_recv:	1
+       DATA_send:	549
+forward_data_send:	206
+backward_ack_send:	214
+        ACK_recv:	443
+
+     RTS(C)_recv:	207
+        CTS_send:	206
+       CTSC_send:	1
+       DATA_recv:	445
+        ACK_send:	445
+
+   RTS_retransmit:	14
+  DATA_retransmit:	8
+backward_ack_retransmit:	8
+forward_data_retransmit:	0
+
+      RTS_drop:	2
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.23　mS
+
+  	  avg_length:	0.000106508614
+
+RTS_per_forward_data:	1.07
+
+    RTS_CTS_rate:	93.64%
+all_success_rate:	78.69%
+
+RTS_retransmit_rate:	6.36%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.91%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 30--------------------
+     RTS(C)_send:	218
+        CTS_recv:	175
+       CTSC_recv:	7
+       DATA_send:	525
+forward_data_send:	182
+backward_ack_send:	213
+        ACK_recv:	409
+
+     RTS(C)_recv:	215
+        CTS_send:	180
+       CTSC_send:	2
+       DATA_recv:	394
+        ACK_send:	394
+
+   RTS_retransmit:	31
+  DATA_retransmit:	25
+backward_ack_retransmit:	25
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	5.15　mS
+
+  	  avg_length:	0.008199597235
+
+RTS_per_forward_data:	1.20
+
+    RTS_CTS_rate:	83.49%
+all_success_rate:	73.56%
+
+RTS_retransmit_rate:	14.22%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 31--------------------
+     RTS(C)_send:	301
+        CTS_recv:	299
+       CTSC_recv:	0
+       DATA_send:	578
+forward_data_send:	299
+backward_ack_send:	149
+        ACK_recv:	469
+
+     RTS(C)_recv:	305
+        CTS_send:	300
+       CTSC_send:	0
+       DATA_recv:	461
+        ACK_send:	461
+
+   RTS_retransmit:	2
+  DATA_retransmit:	12
+backward_ack_retransmit:	12
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.31　mS
+
+  	  avg_length:	0.000097118284
+
+RTS_per_forward_data:	1.01
+
+    RTS_CTS_rate:	99.34%
+all_success_rate:	80.86%
+
+RTS_retransmit_rate:	0.66%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 32--------------------
+     RTS(C)_send:	4
+        CTS_recv:	4
+       CTSC_recv:	0
+       DATA_send:	135
+forward_data_send:	4
+backward_ack_send:	3
+        ACK_recv:	34
+
+     RTS(C)_recv:	4
+        CTS_send:	4
+       CTSC_send:	0
+       DATA_recv:	10
+        ACK_send:	10
+
+   RTS_retransmit:	0
+  DATA_retransmit:	10
+backward_ack_retransmit:	10
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.25　mS
+
+  	  avg_length:	0.000015316265
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	25.19%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 33--------------------
+     RTS(C)_send:	332
+        CTS_recv:	326
+       CTSC_recv:	0
+       DATA_send:	755
+forward_data_send:	326
+backward_ack_send:	294
+        ACK_recv:	651
+
+     RTS(C)_recv:	338
+        CTS_send:	326
+       CTSC_send:	0
+       DATA_recv:	629
+        ACK_send:	629
+
+   RTS_retransmit:	6
+  DATA_retransmit:	13
+backward_ack_retransmit:	13
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.37　mS
+
+  	  avg_length:	0.000079831526
+
+RTS_per_forward_data:	1.02
+
+    RTS_CTS_rate:	98.19%
+all_success_rate:	85.55%
+
+RTS_retransmit_rate:	1.81%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 34--------------------
+     RTS(C)_send:	144
+        CTS_recv:	137
+       CTSC_recv:	0
+       DATA_send:	391
+forward_data_send:	137
+backward_ack_send:	135
+        ACK_recv:	297
+
+     RTS(C)_recv:	137
+        CTS_send:	137
+       CTSC_send:	0
+       DATA_recv:	283
+        ACK_send:	283
+
+   RTS_retransmit:	7
+  DATA_retransmit:	4
+backward_ack_retransmit:	4
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.17　mS
+
+  	  avg_length:	0.000025437692
+
+RTS_per_forward_data:	1.05
+
+    RTS_CTS_rate:	95.14%
+all_success_rate:	74.62%
+
+RTS_retransmit_rate:	4.86%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.69%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 35--------------------
+     RTS(C)_send:	609
+        CTS_recv:	592
+       CTSC_recv:	0
+       DATA_send:	1178
+forward_data_send:	592
+backward_ack_send:	455
+        ACK_recv:	1071
+
+     RTS(C)_recv:	595
+        CTS_send:	590
+       CTSC_send:	3
+       DATA_recv:	1064
+        ACK_send:	1064
+
+   RTS_retransmit:	17
+  DATA_retransmit:	12
+backward_ack_retransmit:	11
+forward_data_retransmit:	1
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.34　mS
+
+  	  avg_length:	0.002412796661
+
+RTS_per_forward_data:	1.03
+
+    RTS_CTS_rate:	97.21%
+all_success_rate:	89.62%
+
+RTS_retransmit_rate:	2.79%
+forward_data_retransmit_rate:	0.17%
+RTS_drop_rate:	0.16%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 36--------------------
+     RTS(C)_send:	471
+        CTS_recv:	464
+       CTSC_recv:	0
+       DATA_send:	1216
+forward_data_send:	464
+backward_ack_send:	606
+        ACK_recv:	1109
+
+     RTS(C)_recv:	465
+        CTS_send:	464
+       CTSC_send:	0
+       DATA_recv:	1086
+        ACK_send:	1086
+
+   RTS_retransmit:	7
+  DATA_retransmit:	14
+backward_ack_retransmit:	14
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.19　mS
+
+  	  avg_length:	0.000075140962
+
+RTS_per_forward_data:	1.02
+
+    RTS_CTS_rate:	98.51%
+all_success_rate:	90.68%
+
+RTS_retransmit_rate:	1.49%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.21%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 37--------------------
+     RTS(C)_send:	225
+        CTS_recv:	165
+       CTSC_recv:	0
+       DATA_send:	404
+forward_data_send:	165
+backward_ack_send:	121
+        ACK_recv:	302
+
+     RTS(C)_recv:	168
+        CTS_send:	168
+       CTSC_send:	0
+       DATA_recv:	454
+        ACK_send:	454
+
+   RTS_retransmit:	45
+  DATA_retransmit:	2
+backward_ack_retransmit:	2
+forward_data_retransmit:	0
+
+      RTS_drop:	3
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	6.65　mS
+
+  	  avg_length:	0.018501462909
+
+RTS_per_forward_data:	1.36
+
+    RTS_CTS_rate:	73.33%
+all_success_rate:	67.26%
+
+RTS_retransmit_rate:	20.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	1.33%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 38--------------------
+     RTS(C)_send:	392
+        CTS_recv:	360
+       CTSC_recv:	1
+       DATA_send:	900
+forward_data_send:	361
+backward_ack_send:	386
+        ACK_recv:	774
+
+     RTS(C)_recv:	364
+        CTS_send:	362
+       CTSC_send:	2
+       DATA_recv:	807
+        ACK_send:	807
+
+   RTS_retransmit:	28
+  DATA_retransmit:	23
+backward_ack_retransmit:	23
+forward_data_retransmit:	0
+
+      RTS_drop:	4
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.67　mS
+	 avgSendTime:	4.24　mS
+
+  	  avg_length:	0.000616826469
+
+RTS_per_forward_data:	1.09
+
+    RTS_CTS_rate:	92.09%
+all_success_rate:	83.41%
+
+RTS_retransmit_rate:	7.14%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	1.02%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 39--------------------
+     RTS(C)_send:	198
+        CTS_recv:	197
+       CTSC_recv:	0
+       DATA_send:	567
+forward_data_send:	197
+backward_ack_send:	227
+        ACK_recv:	445
+
+     RTS(C)_recv:	199
+        CTS_send:	197
+       CTSC_send:	0
+       DATA_recv:	441
+        ACK_send:	441
+
+   RTS_retransmit:	1
+  DATA_retransmit:	23
+backward_ack_retransmit:	23
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.22　mS
+
+  	  avg_length:	0.000026602017
+
+RTS_per_forward_data:	1.01
+
+    RTS_CTS_rate:	99.49%
+all_success_rate:	78.35%
+
+RTS_retransmit_rate:	0.51%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 40--------------------
+     RTS(C)_send:	714
+        CTS_recv:	692
+       CTSC_recv:	0
+       DATA_send:	1537
+forward_data_send:	692
+backward_ack_send:	709
+        ACK_recv:	1424
+
+     RTS(C)_recv:	695
+        CTS_send:	694
+       CTSC_send:	1
+       DATA_recv:	1433
+        ACK_send:	1433
+
+   RTS_retransmit:	22
+  DATA_retransmit:	13
+backward_ack_retransmit:	13
+forward_data_retransmit:	0
+
+      RTS_drop:	3
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.20　mS
+
+  	  avg_length:	0.000273613110
+
+RTS_per_forward_data:	1.03
+
+    RTS_CTS_rate:	96.92%
+all_success_rate:	91.34%
+
+RTS_retransmit_rate:	3.08%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.42%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 41--------------------
+     RTS(C)_send:	5
+        CTS_recv:	5
+       CTSC_recv:	0
+       DATA_send:	127
+forward_data_send:	5
+backward_ack_send:	23
+        ACK_recv:	40
+
+     RTS(C)_recv:	5
+        CTS_send:	5
+       CTSC_send:	0
+       DATA_recv:	29
+        ACK_send:	29
+
+   RTS_retransmit:	0
+  DATA_retransmit:	3
+backward_ack_retransmit:	3
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	4.14　mS
+	 avgSendTime:	4.20　mS
+
+  	  avg_length:	0.000236026088
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	31.50%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 42--------------------
+     RTS(C)_send:	167
+        CTS_recv:	153
+       CTSC_recv:	0
+       DATA_send:	429
+forward_data_send:	153
+backward_ack_send:	152
+        ACK_recv:	328
+
+     RTS(C)_recv:	156
+        CTS_send:	155
+       CTSC_send:	0
+       DATA_recv:	316
+        ACK_send:	316
+
+   RTS_retransmit:	14
+  DATA_retransmit:	8
+backward_ack_retransmit:	8
+forward_data_retransmit:	0
+
+      RTS_drop:	2
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.30　mS
+
+  	  avg_length:	0.000000000000
+
+RTS_per_forward_data:	1.09
+
+    RTS_CTS_rate:	91.62%
+all_success_rate:	74.04%
+
+RTS_retransmit_rate:	8.38%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	1.20%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 43--------------------
+     RTS(C)_send:	416
+        CTS_recv:	412
+       CTSC_recv:	0
+       DATA_send:	953
+forward_data_send:	412
+backward_ack_send:	395
+        ACK_recv:	829
+
+     RTS(C)_recv:	447
+        CTS_send:	406
+       CTSC_send:	6
+       DATA_recv:	810
+        ACK_send:	810
+
+   RTS_retransmit:	4
+  DATA_retransmit:	28
+backward_ack_retransmit:	28
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	2
+forward_data_drop:	0
+backward_ack_drop:	2
+
+	 minSendTime:	3.82　mS
+	 avgSendTime:	4.46　mS
+
+  	  avg_length:	0.000451263120
+
+RTS_per_forward_data:	1.01
+
+    RTS_CTS_rate:	99.04%
+all_success_rate:	86.62%
+
+RTS_retransmit_rate:	0.96%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 44--------------------
+     RTS(C)_send:	248
+        CTS_recv:	248
+       CTSC_recv:	0
+       DATA_send:	613
+forward_data_send:	248
+backward_ack_send:	247
+        ACK_recv:	517
+
+     RTS(C)_recv:	248
+        CTS_send:	248
+       CTSC_send:	0
+       DATA_recv:	508
+        ACK_send:	508
+
+   RTS_retransmit:	0
+  DATA_retransmit:	4
+backward_ack_retransmit:	4
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.27　mS
+
+  	  avg_length:	0.000000000000
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	84.34%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 45--------------------
+     RTS(C)_send:	260
+        CTS_recv:	234
+       CTSC_recv:	0
+       DATA_send:	604
+forward_data_send:	234
+backward_ack_send:	223
+        ACK_recv:	491
+
+     RTS(C)_recv:	247
+        CTS_send:	234
+       CTSC_send:	0
+       DATA_recv:	541
+        ACK_send:	541
+
+   RTS_retransmit:	12
+  DATA_retransmit:	21
+backward_ack_retransmit:	21
+forward_data_retransmit:	0
+
+      RTS_drop:	1
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.96　mS
+
+  	  avg_length:	0.008644079754
+
+RTS_per_forward_data:	1.11
+
+    RTS_CTS_rate:	90.00%
+all_success_rate:	79.71%
+
+RTS_retransmit_rate:	4.62%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.38%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 46--------------------
+     RTS(C)_send:	105
+        CTS_recv:	101
+       CTSC_recv:	1
+       DATA_send:	357
+forward_data_send:	102
+backward_ack_send:	128
+        ACK_recv:	249
+
+     RTS(C)_recv:	111
+        CTS_send:	101
+       CTSC_send:	1
+       DATA_recv:	232
+        ACK_send:	232
+
+   RTS_retransmit:	3
+  DATA_retransmit:	12
+backward_ack_retransmit:	12
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	1
+forward_data_drop:	0
+backward_ack_drop:	1
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.72　mS
+
+  	  avg_length:	0.000506983894
+
+RTS_per_forward_data:	1.03
+
+    RTS_CTS_rate:	97.14%
+all_success_rate:	69.17%
+
+RTS_retransmit_rate:	2.86%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 47--------------------
+     RTS(C)_send:	262
+        CTS_recv:	250
+       CTSC_recv:	0
+       DATA_send:	637
+forward_data_send:	250
+backward_ack_send:	261
+        ACK_recv:	535
+
+     RTS(C)_recv:	256
+        CTS_send:	254
+       CTSC_send:	0
+       DATA_recv:	533
+        ACK_send:	533
+
+   RTS_retransmit:	12
+  DATA_retransmit:	7
+backward_ack_retransmit:	6
+forward_data_retransmit:	1
+
+      RTS_drop:	1
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.90　mS
+	 avgSendTime:	4.39　mS
+
+  	  avg_length:	0.000320096388
+
+RTS_per_forward_data:	1.05
+
+    RTS_CTS_rate:	95.42%
+all_success_rate:	82.43%
+
+RTS_retransmit_rate:	4.58%
+forward_data_retransmit_rate:	0.40%
+RTS_drop_rate:	0.38%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 48--------------------
+     RTS(C)_send:	2581
+        CTS_recv:	2386
+       CTSC_recv:	21
+       DATA_send:	2545
+forward_data_send:	2408
+backward_ack_send:	0
+        ACK_recv:	2445
+
+     RTS(C)_recv:	0
+        CTS_send:	0
+       CTSC_send:	0
+       DATA_recv:	2401
+        ACK_send:	2401
+
+   RTS_retransmit:	170
+  DATA_retransmit:	16
+backward_ack_retransmit:	8
+forward_data_retransmit:	8
+
+      RTS_drop:	8
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.23　mS
+
+  	  avg_length:	0.000136828927
+
+RTS_per_forward_data:	1.07
+
+    RTS_CTS_rate:	93.26%
+all_success_rate:	90.06%
+
+RTS_retransmit_rate:	6.59%
+forward_data_retransmit_rate:	0.33%
+RTS_drop_rate:	0.31%
+forward_data_drop_rate:	0.00%
+
+RTS_ratio_vec:	1.782240	0.900000
+RTS_ratio_vec:	2.305755	2.900000
+RTS_ratio_vec:	2.874160	2.800000
+RTS_ratio_vec:	3.437789	1.900000
+RTS_ratio_vec:	4.083932	1.050000
+RTS_ratio_vec:	4.808449	1.000000
+RTS_ratio_vec:	5.577379	1.000000
+RTS_ratio_vec:	6.370486	1.000000
+RTS_ratio_vec:	7.239492	1.000000
+RTS_ratio_vec:	8.029579	1.000000
+RTS_ratio_vec:	8.845693	1.000000
+RTS_ratio_vec:	9.662777	1.000000
+RTS_ratio_vec:	10.480540	1.000000
+RTS_ratio_vec:	11.298501	0.950000
+RTS_ratio_vec:	12.116024	1.000000
+RTS_ratio_vec:	12.933687	1.000000
+RTS_ratio_vec:	13.752250	1.000000
+RTS_ratio_vec:	14.609236	0.950000
+RTS_ratio_vec:	15.426799	1.000000
+RTS_ratio_vec:	16.244722	1.000000
+RTS_ratio_vec:	17.062565	1.000000
+RTS_ratio_vec:	17.879849	1.000000
+RTS_ratio_vec:	18.697692	1.000000
+RTS_ratio_vec:	19.514975	1.000000
+RTS_ratio_vec:	20.332818	1.150000
+RTS_ratio_vec:	21.150561	1.000000
+RTS_ratio_vec:	22.553068	1.300000
+RTS_ratio_vec:	24.134772	1.100000
+RTS_ratio_vec:	25.769639	1.000000
+RTS_ratio_vec:	27.404765	1.000000
+RTS_ratio_vec:	29.040231	1.000000
+RTS_ratio_vec:	30.675576	1.000000
+RTS_ratio_vec:	32.310642	1.000000
+RTS_ratio_vec:	33.945509	1.000000
+RTS_ratio_vec:	35.581095	1.000000
+RTS_ratio_vec:	37.215921	1.000000
+RTS_ratio_vec:	38.851308	1.000000
+RTS_ratio_vec:	40.323373	0.950000
+RTS_ratio_vec:	41.876660	1.100000
+RTS_ratio_vec:	43.512046	1.000000
+RTS_ratio_vec:	45.598256	1.350000
+RTS_ratio_vec:	47.191160	1.100000
+RTS_ratio_vec:	48.826066	1.000000
+RTS_ratio_vec:	50.461613	1.000000
+RTS_ratio_vec:	52.096759	1.000000
+RTS_ratio_vec:	53.731645	1.000000
+RTS_ratio_vec:	55.367292	1.000000
+RTS_ratio_vec:	59.210046	1.000000
+RTS_ratio_vec:	62.398539	1.000000
+RTS_ratio_vec:	65.832111	1.350000
+RTS_ratio_vec:	69.102603	1.000000
+RTS_ratio_vec:	72.373435	1.000000
+RTS_ratio_vec:	75.643588	1.000000
+RTS_ratio_vec:	78.819043	0.950000
+RTS_ratio_vec:	82.020953	1.000000
+RTS_ratio_vec:	85.291525	1.000000
+RTS_ratio_vec:	88.398317	0.950000
+RTS_ratio_vec:	91.995831	0.900000
+RTS_ratio_vec:	95.266063	1.000000
+RTS_ratio_vec:	98.536656	1.000000
+RTS_ratio_vec:	101.807088	1.000000
+RTS_ratio_vec:	105.077561	1.000000
+RTS_ratio_vec:	108.347854	1.000000
+RTS_ratio_vec:	111.781746	1.350000
+RTS_ratio_vec:	115.052218	1.000000
+RTS_ratio_vec:	118.322731	1.000000
+RTS_ratio_vec:	121.592744	1.000000
+RTS_ratio_vec:	124.863276	1.000000
+RTS_ratio_vec:	128.133829	1.000000
+RTS_ratio_vec:	132.221644	1.000000
+RTS_ratio_vec:	135.164816	0.900000
+RTS_ratio_vec:	138.435449	1.000000
+RTS_ratio_vec:	141.869679	1.350000
+RTS_ratio_vec:	144.812893	1.300000
+RTS_ratio_vec:	148.082965	1.000000
+RTS_ratio_vec:	151.026436	0.900000
+RTS_ratio_vec:	154.624210	1.000000
+RTS_ratio_vec:	157.894323	1.000000
+RTS_ratio_vec:	161.328435	1.350000
+RTS_ratio_vec:	164.598488	1.000000
+RTS_ratio_vec:	167.869041	1.000000
+RTS_ratio_vec:	170.812552	0.900000
+RTS_ratio_vec:	173.592542	0.850000
+RTS_ratio_vec:	176.862795	1.000000
+RTS_ratio_vec:	179.969666	1.200000
+RTS_ratio_vec:	183.239978	1.000000
+RTS_ratio_vec:	186.346950	0.950000
+RTS_ratio_vec:	189.944304	1.000000
+RTS_ratio_vec:	193.214616	1.000000
+RTS_ratio_vec:	196.158149	0.900000
+RTS_ratio_vec:	199.428421	1.000000
+RTS_ratio_vec:	202.699113	1.000000
+RTS_ratio_vec:	205.642644	0.900000
+RTS_ratio_vec:	208.912957	1.000000
+RTS_ratio_vec:	212.183470	1.000000
+RTS_ratio_vec:	215.290282	0.950000
+RTS_ratio_vec:	218.233393	0.900000
+RTS_ratio_vec:	221.503804	1.000000
+RTS_ratio_vec:	224.774176	1.000000
+RTS_ratio_vec:	228.044589	1.000000
+RTS_ratio_vec:	230.988240	0.900000
+RTS_ratio_vec:	234.258714	1.300000
+RTS_ratio_vec:	237.692805	1.350000
+RTS_ratio_vec:	240.962678	1.000000
+RTS_ratio_vec:	244.233131	1.000000
+RTS_ratio_vec:	247.503703	1.000000
+RTS_ratio_vec:	250.610776	0.950000
+RTS_ratio_vec:	253.881288	1.000000
+RTS_ratio_vec:	257.968924	1.000000
+RTS_ratio_vec:	261.239197	1.000000
+RTS_ratio_vec:	264.557686	0.950000
+RTS_ratio_vec:	267.289660	0.900000
+RTS_ratio_vec:	270.560272	1.000000
+RTS_ratio_vec:	273.830324	1.000000
+RTS_ratio_vec:	277.101197	1.000000
+RTS_ratio_vec:	280.371429	1.000000
+RTS_ratio_vec:	283.478081	0.950000
+RTS_ratio_vec:	286.748533	1.000000
+RTS_ratio_vec:	289.855846	0.950000
+RTS_ratio_vec:	293.125838	1.050000
+RTS_ratio_vec:	296.232709	1.250000
+RTS_ratio_vec:	299.339961	0.950000
+
+--------------------------NODE: 49--------------------
+     RTS(C)_send:	4
+        CTS_recv:	4
+       CTSC_recv:	0
+       DATA_send:	104
+forward_data_send:	4
+backward_ack_send:	0
+        ACK_recv:	11
+
+     RTS(C)_recv:	4
+        CTS_send:	4
+       CTSC_send:	0
+       DATA_recv:	8
+        ACK_send:	8
+
+   RTS_retransmit:	0
+  DATA_retransmit:	1
+backward_ack_retransmit:	1
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	4.00　mS
+	 avgSendTime:	4.38　mS
+
+  	  avg_length:	0.000000000000
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	100.00%
+all_success_rate:	10.58%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 50--------------------
+     RTS(C)_send:	0
+        CTS_recv:	0
+       CTSC_recv:	0
+       DATA_send:	80
+forward_data_send:	0
+backward_ack_send:	0
+        ACK_recv:	0
+
+     RTS(C)_recv:	0
+        CTS_send:	0
+       CTSC_send:	0
+       DATA_recv:	0
+        ACK_send:	0
+
+   RTS_retransmit:	0
+  DATA_retransmit:	0
+backward_ack_retransmit:	0
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+  	  avg_length:	0.000000000000
+
+    RTS_CTS_rate:	0.00%
+all_success_rate:	0.00%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 51--------------------
+     RTS(C)_send:	0
+        CTS_recv:	0
+       CTSC_recv:	0
+       DATA_send:	2585
+forward_data_send:	0
+backward_ack_send:	2451
+        ACK_recv:	2416
+
+     RTS(C)_recv:	2387
+        CTS_send:	2358
+       CTSC_send:	3
+       DATA_recv:	2409
+        ACK_send:	2409
+
+   RTS_retransmit:	0
+  DATA_retransmit:	104
+backward_ack_retransmit:	104
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	8
+forward_data_drop:	0
+backward_ack_drop:	8
+
+  	  avg_length:	0.000192845482
+
+    RTS_CTS_rate:	0.00%
+all_success_rate:	93.46%
+
+RTS_retransmit_rate:	0.00%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+velocity: 5 random seed: 1

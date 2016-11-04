@@ -18,7 +18,7 @@ set autoscale
 set grid
 set boxwidth 20
 #set xrange [80:350]
-set yrange [:180]
+set yrange [:200]
 set y2range [:5]
 
 plot    './throughput' u 1:2 t 'throughput' with linespoints axis x1y1 lt 3 pt 1, \

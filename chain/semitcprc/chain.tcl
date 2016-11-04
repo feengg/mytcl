@@ -22,6 +22,8 @@ if {$Program == 0} {
 
         Queue/DropTail/PriQueue set CongestionThreshold_ [lindex $argv 5]
         Mac/802_11 set K_ [lindex $argv 6]
+        Agent/TCP/Semi set min_RTS_DATA_ratio [lindex $argv 7]
+        Agent/TCP/Semi set max_RTS_DATA_ratio [lindex $argv 8]
 } elseif { $Program == 2 } {
     #using tcpap
     set NodeNum [lindex $argv 1]
