@@ -13,7 +13,7 @@ set boxwidth 20
 set xrange [1:15]
 #set yrange [-2:2]
 
-plot    './matcp/15-nodes/avg_length' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
+plot    './semitcprc/15-nodes/avg_length' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
         './semitcp/15-nodes/avg_length' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6
     set output
 quit

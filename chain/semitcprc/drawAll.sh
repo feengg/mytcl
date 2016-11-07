@@ -11,8 +11,3 @@
 ./throughput\(13\).sh
 ./throughput\(14\).sh
 ./throughput\(15\).sh
-./throughput\(16\).sh
-./throughput\(17\).sh
-./throughput\(18\).sh
-./throughput\(19\).sh
-./throughput\(20\).sh

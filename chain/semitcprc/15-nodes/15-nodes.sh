@@ -5,10 +5,10 @@ date > q_length.txt
 date > HopsResultAvg.txt
 
 # RUN FOUR SIMULATION WITH DIFFERENT CONGETIONTHRESHOLD UNDER THE SAME PATHLENGTH
-i=2
+i=15
 
-min_RTS_DATA_ratio=1\.8
-max_RTS_DATA_ratio=2\.2
+min_RTS_DATA_ratio=0\.0
+max_RTS_DATA_ratio=0\.2
 
 echo >> q_length.txt
 echo --- Hop Node Number:$i --- >> q_length.txt

@@ -13,7 +13,7 @@ echo SIMULATION DURATION: 300.0S, AODV+TCP >> overall.txt
 echo SIMULATION DURATION: 300.0S, AODV+TCP >> drop.txt
 
 min_RTS_DATA_ratio=1\.8
-max_RTS_DATA_ratio=2\.2
+max_RTS_DATA_ratio=2\.1
 
 while [ $i -lt 16 ]; do
 	j=`expr $i \* 2 + 1`

@@ -1,2826 +1,970 @@
-Fri Nov  4 09:47:31 CST 2016
+Mon Nov  7 18:28:39 CST 2016
 
---- Hop Node Number:2 ---
-num_nodes is set 2
+--- Hop Node Number:15 ---
+num_nodes is set 15
 
 --------------------------NODE: 0--------------------
-     RTS(C)_send:	55270
-        CTS_recv:	54205
-       CTSC_recv:	980
-       DATA_send:	55188
-forward_data_send:	55186
+     RTS(C)_send:	23842
+        CTS_recv:	9225
+       CTSC_recv:	997
+       DATA_send:	10319
+forward_data_send:	10223
 backward_ack_send:	0
-        ACK_recv:	55187
+        ACK_recv:	9867
 
      RTS(C)_recv:	0
         CTS_send:	0
        CTSC_send:	0
-       DATA_recv:	55186
-        ACK_send:	55186
+       DATA_recv:	10106
+        ACK_send:	10106
 
-   RTS_retransmit:	85
-  DATA_retransmit:	0
+   RTS_retransmit:	11703
+  DATA_retransmit:	357
 backward_ack_retransmit:	0
-forward_data_retransmit:	0
+forward_data_retransmit:	357
 
-      RTS_drop:	0
+      RTS_drop:	21
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.62　mS
+	 avgSendTime:	9.60　mS
+
+  	  avg_length:	0.061521529089
+
+RTS_per_forward_data:	2.33
+
+    RTS_CTS_rate:	42.87%
+all_success_rate:	44.81%
+
+RTS_retransmit_rate:	49.09%
+forward_data_retransmit_rate:	3.49%
+RTS_drop_rate:	0.09%
+forward_data_drop_rate:	0.00%
+
+RTS_ratio_vec:	1.508342	3.500000
+RTS_ratio_vec:	2.110714	4.400000
+RTS_ratio_vec:	2.646809	3.100000
+RTS_ratio_vec:	3.322121	1.400000
+RTS_ratio_vec:	3.887710	1.950000
+RTS_ratio_vec:	4.440075	2.850000
+RTS_ratio_vec:	5.029088	2.050000
+RTS_ratio_vec:	5.593800	1.100000
+RTS_ratio_vec:	6.110017	1.500000
+RTS_ratio_vec:	6.653648	1.700000
+RTS_ratio_vec:	7.184497	2.800000
+RTS_ratio_vec:	7.739811	2.600000
+RTS_ratio_vec:	8.279650	1.600000
+RTS_ratio_vec:	8.845209	4.600000
+RTS_ratio_vec:	9.365180	3.950000
+RTS_ratio_vec:	9.920535	4.100000
+RTS_ratio_vec:	10.536462	1.650000
+RTS_ratio_vec:	11.091388	3.050000
+RTS_ratio_vec:	11.595927	2.850000
+RTS_ratio_vec:	12.187933	2.000000
+RTS_ratio_vec:	12.681086	1.600000
+RTS_ratio_vec:	13.275802	2.750000
+RTS_ratio_vec:	13.829887	2.100000
+RTS_ratio_vec:	14.373725	2.600000
+RTS_ratio_vec:	14.912115	2.500000
+RTS_ratio_vec:	15.490151	2.400000
+RTS_ratio_vec:	16.021918	2.350000
+RTS_ratio_vec:	16.571467	2.250000
+RTS_ratio_vec:	17.076920	1.700000
+RTS_ratio_vec:	17.588237	2.100000
+RTS_ratio_vec:	19.189707	2.700000
+RTS_ratio_vec:	20.108583	1.000000
+RTS_ratio_vec:	21.050836	1.000000
+RTS_ratio_vec:	21.993209	1.000000
+RTS_ratio_vec:	22.935142	1.000000
+RTS_ratio_vec:	23.877395	1.000000
+RTS_ratio_vec:	24.819928	1.000000
+RTS_ratio_vec:	25.761900	1.000000
+RTS_ratio_vec:	26.270077	4.050000
+RTS_ratio_vec:	26.860020	4.150000
+RTS_ratio_vec:	27.415975	3.850000
+RTS_ratio_vec:	28.009474	1.600000
+RTS_ratio_vec:	28.538950	2.150000
+RTS_ratio_vec:	29.044866	2.800000
+RTS_ratio_vec:	29.599309	2.100000
+RTS_ratio_vec:	30.176924	2.750000
+RTS_ratio_vec:	30.691770	1.750000
+RTS_ratio_vec:	31.297792	2.500000
+RTS_ratio_vec:	31.819234	1.850000
+RTS_ratio_vec:	32.347816	3.000000
+RTS_ratio_vec:	32.924391	1.400000
+RTS_ratio_vec:	34.485639	2.000000
+RTS_ratio_vec:	35.061918	2.500000
+RTS_ratio_vec:	35.616275	2.300000
+RTS_ratio_vec:	36.143851	1.850000
+RTS_ratio_vec:	36.679442	2.500000
+RTS_ratio_vec:	37.267413	2.550000
+RTS_ratio_vec:	38.699262	4.450000
+RTS_ratio_vec:	39.285146	3.950000
+RTS_ratio_vec:	39.761176	2.800000
+RTS_ratio_vec:	40.382138	1.550000
+RTS_ratio_vec:	40.921866	3.000000
+RTS_ratio_vec:	41.486423	2.650000
+RTS_ratio_vec:	42.562998	2.200000
+RTS_ratio_vec:	43.084701	1.950000
+RTS_ratio_vec:	43.627240	3.450000
+RTS_ratio_vec:	44.175810	2.300000
+RTS_ratio_vec:	45.221172	1.950000
+RTS_ratio_vec:	46.085004	1.100000
+RTS_ratio_vec:	46.690291	1.150000
+RTS_ratio_vec:	47.201051	1.100000
+RTS_ratio_vec:	47.747703	2.750000
+RTS_ratio_vec:	48.300587	2.650000
+RTS_ratio_vec:	48.871262	1.850000
+RTS_ratio_vec:	49.422956	2.250000
+RTS_ratio_vec:	49.984077	2.850000
+RTS_ratio_vec:	50.512109	1.600000
+RTS_ratio_vec:	51.021313	2.400000
+RTS_ratio_vec:	51.619015	2.600000
+RTS_ratio_vec:	52.174235	3.050000
+RTS_ratio_vec:	52.757655	4.900000
+RTS_ratio_vec:	53.357850	4.450000
+RTS_ratio_vec:	53.895432	3.300000
+RTS_ratio_vec:	54.513384	1.500000
+RTS_ratio_vec:	55.040760	3.050000
+RTS_ratio_vec:	55.605053	2.850000
+RTS_ratio_vec:	56.147222	2.350000
+RTS_ratio_vec:	56.701749	3.000000
+RTS_ratio_vec:	57.245677	1.600000
+RTS_ratio_vec:	57.802655	2.300000
+RTS_ratio_vec:	58.332964	1.950000
+RTS_ratio_vec:	58.923793	2.550000
+RTS_ratio_vec:	59.458352	2.750000
+RTS_ratio_vec:	60.011674	2.250000
+RTS_ratio_vec:	60.512599	2.400000
+RTS_ratio_vec:	61.062196	3.150000
+RTS_ratio_vec:	61.570828	2.400000
+RTS_ratio_vec:	62.172846	2.750000
+RTS_ratio_vec:	62.688506	2.550000
+RTS_ratio_vec:	63.260574	1.900000
+RTS_ratio_vec:	63.778225	2.150000
+RTS_ratio_vec:	64.348082	2.700000
+RTS_ratio_vec:	64.940148	3.150000
+RTS_ratio_vec:	65.484026	2.500000
+RTS_ratio_vec:	66.039894	1.900000
+RTS_ratio_vec:	66.523082	1.450000
+RTS_ratio_vec:	67.107685	2.100000
+RTS_ratio_vec:	67.755554	2.350000
+RTS_ratio_vec:	68.336071	2.200000
+RTS_ratio_vec:	68.870657	2.250000
+RTS_ratio_vec:	69.398890	2.150000
+RTS_ratio_vec:	69.955298	2.200000
+RTS_ratio_vec:	70.559142	2.150000
+RTS_ratio_vec:	71.042726	1.800000
+RTS_ratio_vec:	71.575534	2.000000
+RTS_ratio_vec:	72.180098	3.000000
+RTS_ratio_vec:	72.748716	2.850000
+RTS_ratio_vec:	73.304161	2.950000
+RTS_ratio_vec:	73.852903	2.750000
+RTS_ratio_vec:	74.450538	1.700000
+RTS_ratio_vec:	74.958110	1.450000
+RTS_ratio_vec:	75.529122	2.250000
+RTS_ratio_vec:	76.025986	2.750000
+RTS_ratio_vec:	76.555785	2.000000
+RTS_ratio_vec:	77.135185	1.650000
+RTS_ratio_vec:	77.714957	1.950000
+RTS_ratio_vec:	78.295445	2.950000
+RTS_ratio_vec:	78.824698	2.150000
+RTS_ratio_vec:	79.396450	2.800000
+RTS_ratio_vec:	79.893471	1.950000
+RTS_ratio_vec:	80.447461	2.600000
+RTS_ratio_vec:	80.978754	2.450000
+RTS_ratio_vec:	81.584617	2.900000
+RTS_ratio_vec:	82.159906	2.550000
+RTS_ratio_vec:	82.720090	1.900000
+RTS_ratio_vec:	83.285451	2.550000
+RTS_ratio_vec:	83.811576	2.650000
+RTS_ratio_vec:	84.374236	2.850000
+RTS_ratio_vec:	84.891109	2.250000
+RTS_ratio_vec:	85.465499	2.950000
+RTS_ratio_vec:	86.010477	2.650000
+RTS_ratio_vec:	86.588453	2.600000
+RTS_ratio_vec:	87.140185	2.600000
+RTS_ratio_vec:	87.736409	2.950000
+RTS_ratio_vec:	88.298462	2.500000
+RTS_ratio_vec:	88.810833	2.300000
+RTS_ratio_vec:	89.390156	2.200000
+RTS_ratio_vec:	89.942257	1.700000
+RTS_ratio_vec:	90.454641	1.950000
+RTS_ratio_vec:	90.960997	2.500000
+RTS_ratio_vec:	91.540137	2.450000
+RTS_ratio_vec:	92.086007	2.550000
+RTS_ratio_vec:	92.662200	2.400000
+RTS_ratio_vec:	93.188248	2.500000
+RTS_ratio_vec:	93.719175	2.800000
+RTS_ratio_vec:	94.268140	2.750000
+RTS_ratio_vec:	94.806080	2.650000
+RTS_ratio_vec:	95.338272	2.700000
+RTS_ratio_vec:	95.911656	2.350000
+RTS_ratio_vec:	96.503259	2.500000
+RTS_ratio_vec:	97.047720	1.000000
+RTS_ratio_vec:	97.579120	2.350000
+RTS_ratio_vec:	98.143653	2.700000
+RTS_ratio_vec:	98.763681	1.700000
+RTS_ratio_vec:	99.272260	2.650000
+RTS_ratio_vec:	99.837526	2.800000
+RTS_ratio_vec:	100.413251	2.250000
+RTS_ratio_vec:	100.923139	2.700000
+RTS_ratio_vec:	101.509849	2.450000
+RTS_ratio_vec:	102.064145	2.900000
+RTS_ratio_vec:	102.678765	2.750000
+RTS_ratio_vec:	103.186596	1.700000
+RTS_ratio_vec:	103.766152	2.150000
+RTS_ratio_vec:	104.281658	2.300000
+RTS_ratio_vec:	104.813415	2.550000
+RTS_ratio_vec:	105.346507	2.150000
+RTS_ratio_vec:	105.989864	1.700000
+RTS_ratio_vec:	106.522912	2.300000
+RTS_ratio_vec:	107.077332	2.550000
+RTS_ratio_vec:	107.639655	2.450000
+RTS_ratio_vec:	109.059102	1.250000
+RTS_ratio_vec:	109.590902	2.050000
+RTS_ratio_vec:	110.146790	2.500000
+RTS_ratio_vec:	110.684948	2.550000
+RTS_ratio_vec:	111.248800	2.850000
+RTS_ratio_vec:	111.790263	2.800000
+RTS_ratio_vec:	112.394130	2.700000
+RTS_ratio_vec:	112.913700	1.450000
+RTS_ratio_vec:	113.528549	3.100000
+RTS_ratio_vec:	114.017008	1.600000
+RTS_ratio_vec:	114.569766	1.750000
+RTS_ratio_vec:	115.101046	2.000000
+RTS_ratio_vec:	115.663474	2.700000
+RTS_ratio_vec:	116.237170	2.600000
+RTS_ratio_vec:	116.768950	1.600000
+RTS_ratio_vec:	117.336696	2.200000
+RTS_ratio_vec:	117.870524	2.300000
+RTS_ratio_vec:	118.425754	2.950000
+RTS_ratio_vec:	118.992261	2.500000
+RTS_ratio_vec:	119.525784	2.350000
+RTS_ratio_vec:	120.154796	3.000000
+RTS_ratio_vec:	120.659605	2.450000
+RTS_ratio_vec:	121.178638	2.000000
+RTS_ratio_vec:	121.750509	2.650000
+RTS_ratio_vec:	122.279213	2.150000
+RTS_ratio_vec:	122.835321	1.950000
+RTS_ratio_vec:	123.463333	2.100000
+RTS_ratio_vec:	124.009053	2.150000
+RTS_ratio_vec:	124.526613	2.150000
+RTS_ratio_vec:	125.094241	2.550000
+RTS_ratio_vec:	125.616457	2.450000
+RTS_ratio_vec:	126.173149	1.900000
+RTS_ratio_vec:	126.719655	2.900000
+RTS_ratio_vec:	127.289425	3.000000
+RTS_ratio_vec:	127.861801	2.000000
+RTS_ratio_vec:	128.490633	1.500000
+RTS_ratio_vec:	129.025739	2.200000
+RTS_ratio_vec:	129.603263	2.200000
+RTS_ratio_vec:	130.109501	1.800000
+RTS_ratio_vec:	130.669465	2.550000
+RTS_ratio_vec:	131.184946	1.950000
+RTS_ratio_vec:	131.707096	2.400000
+RTS_ratio_vec:	132.268006	2.650000
+RTS_ratio_vec:	132.768160	2.600000
+RTS_ratio_vec:	133.387915	2.550000
+RTS_ratio_vec:	133.929615	2.800000
+RTS_ratio_vec:	134.464423	3.200000
+RTS_ratio_vec:	135.031861	2.700000
+RTS_ratio_vec:	135.572137	2.450000
+RTS_ratio_vec:	136.130112	2.100000
+RTS_ratio_vec:	136.731541	2.500000
+RTS_ratio_vec:	137.248426	2.150000
+RTS_ratio_vec:	137.800174	2.000000
+RTS_ratio_vec:	138.353868	2.950000
+RTS_ratio_vec:	138.884709	2.350000
+RTS_ratio_vec:	139.438496	2.150000
+RTS_ratio_vec:	139.979192	2.450000
+RTS_ratio_vec:	140.550432	2.200000
+RTS_ratio_vec:	141.082232	2.350000
+RTS_ratio_vec:	141.598497	1.700000
+RTS_ratio_vec:	142.139210	2.200000
+RTS_ratio_vec:	142.742727	3.050000
+RTS_ratio_vec:	144.248262	2.450000
+RTS_ratio_vec:	145.190721	1.200000
+RTS_ratio_vec:	145.857555	1.200000
+RTS_ratio_vec:	146.408137	1.250000
+RTS_ratio_vec:	146.928199	1.300000
+RTS_ratio_vec:	147.425133	1.250000
+RTS_ratio_vec:	147.979815	2.450000
+RTS_ratio_vec:	148.511575	2.450000
+RTS_ratio_vec:	149.082168	2.800000
+RTS_ratio_vec:	149.586307	2.000000
+RTS_ratio_vec:	150.999192	1.800000
+RTS_ratio_vec:	151.562100	2.950000
+RTS_ratio_vec:	152.143099	2.350000
+RTS_ratio_vec:	152.721997	2.650000
+RTS_ratio_vec:	153.255642	2.250000
+RTS_ratio_vec:	154.300517	2.250000
+RTS_ratio_vec:	155.245184	1.050000
+RTS_ratio_vec:	155.915173	1.200000
+RTS_ratio_vec:	156.468655	1.300000
+RTS_ratio_vec:	156.987133	1.150000
+RTS_ratio_vec:	157.514406	2.050000
+RTS_ratio_vec:	158.076925	2.400000
+RTS_ratio_vec:	158.606181	2.300000
+RTS_ratio_vec:	159.142515	2.200000
+RTS_ratio_vec:	159.686430	2.000000
+RTS_ratio_vec:	160.197382	1.700000
+RTS_ratio_vec:	160.733076	2.750000
+RTS_ratio_vec:	161.273533	2.050000
+RTS_ratio_vec:	161.904521	3.950000
+RTS_ratio_vec:	162.549638	3.950000
+RTS_ratio_vec:	163.063367	3.450000
+RTS_ratio_vec:	163.660230	1.500000
+RTS_ratio_vec:	164.188072	2.700000
+RTS_ratio_vec:	164.735093	2.250000
+RTS_ratio_vec:	165.266414	1.950000
+RTS_ratio_vec:	165.778557	2.550000
+RTS_ratio_vec:	166.937496	2.050000
+RTS_ratio_vec:	167.478347	1.600000
+RTS_ratio_vec:	167.995730	2.450000
+RTS_ratio_vec:	168.573843	3.400000
+RTS_ratio_vec:	169.162244	2.800000
+RTS_ratio_vec:	169.700163	2.550000
+RTS_ratio_vec:	170.261347	1.600000
+RTS_ratio_vec:	170.824296	1.950000
+RTS_ratio_vec:	171.360042	1.450000
+RTS_ratio_vec:	171.899191	4.600000
+RTS_ratio_vec:	172.443652	3.550000
+RTS_ratio_vec:	173.820619	3.050000
+RTS_ratio_vec:	174.440228	2.050000
+RTS_ratio_vec:	174.946297	2.800000
+RTS_ratio_vec:	175.484463	2.900000
+RTS_ratio_vec:	176.058057	2.750000
+RTS_ratio_vec:	176.612954	2.650000
+RTS_ratio_vec:	177.200205	2.450000
+RTS_ratio_vec:	177.713762	2.350000
+RTS_ratio_vec:	178.404238	2.700000
+RTS_ratio_vec:	178.933762	2.500000
+RTS_ratio_vec:	179.492603	2.850000
+RTS_ratio_vec:	180.066309	2.450000
+RTS_ratio_vec:	180.635212	2.350000
+RTS_ratio_vec:	181.177789	1.900000
+RTS_ratio_vec:	181.695781	1.400000
+RTS_ratio_vec:	182.263223	1.750000
+RTS_ratio_vec:	182.805715	2.000000
+RTS_ratio_vec:	183.322850	1.850000
+RTS_ratio_vec:	183.917560	2.750000
+RTS_ratio_vec:	184.443407	1.450000
+RTS_ratio_vec:	184.954898	1.450000
+RTS_ratio_vec:	185.494298	1.650000
+RTS_ratio_vec:	186.871563	4.000000
+RTS_ratio_vec:	188.029123	3.850000
+RTS_ratio_vec:	188.547659	3.050000
+RTS_ratio_vec:	189.143295	2.150000
+RTS_ratio_vec:	189.728566	1.050000
+RTS_ratio_vec:	190.258206	2.950000
+RTS_ratio_vec:	191.373379	1.700000
+RTS_ratio_vec:	191.882581	2.900000
+RTS_ratio_vec:	192.451433	3.200000
+RTS_ratio_vec:	193.896026	2.450000
+RTS_ratio_vec:	194.455479	3.150000
+RTS_ratio_vec:	195.032180	2.600000
+RTS_ratio_vec:	195.542917	2.750000
+RTS_ratio_vec:	196.163069	3.050000
+RTS_ratio_vec:	196.620556	4.150000
+RTS_ratio_vec:	197.223784	3.750000
+RTS_ratio_vec:	197.774969	3.900000
+RTS_ratio_vec:	198.361926	1.400000
+RTS_ratio_vec:	198.845406	2.650000
+RTS_ratio_vec:	199.420445	2.850000
+RTS_ratio_vec:	199.955369	1.600000
+RTS_ratio_vec:	200.468733	2.550000
+RTS_ratio_vec:	201.057916	2.000000
+RTS_ratio_vec:	201.562486	1.500000
+RTS_ratio_vec:	202.080854	2.500000
+RTS_ratio_vec:	202.608027	2.600000
+RTS_ratio_vec:	203.153692	2.100000
+RTS_ratio_vec:	204.507009	1.450000
+RTS_ratio_vec:	205.020929	2.150000
+RTS_ratio_vec:	205.573239	2.650000
+RTS_ratio_vec:	206.165716	2.650000
+RTS_ratio_vec:	206.723186	4.600000
+RTS_ratio_vec:	208.186415	4.250000
+RTS_ratio_vec:	208.727236	3.850000
+RTS_ratio_vec:	209.343845	1.800000
+RTS_ratio_vec:	210.756316	2.300000
+RTS_ratio_vec:	211.582760	1.650000
+RTS_ratio_vec:	212.758777	1.250000
+RTS_ratio_vec:	213.766891	1.050000
+RTS_ratio_vec:	214.477815	1.100000
+RTS_ratio_vec:	215.069403	1.050000
+RTS_ratio_vec:	215.626716	1.300000
+RTS_ratio_vec:	216.158841	1.150000
+RTS_ratio_vec:	216.682439	1.200000
+RTS_ratio_vec:	217.205653	1.250000
+RTS_ratio_vec:	217.748754	1.200000
+RTS_ratio_vec:	218.266822	4.200000
+RTS_ratio_vec:	218.822933	4.250000
+RTS_ratio_vec:	219.326183	3.500000
+RTS_ratio_vec:	220.066497	1.650000
+RTS_ratio_vec:	220.599231	2.800000
+RTS_ratio_vec:	221.136727	2.400000
+RTS_ratio_vec:	221.700933	2.650000
+RTS_ratio_vec:	222.295747	2.450000
+RTS_ratio_vec:	222.849371	2.550000
+RTS_ratio_vec:	223.378148	1.650000
+RTS_ratio_vec:	223.886127	2.450000
+RTS_ratio_vec:	224.469299	2.500000
+RTS_ratio_vec:	224.991940	2.000000
+RTS_ratio_vec:	225.595683	2.250000
+RTS_ratio_vec:	226.159005	1.950000
+RTS_ratio_vec:	226.684536	1.800000
+RTS_ratio_vec:	227.202857	2.500000
+RTS_ratio_vec:	227.815322	2.350000
+RTS_ratio_vec:	228.389695	2.500000
+RTS_ratio_vec:	228.926304	2.700000
+RTS_ratio_vec:	229.518840	3.050000
+RTS_ratio_vec:	230.014872	1.500000
+RTS_ratio_vec:	231.287694	4.400000
+RTS_ratio_vec:	231.843179	3.900000
+RTS_ratio_vec:	232.412880	2.950000
+RTS_ratio_vec:	233.034707	2.000000
+RTS_ratio_vec:	233.529089	3.100000
+RTS_ratio_vec:	234.171838	3.150000
+RTS_ratio_vec:	234.684563	1.400000
+RTS_ratio_vec:	235.204235	2.300000
+RTS_ratio_vec:	235.756491	2.900000
+RTS_ratio_vec:	236.341464	2.450000
+RTS_ratio_vec:	236.882328	2.800000
+RTS_ratio_vec:	237.414862	1.850000
+RTS_ratio_vec:	237.993720	2.500000
+RTS_ratio_vec:	238.572774	2.750000
+RTS_ratio_vec:	239.104041	1.500000
+RTS_ratio_vec:	240.323449	4.600000
+RTS_ratio_vec:	240.973362	4.500000
+RTS_ratio_vec:	241.507052	3.650000
+RTS_ratio_vec:	242.121315	1.700000
+RTS_ratio_vec:	242.653220	3.400000
+RTS_ratio_vec:	243.249595	2.100000
+RTS_ratio_vec:	243.786754	2.500000
+RTS_ratio_vec:	244.846735	2.050000
+RTS_ratio_vec:	245.381638	2.450000
+RTS_ratio_vec:	245.880258	2.850000
+RTS_ratio_vec:	246.517123	3.250000
+RTS_ratio_vec:	247.014494	2.250000
+RTS_ratio_vec:	247.578946	3.200000
+RTS_ratio_vec:	248.143139	2.500000
+RTS_ratio_vec:	248.685378	2.900000
+RTS_ratio_vec:	249.205656	3.100000
+RTS_ratio_vec:	249.758794	3.050000
+RTS_ratio_vec:	250.311711	4.500000
+RTS_ratio_vec:	250.935673	4.150000
+RTS_ratio_vec:	251.445943	3.400000
+RTS_ratio_vec:	252.030288	1.700000
+RTS_ratio_vec:	252.565597	3.200000
+RTS_ratio_vec:	253.135444	2.750000
+RTS_ratio_vec:	253.715179	2.550000
+RTS_ratio_vec:	254.363165	2.300000
+RTS_ratio_vec:	254.897087	2.000000
+RTS_ratio_vec:	256.222347	2.500000
+RTS_ratio_vec:	257.042962	1.100000
+RTS_ratio_vec:	257.617931	1.000000
+RTS_ratio_vec:	258.153504	2.250000
+RTS_ratio_vec:	258.704412	2.500000
+RTS_ratio_vec:	259.236837	3.100000
+RTS_ratio_vec:	259.801152	2.650000
+RTS_ratio_vec:	261.251341	2.000000
+RTS_ratio_vec:	262.261697	1.000000
+RTS_ratio_vec:	262.969818	1.100000
+RTS_ratio_vec:	263.566339	1.100000
+RTS_ratio_vec:	264.122149	1.050000
+RTS_ratio_vec:	264.656181	1.150000
+RTS_ratio_vec:	265.183094	1.350000
+RTS_ratio_vec:	265.731369	1.900000
+RTS_ratio_vec:	266.303157	1.650000
+RTS_ratio_vec:	266.843060	4.450000
+RTS_ratio_vec:	267.370308	3.850000
+RTS_ratio_vec:	267.920385	3.350000
+RTS_ratio_vec:	268.503957	1.900000
+RTS_ratio_vec:	269.036567	2.950000
+RTS_ratio_vec:	269.621102	2.100000
+RTS_ratio_vec:	270.164631	3.350000
+RTS_ratio_vec:	271.577828	1.650000
+RTS_ratio_vec:	272.116422	3.150000
+RTS_ratio_vec:	272.693218	2.150000
+RTS_ratio_vec:	273.214107	2.000000
+RTS_ratio_vec:	273.786483	2.050000
+RTS_ratio_vec:	274.304863	1.650000
+RTS_ratio_vec:	274.864959	2.350000
+RTS_ratio_vec:	275.411831	2.900000
+RTS_ratio_vec:	275.939145	1.700000
+RTS_ratio_vec:	276.528716	4.250000
+RTS_ratio_vec:	277.101326	4.200000
+RTS_ratio_vec:	277.639601	3.450000
+RTS_ratio_vec:	278.225495	2.000000
+RTS_ratio_vec:	278.804002	1.100000
+RTS_ratio_vec:	279.300771	2.500000
+RTS_ratio_vec:	279.912593	4.000000
+RTS_ratio_vec:	280.464935	2.550000
+RTS_ratio_vec:	281.020235	2.700000
+RTS_ratio_vec:	281.533702	1.850000
+RTS_ratio_vec:	282.141345	2.500000
+RTS_ratio_vec:	282.753366	1.250000
+RTS_ratio_vec:	283.274542	1.900000
+RTS_ratio_vec:	283.793791	1.650000
+RTS_ratio_vec:	284.350544	1.900000
+RTS_ratio_vec:	284.933994	1.850000
+RTS_ratio_vec:	285.480157	4.200000
+RTS_ratio_vec:	286.058416	4.350000
+RTS_ratio_vec:	286.619895	3.050000
+RTS_ratio_vec:	287.205810	1.700000
+RTS_ratio_vec:	287.738529	2.600000
+RTS_ratio_vec:	289.206514	2.650000
+RTS_ratio_vec:	289.954597	1.200000
+RTS_ratio_vec:	290.507368	1.700000
+RTS_ratio_vec:	291.018304	2.050000
+RTS_ratio_vec:	291.567016	3.300000
+RTS_ratio_vec:	292.113140	1.600000
+RTS_ratio_vec:	292.616818	1.900000
+RTS_ratio_vec:	293.138112	3.250000
+RTS_ratio_vec:	293.698345	3.000000
+RTS_ratio_vec:	294.180488	2.500000
+RTS_ratio_vec:	294.793140	3.600000
+RTS_ratio_vec:	295.327007	4.050000
+RTS_ratio_vec:	295.898780	3.750000
+RTS_ratio_vec:	296.410812	3.800000
+RTS_ratio_vec:	296.994693	2.150000
+RTS_ratio_vec:	297.573340	1.050000
+RTS_ratio_vec:	298.080175	3.150000
+RTS_ratio_vec:	298.663222	2.900000
+RTS_ratio_vec:	299.226478	2.700000
+RTS_ratio_vec:	299.769663	2.350000
+
+--------------------------NODE: 1--------------------
+     RTS(C)_send:	20276
+        CTS_recv:	8628
+       CTSC_recv:	1464
+       DATA_send:	20388
+forward_data_send:	10093
+backward_ack_send:	10125
+        ACK_recv:	19658
+
+     RTS(C)_recv:	17149
+        CTS_send:	9225
+       CTSC_send:	997
+       DATA_recv:	19963
+        ACK_send:	19963
+
+   RTS_retransmit:	7916
+  DATA_retransmit:	609
+backward_ack_retransmit:	334
+forward_data_retransmit:	275
+
+      RTS_drop:	16
      DATA_drop:	0
 forward_data_drop:	0
 backward_ack_drop:	0
 
 	 minSendTime:	3.58　mS
-	 avgSendTime:	4.07　mS
+	 avgSendTime:	7.57　mS
 
-  	  avg_length:	0.000000000000
+  	  avg_length:	0.197122769883
 
-RTS_per_forward_data:	1.00
+RTS_per_forward_data:	2.01
 
-    RTS_CTS_rate:	99.85%
-all_success_rate:	99.84%
+    RTS_CTS_rate:	49.77%
+all_success_rate:	69.45%
 
-RTS_retransmit_rate:	0.15%
-forward_data_retransmit_rate:	0.00%
+RTS_retransmit_rate:	39.04%
+forward_data_retransmit_rate:	2.72%
+RTS_drop_rate:	0.08%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 2--------------------
+     RTS(C)_send:	18953
+        CTS_recv:	7960
+       CTSC_recv:	2125
+       DATA_send:	20382
+forward_data_send:	10079
+backward_ack_send:	10168
+        ACK_recv:	19640
+
+     RTS(C)_recv:	15710
+        CTS_send:	8628
+       CTSC_send:	1464
+       DATA_recv:	19880
+        ACK_send:	19880
+
+   RTS_retransmit:	7102
+  DATA_retransmit:	656
+backward_ack_retransmit:	377
+forward_data_retransmit:	279
+
+      RTS_drop:	8
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	8.31　mS
+
+  	  avg_length:	0.233086316576
+
+RTS_per_forward_data:	1.88
+
+    RTS_CTS_rate:	53.21%
+all_success_rate:	71.46%
+
+RTS_retransmit_rate:	37.47%
+forward_data_retransmit_rate:	2.77%
+RTS_drop_rate:	0.04%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 3--------------------
+     RTS(C)_send:	16933
+        CTS_recv:	7970
+       CTSC_recv:	2154
+       DATA_send:	22079
+forward_data_send:	10050
+backward_ack_send:	11917
+        ACK_recv:	19635
+
+     RTS(C)_recv:	14752
+        CTS_send:	7960
+       CTSC_send:	2125
+       DATA_recv:	19875
+        ACK_send:	19875
+
+   RTS_retransmit:	5772
+  DATA_retransmit:	2381
+backward_ack_retransmit:	2126
+forward_data_retransmit:	255
+
+      RTS_drop:	2
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	7.81　mS
+
+  	  avg_length:	0.233751371769
+
+RTS_per_forward_data:	1.68
+
+    RTS_CTS_rate:	59.79%
+all_success_rate:	70.50%
+
+RTS_retransmit_rate:	34.09%
+forward_data_retransmit_rate:	2.54%
+RTS_drop_rate:	0.01%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 4--------------------
+     RTS(C)_send:	15184
+        CTS_recv:	8018
+       CTSC_recv:	2056
+       DATA_send:	22828
+forward_data_send:	10015
+backward_ack_send:	12707
+        ACK_recv:	19635
+
+     RTS(C)_recv:	13493
+        CTS_send:	8024
+       CTSC_send:	2163
+       DATA_recv:	19850
+        ACK_send:	19850
+
+   RTS_retransmit:	4527
+  DATA_retransmit:	3136
+backward_ack_retransmit:	2916
+forward_data_retransmit:	220
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	6.96　mS
+
+  	  avg_length:	0.186031907659
+
+RTS_per_forward_data:	1.52
+
+    RTS_CTS_rate:	66.35%
+all_success_rate:	71.78%
+
+RTS_retransmit_rate:	29.81%
+forward_data_retransmit_rate:	2.20%
 RTS_drop_rate:	0.00%
 forward_data_drop_rate:	0.00%
 
-RTS_ratio_vec:	1.741060	0.900000
-RTS_ratio_vec:	2.171060	1.000000
-RTS_ratio_vec:	2.386300	1.000000
-RTS_ratio_vec:	2.494634	1.000000
-RTS_ratio_vec:	2.596685	1.000000
-RTS_ratio_vec:	2.698122	1.000000
-RTS_ratio_vec:	2.800596	1.000000
-RTS_ratio_vec:	2.904612	1.000000
-RTS_ratio_vec:	3.038713	1.000000
-RTS_ratio_vec:	3.150927	1.000000
-RTS_ratio_vec:	3.275782	1.000000
-RTS_ratio_vec:	3.395177	1.050000
-RTS_ratio_vec:	3.500937	1.000000
-RTS_ratio_vec:	3.607343	1.050000
-RTS_ratio_vec:	3.713867	1.000000
-RTS_ratio_vec:	3.841630	1.000000
-RTS_ratio_vec:	3.954075	1.000000
-RTS_ratio_vec:	4.057653	1.000000
-RTS_ratio_vec:	4.160769	1.000000
-RTS_ratio_vec:	4.266525	1.050000
-RTS_ratio_vec:	4.397956	1.000000
-RTS_ratio_vec:	4.513550	1.000000
-RTS_ratio_vec:	4.620351	1.000000
-RTS_ratio_vec:	4.724023	1.000000
-RTS_ratio_vec:	4.826375	1.000000
-RTS_ratio_vec:	4.926890	1.000000
-RTS_ratio_vec:	5.030713	1.000000
-RTS_ratio_vec:	5.136317	1.000000
-RTS_ratio_vec:	5.246336	1.050000
-RTS_ratio_vec:	5.378748	1.000000
-RTS_ratio_vec:	5.494268	1.000000
-RTS_ratio_vec:	5.601484	1.000000
-RTS_ratio_vec:	5.705674	1.000000
-RTS_ratio_vec:	5.808013	1.000000
-RTS_ratio_vec:	5.914021	1.000000
-RTS_ratio_vec:	6.015704	1.000000
-RTS_ratio_vec:	6.115619	1.000000
-RTS_ratio_vec:	6.215577	1.000000
-RTS_ratio_vec:	6.316242	1.000000
-RTS_ratio_vec:	6.419025	1.000000
-RTS_ratio_vec:	6.520468	1.000000
-RTS_ratio_vec:	6.652035	1.000000
-RTS_ratio_vec:	6.767484	1.000000
-RTS_ratio_vec:	6.875526	1.000000
-RTS_ratio_vec:	6.978816	1.000000
-RTS_ratio_vec:	7.082002	1.000000
-RTS_ratio_vec:	7.182561	1.000000
-RTS_ratio_vec:	7.288438	1.000000
-RTS_ratio_vec:	7.388953	1.000000
-RTS_ratio_vec:	7.522259	1.000000
-RTS_ratio_vec:	7.638122	1.000000
-RTS_ratio_vec:	7.745985	1.000000
-RTS_ratio_vec:	7.850168	1.000000
-RTS_ratio_vec:	7.953248	1.000000
-RTS_ratio_vec:	8.055162	1.000000
-RTS_ratio_vec:	8.156519	1.000000
-RTS_ratio_vec:	8.261193	1.000000
-RTS_ratio_vec:	8.362893	1.000000
-RTS_ratio_vec:	8.496090	1.000000
-RTS_ratio_vec:	8.612520	1.000000
-RTS_ratio_vec:	8.720335	1.000000
-RTS_ratio_vec:	8.824802	1.000000
-RTS_ratio_vec:	8.928496	1.000000
-RTS_ratio_vec:	9.029913	1.000000
-RTS_ratio_vec:	9.131174	1.000000
-RTS_ratio_vec:	9.234699	1.000000
-RTS_ratio_vec:	9.336800	1.000000
-RTS_ratio_vec:	9.469336	1.000000
-RTS_ratio_vec:	9.586334	1.000000
-RTS_ratio_vec:	9.694280	1.000000
-RTS_ratio_vec:	9.798932	1.000000
-RTS_ratio_vec:	9.902116	1.000000
-RTS_ratio_vec:	10.004388	1.000000
-RTS_ratio_vec:	10.106302	1.000000
-RTS_ratio_vec:	10.207243	1.000000
-RTS_ratio_vec:	10.308265	1.000000
-RTS_ratio_vec:	10.409501	1.000000
-RTS_ratio_vec:	10.513340	1.000000
-RTS_ratio_vec:	10.614790	1.000000
-RTS_ratio_vec:	10.718936	1.000000
-RTS_ratio_vec:	10.825481	1.000000
-RTS_ratio_vec:	10.958472	1.000000
-RTS_ratio_vec:	11.074637	1.000000
-RTS_ratio_vec:	11.183153	1.000000
-RTS_ratio_vec:	11.287726	1.000000
-RTS_ratio_vec:	11.393288	1.000000
-RTS_ratio_vec:	11.496073	1.000000
-RTS_ratio_vec:	11.631805	1.000000
-RTS_ratio_vec:	11.750222	1.000000
-RTS_ratio_vec:	11.860235	1.000000
-RTS_ratio_vec:	11.966914	1.000000
-RTS_ratio_vec:	12.071275	1.000000
-RTS_ratio_vec:	12.175192	1.000000
-RTS_ratio_vec:	12.277901	1.000000
-RTS_ratio_vec:	12.381140	1.000000
-RTS_ratio_vec:	12.485037	1.000000
-RTS_ratio_vec:	12.590296	1.000000
-RTS_ratio_vec:	12.692369	1.000000
-RTS_ratio_vec:	12.795167	1.000000
-RTS_ratio_vec:	12.898299	1.000000
-RTS_ratio_vec:	13.000749	1.000000
-RTS_ratio_vec:	13.104098	1.000000
-RTS_ratio_vec:	13.206780	1.000000
-RTS_ratio_vec:	13.309826	1.000000
-RTS_ratio_vec:	13.412592	1.000000
-RTS_ratio_vec:	13.514956	1.000000
-RTS_ratio_vec:	13.618441	1.000000
-RTS_ratio_vec:	13.723518	1.050000
-RTS_ratio_vec:	13.825502	1.050000
-RTS_ratio_vec:	13.927803	1.000000
-RTS_ratio_vec:	14.030647	1.000000
-RTS_ratio_vec:	14.166140	1.000000
-RTS_ratio_vec:	14.273471	1.000000
-RTS_ratio_vec:	14.393602	1.050000
-RTS_ratio_vec:	14.517557	1.000000
-RTS_ratio_vec:	14.622845	1.000000
-RTS_ratio_vec:	14.722783	1.000000
-RTS_ratio_vec:	14.827873	1.000000
-RTS_ratio_vec:	14.947890	1.000000
-RTS_ratio_vec:	15.071731	1.000000
-RTS_ratio_vec:	15.180038	1.000000
-RTS_ratio_vec:	15.281521	1.000000
-RTS_ratio_vec:	15.388974	1.050000
-RTS_ratio_vec:	15.506035	1.050000
-RTS_ratio_vec:	15.633521	1.000000
-RTS_ratio_vec:	15.746015	1.000000
-RTS_ratio_vec:	15.850279	1.000000
-RTS_ratio_vec:	15.953421	1.000000
-RTS_ratio_vec:	16.059312	1.000000
-RTS_ratio_vec:	16.191562	1.000000
-RTS_ratio_vec:	16.307677	1.000000
-RTS_ratio_vec:	16.415277	1.000000
-RTS_ratio_vec:	16.519167	1.000000
-RTS_ratio_vec:	16.621560	1.000000
-RTS_ratio_vec:	16.725475	1.000000
-RTS_ratio_vec:	16.832555	1.000000
-RTS_ratio_vec:	16.965087	1.000000
-RTS_ratio_vec:	17.081935	1.000000
-RTS_ratio_vec:	17.190523	1.000000
-RTS_ratio_vec:	17.294991	1.000000
-RTS_ratio_vec:	17.398213	1.000000
-RTS_ratio_vec:	17.500555	1.000000
-RTS_ratio_vec:	17.602265	1.000000
-RTS_ratio_vec:	17.703954	1.000000
-RTS_ratio_vec:	17.807653	1.000000
-RTS_ratio_vec:	17.909898	1.000000
-RTS_ratio_vec:	18.042384	1.000000
-RTS_ratio_vec:	18.159406	1.000000
-RTS_ratio_vec:	18.268120	1.000000
-RTS_ratio_vec:	18.372777	1.000000
-RTS_ratio_vec:	18.476378	1.000000
-RTS_ratio_vec:	18.578953	1.000000
-RTS_ratio_vec:	18.680260	1.000000
-RTS_ratio_vec:	18.782828	1.000000
-RTS_ratio_vec:	18.886853	1.000000
-RTS_ratio_vec:	18.987696	1.000000
-RTS_ratio_vec:	19.089571	1.000000
-RTS_ratio_vec:	19.193291	1.000000
-RTS_ratio_vec:	19.294967	1.000000
-RTS_ratio_vec:	19.428013	1.000000
-RTS_ratio_vec:	19.545129	1.000000
-RTS_ratio_vec:	19.653276	1.000000
-RTS_ratio_vec:	19.758364	1.000000
-RTS_ratio_vec:	19.863916	1.000000
-RTS_ratio_vec:	19.967292	1.000000
-RTS_ratio_vec:	20.102898	1.000000
-RTS_ratio_vec:	20.221710	1.000000
-RTS_ratio_vec:	20.331781	1.000000
-RTS_ratio_vec:	20.438469	1.000000
-RTS_ratio_vec:	20.543804	1.000000
-RTS_ratio_vec:	20.647216	1.000000
-RTS_ratio_vec:	20.750708	1.000000
-RTS_ratio_vec:	20.854500	1.000000
-RTS_ratio_vec:	20.957399	1.000000
-RTS_ratio_vec:	21.062983	1.000000
-RTS_ratio_vec:	21.166310	1.000000
-RTS_ratio_vec:	21.269390	1.000000
-RTS_ratio_vec:	21.372052	1.000000
-RTS_ratio_vec:	21.475048	1.000000
-RTS_ratio_vec:	21.578082	1.000000
-RTS_ratio_vec:	21.684286	1.000000
-RTS_ratio_vec:	21.787122	1.000000
-RTS_ratio_vec:	21.923100	1.000000
-RTS_ratio_vec:	22.041333	1.000000
-RTS_ratio_vec:	22.151604	1.000000
-RTS_ratio_vec:	22.258577	1.000000
-RTS_ratio_vec:	22.363382	1.000000
-RTS_ratio_vec:	22.467100	1.000000
-RTS_ratio_vec:	22.570855	1.000000
-RTS_ratio_vec:	22.674054	1.000000
-RTS_ratio_vec:	22.780299	1.000000
-RTS_ratio_vec:	22.882826	1.000000
-RTS_ratio_vec:	23.018593	1.000000
-RTS_ratio_vec:	23.137623	1.000000
-RTS_ratio_vec:	23.247802	1.000000
-RTS_ratio_vec:	23.354491	1.000000
-RTS_ratio_vec:	23.459706	1.000000
-RTS_ratio_vec:	23.564252	1.000000
-RTS_ratio_vec:	23.667322	1.000000
-RTS_ratio_vec:	23.770613	1.000000
-RTS_ratio_vec:	23.874275	1.000000
-RTS_ratio_vec:	23.976781	1.000000
-RTS_ratio_vec:	24.080961	1.000000
-RTS_ratio_vec:	24.183478	1.000000
-RTS_ratio_vec:	24.286833	1.000000
-RTS_ratio_vec:	24.390183	1.000000
-RTS_ratio_vec:	24.495790	1.000000
-RTS_ratio_vec:	24.599157	1.000000
-RTS_ratio_vec:	24.734720	1.000000
-RTS_ratio_vec:	24.853331	1.000000
-RTS_ratio_vec:	24.963692	1.000000
-RTS_ratio_vec:	25.070726	1.000000
-RTS_ratio_vec:	25.175360	1.000000
-RTS_ratio_vec:	25.279951	1.000000
-RTS_ratio_vec:	25.382822	1.000000
-RTS_ratio_vec:	25.486223	1.000000
-RTS_ratio_vec:	25.590035	1.000000
-RTS_ratio_vec:	25.692879	1.000000
-RTS_ratio_vec:	25.796201	1.000000
-RTS_ratio_vec:	25.899299	1.000000
-RTS_ratio_vec:	26.002259	1.000000
-RTS_ratio_vec:	26.108288	1.000000
-RTS_ratio_vec:	26.211645	1.000000
-RTS_ratio_vec:	26.347425	1.000000
-RTS_ratio_vec:	26.466500	1.000000
-RTS_ratio_vec:	26.576585	1.000000
-RTS_ratio_vec:	26.683203	1.000000
-RTS_ratio_vec:	26.787927	1.000000
-RTS_ratio_vec:	26.892285	1.000000
-RTS_ratio_vec:	26.995567	1.000000
-RTS_ratio_vec:	27.098936	1.000000
-RTS_ratio_vec:	27.202526	1.000000
-RTS_ratio_vec:	27.305755	1.000000
-RTS_ratio_vec:	27.408656	1.000000
-RTS_ratio_vec:	27.512540	1.000000
-RTS_ratio_vec:	27.615647	1.000000
-RTS_ratio_vec:	27.720779	1.000000
-RTS_ratio_vec:	27.824114	1.000000
-RTS_ratio_vec:	27.927143	1.000000
-RTS_ratio_vec:	28.030845	1.000000
-RTS_ratio_vec:	28.133510	1.000000
-RTS_ratio_vec:	28.237108	1.000000
-RTS_ratio_vec:	28.340357	1.000000
-RTS_ratio_vec:	28.443358	1.000000
-RTS_ratio_vec:	28.547326	1.050000
-RTS_ratio_vec:	28.650000	1.000000
-RTS_ratio_vec:	28.753009	1.000000
-RTS_ratio_vec:	28.888334	1.000000
-RTS_ratio_vec:	28.996770	1.000000
-RTS_ratio_vec:	29.116089	1.000000
-RTS_ratio_vec:	29.236626	1.000000
-RTS_ratio_vec:	29.342392	1.000000
-RTS_ratio_vec:	29.445374	1.000000
-RTS_ratio_vec:	29.557351	1.000000
-RTS_ratio_vec:	29.686272	1.000000
-RTS_ratio_vec:	29.799041	1.000000
-RTS_ratio_vec:	29.903525	1.000000
-RTS_ratio_vec:	30.004878	1.000000
-RTS_ratio_vec:	30.109384	1.050000
-RTS_ratio_vec:	30.213657	1.000000
-RTS_ratio_vec:	30.344862	1.000000
-RTS_ratio_vec:	30.459041	1.000000
-RTS_ratio_vec:	30.565184	1.000000
-RTS_ratio_vec:	30.669976	1.000000
-RTS_ratio_vec:	30.773200	1.000000
-RTS_ratio_vec:	30.908566	1.000000
-RTS_ratio_vec:	31.026760	1.000000
-RTS_ratio_vec:	31.136471	1.000000
-RTS_ratio_vec:	31.242399	1.000000
-RTS_ratio_vec:	31.347289	1.000000
-RTS_ratio_vec:	31.452641	1.000000
-RTS_ratio_vec:	31.556147	1.000000
-RTS_ratio_vec:	31.658805	1.000000
-RTS_ratio_vec:	31.761338	1.000000
-RTS_ratio_vec:	31.864318	1.000000
-RTS_ratio_vec:	31.966937	1.000000
-RTS_ratio_vec:	32.069169	1.000000
-RTS_ratio_vec:	32.174529	1.000000
-RTS_ratio_vec:	32.277542	1.000000
-RTS_ratio_vec:	32.379312	1.000000
-RTS_ratio_vec:	32.482136	1.000000
-RTS_ratio_vec:	32.585044	1.000000
-RTS_ratio_vec:	32.687119	1.000000
-RTS_ratio_vec:	32.789888	1.000000
-RTS_ratio_vec:	32.892163	1.000000
-RTS_ratio_vec:	32.995573	1.000000
-RTS_ratio_vec:	33.096538	1.000000
-RTS_ratio_vec:	33.201944	1.000000
-RTS_ratio_vec:	33.303813	1.000000
-RTS_ratio_vec:	33.438939	1.000000
-RTS_ratio_vec:	33.557572	1.000000
-RTS_ratio_vec:	33.666835	1.000000
-RTS_ratio_vec:	33.773519	1.000000
-RTS_ratio_vec:	33.877846	1.000000
-RTS_ratio_vec:	33.981196	1.000000
-RTS_ratio_vec:	34.087383	1.000000
-RTS_ratio_vec:	34.189128	1.000000
-RTS_ratio_vec:	34.292092	1.000000
-RTS_ratio_vec:	34.394471	1.000000
-RTS_ratio_vec:	34.497538	1.000000
-RTS_ratio_vec:	34.599594	1.000000
-RTS_ratio_vec:	34.702360	1.000000
-RTS_ratio_vec:	34.805194	1.000000
-RTS_ratio_vec:	34.907724	1.000000
-RTS_ratio_vec:	35.010454	1.000000
-RTS_ratio_vec:	35.112818	1.000000
-RTS_ratio_vec:	35.215278	1.000000
-RTS_ratio_vec:	35.318121	1.000000
-RTS_ratio_vec:	35.420915	1.000000
-RTS_ratio_vec:	35.522911	1.000000
-RTS_ratio_vec:	35.625489	1.000000
-RTS_ratio_vec:	35.727479	1.000000
-RTS_ratio_vec:	35.829521	1.000000
-RTS_ratio_vec:	35.964353	1.000000
-RTS_ratio_vec:	36.070109	1.000000
-RTS_ratio_vec:	36.185393	1.050000
-RTS_ratio_vec:	36.305873	1.000000
-RTS_ratio_vec:	36.410688	1.000000
-RTS_ratio_vec:	36.513844	1.000000
-RTS_ratio_vec:	36.615438	1.000000
-RTS_ratio_vec:	36.743634	1.000000
-RTS_ratio_vec:	36.855738	1.000000
-RTS_ratio_vec:	36.962610	1.000000
-RTS_ratio_vec:	37.066056	1.000000
-RTS_ratio_vec:	37.202537	1.000000
-RTS_ratio_vec:	37.321933	1.000000
-RTS_ratio_vec:	37.433441	1.000000
-RTS_ratio_vec:	37.540824	1.000000
-RTS_ratio_vec:	37.646003	1.000000
-RTS_ratio_vec:	37.750868	1.000000
-RTS_ratio_vec:	37.854932	1.000000
-RTS_ratio_vec:	37.958888	1.000000
-RTS_ratio_vec:	38.062887	1.000000
-RTS_ratio_vec:	38.166350	1.000000
-RTS_ratio_vec:	38.270104	1.000000
-RTS_ratio_vec:	38.374520	1.000000
-RTS_ratio_vec:	38.477610	1.000000
-RTS_ratio_vec:	38.581535	1.000000
-RTS_ratio_vec:	38.685244	1.000000
-RTS_ratio_vec:	38.788787	1.000000
-RTS_ratio_vec:	38.892670	1.000000
-RTS_ratio_vec:	38.996438	1.000000
-RTS_ratio_vec:	39.100134	1.000000
-RTS_ratio_vec:	39.204471	1.000000
-RTS_ratio_vec:	39.307523	1.000000
-RTS_ratio_vec:	39.409645	1.000000
-RTS_ratio_vec:	39.512808	1.000000
-RTS_ratio_vec:	39.618841	1.000000
-RTS_ratio_vec:	39.754685	1.000000
-RTS_ratio_vec:	39.858152	1.000000
-RTS_ratio_vec:	39.978558	1.000000
-RTS_ratio_vec:	40.099700	1.000000
-RTS_ratio_vec:	40.206263	1.000000
-RTS_ratio_vec:	40.315173	1.050000
-RTS_ratio_vec:	40.422476	1.000000
-RTS_ratio_vec:	40.552410	1.000000
-RTS_ratio_vec:	40.665947	1.000000
-RTS_ratio_vec:	40.771167	1.000000
-RTS_ratio_vec:	40.873071	1.000000
-RTS_ratio_vec:	40.973367	1.000000
-RTS_ratio_vec:	41.075697	1.000000
-RTS_ratio_vec:	41.176655	1.000000
-RTS_ratio_vec:	41.306645	1.000000
-RTS_ratio_vec:	41.420635	1.000000
-RTS_ratio_vec:	41.526924	1.000000
-RTS_ratio_vec:	41.629717	1.000000
-RTS_ratio_vec:	41.735529	1.000000
-RTS_ratio_vec:	41.840940	1.050000
-RTS_ratio_vec:	41.973609	1.000000
-RTS_ratio_vec:	42.089552	1.000000
-RTS_ratio_vec:	42.197666	1.000000
-RTS_ratio_vec:	42.302008	1.000000
-RTS_ratio_vec:	42.403690	1.000000
-RTS_ratio_vec:	42.505920	1.000000
-RTS_ratio_vec:	42.614304	1.050000
-RTS_ratio_vec:	42.715575	1.000000
-RTS_ratio_vec:	42.848205	1.000000
-RTS_ratio_vec:	42.965023	1.000000
-RTS_ratio_vec:	43.073800	1.000000
-RTS_ratio_vec:	43.177766	1.000000
-RTS_ratio_vec:	43.280465	1.000000
-RTS_ratio_vec:	43.382227	1.000000
-RTS_ratio_vec:	43.484529	1.000000
-RTS_ratio_vec:	43.585842	1.000000
-RTS_ratio_vec:	43.689145	1.000000
-RTS_ratio_vec:	43.790511	1.000000
-RTS_ratio_vec:	43.893951	1.000000
-RTS_ratio_vec:	43.995185	1.000000
-RTS_ratio_vec:	44.128308	1.000000
-RTS_ratio_vec:	44.244895	1.000000
-RTS_ratio_vec:	44.352878	1.000000
-RTS_ratio_vec:	44.460125	1.000000
-RTS_ratio_vec:	44.563167	1.000000
-RTS_ratio_vec:	44.664998	1.000000
-RTS_ratio_vec:	44.769185	1.000000
-RTS_ratio_vec:	44.870742	1.000000
-RTS_ratio_vec:	44.974380	1.000000
-RTS_ratio_vec:	45.075444	1.000000
-RTS_ratio_vec:	45.208986	1.000000
-RTS_ratio_vec:	45.325387	1.000000
-RTS_ratio_vec:	45.433963	1.000000
-RTS_ratio_vec:	45.538703	1.000000
-RTS_ratio_vec:	45.644026	1.000000
-RTS_ratio_vec:	45.746950	1.000000
-RTS_ratio_vec:	45.882355	1.000000
-RTS_ratio_vec:	46.000747	1.000000
-RTS_ratio_vec:	46.110776	1.000000
-RTS_ratio_vec:	46.217432	1.000000
-RTS_ratio_vec:	46.321886	1.000000
-RTS_ratio_vec:	46.425262	1.000000
-RTS_ratio_vec:	46.529270	1.000000
-RTS_ratio_vec:	46.634246	1.000000
-RTS_ratio_vec:	46.737569	1.000000
-RTS_ratio_vec:	46.872991	1.000000
-RTS_ratio_vec:	46.991775	1.000000
-RTS_ratio_vec:	47.102340	1.000000
-RTS_ratio_vec:	47.208488	1.000000
-RTS_ratio_vec:	47.315772	1.000000
-RTS_ratio_vec:	47.420941	1.000000
-RTS_ratio_vec:	47.558327	1.000000
-RTS_ratio_vec:	47.679256	1.000000
-RTS_ratio_vec:	47.791432	1.000000
-RTS_ratio_vec:	47.899567	1.000000
-RTS_ratio_vec:	48.005812	1.000000
-RTS_ratio_vec:	48.111237	1.000000
-RTS_ratio_vec:	48.216266	1.000000
-RTS_ratio_vec:	48.321279	1.000000
-RTS_ratio_vec:	48.425963	1.000000
-RTS_ratio_vec:	48.531555	1.000000
-RTS_ratio_vec:	48.635682	1.000000
-RTS_ratio_vec:	48.740493	1.000000
-RTS_ratio_vec:	48.844775	1.000000
-RTS_ratio_vec:	48.949963	1.000000
-RTS_ratio_vec:	49.054059	1.000000
-RTS_ratio_vec:	49.158938	1.000000
-RTS_ratio_vec:	49.263844	1.000000
-RTS_ratio_vec:	49.368384	1.000000
-RTS_ratio_vec:	49.472762	1.000000
-RTS_ratio_vec:	49.578667	1.000000
-RTS_ratio_vec:	49.682739	1.000000
-RTS_ratio_vec:	49.784472	1.000000
-RTS_ratio_vec:	49.891833	1.000000
-RTS_ratio_vec:	49.996422	1.000000
-RTS_ratio_vec:	50.134531	1.000000
-RTS_ratio_vec:	50.241139	1.000000
-RTS_ratio_vec:	50.362077	1.000000
-RTS_ratio_vec:	50.484869	1.000000
-RTS_ratio_vec:	50.591746	1.000000
-RTS_ratio_vec:	50.694303	1.000000
-RTS_ratio_vec:	50.800895	1.050000
-RTS_ratio_vec:	50.917495	1.000000
-RTS_ratio_vec:	51.043879	1.000000
-RTS_ratio_vec:	51.154424	1.000000
-RTS_ratio_vec:	51.257404	1.000000
-RTS_ratio_vec:	51.362474	1.000000
-RTS_ratio_vec:	51.471255	1.000000
-RTS_ratio_vec:	51.601357	1.000000
-RTS_ratio_vec:	51.715453	1.000000
-RTS_ratio_vec:	51.821537	1.000000
-RTS_ratio_vec:	51.924480	1.000000
-RTS_ratio_vec:	52.028239	1.000000
-RTS_ratio_vec:	52.130757	1.000000
-RTS_ratio_vec:	52.235122	1.050000
-RTS_ratio_vec:	52.349666	1.000000
-RTS_ratio_vec:	52.480144	1.000000
-RTS_ratio_vec:	52.594727	1.000000
-RTS_ratio_vec:	52.701172	1.000000
-RTS_ratio_vec:	52.804761	1.000000
-RTS_ratio_vec:	52.905640	1.000000
-RTS_ratio_vec:	53.008488	1.000000
-RTS_ratio_vec:	53.109081	1.000000
-RTS_ratio_vec:	53.241028	1.000000
-RTS_ratio_vec:	53.356235	1.000000
-RTS_ratio_vec:	53.464025	1.000000
-RTS_ratio_vec:	53.567318	1.000000
-RTS_ratio_vec:	53.669367	1.000000
-RTS_ratio_vec:	53.770701	1.000000
-RTS_ratio_vec:	53.874358	1.000000
-RTS_ratio_vec:	53.979177	1.050000
-RTS_ratio_vec:	54.079793	1.000000
-RTS_ratio_vec:	54.212042	1.000000
-RTS_ratio_vec:	54.328175	1.000000
-RTS_ratio_vec:	54.435535	1.000000
-RTS_ratio_vec:	54.539886	1.000000
-RTS_ratio_vec:	54.641948	1.000000
-RTS_ratio_vec:	54.743328	1.000000
-RTS_ratio_vec:	54.844769	1.000000
-RTS_ratio_vec:	54.947552	1.000000
-RTS_ratio_vec:	55.048889	1.000000
-RTS_ratio_vec:	55.151687	1.000000
-RTS_ratio_vec:	55.251721	1.000000
-RTS_ratio_vec:	55.354693	1.050000
-RTS_ratio_vec:	55.455877	1.000000
-RTS_ratio_vec:	55.587794	1.000000
-RTS_ratio_vec:	55.703361	1.000000
-RTS_ratio_vec:	55.811555	1.000000
-RTS_ratio_vec:	55.915058	1.000000
-RTS_ratio_vec:	56.017143	1.000000
-RTS_ratio_vec:	56.119008	1.000000
-RTS_ratio_vec:	56.219599	1.000000
-RTS_ratio_vec:	56.323105	1.000000
-RTS_ratio_vec:	56.423158	1.000000
-RTS_ratio_vec:	56.555886	1.000000
-RTS_ratio_vec:	56.671880	1.000000
-RTS_ratio_vec:	56.780204	1.000000
-RTS_ratio_vec:	56.883799	1.000000
-RTS_ratio_vec:	56.986658	1.000000
-RTS_ratio_vec:	57.088392	1.000000
-RTS_ratio_vec:	57.189583	1.000000
-RTS_ratio_vec:	57.293162	1.000000
-RTS_ratio_vec:	57.399052	1.000000
-RTS_ratio_vec:	57.531560	1.000000
-RTS_ratio_vec:	57.647741	1.000000
-RTS_ratio_vec:	57.755776	1.000000
-RTS_ratio_vec:	57.861242	1.000000
-RTS_ratio_vec:	57.963056	1.000000
-RTS_ratio_vec:	58.064817	1.000000
-RTS_ratio_vec:	58.165969	1.000000
-RTS_ratio_vec:	58.266904	1.000000
-RTS_ratio_vec:	58.370401	1.000000
-RTS_ratio_vec:	58.474436	1.000000
-RTS_ratio_vec:	58.574839	1.000000
-RTS_ratio_vec:	58.708245	1.000000
-RTS_ratio_vec:	58.824163	1.000000
-RTS_ratio_vec:	58.932150	1.000000
-RTS_ratio_vec:	59.036978	1.000000
-RTS_ratio_vec:	59.140278	1.000000
-RTS_ratio_vec:	59.245310	1.000000
-RTS_ratio_vec:	59.348046	1.000000
-RTS_ratio_vec:	59.482164	1.000000
-RTS_ratio_vec:	59.599698	1.000000
-RTS_ratio_vec:	59.708376	1.000000
-RTS_ratio_vec:	59.813371	1.000000
-RTS_ratio_vec:	59.916847	1.000000
-RTS_ratio_vec:	60.020306	1.000000
-RTS_ratio_vec:	60.124385	1.000000
-RTS_ratio_vec:	60.226314	1.000000
-RTS_ratio_vec:	60.328200	1.000000
-RTS_ratio_vec:	60.433084	1.000000
-RTS_ratio_vec:	60.534474	1.000000
-RTS_ratio_vec:	60.636027	1.000000
-RTS_ratio_vec:	60.740235	1.000000
-RTS_ratio_vec:	60.842604	1.000000
-RTS_ratio_vec:	60.944829	1.000000
-RTS_ratio_vec:	61.046526	1.000000
-RTS_ratio_vec:	61.149888	1.000000
-RTS_ratio_vec:	61.252549	1.000000
-RTS_ratio_vec:	61.354056	1.000000
-RTS_ratio_vec:	61.455511	1.000000
-RTS_ratio_vec:	61.557097	1.000000
-RTS_ratio_vec:	61.660512	1.000000
-RTS_ratio_vec:	61.762248	1.000000
-RTS_ratio_vec:	61.863459	1.000000
-RTS_ratio_vec:	61.997982	1.000000
-RTS_ratio_vec:	62.108452	1.000000
-RTS_ratio_vec:	62.231274	1.000000
-RTS_ratio_vec:	62.354222	1.000000
-RTS_ratio_vec:	62.458665	1.000000
-RTS_ratio_vec:	62.563508	1.050000
-RTS_ratio_vec:	62.676323	1.000000
-RTS_ratio_vec:	62.802777	1.000000
-RTS_ratio_vec:	62.914659	1.000000
-RTS_ratio_vec:	63.017520	1.000000
-RTS_ratio_vec:	63.119713	1.000000
-RTS_ratio_vec:	63.220253	1.000000
-RTS_ratio_vec:	63.350603	1.000000
-RTS_ratio_vec:	63.465023	1.000000
-RTS_ratio_vec:	63.572005	1.000000
-RTS_ratio_vec:	63.674656	1.000000
-RTS_ratio_vec:	63.776251	1.000000
-RTS_ratio_vec:	63.879910	1.000000
-RTS_ratio_vec:	63.981671	1.000000
-RTS_ratio_vec:	64.082080	1.000000
-RTS_ratio_vec:	64.186077	1.100000
-RTS_ratio_vec:	64.290999	1.000000
-RTS_ratio_vec:	64.422358	1.000000
-RTS_ratio_vec:	64.536810	1.000000
-RTS_ratio_vec:	64.643856	1.000000
-RTS_ratio_vec:	64.746954	1.000000
-RTS_ratio_vec:	64.848288	1.000000
-RTS_ratio_vec:	64.948972	1.000000
-RTS_ratio_vec:	65.051744	1.000000
-RTS_ratio_vec:	65.153723	1.000000
-RTS_ratio_vec:	65.255784	1.000000
-RTS_ratio_vec:	65.359104	1.000000
-RTS_ratio_vec:	65.463593	1.000000
-RTS_ratio_vec:	65.567478	1.000000
-RTS_ratio_vec:	65.672707	1.000000
-RTS_ratio_vec:	65.803383	1.000000
-RTS_ratio_vec:	65.918709	1.000000
-RTS_ratio_vec:	66.025113	1.000000
-RTS_ratio_vec:	66.129034	1.000000
-RTS_ratio_vec:	66.234959	1.000000
-RTS_ratio_vec:	66.337969	1.000000
-RTS_ratio_vec:	66.441048	1.100000
-RTS_ratio_vec:	66.546894	1.000000
-RTS_ratio_vec:	66.682599	1.000000
-RTS_ratio_vec:	66.797756	1.000000
-RTS_ratio_vec:	66.904993	1.000000
-RTS_ratio_vec:	67.008378	1.000000
-RTS_ratio_vec:	67.110426	1.000000
-RTS_ratio_vec:	67.211516	1.000000
-RTS_ratio_vec:	67.312301	1.000000
-RTS_ratio_vec:	67.411767	1.000000
-RTS_ratio_vec:	67.512329	1.000000
-RTS_ratio_vec:	67.617744	1.000000
-RTS_ratio_vec:	67.718337	1.000000
-RTS_ratio_vec:	67.849252	1.000000
-RTS_ratio_vec:	67.964585	1.000000
-RTS_ratio_vec:	68.072138	1.000000
-RTS_ratio_vec:	68.175750	1.000000
-RTS_ratio_vec:	68.277283	1.000000
-RTS_ratio_vec:	68.378234	1.000000
-RTS_ratio_vec:	68.479327	1.000000
-RTS_ratio_vec:	68.585090	1.000000
-RTS_ratio_vec:	68.694616	1.000000
-RTS_ratio_vec:	68.826501	1.000000
-RTS_ratio_vec:	68.942200	1.000000
-RTS_ratio_vec:	69.049580	1.000000
-RTS_ratio_vec:	69.154008	1.000000
-RTS_ratio_vec:	69.258637	1.000000
-RTS_ratio_vec:	69.360072	1.000000
-RTS_ratio_vec:	69.494051	1.000000
-RTS_ratio_vec:	69.611506	1.000000
-RTS_ratio_vec:	69.721442	1.000000
-RTS_ratio_vec:	69.826436	1.000000
-RTS_ratio_vec:	69.930041	1.000000
-RTS_ratio_vec:	70.032604	1.000000
-RTS_ratio_vec:	70.135273	1.000000
-RTS_ratio_vec:	70.237095	1.000000
-RTS_ratio_vec:	70.339740	1.000000
-RTS_ratio_vec:	70.441517	1.000000
-RTS_ratio_vec:	70.543577	1.000000
-RTS_ratio_vec:	70.645196	1.000000
-RTS_ratio_vec:	70.747270	1.000000
-RTS_ratio_vec:	70.849393	1.000000
-RTS_ratio_vec:	70.951517	1.000000
-RTS_ratio_vec:	71.055260	1.000000
-RTS_ratio_vec:	71.157553	1.000000
-RTS_ratio_vec:	71.259215	1.000000
-RTS_ratio_vec:	71.362102	1.000000
-RTS_ratio_vec:	71.463397	1.000000
-RTS_ratio_vec:	71.565278	1.000000
-RTS_ratio_vec:	71.665093	1.000000
-RTS_ratio_vec:	71.766668	1.000000
-RTS_ratio_vec:	71.869335	1.000000
-RTS_ratio_vec:	72.003053	1.000000
-RTS_ratio_vec:	72.111922	1.000000
-RTS_ratio_vec:	72.243120	1.000000
-RTS_ratio_vec:	72.362209	1.000000
-RTS_ratio_vec:	72.466329	1.000000
-RTS_ratio_vec:	72.568743	1.000000
-RTS_ratio_vec:	72.679598	1.000000
-RTS_ratio_vec:	72.807119	1.000000
-RTS_ratio_vec:	72.918082	1.000000
-RTS_ratio_vec:	73.022304	1.000000
-RTS_ratio_vec:	73.124352	1.000000
-RTS_ratio_vec:	73.228957	1.000000
-RTS_ratio_vec:	73.360331	1.000000
-RTS_ratio_vec:	73.474928	1.000000
-RTS_ratio_vec:	73.582271	1.000000
-RTS_ratio_vec:	73.685414	1.000000
-RTS_ratio_vec:	73.789366	1.000000
-RTS_ratio_vec:	73.892068	1.000000
-RTS_ratio_vec:	73.994926	1.000000
-RTS_ratio_vec:	74.100179	1.050000
-RTS_ratio_vec:	74.231901	1.000000
-RTS_ratio_vec:	74.347428	1.000000
-RTS_ratio_vec:	74.454672	1.000000
-RTS_ratio_vec:	74.558365	1.000000
-RTS_ratio_vec:	74.661155	1.000000
-RTS_ratio_vec:	74.763427	1.000000
-RTS_ratio_vec:	74.864952	1.000000
-RTS_ratio_vec:	74.970349	1.050000
-RTS_ratio_vec:	75.074815	1.000000
-RTS_ratio_vec:	75.206875	1.000000
-RTS_ratio_vec:	75.322488	1.000000
-RTS_ratio_vec:	75.430081	1.000000
-RTS_ratio_vec:	75.533674	1.000000
-RTS_ratio_vec:	75.638740	1.000000
-RTS_ratio_vec:	75.741213	1.000000
-RTS_ratio_vec:	75.874867	1.000000
-RTS_ratio_vec:	75.992475	1.000000
-RTS_ratio_vec:	76.101579	1.000000
-RTS_ratio_vec:	76.206471	1.000000
-RTS_ratio_vec:	76.310202	1.000000
-RTS_ratio_vec:	76.413502	1.000000
-RTS_ratio_vec:	76.515515	1.000000
-RTS_ratio_vec:	76.618529	1.000000
-RTS_ratio_vec:	76.719666	1.000000
-RTS_ratio_vec:	76.821544	1.000000
-RTS_ratio_vec:	76.926406	1.050000
-RTS_ratio_vec:	77.028088	1.000000
-RTS_ratio_vec:	77.162659	1.000000
-RTS_ratio_vec:	77.279836	1.000000
-RTS_ratio_vec:	77.389201	1.000000
-RTS_ratio_vec:	77.495023	1.000000
-RTS_ratio_vec:	77.598444	1.000000
-RTS_ratio_vec:	77.701026	1.000000
-RTS_ratio_vec:	77.803428	1.000000
-RTS_ratio_vec:	77.905832	1.000000
-RTS_ratio_vec:	78.010525	1.000000
-RTS_ratio_vec:	78.112895	1.000000
-RTS_ratio_vec:	78.246986	1.000000
-RTS_ratio_vec:	78.364798	1.000000
-RTS_ratio_vec:	78.473489	1.000000
-RTS_ratio_vec:	78.579096	1.000000
-RTS_ratio_vec:	78.683018	1.000000
-RTS_ratio_vec:	78.786070	1.000000
-RTS_ratio_vec:	78.889215	1.000000
-RTS_ratio_vec:	78.993235	1.000000
-RTS_ratio_vec:	79.098339	1.000000
-RTS_ratio_vec:	79.200033	1.000000
-RTS_ratio_vec:	79.302213	1.000000
-RTS_ratio_vec:	79.404344	1.000000
-RTS_ratio_vec:	79.506608	1.000000
-RTS_ratio_vec:	79.608748	1.000000
-RTS_ratio_vec:	79.710726	1.000000
-RTS_ratio_vec:	79.813564	1.000000
-RTS_ratio_vec:	79.917812	1.000000
-RTS_ratio_vec:	80.022042	1.000000
-RTS_ratio_vec:	80.124538	1.000000
-RTS_ratio_vec:	80.226504	1.000000
-RTS_ratio_vec:	80.328877	1.000000
-RTS_ratio_vec:	80.427793	1.000000
-RTS_ratio_vec:	80.530029	1.000000
-RTS_ratio_vec:	80.632710	1.000000
-RTS_ratio_vec:	80.766303	1.000000
-RTS_ratio_vec:	80.874122	1.000000
-RTS_ratio_vec:	80.997839	1.000000
-RTS_ratio_vec:	81.117448	1.000000
-RTS_ratio_vec:	81.221790	1.000000
-RTS_ratio_vec:	81.327240	1.000000
-RTS_ratio_vec:	81.440045	1.000000
-RTS_ratio_vec:	81.567415	1.000000
-RTS_ratio_vec:	81.679088	1.000000
-RTS_ratio_vec:	81.782719	1.000000
-RTS_ratio_vec:	81.883011	1.000000
-RTS_ratio_vec:	81.988542	1.050000
-RTS_ratio_vec:	82.096948	1.100000
-RTS_ratio_vec:	82.226190	1.000000
-RTS_ratio_vec:	82.338938	1.000000
-RTS_ratio_vec:	82.444342	1.000000
-RTS_ratio_vec:	82.546714	1.000000
-RTS_ratio_vec:	82.648465	1.000000
-RTS_ratio_vec:	82.752894	1.000000
-RTS_ratio_vec:	82.856472	1.000000
-RTS_ratio_vec:	82.986980	1.000000
-RTS_ratio_vec:	83.101095	1.000000
-RTS_ratio_vec:	83.207472	1.000000
-RTS_ratio_vec:	83.310037	1.000000
-RTS_ratio_vec:	83.410670	1.000000
-RTS_ratio_vec:	83.510888	1.000000
-RTS_ratio_vec:	83.610401	1.000000
-RTS_ratio_vec:	83.714354	1.000000
-RTS_ratio_vec:	83.819109	1.000000
-RTS_ratio_vec:	83.923208	1.000000
-RTS_ratio_vec:	84.053139	1.000000
-RTS_ratio_vec:	84.167486	1.000000
-RTS_ratio_vec:	84.273489	1.000000
-RTS_ratio_vec:	84.376155	1.000000
-RTS_ratio_vec:	84.477724	1.000000
-RTS_ratio_vec:	84.579703	1.050000
-RTS_ratio_vec:	84.679830	1.000000
-RTS_ratio_vec:	84.783957	1.000000
-RTS_ratio_vec:	84.888300	1.000000
-RTS_ratio_vec:	85.018791	1.000000
-RTS_ratio_vec:	85.133486	1.000000
-RTS_ratio_vec:	85.239679	1.000000
-RTS_ratio_vec:	85.343093	1.000000
-RTS_ratio_vec:	85.446405	1.050000
-RTS_ratio_vec:	85.552671	1.050000
-RTS_ratio_vec:	85.685013	1.000000
-RTS_ratio_vec:	85.801181	1.000000
-RTS_ratio_vec:	85.909521	1.000000
-RTS_ratio_vec:	86.013955	1.000000
-RTS_ratio_vec:	86.116344	1.000000
-RTS_ratio_vec:	86.218830	1.000000
-RTS_ratio_vec:	86.323026	1.000000
-RTS_ratio_vec:	86.428766	1.000000
-RTS_ratio_vec:	86.562342	1.000000
-RTS_ratio_vec:	86.678947	1.000000
-RTS_ratio_vec:	86.787490	1.000000
-RTS_ratio_vec:	86.892145	1.000000
-RTS_ratio_vec:	86.995265	1.000000
-RTS_ratio_vec:	87.097590	1.000000
-RTS_ratio_vec:	87.201729	1.000000
-RTS_ratio_vec:	87.304053	1.000000
-RTS_ratio_vec:	87.437682	1.000000
-RTS_ratio_vec:	87.554845	1.000000
-RTS_ratio_vec:	87.663914	1.000000
-RTS_ratio_vec:	87.769189	1.000000
-RTS_ratio_vec:	87.872952	1.000000
-RTS_ratio_vec:	87.975668	1.000000
-RTS_ratio_vec:	88.076975	1.000000
-RTS_ratio_vec:	88.179186	1.000000
-RTS_ratio_vec:	88.284289	1.100000
-RTS_ratio_vec:	88.390823	1.000000
-RTS_ratio_vec:	88.524835	1.000000
-RTS_ratio_vec:	88.641873	1.000000
-RTS_ratio_vec:	88.750828	1.000000
-RTS_ratio_vec:	88.856405	1.000000
-RTS_ratio_vec:	88.959651	1.000000
-RTS_ratio_vec:	89.063091	1.000000
-RTS_ratio_vec:	89.167583	1.000000
-RTS_ratio_vec:	89.275752	1.000000
-RTS_ratio_vec:	89.409380	1.000000
-RTS_ratio_vec:	89.527398	1.000000
-RTS_ratio_vec:	89.637030	1.000000
-RTS_ratio_vec:	89.742652	1.000000
-RTS_ratio_vec:	89.849089	1.000000
-RTS_ratio_vec:	89.952859	1.000000
-RTS_ratio_vec:	90.089545	1.000000
-RTS_ratio_vec:	90.209333	1.000000
-RTS_ratio_vec:	90.320694	1.000000
-RTS_ratio_vec:	90.427884	1.000000
-RTS_ratio_vec:	90.533322	1.000000
-RTS_ratio_vec:	90.638102	1.000000
-RTS_ratio_vec:	90.742442	1.000000
-RTS_ratio_vec:	90.846651	1.000000
-RTS_ratio_vec:	90.951189	1.000000
-RTS_ratio_vec:	91.054993	1.000000
-RTS_ratio_vec:	91.158738	1.000000
-RTS_ratio_vec:	91.262195	1.000000
-RTS_ratio_vec:	91.366577	1.000000
-RTS_ratio_vec:	91.470248	1.000000
-RTS_ratio_vec:	91.574109	1.000000
-RTS_ratio_vec:	91.677860	1.000000
-RTS_ratio_vec:	91.781909	1.000000
-RTS_ratio_vec:	91.885559	1.000000
-RTS_ratio_vec:	91.989607	1.000000
-RTS_ratio_vec:	92.093847	1.000000
-RTS_ratio_vec:	92.197566	1.000000
-RTS_ratio_vec:	92.297097	1.000000
-RTS_ratio_vec:	92.402339	1.000000
-RTS_ratio_vec:	92.506578	1.000000
-RTS_ratio_vec:	92.643232	1.000000
-RTS_ratio_vec:	92.750707	1.050000
-RTS_ratio_vec:	92.876589	1.000000
-RTS_ratio_vec:	92.998041	1.000000
-RTS_ratio_vec:	93.104148	1.000000
-RTS_ratio_vec:	93.204219	1.000000
-RTS_ratio_vec:	93.314495	1.000000
-RTS_ratio_vec:	93.443740	1.000000
-RTS_ratio_vec:	93.557401	1.000000
-RTS_ratio_vec:	93.662495	1.000000
-RTS_ratio_vec:	93.764235	1.000000
-RTS_ratio_vec:	93.869775	1.100000
-RTS_ratio_vec:	93.969709	1.000000
-RTS_ratio_vec:	94.101352	1.000000
-RTS_ratio_vec:	94.217015	1.000000
-RTS_ratio_vec:	94.323589	1.000000
-RTS_ratio_vec:	94.427236	1.000000
-RTS_ratio_vec:	94.529346	1.000000
-RTS_ratio_vec:	94.630115	1.000000
-RTS_ratio_vec:	94.733589	1.000000
-RTS_ratio_vec:	94.844144	1.000000
-RTS_ratio_vec:	94.975660	1.000000
-RTS_ratio_vec:	95.091255	1.000000
-RTS_ratio_vec:	95.198823	1.000000
-RTS_ratio_vec:	95.302845	1.000000
-RTS_ratio_vec:	95.404791	1.000000
-RTS_ratio_vec:	95.506493	1.000000
-RTS_ratio_vec:	95.607688	1.000000
-RTS_ratio_vec:	95.708361	1.000000
-RTS_ratio_vec:	95.811284	1.000000
-RTS_ratio_vec:	95.910977	1.000000
-RTS_ratio_vec:	96.043527	1.000000
-RTS_ratio_vec:	96.159495	1.000000
-RTS_ratio_vec:	96.266969	1.000000
-RTS_ratio_vec:	96.371272	1.000000
-RTS_ratio_vec:	96.474083	1.000000
-RTS_ratio_vec:	96.578350	1.000000
-RTS_ratio_vec:	96.681283	1.000000
-RTS_ratio_vec:	96.781687	1.000000
-RTS_ratio_vec:	96.914421	1.000000
-RTS_ratio_vec:	97.031143	1.000000
-RTS_ratio_vec:	97.139198	1.000000
-RTS_ratio_vec:	97.245714	1.000000
-RTS_ratio_vec:	97.350365	1.000000
-RTS_ratio_vec:	97.487585	1.000000
-RTS_ratio_vec:	97.607240	1.000000
-RTS_ratio_vec:	97.719261	1.000000
-RTS_ratio_vec:	97.826518	1.000000
-RTS_ratio_vec:	97.932875	1.000000
-RTS_ratio_vec:	98.037895	1.000000
-RTS_ratio_vec:	98.142241	1.000000
-RTS_ratio_vec:	98.246515	1.000000
-RTS_ratio_vec:	98.351065	1.000000
-RTS_ratio_vec:	98.455758	1.000000
-RTS_ratio_vec:	98.559612	1.000000
-RTS_ratio_vec:	98.666128	1.000000
-RTS_ratio_vec:	98.770664	1.000000
-RTS_ratio_vec:	98.874430	1.000000
-RTS_ratio_vec:	98.978762	1.000000
-RTS_ratio_vec:	99.083561	1.000000
-RTS_ratio_vec:	99.187631	1.000000
-RTS_ratio_vec:	99.291385	1.000000
-RTS_ratio_vec:	99.395926	1.000000
-RTS_ratio_vec:	99.500080	1.000000
-RTS_ratio_vec:	99.604223	1.000000
-RTS_ratio_vec:	99.706638	1.000000
-RTS_ratio_vec:	99.809727	1.000000
-RTS_ratio_vec:	99.914244	1.000000
-RTS_ratio_vec:	100.051238	1.000000
-RTS_ratio_vec:	100.157951	1.000000
-RTS_ratio_vec:	100.264422	1.000000
-RTS_ratio_vec:	100.386473	1.000000
-RTS_ratio_vec:	100.492716	1.000000
-RTS_ratio_vec:	100.597462	1.000000
-RTS_ratio_vec:	100.705913	1.000000
-RTS_ratio_vec:	100.835887	1.000000
-RTS_ratio_vec:	100.949516	1.000000
-RTS_ratio_vec:	101.055427	1.000000
-RTS_ratio_vec:	101.157708	1.000000
-RTS_ratio_vec:	101.261096	1.000000
-RTS_ratio_vec:	101.366287	1.000000
-RTS_ratio_vec:	101.498323	1.000000
-RTS_ratio_vec:	101.613799	1.000000
-RTS_ratio_vec:	101.721355	1.000000
-RTS_ratio_vec:	101.824893	1.000000
-RTS_ratio_vec:	101.927269	1.000000
-RTS_ratio_vec:	102.031318	1.000000
-RTS_ratio_vec:	102.132491	1.000000
-RTS_ratio_vec:	102.234908	1.000000
-RTS_ratio_vec:	102.336202	1.000000
-RTS_ratio_vec:	102.438202	1.000000
-RTS_ratio_vec:	102.570418	1.000000
-RTS_ratio_vec:	102.686267	1.000000
-RTS_ratio_vec:	102.793908	1.000000
-RTS_ratio_vec:	102.897240	1.000000
-RTS_ratio_vec:	102.999520	1.000000
-RTS_ratio_vec:	103.109267	1.050000
-RTS_ratio_vec:	103.215321	1.000000
-RTS_ratio_vec:	103.348216	1.000000
-RTS_ratio_vec:	103.464616	1.000000
-RTS_ratio_vec:	103.573324	1.000000
-RTS_ratio_vec:	103.678116	1.000000
-RTS_ratio_vec:	103.781417	1.000000
-RTS_ratio_vec:	103.883069	1.000000
-RTS_ratio_vec:	103.984900	1.000000
-RTS_ratio_vec:	104.086007	1.000000
-RTS_ratio_vec:	104.189907	1.000000
-RTS_ratio_vec:	104.294031	1.000000
-RTS_ratio_vec:	104.395442	1.000000
-RTS_ratio_vec:	104.528304	1.000000
-RTS_ratio_vec:	104.645202	1.000000
-RTS_ratio_vec:	104.753503	1.000000
-RTS_ratio_vec:	104.858146	1.000000
-RTS_ratio_vec:	104.961610	1.000000
-RTS_ratio_vec:	105.063618	1.000000
-RTS_ratio_vec:	105.165036	1.000000
-RTS_ratio_vec:	105.266586	1.000000
-RTS_ratio_vec:	105.368069	1.000000
-RTS_ratio_vec:	105.469617	1.000000
-RTS_ratio_vec:	105.571307	1.000000
-RTS_ratio_vec:	105.675006	1.000000
-RTS_ratio_vec:	105.775841	1.000000
-RTS_ratio_vec:	105.879944	1.000000
-RTS_ratio_vec:	105.980861	1.000000
-RTS_ratio_vec:	106.114813	1.000000
-RTS_ratio_vec:	106.231414	1.000000
-RTS_ratio_vec:	106.339998	1.000000
-RTS_ratio_vec:	106.444424	1.000000
-RTS_ratio_vec:	106.547420	1.000000
-RTS_ratio_vec:	106.649545	1.000000
-RTS_ratio_vec:	106.754180	1.000000
-RTS_ratio_vec:	106.856000	1.000000
-RTS_ratio_vec:	106.956868	1.000000
-RTS_ratio_vec:	107.058164	1.000000
-RTS_ratio_vec:	107.159503	1.000000
-RTS_ratio_vec:	107.261033	1.000000
-RTS_ratio_vec:	107.364670	1.000000
-RTS_ratio_vec:	107.465623	1.000000
-RTS_ratio_vec:	107.599039	1.000000
-RTS_ratio_vec:	107.715887	1.000000
-RTS_ratio_vec:	107.824698	1.000000
-RTS_ratio_vec:	107.929344	1.000000
-RTS_ratio_vec:	108.035182	1.000000
-RTS_ratio_vec:	108.136902	1.000000
-RTS_ratio_vec:	108.239424	1.000000
-RTS_ratio_vec:	108.340161	1.000000
-RTS_ratio_vec:	108.445424	1.000000
-RTS_ratio_vec:	108.548753	1.000000
-RTS_ratio_vec:	108.681618	1.000000
-RTS_ratio_vec:	108.798621	1.000000
-RTS_ratio_vec:	108.907337	1.000000
-RTS_ratio_vec:	109.011841	1.000000
-RTS_ratio_vec:	109.114855	1.000000
-RTS_ratio_vec:	109.217188	1.000000
-RTS_ratio_vec:	109.319902	1.000000
-RTS_ratio_vec:	109.423112	1.000000
-RTS_ratio_vec:	109.524565	1.000000
-RTS_ratio_vec:	109.626900	1.000000
-RTS_ratio_vec:	109.730698	1.000000
-RTS_ratio_vec:	109.836942	1.000000
-RTS_ratio_vec:	109.970458	1.000000
-RTS_ratio_vec:	110.086929	1.000000
-RTS_ratio_vec:	110.195872	1.000000
-RTS_ratio_vec:	110.300873	1.000000
-RTS_ratio_vec:	110.403681	1.000000
-RTS_ratio_vec:	110.506467	1.000000
-RTS_ratio_vec:	110.611454	1.000000
-RTS_ratio_vec:	110.712035	1.000000
-RTS_ratio_vec:	110.813657	1.000000
-RTS_ratio_vec:	110.917537	1.000000
-RTS_ratio_vec:	111.024720	1.000000
-RTS_ratio_vec:	111.140907	1.000000
-RTS_ratio_vec:	111.274656	1.000000
-RTS_ratio_vec:	111.391496	1.000000
-RTS_ratio_vec:	111.500146	1.000000
-RTS_ratio_vec:	111.604738	1.000000
-RTS_ratio_vec:	111.707954	1.000000
-RTS_ratio_vec:	111.811133	1.000000
-RTS_ratio_vec:	111.915145	1.050000
-RTS_ratio_vec:	112.016302	1.000000
-RTS_ratio_vec:	112.117792	1.000000
-RTS_ratio_vec:	112.222083	1.000000
-RTS_ratio_vec:	112.324764	1.000000
-RTS_ratio_vec:	112.427557	1.000000
-RTS_ratio_vec:	112.560994	1.000000
-RTS_ratio_vec:	112.678322	1.000000
-RTS_ratio_vec:	112.787108	1.000000
-RTS_ratio_vec:	112.891751	1.000000
-RTS_ratio_vec:	112.995008	1.000000
-RTS_ratio_vec:	113.097454	1.000000
-RTS_ratio_vec:	113.199423	1.000000
-RTS_ratio_vec:	113.305788	1.000000
-RTS_ratio_vec:	113.407390	1.000000
-RTS_ratio_vec:	113.541575	1.000000
-RTS_ratio_vec:	113.658392	1.000000
-RTS_ratio_vec:	113.767161	1.000000
-RTS_ratio_vec:	113.872553	1.000000
-RTS_ratio_vec:	113.975896	1.000000
-RTS_ratio_vec:	114.079059	1.000000
-RTS_ratio_vec:	114.183176	1.000000
-RTS_ratio_vec:	114.287845	1.100000
-RTS_ratio_vec:	114.390236	1.000000
-RTS_ratio_vec:	114.523660	1.000000
-RTS_ratio_vec:	114.641086	1.000000
-RTS_ratio_vec:	114.750197	1.000000
-RTS_ratio_vec:	114.855331	1.000000
-RTS_ratio_vec:	114.958728	1.000000
-RTS_ratio_vec:	115.061875	1.000000
-RTS_ratio_vec:	115.164496	1.000000
-RTS_ratio_vec:	115.268459	1.000000
-RTS_ratio_vec:	115.370763	1.000000
-RTS_ratio_vec:	115.505210	1.000000
-RTS_ratio_vec:	115.622586	1.000000
-RTS_ratio_vec:	115.732381	1.000000
-RTS_ratio_vec:	115.837378	1.000000
-RTS_ratio_vec:	115.941555	1.000000
-RTS_ratio_vec:	116.045036	1.000000
-RTS_ratio_vec:	116.146659	1.000000
-RTS_ratio_vec:	116.248911	1.000000
-RTS_ratio_vec:	116.353921	1.000000
-RTS_ratio_vec:	116.455739	1.000000
-RTS_ratio_vec:	116.558525	1.000000
-RTS_ratio_vec:	116.660581	1.000000
-RTS_ratio_vec:	116.765282	1.000000
-RTS_ratio_vec:	116.870254	1.000000
-RTS_ratio_vec:	116.971550	1.000000
-RTS_ratio_vec:	117.073806	1.000000
-RTS_ratio_vec:	117.175556	1.000000
-RTS_ratio_vec:	117.278186	1.000000
-RTS_ratio_vec:	117.380030	1.000000
-RTS_ratio_vec:	117.481862	1.000000
-RTS_ratio_vec:	117.584093	1.000000
-RTS_ratio_vec:	117.686684	1.050000
-RTS_ratio_vec:	117.787975	1.000000
-RTS_ratio_vec:	117.891130	1.000000
-RTS_ratio_vec:	118.024543	1.000000
-RTS_ratio_vec:	118.132987	1.050000
-RTS_ratio_vec:	118.256292	1.000000
-RTS_ratio_vec:	118.375319	1.000000
-RTS_ratio_vec:	118.480344	1.000000
-RTS_ratio_vec:	118.587200	1.000000
-RTS_ratio_vec:	118.703508	1.000000
-RTS_ratio_vec:	118.830439	1.000000
-RTS_ratio_vec:	118.941796	1.000000
-RTS_ratio_vec:	119.046267	1.000000
-RTS_ratio_vec:	119.151511	1.000000
-RTS_ratio_vec:	119.261222	1.000000
-RTS_ratio_vec:	119.392326	1.000000
-RTS_ratio_vec:	119.507081	1.000000
-RTS_ratio_vec:	119.614512	1.000000
-RTS_ratio_vec:	119.717789	1.000000
-RTS_ratio_vec:	119.821712	1.000000
-RTS_ratio_vec:	119.923363	1.000000
-RTS_ratio_vec:	120.025521	1.000000
-RTS_ratio_vec:	120.128000	1.000000
-RTS_ratio_vec:	120.230791	1.000000
-RTS_ratio_vec:	120.331289	1.000000
-RTS_ratio_vec:	120.435148	1.000000
-RTS_ratio_vec:	120.540381	1.000000
-RTS_ratio_vec:	120.671654	1.000000
-RTS_ratio_vec:	120.786997	1.000000
-RTS_ratio_vec:	120.893820	1.000000
-RTS_ratio_vec:	120.999603	1.000000
-RTS_ratio_vec:	121.101886	1.000000
-RTS_ratio_vec:	121.203000	1.000000
-RTS_ratio_vec:	121.302226	1.000000
-RTS_ratio_vec:	121.405416	1.000000
-RTS_ratio_vec:	121.511246	1.000000
-RTS_ratio_vec:	121.642031	1.000000
-RTS_ratio_vec:	121.757439	1.000000
-RTS_ratio_vec:	121.865025	1.000000
-RTS_ratio_vec:	121.968078	1.000000
-RTS_ratio_vec:	122.070276	1.000000
-RTS_ratio_vec:	122.171205	1.000000
-RTS_ratio_vec:	122.271451	1.000000
-RTS_ratio_vec:	122.374466	1.000000
-RTS_ratio_vec:	122.477423	1.000000
-RTS_ratio_vec:	122.578277	1.000000
-RTS_ratio_vec:	122.709077	1.000000
-RTS_ratio_vec:	122.824738	1.000000
-RTS_ratio_vec:	122.932010	1.000000
-RTS_ratio_vec:	123.035573	1.000000
-RTS_ratio_vec:	123.140489	1.000000
-RTS_ratio_vec:	123.243503	1.000000
-RTS_ratio_vec:	123.381341	1.000000
-RTS_ratio_vec:	123.498535	1.000000
-RTS_ratio_vec:	123.607349	1.000000
-RTS_ratio_vec:	123.712695	1.000000
-RTS_ratio_vec:	123.819047	1.000000
-RTS_ratio_vec:	123.922448	1.000000
-RTS_ratio_vec:	124.023792	1.000000
-RTS_ratio_vec:	124.128516	1.000000
-RTS_ratio_vec:	124.230811	1.000000
-RTS_ratio_vec:	124.335450	1.100000
-RTS_ratio_vec:	124.439576	1.000000
-RTS_ratio_vec:	124.543780	1.000000
-RTS_ratio_vec:	124.650372	1.000000
-RTS_ratio_vec:	124.784361	1.000000
-RTS_ratio_vec:	124.901709	1.000000
-RTS_ratio_vec:	125.011137	1.000000
-RTS_ratio_vec:	125.116215	1.000000
-RTS_ratio_vec:	125.219519	1.000000
-RTS_ratio_vec:	125.322957	1.000000
-RTS_ratio_vec:	125.429875	1.000000
-RTS_ratio_vec:	125.532350	1.000000
-RTS_ratio_vec:	125.666310	1.000000
-RTS_ratio_vec:	125.784638	1.000000
-RTS_ratio_vec:	125.893874	1.000000
-RTS_ratio_vec:	125.999784	1.000000
-RTS_ratio_vec:	126.103145	1.000000
-RTS_ratio_vec:	126.206591	1.000000
-RTS_ratio_vec:	126.309350	1.000000
-RTS_ratio_vec:	126.412133	1.000000
-RTS_ratio_vec:	126.515498	1.000000
-RTS_ratio_vec:	126.624371	1.000000
-RTS_ratio_vec:	126.758940	1.000000
-RTS_ratio_vec:	126.876884	1.000000
-RTS_ratio_vec:	126.986331	1.000000
-RTS_ratio_vec:	127.092276	1.000000
-RTS_ratio_vec:	127.196507	1.000000
-RTS_ratio_vec:	127.299401	1.000000
-RTS_ratio_vec:	127.401801	1.000000
-RTS_ratio_vec:	127.505264	1.000000
-RTS_ratio_vec:	127.609421	1.000000
-RTS_ratio_vec:	127.712453	1.000000
-RTS_ratio_vec:	127.846456	1.000000
-RTS_ratio_vec:	127.965075	1.000000
-RTS_ratio_vec:	128.074304	1.000000
-RTS_ratio_vec:	128.180156	1.000000
-RTS_ratio_vec:	128.284416	1.000000
-RTS_ratio_vec:	128.387614	1.000000
-RTS_ratio_vec:	128.490526	1.000000
-RTS_ratio_vec:	128.593090	1.000000
-RTS_ratio_vec:	128.695696	1.000000
-RTS_ratio_vec:	128.798546	1.000000
-RTS_ratio_vec:	128.900683	1.000000
-RTS_ratio_vec:	129.003148	1.000000
-RTS_ratio_vec:	129.105784	1.000000
-RTS_ratio_vec:	129.208640	1.000000
-RTS_ratio_vec:	129.311213	1.000000
-RTS_ratio_vec:	129.415749	1.000000
-RTS_ratio_vec:	129.518402	1.000000
-RTS_ratio_vec:	129.620226	1.000000
-RTS_ratio_vec:	129.722520	1.000000
-RTS_ratio_vec:	129.825305	1.000000
-RTS_ratio_vec:	129.927419	1.000000
-RTS_ratio_vec:	130.029301	1.050000
-RTS_ratio_vec:	130.131157	1.000000
-RTS_ratio_vec:	130.234003	1.000000
-RTS_ratio_vec:	130.368494	1.000000
-RTS_ratio_vec:	130.473551	1.000000
-RTS_ratio_vec:	130.597218	1.000000
-RTS_ratio_vec:	130.720392	1.000000
-RTS_ratio_vec:	130.825216	1.000000
-RTS_ratio_vec:	130.928225	1.000000
-RTS_ratio_vec:	131.045108	1.000000
-RTS_ratio_vec:	131.172055	1.000000
-RTS_ratio_vec:	131.284274	1.000000
-RTS_ratio_vec:	131.387877	1.000000
-RTS_ratio_vec:	131.491113	1.000000
-RTS_ratio_vec:	131.596848	1.000000
-RTS_ratio_vec:	131.728067	1.000000
-RTS_ratio_vec:	131.843996	1.000000
-RTS_ratio_vec:	131.950945	1.000000
-RTS_ratio_vec:	132.054592	1.000000
-RTS_ratio_vec:	132.157572	1.000000
-RTS_ratio_vec:	132.260076	1.000000
-RTS_ratio_vec:	132.361463	1.000000
-RTS_ratio_vec:	132.461349	1.000000
-RTS_ratio_vec:	132.562149	1.000000
-RTS_ratio_vec:	132.666843	1.000000
-RTS_ratio_vec:	132.767991	1.000000
-RTS_ratio_vec:	132.899748	1.000000
-RTS_ratio_vec:	133.015073	1.000000
-RTS_ratio_vec:	133.123109	1.000000
-RTS_ratio_vec:	133.226112	1.000000
-RTS_ratio_vec:	133.328088	1.000000
-RTS_ratio_vec:	133.429373	1.000000
-RTS_ratio_vec:	133.530033	1.000000
-RTS_ratio_vec:	133.635386	1.050000
-RTS_ratio_vec:	133.741768	1.050000
-RTS_ratio_vec:	133.873230	1.000000
-RTS_ratio_vec:	133.988881	1.000000
-RTS_ratio_vec:	134.096661	1.000000
-RTS_ratio_vec:	134.200429	1.000000
-RTS_ratio_vec:	134.303536	1.000000
-RTS_ratio_vec:	134.404631	1.000000
-RTS_ratio_vec:	134.505364	1.000000
-RTS_ratio_vec:	134.605717	1.000000
-RTS_ratio_vec:	134.706406	1.000000
-RTS_ratio_vec:	134.810257	1.000000
-RTS_ratio_vec:	134.912832	1.000000
-RTS_ratio_vec:	135.018129	1.000000
-RTS_ratio_vec:	135.118826	1.000000
-RTS_ratio_vec:	135.250817	1.000000
-RTS_ratio_vec:	135.367002	1.000000
-RTS_ratio_vec:	135.474116	1.000000
-RTS_ratio_vec:	135.581220	1.000000
-RTS_ratio_vec:	135.683493	1.000000
-RTS_ratio_vec:	135.786996	1.000000
-RTS_ratio_vec:	135.888686	1.000000
-RTS_ratio_vec:	135.988276	1.000000
-RTS_ratio_vec:	136.089594	1.000000
-RTS_ratio_vec:	136.192374	1.050000
-RTS_ratio_vec:	136.295333	1.000000
-RTS_ratio_vec:	136.395956	1.000000
-RTS_ratio_vec:	136.499441	1.000000
-RTS_ratio_vec:	136.599395	1.000000
-RTS_ratio_vec:	136.699898	1.000000
-RTS_ratio_vec:	136.800411	1.000000
-RTS_ratio_vec:	136.900558	1.000000
-RTS_ratio_vec:	137.004482	1.000000
-RTS_ratio_vec:	137.105144	1.000000
-RTS_ratio_vec:	137.210022	1.000000
-RTS_ratio_vec:	137.311171	1.000000
-RTS_ratio_vec:	137.442766	1.000000
-RTS_ratio_vec:	137.558732	1.000000
-RTS_ratio_vec:	137.666554	1.000000
-RTS_ratio_vec:	137.770290	1.000000
-RTS_ratio_vec:	137.875105	1.000000
-RTS_ratio_vec:	137.976688	1.000000
-RTS_ratio_vec:	138.111474	1.000000
-RTS_ratio_vec:	138.229039	1.000000
-RTS_ratio_vec:	138.338380	1.000000
-RTS_ratio_vec:	138.443785	1.000000
-RTS_ratio_vec:	138.547617	1.000000
-RTS_ratio_vec:	138.650366	1.000000
-RTS_ratio_vec:	138.753037	1.000000
-RTS_ratio_vec:	138.856297	1.000000
-RTS_ratio_vec:	138.960420	1.000000
-RTS_ratio_vec:	139.067922	1.000000
-RTS_ratio_vec:	139.201885	1.000000
-RTS_ratio_vec:	139.319685	1.000000
-RTS_ratio_vec:	139.429393	1.000000
-RTS_ratio_vec:	139.534931	1.000000
-RTS_ratio_vec:	139.639453	1.000000
-RTS_ratio_vec:	139.742012	1.000000
-RTS_ratio_vec:	139.844883	1.000000
-RTS_ratio_vec:	139.946838	1.000000
-RTS_ratio_vec:	140.050353	1.000000
-RTS_ratio_vec:	140.154777	1.000000
-RTS_ratio_vec:	140.258724	1.000000
-RTS_ratio_vec:	140.361454	1.000000
-RTS_ratio_vec:	140.463334	1.000000
-RTS_ratio_vec:	140.568038	1.000000
-RTS_ratio_vec:	140.670035	1.000000
-RTS_ratio_vec:	140.772445	1.000000
-RTS_ratio_vec:	140.874516	1.000000
-RTS_ratio_vec:	140.977158	1.000000
-RTS_ratio_vec:	141.081994	1.000000
-RTS_ratio_vec:	141.184345	1.000000
-RTS_ratio_vec:	141.286003	1.000000
-RTS_ratio_vec:	141.386761	1.000000
-RTS_ratio_vec:	141.492817	1.000000
-RTS_ratio_vec:	141.598521	1.050000
-RTS_ratio_vec:	141.733599	1.000000
-RTS_ratio_vec:	141.843379	1.000000
-RTS_ratio_vec:	141.962405	1.000000
-RTS_ratio_vec:	142.082010	1.000000
-RTS_ratio_vec:	142.187317	1.000000
-RTS_ratio_vec:	142.290012	1.000000
-RTS_ratio_vec:	142.397839	1.000000
-RTS_ratio_vec:	142.525991	1.000000
-RTS_ratio_vec:	142.637343	1.000000
-RTS_ratio_vec:	142.741198	1.000000
-RTS_ratio_vec:	142.844268	1.000000
-RTS_ratio_vec:	142.947203	1.000000
-RTS_ratio_vec:	143.055491	1.000000
-RTS_ratio_vec:	143.185288	1.000000
-RTS_ratio_vec:	143.298833	1.000000
-RTS_ratio_vec:	143.404035	1.000000
-RTS_ratio_vec:	143.505985	1.000000
-RTS_ratio_vec:	143.605753	1.000000
-RTS_ratio_vec:	143.708523	1.000000
-RTS_ratio_vec:	143.813811	1.000000
-RTS_ratio_vec:	143.918607	1.000000
-RTS_ratio_vec:	144.048028	1.000000
-RTS_ratio_vec:	144.161738	1.000000
-RTS_ratio_vec:	144.267244	1.000000
-RTS_ratio_vec:	144.369362	1.000000
-RTS_ratio_vec:	144.469903	1.000000
-RTS_ratio_vec:	144.570496	1.000000
-RTS_ratio_vec:	144.671921	1.000000
-RTS_ratio_vec:	144.776119	1.000000
-RTS_ratio_vec:	144.879816	1.000000
-RTS_ratio_vec:	144.988166	1.000000
-RTS_ratio_vec:	145.118459	1.000000
-RTS_ratio_vec:	145.232140	1.000000
-RTS_ratio_vec:	145.338665	1.000000
-RTS_ratio_vec:	145.440903	1.000000
-RTS_ratio_vec:	145.543652	1.050000
-RTS_ratio_vec:	145.644426	1.000000
-RTS_ratio_vec:	145.776393	1.000000
-RTS_ratio_vec:	145.892484	1.000000
-RTS_ratio_vec:	145.999803	1.000000
-RTS_ratio_vec:	146.106328	1.000000
-RTS_ratio_vec:	146.210022	1.000000
-RTS_ratio_vec:	146.346756	1.000000
-RTS_ratio_vec:	146.466482	1.000000
-RTS_ratio_vec:	146.577061	1.000000
-RTS_ratio_vec:	146.684735	1.000000
-RTS_ratio_vec:	146.790205	1.000000
-RTS_ratio_vec:	146.894512	1.000000
-RTS_ratio_vec:	146.998623	1.000000
-RTS_ratio_vec:	147.102556	1.000000
-RTS_ratio_vec:	147.206575	1.000000
-RTS_ratio_vec:	147.310116	1.000000
-RTS_ratio_vec:	147.414241	1.000000
-RTS_ratio_vec:	147.517833	1.000000
-RTS_ratio_vec:	147.621534	1.000000
-RTS_ratio_vec:	147.725460	1.000000
-RTS_ratio_vec:	147.829347	1.000000
-RTS_ratio_vec:	147.932880	1.000000
-RTS_ratio_vec:	148.036398	1.000000
-RTS_ratio_vec:	148.140033	1.000000
-RTS_ratio_vec:	148.243954	1.000000
-RTS_ratio_vec:	148.347850	1.000000
-RTS_ratio_vec:	148.451369	1.000000
-RTS_ratio_vec:	148.553012	1.000000
-RTS_ratio_vec:	148.656344	1.000000
-RTS_ratio_vec:	148.760015	1.000000
-RTS_ratio_vec:	148.896864	1.000000
-RTS_ratio_vec:	149.006050	1.050000
-RTS_ratio_vec:	149.127979	1.000000
-RTS_ratio_vec:	149.248827	1.000000
-RTS_ratio_vec:	149.355351	1.000000
-RTS_ratio_vec:	149.457333	1.000000
-RTS_ratio_vec:	149.561767	1.000000
-RTS_ratio_vec:	149.691323	1.000000
-RTS_ratio_vec:	149.804651	1.000000
-RTS_ratio_vec:	149.910363	1.000000
-RTS_ratio_vec:	150.012002	1.000000
-RTS_ratio_vec:	150.114263	1.000000
-RTS_ratio_vec:	150.219220	1.000000
-RTS_ratio_vec:	150.350783	1.000000
-RTS_ratio_vec:	150.465810	1.000000
-RTS_ratio_vec:	150.572892	1.000000
-RTS_ratio_vec:	150.676470	1.000000
-RTS_ratio_vec:	150.778519	1.000000
-RTS_ratio_vec:	150.881601	1.000000
-RTS_ratio_vec:	150.986945	1.000000
-RTS_ratio_vec:	151.119164	1.000000
-RTS_ratio_vec:	151.235677	1.000000
-RTS_ratio_vec:	151.343022	1.000000
-RTS_ratio_vec:	151.447392	1.000000
-RTS_ratio_vec:	151.549722	1.000000
-RTS_ratio_vec:	151.654101	1.000000
-RTS_ratio_vec:	151.760474	1.000000
-RTS_ratio_vec:	151.894116	1.000000
-RTS_ratio_vec:	152.011184	1.000000
-RTS_ratio_vec:	152.119738	1.000000
-RTS_ratio_vec:	152.224723	1.000000
-RTS_ratio_vec:	152.328356	1.000000
-RTS_ratio_vec:	152.430045	1.000000
-RTS_ratio_vec:	152.532089	1.000000
-RTS_ratio_vec:	152.633909	1.000000
-RTS_ratio_vec:	152.735233	1.000000
-RTS_ratio_vec:	152.839732	1.000000
-RTS_ratio_vec:	152.943451	1.000000
-RTS_ratio_vec:	153.044821	1.000000
-RTS_ratio_vec:	153.146743	1.000000
-RTS_ratio_vec:	153.248425	1.000000
-RTS_ratio_vec:	153.349891	1.000000
-RTS_ratio_vec:	153.451701	1.000000
-RTS_ratio_vec:	153.552516	1.000000
-RTS_ratio_vec:	153.653710	1.000000
-RTS_ratio_vec:	153.758438	1.000000
-RTS_ratio_vec:	153.859677	1.000000
-RTS_ratio_vec:	153.961325	1.000000
-RTS_ratio_vec:	154.063299	1.000000
-RTS_ratio_vec:	154.164319	1.000000
-RTS_ratio_vec:	154.267831	1.000000
-RTS_ratio_vec:	154.401196	1.000000
-RTS_ratio_vec:	154.508963	1.000000
-RTS_ratio_vec:	154.627884	1.100000
-RTS_ratio_vec:	154.750097	1.000000
-RTS_ratio_vec:	154.854255	1.000000
-RTS_ratio_vec:	154.960765	1.000000
-RTS_ratio_vec:	155.075990	1.000000
-RTS_ratio_vec:	155.202351	1.000000
-RTS_ratio_vec:	155.313233	1.000000
-RTS_ratio_vec:	155.416393	1.000000
-RTS_ratio_vec:	155.517971	1.000000
-RTS_ratio_vec:	155.623765	1.100000
-RTS_ratio_vec:	155.726170	1.000000
-RTS_ratio_vec:	155.854818	1.000000
-RTS_ratio_vec:	155.967297	1.000000
-RTS_ratio_vec:	156.072125	1.000000
-RTS_ratio_vec:	156.175606	1.000000
-RTS_ratio_vec:	156.282088	1.000000
-RTS_ratio_vec:	156.414608	1.000000
-RTS_ratio_vec:	156.530705	1.000000
-RTS_ratio_vec:	156.638756	1.000000
-RTS_ratio_vec:	156.743098	1.000000
-RTS_ratio_vec:	156.845624	1.000000
-RTS_ratio_vec:	156.949824	1.000000
-RTS_ratio_vec:	157.051593	1.000000
-RTS_ratio_vec:	157.152928	1.000000
-RTS_ratio_vec:	157.256632	1.000000
-RTS_ratio_vec:	157.356737	1.000000
-RTS_ratio_vec:	157.490097	1.000000
-RTS_ratio_vec:	157.606308	1.000000
-RTS_ratio_vec:	157.714280	1.000000
-RTS_ratio_vec:	157.819550	1.000000
-RTS_ratio_vec:	157.924637	1.000000
-RTS_ratio_vec:	158.026357	1.000000
-RTS_ratio_vec:	158.127531	1.000000
-RTS_ratio_vec:	158.229182	1.000000
-RTS_ratio_vec:	158.332246	1.000000
-RTS_ratio_vec:	158.434604	1.000000
-RTS_ratio_vec:	158.566578	1.000000
-RTS_ratio_vec:	158.683302	1.000000
-RTS_ratio_vec:	158.791775	1.000000
-RTS_ratio_vec:	158.895857	1.000000
-RTS_ratio_vec:	158.998781	1.000000
-RTS_ratio_vec:	159.100456	1.000000
-RTS_ratio_vec:	159.202655	1.000000
-RTS_ratio_vec:	159.306224	1.000000
-RTS_ratio_vec:	159.412664	1.000000
-RTS_ratio_vec:	159.546101	1.000000
-RTS_ratio_vec:	159.662553	1.000000
-RTS_ratio_vec:	159.771268	1.000000
-RTS_ratio_vec:	159.876104	1.000000
-RTS_ratio_vec:	159.979399	1.000000
-RTS_ratio_vec:	160.081262	1.000000
-RTS_ratio_vec:	160.183342	1.000000
-RTS_ratio_vec:	160.286941	1.000000
-RTS_ratio_vec:	160.387972	1.000000
-RTS_ratio_vec:	160.491912	1.050000
-RTS_ratio_vec:	160.598444	1.000000
-RTS_ratio_vec:	160.732226	1.000000
-RTS_ratio_vec:	160.848716	1.000000
-RTS_ratio_vec:	160.957160	1.000000
-RTS_ratio_vec:	161.062064	1.000000
-RTS_ratio_vec:	161.164975	1.000000
-RTS_ratio_vec:	161.267589	1.000000
-RTS_ratio_vec:	161.369190	1.000000
-RTS_ratio_vec:	161.471548	1.000000
-RTS_ratio_vec:	161.575333	1.000000
-RTS_ratio_vec:	161.676349	1.000000
-RTS_ratio_vec:	161.810022	1.000000
-RTS_ratio_vec:	161.926585	1.000000
-RTS_ratio_vec:	162.035279	1.000000
-RTS_ratio_vec:	162.140015	1.000000
-RTS_ratio_vec:	162.246149	1.000000
-RTS_ratio_vec:	162.348785	1.000000
-RTS_ratio_vec:	162.485109	1.000000
-RTS_ratio_vec:	162.603768	1.000000
-RTS_ratio_vec:	162.713766	1.000000
-RTS_ratio_vec:	162.820521	1.000000
-RTS_ratio_vec:	162.925722	1.000000
-RTS_ratio_vec:	163.029310	1.000000
-RTS_ratio_vec:	163.132514	1.000000
-RTS_ratio_vec:	163.235822	1.000000
-RTS_ratio_vec:	163.339471	1.000000
-RTS_ratio_vec:	163.442070	1.000000
-RTS_ratio_vec:	163.545320	1.000000
-RTS_ratio_vec:	163.649112	1.000000
-RTS_ratio_vec:	163.751493	1.000000
-RTS_ratio_vec:	163.854632	1.000000
-RTS_ratio_vec:	163.957667	1.000000
-RTS_ratio_vec:	164.060840	1.000000
-RTS_ratio_vec:	164.163693	1.000000
-RTS_ratio_vec:	164.266757	1.000000
-RTS_ratio_vec:	164.370640	1.000000
-RTS_ratio_vec:	164.473204	1.000000
-RTS_ratio_vec:	164.576977	1.000000
-RTS_ratio_vec:	164.678658	1.050000
-RTS_ratio_vec:	164.780951	1.000000
-RTS_ratio_vec:	164.884049	1.000000
-RTS_ratio_vec:	165.019793	1.000000
-RTS_ratio_vec:	165.127247	1.000000
-RTS_ratio_vec:	165.242977	1.000000
-RTS_ratio_vec:	165.367428	1.000000
-RTS_ratio_vec:	165.473010	1.000000
-RTS_ratio_vec:	165.574877	1.000000
-RTS_ratio_vec:	165.688391	1.000000
-RTS_ratio_vec:	165.816899	1.000000
-RTS_ratio_vec:	165.929238	1.000000
-RTS_ratio_vec:	166.033786	1.000000
-RTS_ratio_vec:	166.138590	1.000000
-RTS_ratio_vec:	166.241906	1.000000
-RTS_ratio_vec:	166.346873	1.000000
-RTS_ratio_vec:	166.476834	1.000000
-RTS_ratio_vec:	166.591583	1.000000
-RTS_ratio_vec:	166.697779	1.000000
-RTS_ratio_vec:	166.800368	1.000000
-RTS_ratio_vec:	166.904271	1.000000
-RTS_ratio_vec:	167.006410	1.000000
-RTS_ratio_vec:	167.107110	1.000000
-RTS_ratio_vec:	167.213502	1.000000
-RTS_ratio_vec:	167.344499	1.000000
-RTS_ratio_vec:	167.459236	1.000000
-RTS_ratio_vec:	167.566130	1.000000
-RTS_ratio_vec:	167.668963	1.000000
-RTS_ratio_vec:	167.773291	1.000000
-RTS_ratio_vec:	167.873782	1.000000
-RTS_ratio_vec:	168.007376	1.000000
-RTS_ratio_vec:	168.123816	1.000000
-RTS_ratio_vec:	168.232464	1.000000
-RTS_ratio_vec:	168.336935	1.000000
-RTS_ratio_vec:	168.440237	1.000000
-RTS_ratio_vec:	168.542566	1.000000
-RTS_ratio_vec:	168.643955	1.000000
-RTS_ratio_vec:	168.745364	1.000000
-RTS_ratio_vec:	168.849473	1.000000
-RTS_ratio_vec:	168.951017	1.000000
-RTS_ratio_vec:	169.052390	1.000000
-RTS_ratio_vec:	169.152843	1.000000
-RTS_ratio_vec:	169.257257	1.000000
-RTS_ratio_vec:	169.358671	1.000000
-RTS_ratio_vec:	169.491758	1.000000
-RTS_ratio_vec:	169.608445	1.000000
-RTS_ratio_vec:	169.716699	1.000000
-RTS_ratio_vec:	169.821117	1.000000
-RTS_ratio_vec:	169.924145	1.000000
-RTS_ratio_vec:	170.026080	1.000000
-RTS_ratio_vec:	170.128535	1.000000
-RTS_ratio_vec:	170.232126	1.000000
-RTS_ratio_vec:	170.333179	1.000000
-RTS_ratio_vec:	170.435020	1.000000
-RTS_ratio_vec:	170.536113	1.000000
-RTS_ratio_vec:	170.637552	1.000000
-RTS_ratio_vec:	170.741527	1.000000
-RTS_ratio_vec:	170.853042	1.050000
-RTS_ratio_vec:	170.985679	1.000000
-RTS_ratio_vec:	171.102093	1.000000
-RTS_ratio_vec:	171.210714	1.000000
-RTS_ratio_vec:	171.315618	1.000000
-RTS_ratio_vec:	171.419949	1.000000
-RTS_ratio_vec:	171.523895	1.000000
-RTS_ratio_vec:	171.659262	1.000000
-RTS_ratio_vec:	171.778149	1.000000
-RTS_ratio_vec:	171.887666	1.000000
-RTS_ratio_vec:	171.994336	1.000000
-RTS_ratio_vec:	172.098987	1.000000
-RTS_ratio_vec:	172.202947	1.000000
-RTS_ratio_vec:	172.305902	1.000000
-RTS_ratio_vec:	172.408917	1.000000
-RTS_ratio_vec:	172.512040	1.000000
-RTS_ratio_vec:	172.615618	1.000000
-RTS_ratio_vec:	172.720453	1.000000
-RTS_ratio_vec:	172.823471	1.000000
-RTS_ratio_vec:	172.958991	1.000000
-RTS_ratio_vec:	173.077687	1.000000
-RTS_ratio_vec:	173.187490	1.000000
-RTS_ratio_vec:	173.293667	1.000000
-RTS_ratio_vec:	173.398662	1.000000
-RTS_ratio_vec:	173.502464	1.000000
-RTS_ratio_vec:	173.605707	1.000000
-RTS_ratio_vec:	173.708777	1.000000
-RTS_ratio_vec:	173.814126	1.000000
-RTS_ratio_vec:	173.917523	1.000000
-RTS_ratio_vec:	174.019885	1.000000
-RTS_ratio_vec:	174.126171	1.000000
-RTS_ratio_vec:	174.228433	1.000000
-RTS_ratio_vec:	174.364153	1.000000
-RTS_ratio_vec:	174.482783	1.000000
-RTS_ratio_vec:	174.592984	1.000000
-RTS_ratio_vec:	174.699046	1.000000
-RTS_ratio_vec:	174.804112	1.000000
-RTS_ratio_vec:	174.907653	1.000000
-RTS_ratio_vec:	175.011447	1.000000
-RTS_ratio_vec:	175.116410	1.000000
-RTS_ratio_vec:	175.219306	1.000000
-RTS_ratio_vec:	175.322484	1.000000
-RTS_ratio_vec:	175.428008	1.000000
-RTS_ratio_vec:	175.530746	1.000000
-RTS_ratio_vec:	175.666376	1.000000
-RTS_ratio_vec:	175.785355	1.000000
-RTS_ratio_vec:	175.895223	1.000000
-RTS_ratio_vec:	176.001955	1.000000
-RTS_ratio_vec:	176.106447	1.000000
-RTS_ratio_vec:	176.209968	1.000000
-RTS_ratio_vec:	176.313390	1.000000
-RTS_ratio_vec:	176.416616	1.000000
-RTS_ratio_vec:	176.519856	1.000000
-RTS_ratio_vec:	176.622603	1.000000
-RTS_ratio_vec:	176.725692	1.000000
-RTS_ratio_vec:	176.828340	1.000000
-RTS_ratio_vec:	176.931586	1.000000
-RTS_ratio_vec:	177.035417	1.000000
-RTS_ratio_vec:	177.137431	1.000000
-RTS_ratio_vec:	177.240254	1.000000
-RTS_ratio_vec:	177.345926	1.050000
-RTS_ratio_vec:	177.449080	1.000000
-RTS_ratio_vec:	177.584690	1.000000
-RTS_ratio_vec:	177.702830	1.000000
-RTS_ratio_vec:	177.813458	1.000000
-RTS_ratio_vec:	177.919550	1.000000
-RTS_ratio_vec:	178.024717	1.000000
-RTS_ratio_vec:	178.128309	1.000000
-RTS_ratio_vec:	178.231223	1.000000
-RTS_ratio_vec:	178.334783	1.000000
-RTS_ratio_vec:	178.437793	1.000000
-RTS_ratio_vec:	178.540514	1.000000
-RTS_ratio_vec:	178.644328	1.000000
-RTS_ratio_vec:	178.746469	1.000000
-RTS_ratio_vec:	178.849690	1.000000
-RTS_ratio_vec:	178.952435	1.000000
-RTS_ratio_vec:	179.055671	1.000000
-RTS_ratio_vec:	179.157994	1.000000
-RTS_ratio_vec:	179.260881	1.000000
-RTS_ratio_vec:	179.363928	1.000000
-RTS_ratio_vec:	179.467717	1.000000
-RTS_ratio_vec:	179.569816	1.000000
-RTS_ratio_vec:	179.673319	1.000000
-RTS_ratio_vec:	179.773332	1.000000
-RTS_ratio_vec:	179.876262	1.000000
-RTS_ratio_vec:	179.980200	1.000000
-RTS_ratio_vec:	180.114771	1.000000
-RTS_ratio_vec:	180.222808	1.000000
-RTS_ratio_vec:	180.345649	1.000000
-RTS_ratio_vec:	180.465933	1.000000
-RTS_ratio_vec:	180.571892	1.000000
-RTS_ratio_vec:	180.677309	1.000000
-RTS_ratio_vec:	180.779312	1.000000
-RTS_ratio_vec:	180.907997	1.000000
-RTS_ratio_vec:	181.020072	1.000000
-RTS_ratio_vec:	181.125082	1.000000
-RTS_ratio_vec:	181.226394	1.000000
-RTS_ratio_vec:	181.327377	1.000000
-RTS_ratio_vec:	181.428548	1.000000
-RTS_ratio_vec:	181.532729	1.000000
-RTS_ratio_vec:	181.666200	1.000000
-RTS_ratio_vec:	181.779575	1.000000
-RTS_ratio_vec:	181.884589	1.000000
-RTS_ratio_vec:	181.986541	1.000000
-RTS_ratio_vec:	182.089103	1.000000
-RTS_ratio_vec:	182.193045	1.000000
-RTS_ratio_vec:	182.298155	1.000000
-RTS_ratio_vec:	182.432631	1.000000
-RTS_ratio_vec:	182.546958	1.000000
-RTS_ratio_vec:	182.653165	1.000000
-RTS_ratio_vec:	182.755260	1.000000
-RTS_ratio_vec:	182.858654	1.000000
-RTS_ratio_vec:	182.965092	1.000000
-RTS_ratio_vec:	183.097183	1.000000
-RTS_ratio_vec:	183.213043	1.000000
-RTS_ratio_vec:	183.321077	1.000000
-RTS_ratio_vec:	183.425391	1.000000
-RTS_ratio_vec:	183.527684	1.000000
-RTS_ratio_vec:	183.629250	1.000000
-RTS_ratio_vec:	183.732943	1.000000
-RTS_ratio_vec:	183.834161	1.000000
-RTS_ratio_vec:	183.967064	1.000000
-RTS_ratio_vec:	184.083640	1.000000
-RTS_ratio_vec:	184.191804	1.000000
-RTS_ratio_vec:	184.296258	1.000000
-RTS_ratio_vec:	184.399382	1.000000
-RTS_ratio_vec:	184.501442	1.000000
-RTS_ratio_vec:	184.602586	1.000000
-RTS_ratio_vec:	184.704412	1.000000
-RTS_ratio_vec:	184.807604	1.000000
-RTS_ratio_vec:	184.909453	1.000000
-RTS_ratio_vec:	185.010159	1.000000
-RTS_ratio_vec:	185.111112	1.000000
-RTS_ratio_vec:	185.212036	1.000000
-RTS_ratio_vec:	185.313402	1.000000
-RTS_ratio_vec:	185.414133	1.000000
-RTS_ratio_vec:	185.515728	1.000000
-RTS_ratio_vec:	185.621692	1.000000
-RTS_ratio_vec:	185.722712	1.000000
-RTS_ratio_vec:	185.855848	1.000000
-RTS_ratio_vec:	185.972424	1.000000
-RTS_ratio_vec:	186.080379	1.000000
-RTS_ratio_vec:	186.185088	1.000000
-RTS_ratio_vec:	186.288007	1.000000
-RTS_ratio_vec:	186.389934	1.000000
-RTS_ratio_vec:	186.491355	1.000000
-RTS_ratio_vec:	186.595501	1.050000
-RTS_ratio_vec:	186.696999	1.000000
-RTS_ratio_vec:	186.798681	1.000000
-RTS_ratio_vec:	186.901198	1.000000
-RTS_ratio_vec:	187.005566	1.050000
-RTS_ratio_vec:	187.106920	1.000000
-RTS_ratio_vec:	187.209731	1.000000
-RTS_ratio_vec:	187.311206	1.000000
-RTS_ratio_vec:	187.412621	1.000000
-RTS_ratio_vec:	187.515953	1.000000
-RTS_ratio_vec:	187.617049	1.000000
-RTS_ratio_vec:	187.749919	1.000000
-RTS_ratio_vec:	187.866115	1.000000
-RTS_ratio_vec:	187.974530	1.000000
-RTS_ratio_vec:	188.079408	1.000000
-RTS_ratio_vec:	188.182431	1.000000
-RTS_ratio_vec:	188.286697	1.000000
-RTS_ratio_vec:	188.388356	1.000000
-RTS_ratio_vec:	188.489239	1.000000
-RTS_ratio_vec:	188.590743	1.000000
-RTS_ratio_vec:	188.694739	1.050000
-RTS_ratio_vec:	188.795973	1.000000
-RTS_ratio_vec:	188.928264	1.000000
-RTS_ratio_vec:	189.044978	1.000000
-RTS_ratio_vec:	189.153106	1.000000
-RTS_ratio_vec:	189.258303	1.000000
-RTS_ratio_vec:	189.361496	1.000000
-RTS_ratio_vec:	189.462750	1.000000
-RTS_ratio_vec:	189.564089	1.000000
-RTS_ratio_vec:	189.665687	1.000000
-RTS_ratio_vec:	189.771793	1.000000
-RTS_ratio_vec:	189.878133	1.000000
-RTS_ratio_vec:	190.011776	1.000000
-RTS_ratio_vec:	190.128304	1.000000
-RTS_ratio_vec:	190.237138	1.000000
-RTS_ratio_vec:	190.341409	1.000000
-RTS_ratio_vec:	190.447055	1.000000
-RTS_ratio_vec:	190.549940	1.000000
-RTS_ratio_vec:	190.685579	1.000000
-RTS_ratio_vec:	190.803599	1.000000
-RTS_ratio_vec:	190.913730	1.000000
-RTS_ratio_vec:	191.020221	1.000000
-RTS_ratio_vec:	191.125269	1.000000
-RTS_ratio_vec:	191.229010	1.000000
-RTS_ratio_vec:	191.332297	1.000000
-RTS_ratio_vec:	191.435057	1.000000
-RTS_ratio_vec:	191.537696	1.000000
-RTS_ratio_vec:	191.640616	1.000000
-RTS_ratio_vec:	191.743722	1.000000
-RTS_ratio_vec:	191.846595	1.000000
-RTS_ratio_vec:	191.949486	1.000000
-RTS_ratio_vec:	192.052552	1.000000
-RTS_ratio_vec:	192.155339	1.000000
-RTS_ratio_vec:	192.258046	1.000000
-RTS_ratio_vec:	192.361211	1.000000
-RTS_ratio_vec:	192.463650	1.000000
-RTS_ratio_vec:	192.566835	1.000000
-RTS_ratio_vec:	192.669788	1.000000
-RTS_ratio_vec:	192.774904	1.000000
-RTS_ratio_vec:	192.875819	1.000000
-RTS_ratio_vec:	192.978435	1.000000
-RTS_ratio_vec:	193.081546	1.000000
-RTS_ratio_vec:	193.216507	1.000000
-RTS_ratio_vec:	193.325745	1.000000
-RTS_ratio_vec:	193.449748	1.000000
-RTS_ratio_vec:	193.570058	1.000000
-RTS_ratio_vec:	193.675460	1.000000
-RTS_ratio_vec:	193.775885	1.000000
-RTS_ratio_vec:	193.888576	1.000000
-RTS_ratio_vec:	194.016401	1.000000
-RTS_ratio_vec:	194.128835	1.000000
-RTS_ratio_vec:	194.233200	1.000000
-RTS_ratio_vec:	194.333725	1.000000
-RTS_ratio_vec:	194.436219	1.000000
-RTS_ratio_vec:	194.539877	1.000000
-RTS_ratio_vec:	194.645388	1.000000
-RTS_ratio_vec:	194.774233	1.000000
-RTS_ratio_vec:	194.887352	1.000000
-RTS_ratio_vec:	194.992199	1.000000
-RTS_ratio_vec:	195.093896	1.000000
-RTS_ratio_vec:	195.198839	1.000000
-RTS_ratio_vec:	195.304742	1.000000
-RTS_ratio_vec:	195.435605	1.000000
-RTS_ratio_vec:	195.550622	1.000000
-RTS_ratio_vec:	195.657112	1.000000
-RTS_ratio_vec:	195.760429	1.000000
-RTS_ratio_vec:	195.862699	1.000000
-RTS_ratio_vec:	195.965592	1.000000
-RTS_ratio_vec:	196.075781	1.050000
-RTS_ratio_vec:	196.208327	1.000000
-RTS_ratio_vec:	196.324790	1.000000
-RTS_ratio_vec:	196.432269	1.000000
-RTS_ratio_vec:	196.536634	1.000000
-RTS_ratio_vec:	196.638772	1.000000
-RTS_ratio_vec:	196.740750	1.000000
-RTS_ratio_vec:	196.841878	1.000000
-RTS_ratio_vec:	196.942551	1.000000
-RTS_ratio_vec:	197.042588	1.000000
-RTS_ratio_vec:	197.147151	1.000000
-RTS_ratio_vec:	197.254003	1.000000
-RTS_ratio_vec:	197.386785	1.000000
-RTS_ratio_vec:	197.502864	1.000000
-RTS_ratio_vec:	197.610548	1.000000
-RTS_ratio_vec:	197.714700	1.000000
-RTS_ratio_vec:	197.817352	1.000000
-RTS_ratio_vec:	197.921438	1.000000
-RTS_ratio_vec:	198.024990	1.000000
-RTS_ratio_vec:	198.131159	1.000000
-RTS_ratio_vec:	198.263836	1.000000
-RTS_ratio_vec:	198.380350	1.000000
-RTS_ratio_vec:	198.488656	1.000000
-RTS_ratio_vec:	198.593095	1.000000
-RTS_ratio_vec:	198.696327	1.000000
-RTS_ratio_vec:	198.798907	1.000000
-RTS_ratio_vec:	198.902549	1.000000
-RTS_ratio_vec:	199.003514	1.000000
-RTS_ratio_vec:	199.108048	1.000000
-RTS_ratio_vec:	199.208828	1.000000
-RTS_ratio_vec:	199.312559	1.000000
-RTS_ratio_vec:	199.413066	1.000000
-RTS_ratio_vec:	199.514165	1.000000
-RTS_ratio_vec:	199.617787	1.000000
-RTS_ratio_vec:	199.723611	1.000000
-RTS_ratio_vec:	199.856756	1.000000
-RTS_ratio_vec:	199.973694	1.000000
-RTS_ratio_vec:	200.081532	1.000000
-RTS_ratio_vec:	200.186424	1.000000
-RTS_ratio_vec:	200.289323	1.000000
-RTS_ratio_vec:	200.391477	1.000000
-RTS_ratio_vec:	200.495901	1.100000
-RTS_ratio_vec:	200.596942	1.000000
-RTS_ratio_vec:	200.730133	1.000000
-RTS_ratio_vec:	200.847268	1.000000
-RTS_ratio_vec:	200.955490	1.000000
-RTS_ratio_vec:	201.060755	1.000000
-RTS_ratio_vec:	201.164357	1.000000
-RTS_ratio_vec:	201.268798	1.000000
-RTS_ratio_vec:	201.371379	1.000000
-RTS_ratio_vec:	201.505666	1.000000
-RTS_ratio_vec:	201.623361	1.000000
-RTS_ratio_vec:	201.733139	1.000000
-RTS_ratio_vec:	201.838623	1.000000
-RTS_ratio_vec:	201.943173	1.000000
-RTS_ratio_vec:	202.048651	1.000000
-RTS_ratio_vec:	202.151489	1.000000
-RTS_ratio_vec:	202.254406	1.000000
-RTS_ratio_vec:	202.356280	1.000000
-RTS_ratio_vec:	202.461239	1.000000
-RTS_ratio_vec:	202.563539	1.000000
-RTS_ratio_vec:	202.666370	1.000000
-RTS_ratio_vec:	202.768624	1.000000
-RTS_ratio_vec:	202.870341	1.000000
-RTS_ratio_vec:	202.972307	1.000000
-RTS_ratio_vec:	203.075172	1.000000
-RTS_ratio_vec:	203.176954	1.000000
-RTS_ratio_vec:	203.279302	1.000000
-RTS_ratio_vec:	203.382470	1.000000
-RTS_ratio_vec:	203.484071	1.000000
-RTS_ratio_vec:	203.586036	1.000000
-RTS_ratio_vec:	203.688392	1.000000
-RTS_ratio_vec:	203.792901	1.050000
-RTS_ratio_vec:	203.895803	1.000000
-RTS_ratio_vec:	204.030549	1.000000
-RTS_ratio_vec:	204.137860	1.000000
-RTS_ratio_vec:	204.256100	1.000000
-RTS_ratio_vec:	204.375679	1.000000
-RTS_ratio_vec:	204.480318	1.000000
-RTS_ratio_vec:	204.582992	1.000000
-RTS_ratio_vec:	204.694457	1.000000
-RTS_ratio_vec:	204.821507	1.000000
-RTS_ratio_vec:	204.933470	1.000000
-RTS_ratio_vec:	205.037330	1.000000
-RTS_ratio_vec:	205.139972	1.000000
-RTS_ratio_vec:	205.250318	1.000000
-RTS_ratio_vec:	205.382174	1.000000
-RTS_ratio_vec:	205.497282	1.000000
-RTS_ratio_vec:	205.604871	1.000000
-RTS_ratio_vec:	205.708142	1.000000
-RTS_ratio_vec:	205.810158	1.000000
-RTS_ratio_vec:	205.913155	1.000000
-RTS_ratio_vec:	206.014369	1.000000
-RTS_ratio_vec:	206.146870	1.000000
-RTS_ratio_vec:	206.263127	1.000000
-RTS_ratio_vec:	206.371300	1.000000
-RTS_ratio_vec:	206.475405	1.000000
-RTS_ratio_vec:	206.578036	1.000000
-RTS_ratio_vec:	206.680138	1.000000
-RTS_ratio_vec:	206.781930	1.000000
-RTS_ratio_vec:	206.884766	1.000000
-RTS_ratio_vec:	206.986133	1.000000
-RTS_ratio_vec:	207.087615	1.000000
-RTS_ratio_vec:	207.191029	1.000000
-RTS_ratio_vec:	207.293958	1.000000
-RTS_ratio_vec:	207.399798	1.000000
-RTS_ratio_vec:	207.505657	1.050000
-RTS_ratio_vec:	207.638581	1.000000
-RTS_ratio_vec:	207.754605	1.000000
-RTS_ratio_vec:	207.862946	1.000000
-RTS_ratio_vec:	207.966961	1.000000
-RTS_ratio_vec:	208.069753	1.000000
-RTS_ratio_vec:	208.174356	1.000000
-RTS_ratio_vec:	208.275841	1.000000
-RTS_ratio_vec:	208.409729	1.000000
-RTS_ratio_vec:	208.526909	1.000000
-RTS_ratio_vec:	208.635497	1.000000
-RTS_ratio_vec:	208.741463	1.000000
-RTS_ratio_vec:	208.844356	1.000000
-RTS_ratio_vec:	208.947020	1.000000
-RTS_ratio_vec:	209.049100	1.000000
-RTS_ratio_vec:	209.151250	1.000000
-RTS_ratio_vec:	209.255562	1.000000
-RTS_ratio_vec:	209.357176	1.000000
-RTS_ratio_vec:	209.490905	1.000000
-RTS_ratio_vec:	209.608539	1.000000
-RTS_ratio_vec:	209.717296	1.000000
-RTS_ratio_vec:	209.822677	1.000000
-RTS_ratio_vec:	209.928775	1.000000
-RTS_ratio_vec:	210.031367	1.000000
-RTS_ratio_vec:	210.134219	1.000000
-RTS_ratio_vec:	210.235945	1.000000
-RTS_ratio_vec:	210.337780	1.000000
-RTS_ratio_vec:	210.439590	1.000000
-RTS_ratio_vec:	210.543864	1.000000
-RTS_ratio_vec:	210.646239	1.000000
-RTS_ratio_vec:	210.750373	1.000000
-RTS_ratio_vec:	210.852170	1.000000
-RTS_ratio_vec:	210.953454	1.000000
-RTS_ratio_vec:	211.057614	1.000000
-RTS_ratio_vec:	211.160000	1.000000
-RTS_ratio_vec:	211.293559	1.000000
-RTS_ratio_vec:	211.410854	1.000000
-RTS_ratio_vec:	211.520232	1.000000
-RTS_ratio_vec:	211.625281	1.000000
-RTS_ratio_vec:	211.728795	1.000000
-RTS_ratio_vec:	211.831950	1.000000
-RTS_ratio_vec:	211.933512	1.000000
-RTS_ratio_vec:	212.037364	1.000000
-RTS_ratio_vec:	212.140088	1.000000
-RTS_ratio_vec:	212.274607	1.000000
-RTS_ratio_vec:	212.392172	1.000000
-RTS_ratio_vec:	212.501483	1.000000
-RTS_ratio_vec:	212.606810	1.000000
-RTS_ratio_vec:	212.710578	1.000000
-RTS_ratio_vec:	212.813803	1.000000
-RTS_ratio_vec:	212.915750	1.000000
-RTS_ratio_vec:	213.020526	1.000000
-RTS_ratio_vec:	213.122688	1.000000
-RTS_ratio_vec:	213.257155	1.000000
-RTS_ratio_vec:	213.374850	1.000000
-RTS_ratio_vec:	213.484414	1.000000
-RTS_ratio_vec:	213.589763	1.000000
-RTS_ratio_vec:	213.694295	1.000000
-RTS_ratio_vec:	213.796762	1.000000
-RTS_ratio_vec:	213.900212	1.000000
-RTS_ratio_vec:	214.002287	1.000000
-RTS_ratio_vec:	214.104482	1.000000
-RTS_ratio_vec:	214.206876	1.000000
-RTS_ratio_vec:	214.311592	1.000000
-RTS_ratio_vec:	214.413625	1.000000
-RTS_ratio_vec:	214.515546	1.000000
-RTS_ratio_vec:	214.618471	1.000000
-RTS_ratio_vec:	214.720209	1.000000
-RTS_ratio_vec:	214.822571	1.000000
-RTS_ratio_vec:	214.925341	1.000000
-RTS_ratio_vec:	215.029642	1.000000
-RTS_ratio_vec:	215.131788	1.000000
-RTS_ratio_vec:	215.234510	1.000000
-RTS_ratio_vec:	215.338754	1.000000
-RTS_ratio_vec:	215.438505	1.000000
-RTS_ratio_vec:	215.540276	1.000000
-RTS_ratio_vec:	215.642657	1.000000
-RTS_ratio_vec:	215.777203	1.000000
-RTS_ratio_vec:	215.886278	1.000000
-RTS_ratio_vec:	216.004657	1.050000
-RTS_ratio_vec:	216.124150	1.000000
-RTS_ratio_vec:	216.228728	1.000000
-RTS_ratio_vec:	216.328217	1.000000
-RTS_ratio_vec:	216.434412	1.000000
-RTS_ratio_vec:	216.552200	1.000000
-RTS_ratio_vec:	216.679545	1.000000
-RTS_ratio_vec:	216.787411	1.000000
-RTS_ratio_vec:	216.887576	1.000000
-RTS_ratio_vec:	216.990069	1.000000
-RTS_ratio_vec:	217.096393	1.000000
-RTS_ratio_vec:	217.223355	1.000000
-RTS_ratio_vec:	217.335247	1.000000
-RTS_ratio_vec:	217.438830	1.000000
-RTS_ratio_vec:	217.538987	1.000000
-RTS_ratio_vec:	217.642076	1.000000
-RTS_ratio_vec:	217.755443	1.000000
-RTS_ratio_vec:	217.884921	1.000000
-RTS_ratio_vec:	217.997724	1.000000
-RTS_ratio_vec:	218.103412	1.000000
-RTS_ratio_vec:	218.204911	1.000000
-RTS_ratio_vec:	218.307342	1.000000
-RTS_ratio_vec:	218.407696	1.000000
-RTS_ratio_vec:	218.539139	1.000000
-RTS_ratio_vec:	218.654121	1.000000
-RTS_ratio_vec:	218.760960	1.000000
-RTS_ratio_vec:	218.864560	1.000000
-RTS_ratio_vec:	218.969575	1.000000
-RTS_ratio_vec:	219.072195	1.000000
-RTS_ratio_vec:	219.205839	1.000000
-RTS_ratio_vec:	219.322607	1.000000
-RTS_ratio_vec:	219.431764	1.000000
-RTS_ratio_vec:	219.536266	1.000000
-RTS_ratio_vec:	219.639851	1.000000
-RTS_ratio_vec:	219.742055	1.000000
-RTS_ratio_vec:	219.845824	1.000000
-RTS_ratio_vec:	219.948522	1.000000
-RTS_ratio_vec:	220.082176	1.000000
-RTS_ratio_vec:	220.199683	1.000000
-RTS_ratio_vec:	220.309046	1.000000
-RTS_ratio_vec:	220.414050	1.000000
-RTS_ratio_vec:	220.517648	1.000000
-RTS_ratio_vec:	220.623385	1.000000
-RTS_ratio_vec:	220.725750	1.000000
-RTS_ratio_vec:	220.860951	1.000000
-RTS_ratio_vec:	220.979643	1.000000
-RTS_ratio_vec:	221.089324	1.000000
-RTS_ratio_vec:	221.195338	1.000000
-RTS_ratio_vec:	221.300283	1.000000
-RTS_ratio_vec:	221.403130	1.000000
-RTS_ratio_vec:	221.507191	1.000000
-RTS_ratio_vec:	221.609882	1.000000
-RTS_ratio_vec:	221.711990	1.000000
-RTS_ratio_vec:	221.814553	1.000000
-RTS_ratio_vec:	221.917395	1.000000
-RTS_ratio_vec:	222.020149	1.000000
-RTS_ratio_vec:	222.122662	1.000000
-RTS_ratio_vec:	222.225647	1.000000
-RTS_ratio_vec:	222.328537	1.000000
-RTS_ratio_vec:	222.431060	1.000000
-RTS_ratio_vec:	222.534195	1.000000
-RTS_ratio_vec:	222.636703	1.000000
-RTS_ratio_vec:	222.739450	1.000000
-RTS_ratio_vec:	222.844186	1.000000
-RTS_ratio_vec:	222.947260	1.000000
-RTS_ratio_vec:	223.082092	1.000000
-RTS_ratio_vec:	223.200404	1.000000
-RTS_ratio_vec:	223.310325	1.000000
-RTS_ratio_vec:	223.416939	1.000000
-RTS_ratio_vec:	223.521317	1.000000
-RTS_ratio_vec:	223.624388	1.000000
-RTS_ratio_vec:	223.727599	1.000000
-RTS_ratio_vec:	223.833347	1.000000
-RTS_ratio_vec:	223.941517	1.000000
-RTS_ratio_vec:	224.076943	1.000000
-RTS_ratio_vec:	224.195546	1.000000
-RTS_ratio_vec:	224.305463	1.000000
-RTS_ratio_vec:	224.411864	1.000000
-RTS_ratio_vec:	224.516260	1.000000
-RTS_ratio_vec:	224.622466	1.000000
-RTS_ratio_vec:	224.725864	1.000000
-RTS_ratio_vec:	224.831440	1.000000
-RTS_ratio_vec:	224.935533	1.000000
-RTS_ratio_vec:	225.070598	1.000000
-RTS_ratio_vec:	225.189253	1.000000
-RTS_ratio_vec:	225.299845	1.000000
-RTS_ratio_vec:	225.406295	1.000000
-RTS_ratio_vec:	225.511302	1.000000
-RTS_ratio_vec:	225.615002	1.000000
-RTS_ratio_vec:	225.718638	1.000000
-RTS_ratio_vec:	225.822276	1.000000
-RTS_ratio_vec:	225.924865	1.000000
-RTS_ratio_vec:	226.028403	1.000000
-RTS_ratio_vec:	226.131959	1.000000
-RTS_ratio_vec:	226.234194	1.000000
-RTS_ratio_vec:	226.337432	1.000000
-RTS_ratio_vec:	226.440722	1.000000
-RTS_ratio_vec:	226.543520	1.000000
-RTS_ratio_vec:	226.646876	1.000000
-RTS_ratio_vec:	226.749444	1.000000
-RTS_ratio_vec:	226.852526	1.000000
-RTS_ratio_vec:	226.955760	1.000000
-RTS_ratio_vec:	227.059075	1.000000
-RTS_ratio_vec:	227.161953	1.000000
-RTS_ratio_vec:	227.263295	1.000000
-RTS_ratio_vec:	227.368147	1.000000
-RTS_ratio_vec:	227.471234	1.000000
-RTS_ratio_vec:	227.607365	1.000000
-RTS_ratio_vec:	227.718088	1.000000
-RTS_ratio_vec:	227.838999	1.000000
-RTS_ratio_vec:	227.959168	1.000000
-RTS_ratio_vec:	228.064724	1.000000
-RTS_ratio_vec:	228.167642	1.000000
-RTS_ratio_vec:	228.280300	1.100000
-RTS_ratio_vec:	228.408698	1.000000
-RTS_ratio_vec:	228.521254	1.000000
-RTS_ratio_vec:	228.625994	1.000000
-RTS_ratio_vec:	228.729449	1.000000
-RTS_ratio_vec:	228.831242	1.000000
-RTS_ratio_vec:	228.963588	1.000000
-RTS_ratio_vec:	229.079677	1.000000
-RTS_ratio_vec:	229.187463	1.000000
-RTS_ratio_vec:	229.292006	1.000000
-RTS_ratio_vec:	229.395282	1.000000
-RTS_ratio_vec:	229.496427	1.000000
-RTS_ratio_vec:	229.598011	1.000000
-RTS_ratio_vec:	229.701258	1.000000
-RTS_ratio_vec:	229.802570	1.000000
-RTS_ratio_vec:	229.903683	1.000000
-RTS_ratio_vec:	230.006988	1.000000
-RTS_ratio_vec:	230.108298	1.000000
-RTS_ratio_vec:	230.208192	1.000000
-RTS_ratio_vec:	230.315071	1.000000
-RTS_ratio_vec:	230.420856	1.000000
-RTS_ratio_vec:	230.553324	1.000000
-RTS_ratio_vec:	230.669217	1.000000
-RTS_ratio_vec:	230.777267	1.000000
-RTS_ratio_vec:	230.881742	1.000000
-RTS_ratio_vec:	230.984293	1.000000
-RTS_ratio_vec:	231.086682	1.000000
-RTS_ratio_vec:	231.187171	1.000000
-RTS_ratio_vec:	231.290852	1.000000
-RTS_ratio_vec:	231.393398	1.000000
-RTS_ratio_vec:	231.530210	1.000000
-RTS_ratio_vec:	231.646591	1.000000
-RTS_ratio_vec:	231.754930	1.000000
-RTS_ratio_vec:	231.859430	1.000000
-RTS_ratio_vec:	231.964719	1.000000
-RTS_ratio_vec:	232.067747	1.000000
-RTS_ratio_vec:	232.168374	1.000000
-RTS_ratio_vec:	232.272149	1.000000
-RTS_ratio_vec:	232.379061	1.000000
-RTS_ratio_vec:	232.512216	1.000000
-RTS_ratio_vec:	232.628404	1.000000
-RTS_ratio_vec:	232.737136	1.000000
-RTS_ratio_vec:	232.842835	1.000000
-RTS_ratio_vec:	232.947198	1.000000
-RTS_ratio_vec:	233.049343	1.000000
-RTS_ratio_vec:	233.151489	1.000000
-RTS_ratio_vec:	233.252378	1.000000
-RTS_ratio_vec:	233.354039	1.000000
-RTS_ratio_vec:	233.455689	1.000000
-RTS_ratio_vec:	233.561035	1.000000
-RTS_ratio_vec:	233.662954	1.000000
-RTS_ratio_vec:	233.796656	1.000000
-RTS_ratio_vec:	233.913553	1.000000
-RTS_ratio_vec:	234.021791	1.000000
-RTS_ratio_vec:	234.127458	1.000000
-RTS_ratio_vec:	234.232055	1.000000
-RTS_ratio_vec:	234.337410	1.000000
-RTS_ratio_vec:	234.439030	1.000000
-RTS_ratio_vec:	234.543536	1.000000
-RTS_ratio_vec:	234.643998	1.000000
-RTS_ratio_vec:	234.777660	1.000000
-RTS_ratio_vec:	234.894785	1.000000
-RTS_ratio_vec:	235.003484	1.000000
-RTS_ratio_vec:	235.108161	1.000000
-RTS_ratio_vec:	235.211798	1.000000
-RTS_ratio_vec:	235.314175	1.000000
-RTS_ratio_vec:	235.416290	1.000000
-RTS_ratio_vec:	235.517951	1.000000
-RTS_ratio_vec:	235.619032	1.000000
-RTS_ratio_vec:	235.721110	1.000000
-RTS_ratio_vec:	235.823066	1.000000
-RTS_ratio_vec:	235.926657	1.000000
-RTS_ratio_vec:	236.027826	1.000000
-RTS_ratio_vec:	236.132051	1.050000
-RTS_ratio_vec:	236.233250	1.000000
-RTS_ratio_vec:	236.367150	1.000000
-RTS_ratio_vec:	236.484199	1.000000
-RTS_ratio_vec:	236.592732	1.000000
-RTS_ratio_vec:	236.698107	1.000000
-RTS_ratio_vec:	236.801235	1.000000
-RTS_ratio_vec:	236.904081	1.000000
-RTS_ratio_vec:	237.006119	1.000000
-RTS_ratio_vec:	237.106819	1.000000
-RTS_ratio_vec:	237.208822	1.000000
-RTS_ratio_vec:	237.310046	1.000000
-RTS_ratio_vec:	237.411975	1.000000
-RTS_ratio_vec:	237.513485	1.000000
-RTS_ratio_vec:	237.614935	1.000000
-RTS_ratio_vec:	237.716238	1.000000
-RTS_ratio_vec:	237.818480	1.000000
-RTS_ratio_vec:	237.920241	1.000000
-RTS_ratio_vec:	238.024193	1.000000
-RTS_ratio_vec:	238.128208	1.000000
-RTS_ratio_vec:	238.231331	1.000000
-RTS_ratio_vec:	238.333291	1.000000
-RTS_ratio_vec:	238.466677	1.000000
-RTS_ratio_vec:	238.583786	1.000000
-RTS_ratio_vec:	238.692237	1.000000
-RTS_ratio_vec:	238.797209	1.000000
-RTS_ratio_vec:	238.900795	1.000000
-RTS_ratio_vec:	239.002836	1.000000
-RTS_ratio_vec:	239.105475	1.000000
-RTS_ratio_vec:	239.206904	1.000000
-RTS_ratio_vec:	239.308172	1.000000
-RTS_ratio_vec:	239.409780	1.000000
-RTS_ratio_vec:	239.511227	1.000000
-RTS_ratio_vec:	239.612720	1.000000
-RTS_ratio_vec:	239.717436	1.000000
-RTS_ratio_vec:	239.818261	1.000000
-RTS_ratio_vec:	239.952384	1.000000
-RTS_ratio_vec:	240.068960	1.000000
-RTS_ratio_vec:	240.177700	1.000000
-RTS_ratio_vec:	240.283378	1.000000
-RTS_ratio_vec:	240.386045	1.000000
-RTS_ratio_vec:	240.490919	1.000000
-RTS_ratio_vec:	240.594022	1.000000
-RTS_ratio_vec:	240.728311	1.000000
-RTS_ratio_vec:	240.845709	1.000000
-RTS_ratio_vec:	240.955385	1.000000
-RTS_ratio_vec:	241.061291	1.000000
-RTS_ratio_vec:	241.165419	1.000000
-RTS_ratio_vec:	241.268188	1.000000
-RTS_ratio_vec:	241.371504	1.000000
-RTS_ratio_vec:	241.474271	1.000000
-RTS_ratio_vec:	241.578524	1.050000
-RTS_ratio_vec:	241.681292	1.000000
-RTS_ratio_vec:	241.815927	1.000000
-RTS_ratio_vec:	241.934280	1.000000
-RTS_ratio_vec:	242.043583	1.000000
-RTS_ratio_vec:	242.149404	1.000000
-RTS_ratio_vec:	242.253843	1.000000
-RTS_ratio_vec:	242.357536	1.000000
-RTS_ratio_vec:	242.460359	1.000000
-RTS_ratio_vec:	242.562811	1.000000
-RTS_ratio_vec:	242.665583	1.000000
-RTS_ratio_vec:	242.767280	1.000000
-RTS_ratio_vec:	242.870737	1.000000
-RTS_ratio_vec:	242.972177	1.000000
-RTS_ratio_vec:	243.077255	1.050000
-RTS_ratio_vec:	243.180080	1.000000
-RTS_ratio_vec:	243.314624	1.000000
-RTS_ratio_vec:	243.433004	1.000000
-RTS_ratio_vec:	243.542174	1.000000
-RTS_ratio_vec:	243.648186	1.000000
-RTS_ratio_vec:	243.752646	1.000000
-RTS_ratio_vec:	243.855565	1.000000
-RTS_ratio_vec:	243.958759	1.000000
-RTS_ratio_vec:	244.061051	1.000000
-RTS_ratio_vec:	244.164317	1.000000
-RTS_ratio_vec:	244.266391	1.000000
-RTS_ratio_vec:	244.371798	1.000000
-RTS_ratio_vec:	244.474028	1.000000
-RTS_ratio_vec:	244.575844	1.000000
-RTS_ratio_vec:	244.678856	1.000000
-RTS_ratio_vec:	244.781499	1.000000
-RTS_ratio_vec:	244.883440	1.000000
-RTS_ratio_vec:	244.986093	1.000000
-RTS_ratio_vec:	245.088553	1.000000
-RTS_ratio_vec:	245.190733	1.000000
-RTS_ratio_vec:	245.293086	1.000000
-RTS_ratio_vec:	245.398136	1.000000
-RTS_ratio_vec:	245.499873	1.000000
-RTS_ratio_vec:	245.601738	1.000000
-RTS_ratio_vec:	245.704014	1.000000
-RTS_ratio_vec:	245.839237	1.000000
-RTS_ratio_vec:	245.946631	1.050000
-RTS_ratio_vec:	246.064646	1.000000
-RTS_ratio_vec:	246.184108	1.000000
-RTS_ratio_vec:	246.291754	1.000000
-RTS_ratio_vec:	246.395611	1.000000
-RTS_ratio_vec:	246.532739	1.000000
-RTS_ratio_vec:	246.652513	1.000000
-RTS_ratio_vec:	246.763916	1.000000
-RTS_ratio_vec:	246.871916	1.000000
-RTS_ratio_vec:	246.977482	1.000000
-RTS_ratio_vec:	247.082267	1.000000
-RTS_ratio_vec:	247.186734	1.000000
-RTS_ratio_vec:	247.291134	1.000000
-RTS_ratio_vec:	247.395343	1.000000
-RTS_ratio_vec:	247.500228	1.000000
-RTS_ratio_vec:	247.603681	1.000000
-RTS_ratio_vec:	247.707512	1.000000
-RTS_ratio_vec:	247.811956	1.000000
-RTS_ratio_vec:	247.915857	1.000000
-RTS_ratio_vec:	248.020056	1.000000
-RTS_ratio_vec:	248.123774	1.000000
-RTS_ratio_vec:	248.228371	1.000000
-RTS_ratio_vec:	248.331707	1.000000
-RTS_ratio_vec:	248.436444	1.000000
-RTS_ratio_vec:	248.540322	1.000000
-RTS_ratio_vec:	248.644319	1.000000
-RTS_ratio_vec:	248.745013	1.000000
-RTS_ratio_vec:	248.848410	1.000000
-RTS_ratio_vec:	248.952369	1.000000
-RTS_ratio_vec:	249.089517	1.000000
-RTS_ratio_vec:	249.196620	1.000000
-RTS_ratio_vec:	249.314354	1.050000
-RTS_ratio_vec:	249.435323	1.000000
-RTS_ratio_vec:	249.541993	1.000000
-RTS_ratio_vec:	249.646668	1.000000
-RTS_ratio_vec:	249.755137	1.000000
-RTS_ratio_vec:	249.884652	1.000000
-RTS_ratio_vec:	249.998228	1.000000
-RTS_ratio_vec:	250.103844	1.000000
-RTS_ratio_vec:	250.208204	1.000000
-RTS_ratio_vec:	250.310387	1.000000
-RTS_ratio_vec:	250.444182	1.000000
-RTS_ratio_vec:	250.561765	1.000000
-RTS_ratio_vec:	250.670538	1.000000
-RTS_ratio_vec:	250.775764	1.000000
-RTS_ratio_vec:	250.879556	1.000000
-RTS_ratio_vec:	250.982562	1.000000
-RTS_ratio_vec:	251.084326	1.000000
-RTS_ratio_vec:	251.186463	1.000000
-RTS_ratio_vec:	251.288194	1.000000
-RTS_ratio_vec:	251.390681	1.000000
-RTS_ratio_vec:	251.492644	1.000000
-RTS_ratio_vec:	251.596979	1.000000
-RTS_ratio_vec:	251.704177	1.000000
-RTS_ratio_vec:	251.837579	1.000000
-RTS_ratio_vec:	251.955377	1.000000
-RTS_ratio_vec:	252.064252	1.000000
-RTS_ratio_vec:	252.169709	1.000000
-RTS_ratio_vec:	252.272985	1.000000
-RTS_ratio_vec:	252.375786	1.000000
-RTS_ratio_vec:	252.478731	1.000000
-RTS_ratio_vec:	252.580427	1.000000
-RTS_ratio_vec:	252.684277	1.000000
-RTS_ratio_vec:	252.786579	1.000000
-RTS_ratio_vec:	252.920516	1.000000
-RTS_ratio_vec:	253.038349	1.000000
-RTS_ratio_vec:	253.147530	1.000000
-RTS_ratio_vec:	253.252571	1.000000
-RTS_ratio_vec:	253.356469	1.000000
-RTS_ratio_vec:	253.459548	1.000000
-RTS_ratio_vec:	253.562014	1.000000
-RTS_ratio_vec:	253.663840	1.000000
-RTS_ratio_vec:	253.765811	1.000000
-RTS_ratio_vec:	253.867615	1.000000
-RTS_ratio_vec:	253.969876	1.000000
-RTS_ratio_vec:	254.072660	1.000000
-RTS_ratio_vec:	254.174134	1.000000
-RTS_ratio_vec:	254.276303	1.000000
-RTS_ratio_vec:	254.378245	1.000000
-RTS_ratio_vec:	254.479578	1.000000
-RTS_ratio_vec:	254.581710	1.000000
-RTS_ratio_vec:	254.683551	1.000000
-RTS_ratio_vec:	254.785305	1.000000
-RTS_ratio_vec:	254.887303	1.000000
-RTS_ratio_vec:	254.990212	1.000000
-RTS_ratio_vec:	255.092405	1.100000
-RTS_ratio_vec:	255.196315	1.000000
-RTS_ratio_vec:	255.297857	1.000000
-RTS_ratio_vec:	255.432370	1.000000
-RTS_ratio_vec:	255.540983	1.000000
-RTS_ratio_vec:	255.659136	1.000000
-RTS_ratio_vec:	255.778126	1.000000
-RTS_ratio_vec:	255.882423	1.000000
-RTS_ratio_vec:	255.985087	1.000000
-RTS_ratio_vec:	256.096155	1.000000
-RTS_ratio_vec:	256.222583	1.000000
-RTS_ratio_vec:	256.334023	1.000000
-RTS_ratio_vec:	256.437546	1.000000
-RTS_ratio_vec:	256.540802	1.000000
-RTS_ratio_vec:	256.643716	1.000000
-RTS_ratio_vec:	256.756890	1.000000
-RTS_ratio_vec:	256.885385	1.000000
-RTS_ratio_vec:	256.998434	1.000000
-RTS_ratio_vec:	257.104139	1.000000
-RTS_ratio_vec:	257.206176	1.000000
-RTS_ratio_vec:	257.307780	1.000000
-RTS_ratio_vec:	257.412851	1.000000
-RTS_ratio_vec:	257.544082	1.000000
-RTS_ratio_vec:	257.658887	1.000000
-RTS_ratio_vec:	257.765681	1.000000
-RTS_ratio_vec:	257.868553	1.000000
-RTS_ratio_vec:	257.970072	1.000000
-RTS_ratio_vec:	258.071025	1.000000
-RTS_ratio_vec:	258.174027	1.000000
-RTS_ratio_vec:	258.276767	1.000000
-RTS_ratio_vec:	258.379074	1.000000
-RTS_ratio_vec:	258.483206	1.050000
-RTS_ratio_vec:	258.593386	1.000000
-RTS_ratio_vec:	258.724392	1.000000
-RTS_ratio_vec:	258.839373	1.000000
-RTS_ratio_vec:	258.946219	1.000000
-RTS_ratio_vec:	259.052157	1.000000
-RTS_ratio_vec:	259.153994	1.000000
-RTS_ratio_vec:	259.256587	1.000000
-RTS_ratio_vec:	259.357805	1.000000
-RTS_ratio_vec:	259.489578	1.000000
-RTS_ratio_vec:	259.605465	1.000000
-RTS_ratio_vec:	259.713050	1.000000
-RTS_ratio_vec:	259.817419	1.000000
-RTS_ratio_vec:	259.919577	1.000000
-RTS_ratio_vec:	260.020726	1.000000
-RTS_ratio_vec:	260.121791	1.000000
-RTS_ratio_vec:	260.223012	1.000000
-RTS_ratio_vec:	260.326104	1.000000
-RTS_ratio_vec:	260.437360	1.000000
-RTS_ratio_vec:	260.569177	1.000000
-RTS_ratio_vec:	260.685117	1.000000
-RTS_ratio_vec:	260.792889	1.000000
-RTS_ratio_vec:	260.897152	1.000000
-RTS_ratio_vec:	260.999938	1.000000
-RTS_ratio_vec:	261.104012	1.000000
-RTS_ratio_vec:	261.205032	1.000000
-RTS_ratio_vec:	261.305977	1.000000
-RTS_ratio_vec:	261.411959	1.000000
-RTS_ratio_vec:	261.522638	1.000000
-RTS_ratio_vec:	261.655008	1.000000
-RTS_ratio_vec:	261.771181	1.000000
-RTS_ratio_vec:	261.879019	1.000000
-RTS_ratio_vec:	261.983240	1.000000
-RTS_ratio_vec:	262.085618	1.000000
-RTS_ratio_vec:	262.187562	1.000000
-RTS_ratio_vec:	262.288968	1.000000
-RTS_ratio_vec:	262.390138	1.000000
-RTS_ratio_vec:	262.493680	1.000000
-RTS_ratio_vec:	262.596181	1.000000
-RTS_ratio_vec:	262.700590	1.000000
-RTS_ratio_vec:	262.803273	1.000000
-RTS_ratio_vec:	262.908960	1.050000
-RTS_ratio_vec:	263.041784	1.000000
-RTS_ratio_vec:	263.157892	1.000000
-RTS_ratio_vec:	263.265929	1.000000
-RTS_ratio_vec:	263.370095	1.000000
-RTS_ratio_vec:	263.472724	1.000000
-RTS_ratio_vec:	263.574145	1.000000
-RTS_ratio_vec:	263.675209	1.000000
-RTS_ratio_vec:	263.779145	1.000000
-RTS_ratio_vec:	263.885513	1.000000
-RTS_ratio_vec:	263.986193	1.000000
-RTS_ratio_vec:	264.118884	1.000000
-RTS_ratio_vec:	264.234865	1.000000
-RTS_ratio_vec:	264.343102	1.000000
-RTS_ratio_vec:	264.447705	1.000000
-RTS_ratio_vec:	264.550306	1.000000
-RTS_ratio_vec:	264.654416	1.000000
-RTS_ratio_vec:	264.756492	1.000000
-RTS_ratio_vec:	264.889771	1.000000
-RTS_ratio_vec:	265.007168	1.000000
-RTS_ratio_vec:	265.115555	1.000000
-RTS_ratio_vec:	265.221010	1.000000
-RTS_ratio_vec:	265.324588	1.000000
-RTS_ratio_vec:	265.427029	1.000000
-RTS_ratio_vec:	265.529167	1.000000
-RTS_ratio_vec:	265.631290	1.000000
-RTS_ratio_vec:	265.735385	1.000000
-RTS_ratio_vec:	265.837749	1.000000
-RTS_ratio_vec:	265.971439	1.000000
-RTS_ratio_vec:	266.088691	1.000000
-RTS_ratio_vec:	266.197624	1.000000
-RTS_ratio_vec:	266.302388	1.000000
-RTS_ratio_vec:	266.405960	1.000000
-RTS_ratio_vec:	266.509414	1.000000
-RTS_ratio_vec:	266.613500	1.000000
-RTS_ratio_vec:	266.720503	1.000000
-RTS_ratio_vec:	266.822627	1.000000
-RTS_ratio_vec:	266.956979	1.000000
-RTS_ratio_vec:	267.074480	1.000000
-RTS_ratio_vec:	267.183589	1.000000
-RTS_ratio_vec:	267.289191	1.000000
-RTS_ratio_vec:	267.393115	1.000000
-RTS_ratio_vec:	267.495794	1.000000
-RTS_ratio_vec:	267.600532	1.000000
-RTS_ratio_vec:	267.702833	1.000000
-RTS_ratio_vec:	267.838235	1.000000
-RTS_ratio_vec:	267.955716	1.000000
-RTS_ratio_vec:	268.065631	1.000000
-RTS_ratio_vec:	268.171529	1.000000
-RTS_ratio_vec:	268.275841	1.000000
-RTS_ratio_vec:	268.378824	1.000000
-RTS_ratio_vec:	268.481930	1.000000
-RTS_ratio_vec:	268.583896	1.000000
-RTS_ratio_vec:	268.686514	1.000000
-RTS_ratio_vec:	268.789225	1.000000
-RTS_ratio_vec:	268.891509	1.000000
-RTS_ratio_vec:	268.993678	1.000000
-RTS_ratio_vec:	269.096428	1.000000
-RTS_ratio_vec:	269.198737	1.000000
-RTS_ratio_vec:	269.301282	1.000000
-RTS_ratio_vec:	269.403778	1.000000
-RTS_ratio_vec:	269.506753	1.000000
-RTS_ratio_vec:	269.608289	1.000000
-RTS_ratio_vec:	269.710807	1.000000
-RTS_ratio_vec:	269.812950	1.000000
-RTS_ratio_vec:	269.918603	1.000000
-RTS_ratio_vec:	270.019177	1.000000
-RTS_ratio_vec:	270.122545	1.000000
-RTS_ratio_vec:	270.225959	1.000000
-RTS_ratio_vec:	270.360644	1.000000
-RTS_ratio_vec:	270.465218	1.000000
-RTS_ratio_vec:	270.574383	1.000000
-RTS_ratio_vec:	270.694467	1.000000
-RTS_ratio_vec:	270.799357	1.000000
-RTS_ratio_vec:	270.902152	1.000000
-RTS_ratio_vec:	271.023836	1.000000
-RTS_ratio_vec:	271.155636	1.000000
-RTS_ratio_vec:	271.267299	1.000000
-RTS_ratio_vec:	271.371135	1.000000
-RTS_ratio_vec:	271.474127	1.000000
-RTS_ratio_vec:	271.575241	1.000000
-RTS_ratio_vec:	271.706621	1.000000
-RTS_ratio_vec:	271.821914	1.000000
-RTS_ratio_vec:	271.929218	1.000000
-RTS_ratio_vec:	272.033445	1.000000
-RTS_ratio_vec:	272.134449	1.000000
-RTS_ratio_vec:	272.237246	1.000000
-RTS_ratio_vec:	272.339379	1.000000
-RTS_ratio_vec:	272.472578	1.000000
-RTS_ratio_vec:	272.589000	1.000000
-RTS_ratio_vec:	272.697184	1.000000
-RTS_ratio_vec:	272.801431	1.000000
-RTS_ratio_vec:	272.903970	1.000000
-RTS_ratio_vec:	273.006389	1.000000
-RTS_ratio_vec:	273.107078	1.000000
-RTS_ratio_vec:	273.208947	1.000000
-RTS_ratio_vec:	273.312391	1.000000
-RTS_ratio_vec:	273.414221	1.000000
-RTS_ratio_vec:	273.546531	1.000000
-RTS_ratio_vec:	273.662827	1.000000
-RTS_ratio_vec:	273.770861	1.000000
-RTS_ratio_vec:	273.875429	1.000000
-RTS_ratio_vec:	273.978222	1.000000
-RTS_ratio_vec:	274.080474	1.000000
-RTS_ratio_vec:	274.182491	1.000000
-RTS_ratio_vec:	274.283805	1.000000
-RTS_ratio_vec:	274.386997	1.000000
-RTS_ratio_vec:	274.487995	1.000000
-RTS_ratio_vec:	274.591945	1.000000
-RTS_ratio_vec:	274.697871	1.000000
-RTS_ratio_vec:	274.798972	1.000000
-RTS_ratio_vec:	274.932574	1.000000
-RTS_ratio_vec:	275.048704	1.000000
-RTS_ratio_vec:	275.157292	1.000000
-RTS_ratio_vec:	275.261272	1.000000
-RTS_ratio_vec:	275.364718	1.000000
-RTS_ratio_vec:	275.466582	1.000000
-RTS_ratio_vec:	275.568835	1.000000
-RTS_ratio_vec:	275.669989	1.000000
-RTS_ratio_vec:	275.773619	1.000000
-RTS_ratio_vec:	275.876702	1.000000
-RTS_ratio_vec:	275.978022	1.000000
-RTS_ratio_vec:	276.081758	1.000000
-RTS_ratio_vec:	276.187935	1.000000
-RTS_ratio_vec:	276.321136	1.000000
-RTS_ratio_vec:	276.437680	1.000000
-RTS_ratio_vec:	276.545469	1.000000
-RTS_ratio_vec:	276.649933	1.000000
-RTS_ratio_vec:	276.753277	1.000000
-RTS_ratio_vec:	276.854707	1.000000
-RTS_ratio_vec:	276.957826	1.000000
-RTS_ratio_vec:	277.060661	1.000000
-RTS_ratio_vec:	277.194220	1.000000
-RTS_ratio_vec:	277.311241	1.000000
-RTS_ratio_vec:	277.420086	1.000000
-RTS_ratio_vec:	277.525006	1.000000
-RTS_ratio_vec:	277.630589	1.000000
-RTS_ratio_vec:	277.734347	1.000000
-RTS_ratio_vec:	277.869993	1.000000
-RTS_ratio_vec:	277.988311	1.000000
-RTS_ratio_vec:	278.099162	1.000000
-RTS_ratio_vec:	278.205588	1.000000
-RTS_ratio_vec:	278.313445	1.000000
-RTS_ratio_vec:	278.417045	1.000000
-RTS_ratio_vec:	278.520891	1.000000
-RTS_ratio_vec:	278.624096	1.000000
-RTS_ratio_vec:	278.727855	1.000000
-RTS_ratio_vec:	278.830529	1.000000
-RTS_ratio_vec:	278.933543	1.000000
-RTS_ratio_vec:	279.037079	1.000000
-RTS_ratio_vec:	279.139837	1.000000
-RTS_ratio_vec:	279.243162	1.000000
-RTS_ratio_vec:	279.346710	1.000000
-RTS_ratio_vec:	279.449212	1.000000
-RTS_ratio_vec:	279.552425	1.000000
-RTS_ratio_vec:	279.658349	1.000000
-RTS_ratio_vec:	279.761670	1.000000
-RTS_ratio_vec:	279.897434	1.000000
-RTS_ratio_vec:	280.016332	1.000000
-RTS_ratio_vec:	280.126743	1.000000
-RTS_ratio_vec:	280.232787	1.000000
-RTS_ratio_vec:	280.337636	1.000000
-RTS_ratio_vec:	280.442147	1.000000
-RTS_ratio_vec:	280.545434	1.000000
-RTS_ratio_vec:	280.649438	1.000000
-RTS_ratio_vec:	280.752318	1.000000
-RTS_ratio_vec:	280.855018	1.000000
-RTS_ratio_vec:	280.958805	1.000000
-RTS_ratio_vec:	281.061487	1.000000
-RTS_ratio_vec:	281.165040	1.000000
-RTS_ratio_vec:	281.268016	1.000000
-RTS_ratio_vec:	281.371165	1.000000
-RTS_ratio_vec:	281.473970	1.000000
-RTS_ratio_vec:	281.577258	1.000000
-RTS_ratio_vec:	281.683379	1.000000
-RTS_ratio_vec:	281.786515	1.000000
-RTS_ratio_vec:	281.889482	1.000000
-RTS_ratio_vec:	281.992240	1.000000
-RTS_ratio_vec:	282.095447	1.000000
-RTS_ratio_vec:	282.199947	1.050000
-RTS_ratio_vec:	282.303429	1.000000
-RTS_ratio_vec:	282.439316	1.000000
-RTS_ratio_vec:	282.548813	1.000000
-RTS_ratio_vec:	282.672963	1.000000
-RTS_ratio_vec:	282.793737	1.000000
-RTS_ratio_vec:	282.899009	1.000000
-RTS_ratio_vec:	283.000330	1.000000
-RTS_ratio_vec:	283.102793	1.000000
-RTS_ratio_vec:	283.231062	1.000000
-RTS_ratio_vec:	283.344057	1.000000
-RTS_ratio_vec:	283.448550	1.000000
-RTS_ratio_vec:	283.552018	1.000000
-RTS_ratio_vec:	283.658681	1.000000
-RTS_ratio_vec:	283.791014	1.000000
-RTS_ratio_vec:	283.907584	1.000000
-RTS_ratio_vec:	284.015507	1.000000
-RTS_ratio_vec:	284.120090	1.000000
-RTS_ratio_vec:	284.222259	1.000000
-RTS_ratio_vec:	284.332844	1.000000
-RTS_ratio_vec:	284.434767	1.000000
-RTS_ratio_vec:	284.567377	1.000000
-RTS_ratio_vec:	284.684904	1.000000
-RTS_ratio_vec:	284.793898	1.000000
-RTS_ratio_vec:	284.899401	1.000000
-RTS_ratio_vec:	285.002733	1.000000
-RTS_ratio_vec:	285.105140	1.000000
-RTS_ratio_vec:	285.207671	1.000000
-RTS_ratio_vec:	285.309235	1.000000
-RTS_ratio_vec:	285.411520	1.000000
-RTS_ratio_vec:	285.512760	1.000000
-RTS_ratio_vec:	285.614850	1.000000
-RTS_ratio_vec:	285.716495	1.000000
-RTS_ratio_vec:	285.818610	1.000000
-RTS_ratio_vec:	285.919738	1.000000
-RTS_ratio_vec:	286.021991	1.000000
-RTS_ratio_vec:	286.125681	1.000000
-RTS_ratio_vec:	286.227814	1.000000
-RTS_ratio_vec:	286.329207	1.000000
-RTS_ratio_vec:	286.436012	1.000000
-RTS_ratio_vec:	286.538405	1.000000
-RTS_ratio_vec:	286.671697	1.000000
-RTS_ratio_vec:	286.789104	1.000000
-RTS_ratio_vec:	286.898137	1.000000
-RTS_ratio_vec:	287.003557	1.000000
-RTS_ratio_vec:	287.106439	1.000000
-RTS_ratio_vec:	287.209146	1.000000
-RTS_ratio_vec:	287.315051	1.000000
-RTS_ratio_vec:	287.416232	1.000000
-RTS_ratio_vec:	287.518428	1.000000
-RTS_ratio_vec:	287.620064	1.000000
-RTS_ratio_vec:	287.721961	1.000000
-RTS_ratio_vec:	287.823180	1.000000
-RTS_ratio_vec:	287.924725	1.000000
-RTS_ratio_vec:	288.026975	1.000000
-RTS_ratio_vec:	288.128058	1.000000
-RTS_ratio_vec:	288.229981	1.000000
-RTS_ratio_vec:	288.331594	1.000000
-RTS_ratio_vec:	288.433259	1.000000
-RTS_ratio_vec:	288.537996	1.000000
-RTS_ratio_vec:	288.640177	1.000000
-RTS_ratio_vec:	288.746639	1.000000
-RTS_ratio_vec:	288.853594	1.000000
-RTS_ratio_vec:	288.987105	1.000000
-RTS_ratio_vec:	289.104632	1.000000
-RTS_ratio_vec:	289.213445	1.000000
-RTS_ratio_vec:	289.318306	1.000000
-RTS_ratio_vec:	289.422047	1.000000
-RTS_ratio_vec:	289.524532	1.000000
-RTS_ratio_vec:	289.626695	1.000000
-RTS_ratio_vec:	289.728519	1.000000
-RTS_ratio_vec:	289.830885	1.000000
-RTS_ratio_vec:	289.932356	1.000000
-RTS_ratio_vec:	290.034079	1.000000
-RTS_ratio_vec:	290.136254	1.000000
-RTS_ratio_vec:	290.237541	1.000000
-RTS_ratio_vec:	290.340184	1.000000
-RTS_ratio_vec:	290.441152	1.000000
-RTS_ratio_vec:	290.543036	1.000000
-RTS_ratio_vec:	290.644660	1.000000
-RTS_ratio_vec:	290.746131	1.000000
-RTS_ratio_vec:	290.850510	1.000000
-RTS_ratio_vec:	290.952533	1.000000
-RTS_ratio_vec:	291.054267	1.000000
-RTS_ratio_vec:	291.154530	1.000000
-RTS_ratio_vec:	291.256200	1.000000
-RTS_ratio_vec:	291.358199	1.000000
-RTS_ratio_vec:	291.492101	1.000000
-RTS_ratio_vec:	291.601769	1.000000
-RTS_ratio_vec:	291.720792	1.000000
-RTS_ratio_vec:	291.839215	1.000000
-RTS_ratio_vec:	291.946014	1.000000
-RTS_ratio_vec:	292.053655	1.000000
-RTS_ratio_vec:	292.160983	1.050000
-RTS_ratio_vec:	292.288040	1.000000
-RTS_ratio_vec:	292.399637	1.000000
-RTS_ratio_vec:	292.502694	1.000000
-RTS_ratio_vec:	292.607718	1.000000
-RTS_ratio_vec:	292.712104	1.000000
-RTS_ratio_vec:	292.842930	1.000000
-RTS_ratio_vec:	292.957983	1.000000
-RTS_ratio_vec:	293.064541	1.000000
-RTS_ratio_vec:	293.167304	1.000000
-RTS_ratio_vec:	293.271399	1.000000
-RTS_ratio_vec:	293.372500	1.000000
-RTS_ratio_vec:	293.505469	1.000000
-RTS_ratio_vec:	293.622144	1.000000
-RTS_ratio_vec:	293.730734	1.000000
-RTS_ratio_vec:	293.834893	1.000000
-RTS_ratio_vec:	293.938140	1.000000
-RTS_ratio_vec:	294.040314	1.000000
-RTS_ratio_vec:	294.141403	1.000000
-RTS_ratio_vec:	294.242557	1.000000
-RTS_ratio_vec:	294.344426	1.000000
-RTS_ratio_vec:	294.446134	1.000000
-RTS_ratio_vec:	294.549257	1.000000
-RTS_ratio_vec:	294.651807	1.000000
-RTS_ratio_vec:	294.753633	1.000000
-RTS_ratio_vec:	294.887239	1.000000
-RTS_ratio_vec:	295.003868	1.000000
-RTS_ratio_vec:	295.111931	1.000000
-RTS_ratio_vec:	295.216623	1.000000
-RTS_ratio_vec:	295.322212	1.050000
-RTS_ratio_vec:	295.423783	1.000000
-RTS_ratio_vec:	295.528370	1.000000
-RTS_ratio_vec:	295.629820	1.000000
-RTS_ratio_vec:	295.763352	1.000000
-RTS_ratio_vec:	295.880719	1.000000
-RTS_ratio_vec:	295.989086	1.000000
-RTS_ratio_vec:	296.094027	1.000000
-RTS_ratio_vec:	296.197592	1.000000
-RTS_ratio_vec:	296.300141	1.000000
-RTS_ratio_vec:	296.401986	1.000000
-RTS_ratio_vec:	296.506251	1.050000
-RTS_ratio_vec:	296.609672	1.000000
-RTS_ratio_vec:	296.712163	1.000000
-RTS_ratio_vec:	296.846119	1.000000
-RTS_ratio_vec:	296.962939	1.000000
-RTS_ratio_vec:	297.072193	1.000000
-RTS_ratio_vec:	297.177256	1.000000
-RTS_ratio_vec:	297.280682	1.000000
-RTS_ratio_vec:	297.383538	1.000000
-RTS_ratio_vec:	297.484939	1.000000
-RTS_ratio_vec:	297.587157	1.000000
-RTS_ratio_vec:	297.689021	1.000000
-RTS_ratio_vec:	297.793217	1.000000
-RTS_ratio_vec:	297.896410	1.000000
-RTS_ratio_vec:	298.033546	1.000000
-RTS_ratio_vec:	298.150744	1.000000
-RTS_ratio_vec:	298.260091	1.000000
-RTS_ratio_vec:	298.365039	1.000000
-RTS_ratio_vec:	298.468906	1.000000
-RTS_ratio_vec:	298.573605	1.000000
-RTS_ratio_vec:	298.675939	1.000000
-RTS_ratio_vec:	298.779164	1.000000
-RTS_ratio_vec:	298.881975	1.000000
-RTS_ratio_vec:	299.015986	1.000000
-RTS_ratio_vec:	299.133793	1.000000
-RTS_ratio_vec:	299.242533	1.000000
-RTS_ratio_vec:	299.348213	1.000000
-RTS_ratio_vec:	299.451896	1.000000
-RTS_ratio_vec:	299.555459	1.000000
-RTS_ratio_vec:	299.656890	1.000000
-RTS_ratio_vec:	299.759367	1.000000
-RTS_ratio_vec:	299.861264	1.000000
-RTS_ratio_vec:	299.963245	1.000000
 
---------------------------NODE: 1--------------------
-     RTS(C)_send:	0
-        CTS_recv:	0
-       CTSC_recv:	0
-       DATA_send:	55262
-forward_data_send:	0
-backward_ack_send:	55260
-        ACK_recv:	55186
+--------------------------NODE: 5--------------------
+     RTS(C)_send:	14044
+        CTS_recv:	8107
+       CTSC_recv:	1949
+       DATA_send:	22714
+forward_data_send:	10004
+backward_ack_send:	12606
+        ACK_recv:	19635
 
-     RTS(C)_recv:	55195
-        CTS_send:	54205
-       CTSC_send:	980
-       DATA_recv:	55187
-        ACK_send:	55187
+     RTS(C)_recv:	12568
+        CTS_send:	8052
+       CTSC_send:	2063
+       DATA_recv:	19846
+        ACK_send:	19846
 
-   RTS_retransmit:	0
-  DATA_retransmit:	75
-backward_ack_retransmit:	75
+   RTS_retransmit:	3570
+  DATA_retransmit:	3024
+backward_ack_retransmit:	2815
+forward_data_retransmit:	209
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	6.36　mS
+
+  	  avg_length:	0.141690394051
+
+RTS_per_forward_data:	1.40
+
+    RTS_CTS_rate:	71.60%
+all_success_rate:	74.70%
+
+RTS_retransmit_rate:	25.42%
+forward_data_retransmit_rate:	2.09%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 6--------------------
+     RTS(C)_send:	13463
+        CTS_recv:	7986
+       CTSC_recv:	2039
+       DATA_send:	22559
+forward_data_send:	9995
+backward_ack_send:	12461
+        ACK_recv:	19635
+
+     RTS(C)_recv:	11928
+        CTS_send:	8138
+       CTSC_send:	1961
+       DATA_recv:	19816
+        ACK_send:	19816
+
+   RTS_retransmit:	3123
+  DATA_retransmit:	2870
+backward_ack_retransmit:	2670
+forward_data_retransmit:	200
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	6.03　mS
+
+  	  avg_length:	0.116356136513
+
+RTS_per_forward_data:	1.35
+
+    RTS_CTS_rate:	74.46%
+all_success_rate:	76.45%
+
+RTS_retransmit_rate:	23.20%
+forward_data_retransmit_rate:	2.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 7--------------------
+     RTS(C)_send:	12948
+        CTS_recv:	8100
+       CTSC_recv:	1915
+       DATA_send:	22626
+forward_data_send:	9987
+backward_ack_send:	12539
+        ACK_recv:	19635
+
+     RTS(C)_recv:	11564
+        CTS_send:	8012
+       CTSC_send:	2045
+       DATA_recv:	19790
+        ACK_send:	19790
+
+   RTS_retransmit:	2722
+  DATA_retransmit:	2940
+backward_ack_retransmit:	2748
+forward_data_retransmit:	192
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	5.76　mS
+
+  	  avg_length:	0.104692935316
+
+RTS_per_forward_data:	1.30
+
+    RTS_CTS_rate:	77.35%
+all_success_rate:	77.46%
+
+RTS_retransmit_rate:	21.02%
+forward_data_retransmit_rate:	1.92%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 8--------------------
+     RTS(C)_send:	11733
+        CTS_recv:	7928
+       CTSC_recv:	2019
+       DATA_send:	22531
+forward_data_send:	9924
+backward_ack_send:	12509
+        ACK_recv:	19635
+
+     RTS(C)_recv:	11287
+        CTS_send:	8124
+       CTSC_send:	1917
+       DATA_recv:	19813
+        ACK_send:	19813
+
+   RTS_retransmit:	1676
+  DATA_retransmit:	2847
+backward_ack_retransmit:	2718
+forward_data_retransmit:	129
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	5.34　mS
+
+  	  avg_length:	0.081122992804
+
+RTS_per_forward_data:	1.18
+
+    RTS_CTS_rate:	84.78%
+all_success_rate:	81.11%
+
+RTS_retransmit_rate:	14.28%
+forward_data_retransmit_rate:	1.30%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 9--------------------
+     RTS(C)_send:	11993
+        CTS_recv:	8131
+       CTSC_recv:	1918
+       DATA_send:	22443
+forward_data_send:	10034
+backward_ack_send:	12311
+        ACK_recv:	19634
+
+     RTS(C)_recv:	10785
+        CTS_send:	7936
+       CTSC_send:	2020
+       DATA_recv:	19749
+        ACK_send:	19749
+
+   RTS_retransmit:	1867
+  DATA_retransmit:	2760
+backward_ack_retransmit:	2520
+forward_data_retransmit:	240
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	5.40　mS
+
+  	  avg_length:	0.084656200983
+
+RTS_per_forward_data:	1.20
+
+    RTS_CTS_rate:	83.79%
+all_success_rate:	80.77%
+
+RTS_retransmit_rate:	15.57%
+forward_data_retransmit_rate:	2.39%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 10--------------------
+     RTS(C)_send:	11412
+        CTS_recv:	8254
+       CTSC_recv:	1652
+       DATA_send:	22089
+forward_data_send:	9892
+backward_ack_send:	12099
+        ACK_recv:	19634
+
+     RTS(C)_recv:	10981
+        CTS_send:	8144
+       CTSC_send:	1918
+       DATA_recv:	19791
+        ACK_send:	19791
+
+   RTS_retransmit:	1484
+  DATA_retransmit:	2406
+backward_ack_retransmit:	2308
+forward_data_retransmit:	98
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	5.31　mS
+
+  	  avg_length:	0.071668646248
+
+RTS_per_forward_data:	1.15
+
+    RTS_CTS_rate:	86.80%
+all_success_rate:	83.29%
+
+RTS_retransmit_rate:	13.00%
+forward_data_retransmit_rate:	0.99%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 11--------------------
+     RTS(C)_send:	9945
+        CTS_recv:	8344
+       CTSC_recv:	1451
+       DATA_send:	21858
+forward_data_send:	9794
+backward_ack_send:	11966
+        ACK_recv:	19636
+
+     RTS(C)_recv:	10612
+        CTS_send:	8264
+       CTSC_send:	1652
+       DATA_recv:	19637
+        ACK_send:	19637
+
+   RTS_retransmit:	136
+  DATA_retransmit:	2172
+backward_ack_retransmit:	2172
 forward_data_retransmit:	0
 
       RTS_drop:	0
@@ -2828,10 +972,133 @@ forward_data_retransmit:	0
 forward_data_drop:	0
 backward_ack_drop:	0
 
-  	  avg_length:	0.004374121392
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.62　mS
+
+  	  avg_length:	0.031218360512
+
+RTS_per_forward_data:	1.02
+
+    RTS_CTS_rate:	98.49%
+all_success_rate:	89.28%
+
+RTS_retransmit_rate:	1.37%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 12--------------------
+     RTS(C)_send:	9878
+        CTS_recv:	9538
+       CTSC_recv:	256
+       DATA_send:	22945
+forward_data_send:	9794
+backward_ack_send:	13053
+        ACK_recv:	19637
+
+     RTS(C)_recv:	9897
+        CTS_send:	8344
+       CTSC_send:	1451
+       DATA_recv:	19637
+        ACK_send:	19637
+
+   RTS_retransmit:	81
+  DATA_retransmit:	3259
+backward_ack_retransmit:	3259
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.39　mS
+
+  	  avg_length:	0.012661800226
+
+RTS_per_forward_data:	1.01
+
+    RTS_CTS_rate:	99.15%
+all_success_rate:	85.28%
+
+RTS_retransmit_rate:	0.82%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 13--------------------
+     RTS(C)_send:	9807
+        CTS_recv:	9790
+       CTSC_recv:	3
+       DATA_send:	21098
+forward_data_send:	9794
+backward_ack_send:	11206
+        ACK_recv:	19637
+
+     RTS(C)_recv:	9829
+        CTS_send:	9540
+       CTSC_send:	256
+       DATA_recv:	19637
+        ACK_send:	19637
+
+   RTS_retransmit:	14
+  DATA_retransmit:	1412
+backward_ack_retransmit:	1412
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+	 minSendTime:	3.63　mS
+	 avgSendTime:	4.24　mS
+
+  	  avg_length:	0.002643604323
+
+RTS_per_forward_data:	1.00
+
+    RTS_CTS_rate:	99.86%
+all_success_rate:	93.01%
+
+RTS_retransmit_rate:	0.14%
+forward_data_retransmit_rate:	0.00%
+RTS_drop_rate:	0.00%
+forward_data_drop_rate:	0.00%
+
+
+--------------------------NODE: 14--------------------
+     RTS(C)_send:	0
+        CTS_recv:	0
+       CTSC_recv:	0
+       DATA_send:	10233
+forward_data_send:	0
+backward_ack_send:	10184
+        ACK_recv:	9842
+
+     RTS(C)_recv:	9794
+        CTS_send:	9790
+       CTSC_send:	3
+       DATA_recv:	9795
+        ACK_send:	9795
+
+   RTS_retransmit:	0
+  DATA_retransmit:	390
+backward_ack_retransmit:	390
+forward_data_retransmit:	0
+
+      RTS_drop:	0
+     DATA_drop:	0
+forward_data_drop:	0
+backward_ack_drop:	0
+
+  	  avg_length:	0.000028368385
 
     RTS_CTS_rate:	0.00%
-all_success_rate:	99.86%
+all_success_rate:	96.18%
 
 RTS_retransmit_rate:	0.00%
 forward_data_retransmit_rate:	0.00%

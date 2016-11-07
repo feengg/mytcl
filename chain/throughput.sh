@@ -14,8 +14,7 @@ set xrange [1:14]
 set yrange [50:350]
 
 plot    './semitcp/throughput' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6, \
-        './semitcprc/throughput' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
-        './semitcprc/find_RTS_ratio/best_throughput' u 1:2 t 'best\_throughput' with linespoints lt 7 pt 8
+        './semitcprc/throughput' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4
     set output
 quit
 

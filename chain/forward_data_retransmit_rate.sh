@@ -13,7 +13,7 @@ set boxwidth 20
 set xrange [1:15]
 #set yrange [:200]
 
-plot    './matcp/15-nodes/forward_data_retransmit_rate' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
+plot    './semitcprc/15-nodes/forward_data_retransmit_rate' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \
         './semitcp/15-nodes/forward_data_retransmit_rate' u 1:2 t 'Semi-TCP' with linespoints lt 5 pt 6
     set output
 quit

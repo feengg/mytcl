@@ -9,7 +9,7 @@ date > q_length.txt
 # RUN FOUR SIMULATION WITH DIFFERENT TARFFIC FOR THE SAME MOBILTY SCENARIO
 v=1
 min_RTS_DATA_ratio=1\.8
-max_RTS_DATA_ratio=2\.2
+max_RTS_DATA_ratio=2\.1
 
 while [ $v -lt 10 ]; do
 

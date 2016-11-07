@@ -9,7 +9,7 @@ date > HopsResultAvg.txt
 i=2
 
 min_RTS_DATA_ratio=1\.8
-max_RTS_DATA_ratio=2\.2
+max_RTS_DATA_ratio=2\.1
 
 while [ $i -lt 16 ]; do
     echo >> q_length.txt
