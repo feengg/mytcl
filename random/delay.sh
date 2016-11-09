@@ -9,7 +9,7 @@ set output 'delay.eps'
 set autoscale
 #set grid
 
-set yrange [:750]
+#set yrange [:750]
 set boxwidth 20
 
 plot    './semitcprc/delay' u 1:2 t 'Semi-TCP-RC' with linespoints lt 3 pt 4, \

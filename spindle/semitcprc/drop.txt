@@ -1,38 +1,38 @@
-Mon Nov  7 18:31:38 CST 2016
+Wed Nov  9 13:08:15 CST 2016
 SIMULATION DURATION: 300.0S, AODV+TCP
 
 --- Hop Node Number:1 ---
                      Node ID
-       0       1       2       3
+       0       1       2       3       4
 
                      RTS(C) sent
-   32181    1382   29675       0
+    1927   29585   28456       0       0
 
 
 
                      RTS COL
-       0       0      74     127
+       0       0      26       2     106
 
                      IFQ DROP
-       0       0       0       0
+       0       0       0       0       0
 
                      ROUTE DROP
-       0      40       0       0
+       2       0       0       0       0
 
                      ROUTE DROP When route queue full
-       0       0       0       0
+       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-       0      39       0       0
+       1       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0       0       0
+       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0
+       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-      74       0      22       0
+       3      55       8       0       0
 
  DROP because of ARP failure        0
 
@@ -41,33 +41,33 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5
 
                      RTS(C) sent
-   31020    1188   15939   16533       0       0
+     583   28077   15696   16229       0       0
 
 
 
                      RTS COL
-       0       0   10715       1      38       0
+       0       0    8552       4       1      24
 
                      IFQ DROP
        0       0       0       0       0       0
 
                      ROUTE DROP
-      46       1       0       0     244     317
+       3      35       0       0       2      60
 
                      ROUTE DROP When route queue full
-       0       0       0       0     150     217
+       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      46       1       0       0       0       0
+       2      29       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    5102       0       0       0
+       0       0    4012       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0      56       3
+       0       0       0       0       2      32
 
                      TCP-ACK DROP BECAUSE OF COL
-      67       1      38   16619       0       0
+       0      39      31   13265       0       0
 
  DROP because of ARP failure        0
 
@@ -76,33 +76,33 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5       6
 
                      RTS(C) sent
-    1406   32604   13473   13123   13064       0       0
+    1137   31559   13425   13013   12949       0       0
 
 
 
                      RTS COL
-       0       0   16430     202       1       0       6
+       0       0   15585     244       2       0       3
 
                      IFQ DROP
        0       0       0       0       0       0       0
 
                      ROUTE DROP
-      39      36       0       0       1       0       2
+      16      21       0       0       2       0       4
 
                      ROUTE DROP When route queue full
        0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      28      33       0       0       0       0       0
+      12      21       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    4250       0       0       0       0
+       0       0    3890       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       1       0       1
+       0       0       0       0       1       0       2
 
                      TCP-ACK DROP BECAUSE OF COL
-       0       9       7    4982    3500       0       0
+       0      20       6    4616    3367       0       0
 
  DROP because of ARP failure        0
 
@@ -111,33 +111,33 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5       6       7
 
                      RTS(C) sent
-   25311    1807   16538   12031   11584   11557       0       0
+   14865    8458   14592   11064   10808   10788       0       0
 
 
 
                      RTS COL
-       0       0   10266    2660     176      16      48       1
+       0       0    8840    2116      85      16      26      14
 
                      IFQ DROP
        0       0       0       0       0       0       0       0
 
                      ROUTE DROP
-      47      13       0       0       0       0       2       0
+      28      20       0       0       2       1       0       0
 
                      ROUTE DROP When route queue full
        0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      47      10       0       0       0       0       0       0
+      27      11       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    4639       2       0       0       0       0
+       0       0    3023       3       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       0       0       1       0
+       0       0       0       0       2       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-     124       9      21    4626    3718    2040       0       0
+      41      51      16    3046    2590    1530       0       0
 
  DROP because of ARP failure        0
 
@@ -146,68 +146,68 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5       6       7       8
 
                      RTS(C) sent
-   27952     761   14720   15869   11611   11486   11369       0       0
+     435   27722   14540   16611   11929   11743   11662       0       0
 
 
 
                      RTS COL
-       0       0   12274    1621    2376      78      53      31       1
+       0       0   12397    1436    2596      91      38       0      40
 
                      IFQ DROP
        0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP
-      55      10       0       0       1       2       2       0       0
+      12      39       2       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
        0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      51       5       0       0       0       0       0       0       0
+       5      39       1       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    3657     211       6       0       0       0       0
+       0       0    3194     182       4       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       1       0       0       0       0
+       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-     100       1      97    3631    3775    3302    2106       0       0
+       0     105     108    3011    3742    3744    2259       0       0
 
  DROP because of ARP failure        0
 
 --- Hop Node Number:6 ---
                      Node ID
-       0       1       2       3       4       5       6       7       8       9
+       0       1       2       3       4       5       6       7       8
 
                      RTS(C) sent
-    1777   22859   12206   11956   12817    9888    9755    9701       0       0
+   26473     324   13585   13569   14382   11270   11143   11067       0
 
 
 
                      RTS COL
-       0       0   10393    1253    1102    1704      70      44       3      20
+       0       0   11089    1248    1242    1745      79      43      32
 
                      IFQ DROP
-       0       0       0       0       0       0       0       1       0       0
+       0       0       0       0       0       0       0       2       0
 
                      ROUTE DROP
-      10      64       0       0     420       0       0       0       0       0
+      73       4       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
-       0       0       0       0     292       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-       8      58       0       0       0       0       0       0       0       0
+      72       1       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    3540     133     165       3       0       0       0       0
+       0       0    3946     186     233       5       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       3       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-       3      72      44    2738    1867    3115    2623    1382       0       0
+      92       1      45    3092    2158    3651    2858    1446       0
 
  DROP because of ARP failure        1
 
@@ -216,33 +216,33 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5       6       7       8       9      10
 
                      RTS(C) sent
-   21294    3166   13998   12530   12508   12413   10185   10045    9985       0       0
+   23328     785   14338   12891   12947   12961   10578   10470   10399       0       0
 
 
 
                      RTS COL
-       0       0    9723    2137    1329    1215    1274      55      38      15       2
+       0       0    9212    2140    1309    1279    1360      75      41      20       2
 
                      IFQ DROP
-       0       0       0       0       0       1       0       0       1       0       0
+       0       0       1       0       0       0       0       0       1       0       0
 
                      ROUTE DROP
-      90      19       3       0       0       0       0       0       0       0       0
+      77       9       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
        0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      84      11       1       0       0       0       0       0       0       0       0
+      76       5       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    3620     267     128     225       6       0       0       0       0
+       0       0    3721     221     140     233       4       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       1       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-      72      12      41    2992    2426    1880    3289    1993    1182       0       0
+      96       1      34    3104    2422    1808    3529    2147    1285       0       0
 
  DROP because of ARP failure        1
 
@@ -251,138 +251,138 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5       6       7       8       9      10      11
 
                      RTS(C) sent
-     980   22326   13640   13251   11867   11898   11595    9728    9622    9558       0       0
+    9620   12157   12616   12406   11308   11265   11136    9589    9510    9470       0       0
 
 
 
                      RTS COL
-       0       0    9109    2134    2070    1208    1079    1009      67      42       0      16
+       0       0    8022    1640    1579     957     879     861      41      23       6      10
 
                      IFQ DROP
-       0       0       0       0       0       0       0       1       0       1       0       0
+       0       0       0       0       0       0       0       0       0       1       0       0
 
                      ROUTE DROP
-      16      92       0       0       0       0       0       0       0       0       0       0
+      41      49       2       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
        0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      11      88       0       0       0       0       0       0       0       0       0       0
+      34      38       1       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    3401     203     189     122     233       5       0       0       0       0
+       0       0    3170     184     186     107     170       1       0       0       0       1
 
                      TCP-ACK DROP BECAUSE OF RET
        0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-       1      86      38    2830    2314    2096    1890    3049    1718     988       0       0
+      36      33      43    2770    2096    1918    1670    2468    1409     967       0       0
 
  DROP because of ARP failure        1
 
 --- Hop Node Number:9 ---
                      Node ID
-       0       1       2       3       4       5       6       7       8       9      10      11      12
+       0       1       2       3       4       5       6       7       8       9      10      11
 
                      RTS(C) sent
-    4121   20088   14013   13855   13504   12171   12001   11713   10003    9916    9855       0       0
+   20673     569   12550   12493   12263   10945   11010   10641    9234    9173    9128       0
 
 
 
                      RTS COL
-       0       0    9441    2032    2075    1958    1149     976     967      46      44       1      10
+       0       0    7712    1647    1770    1705     877     866     806      41      30       7
 
                      IFQ DROP
-       0       0       0       1      14       0       0       0       0       0       0       0       0
+       0       0       0       1       0       0       0       0       0       0       0       0
 
                      ROUTE DROP
-      21      86       4       0      46       0       0       0       0       0       0       0       0
+      88       8       2       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
-       0       0       0       0      46       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      14      80       2       0       0       0       0       0       0       0       0       0       0
+      87       6       1       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    3529     217     230     197     156     216       4       0       0       0       0
+       0       0    3439     224     162     156     105     187       4       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       1       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-       9      74      42    2828    2537    2202    2239    1945    3164    1592     957       0       0
+      74       1      36    2800    2464    2054    1876    1710    2777    1249     865       0
 
  DROP because of ARP failure        1
 
 --- Hop Node Number:10 ---
                      Node ID
-       0       1       2       3       4       5       6       7       8       9      10      11      12      13
+       0       1       2       3       4       5       6       7       8       9      10      11      12
 
                      RTS(C) sent
-   19355    4993   14192   13524   13382   13029   11545   11561   11284    9742    9674    9622       0       0
+   10133    1195    7939    7099    6927    6861    6653    6721    6665    6380    6360    6351       0
 
 
 
                      RTS COL
-       0       0    9709    2303    1945    1945    1842     962     872     891      49      34      13       1
+       0       0    2422     746     367     310     277     138     180     164      11       9       3
 
                      IFQ DROP
-       0       0       0       0       0       0       1       0       0       0       1       0       0       0
+       0       0       0       0       0       0       0       0       0       0       1       0       0
 
                      ROUTE DROP
-      65      18       0       3       3       4       0       0       0       0       0       0       0       0
+      40       8       0       0       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      57      12       0       0       0       2       0       0       0       0       0       0       0       0
+      39       4       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    3319     262     181     206     184     121     190       8       0       0       0       0
+       0       0    2393     191      58      40      36      35      42       1       1       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-      87      19      56    2553    2304    2356    2209    2084    1890    2935    1330     902       0       0
+      42       2      19    2358    1866     773     572     463     374     610     291     234       0
 
  DROP because of ARP failure        1
 
 --- Hop Node Number:11 ---
                      Node ID
-       0       1       2       3       4       5       6       7       8       9      10      11      12      13
+       0       1       2       3       4       5       6       7       8       9      10      11      12      13      14
 
                      RTS(C) sent
-   22039     649   13797   13428   12914   12798   12228   10997   10998   10525    9229    9159    9104       0
+    7375   12767   12703   12643   12198   11854   11411   10680   10571   10211    9094    9046    8995       0       0
 
 
 
                      RTS COL
-       0       0    8737    2247    2154    1927    1895    1667     913     861     752      51      36      10
+       0       0    7149    1869    1883    1569    1476    1281     779     779     625      47      37       3       5
 
                      IFQ DROP
-       0       0       0       1       0       0       0       0       0       0       0       0       0       0
+       0       0       0       1       0       0       0       0       1       0       0       0       0       0       0
 
                      ROUTE DROP
-      81       9      12       8       2       0       0       0       0       0       0       0       0       0
+      32      65       6       6       4       0       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      77       1       5       2       1       0       0       0       0       0       0       0       0       0
+      29      55       2       2       1       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    3297     216     204     170     206     158     109     210       3       0       0       0
+       0       0    2865     199     205     194     143     157     132     160       2       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-      77       4      54    2466    2190    2018    2217    2200    1996    1893    2986    1358     879       0
+      35      52      35    2267    2038    2164    2219    1982    1891    1735    2540    1073     755       0       0
 
  DROP because of ARP failure        1
 
@@ -391,33 +391,33 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15
 
                      RTS(C) sent
-    1764   20189   13133   12889   12522   12160   11754   11377   10449   10605   10307    9018    8975    8913       0       0
+   19364     747   12680   12715   12713   12279   11876   11409   10579   10755   10351    9255    9220    9157       0       0
 
 
 
                      RTS COL
-       0       0    8294    2030    2036    1829    1675    1471    1251     741     782     731      43      32       1       8
+       0       0    7030    1765    1823    1805    1548    1335    1236     668     721     623      41      41       5       1
 
                      IFQ DROP
-       0       0       0       1       0       1       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0      18       1       0       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP
-      13      93      15       2       3       0       2       0       0       0       0       0       0       0       0       0
+      75       8       5       2      62       2       0       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0      58       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-       7      89       5       1       1       0       1       0       0       0       0       0       0       0       0       0
+      67       2       1       1       1       1       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    3125     230     196     210     170     149     139     117     182       1       0       0       0       0
+       0       0    2910     177     165     196     186     156     135     100     187       1       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-       6      78      36    2460    2020    1969    2029    2035    1841    1998    1640    2502    1185     799       0       0
+      81       2      31    2282    2002    2041    2162    2208    2068    1906    1671    2609    1091     789       0       0
 
  DROP because of ARP failure        1
 
@@ -426,33 +426,33 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15
 
                      RTS(C) sent
-   20175     710   12867   12663   12294   12154   11664   11317   10997   10078   10240    9908    8795    8747    8694       0
+   15064     242   10816   10761   10783   10455   10106   10301   10353    9523    9516    9218    8518    8473    8436       0
 
 
 
                      RTS COL
-       0       0    7671    1994    1996    1836    1770    1469    1315    1208     696     704     617      40      29       9
+       0       0    4228    1165    1135    1182    1072     826     931     951     501     499     395      32      27       4
 
                      IFQ DROP
-       0       0       1       0       0       0       0       1       0       0       0       1       0       0       0       0
+       0       0       0       0       0       0       0       1       0       0       0       0       0       0       0       0
 
                      ROUTE DROP
-      85      12      16       8       3       1       2       0       0       0       0       0       0       0       0       0
+      54       5       2       1     124       1       0       2       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0     122       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      76       5       5       3       1       0       1       0       0       0       0       0       0       0       0       0
+      52       1       1       0       0       0       0       1       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    2907     200     187     171     165     185     145     121     105     167       1       0       0       0
+       0       0    2064     162     151     147     103     142     137     123      71     106       1       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-      77       0      27    2193    1810    1881    1921    2066    2115    1864    1821    1643    2531    1066     683       0
+      51       0      26    1781    1662    1938    1700    1519    1459    1969    1868    1306    1644     612     499       0
 
  DROP because of ARP failure        1
 
@@ -461,67 +461,67 @@ SIMULATION DURATION: 300.0S, AODV+TCP
        0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16      17
 
                      RTS(C) sent
-   15791    1542   10759   10643   10249   10206    9864    9466    9330    9075    8503    8611    8246    7436    7392    7357       0       0
+    6999   12394   12137   12025   12105   11926   11612   11234   11174   10729   10054   10253    9777    8764    8733    8688       0       0
 
 
 
                      RTS COL
-       0       0    6301    1614    1663    1429    1410    1184    1029    1016     866     546     589     461      33      28       6       1
+       0       0    6714    1710    1676    1686    1646    1422    1265    1271    1089     676     752     564      39      29       3       6
 
                      IFQ DROP
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       1       0       1
+       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       1
 
                      ROUTE DROP
-      54      11      19      12       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      31      43       5       1       3       2       4       0       0       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
        0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      47       6       4       6       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      28      37       1       0       1       0       2       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    2232     151     140     131     132     144     119     104     115      76     121       1       0       0       0       0
+       0       0    2761     174     165     157     178     160     137     153     113      99     186       6       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
-       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-      42       6      27    1742    1551    1534    1581    1564    1555    1518    1487    1531    1270    1874     753     537       0       0
+      17      41      27    2233    1919    1862    1919    1883    2014    1894    1884    1755    1574    2304     986     712       0       0
 
- DROP because of ARP failure        2
+ DROP because of ARP failure        1
 
 --- Hop Node Number:15 ---
                      Node ID
        0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16      17      18
 
                      RTS(C) sent
-    3100   17238   12608   12550   12266   12158   11810   11537   11084   10923   10583    9806   10005    9620    8581    8522    8478       0       0
+     368   19100   12390   12440   12435   12084   11858   11601   11182   10985   10605    9881   10246    9696    8761    8741    8685       0       0
 
 
 
                      RTS COL
-       0       0    7408    1939    2007    1849    1832    1689    1524    1304    1274    1124     629     718     588      38      32       5       5
+       0       0    6751    1778    1879    1892    1714    1671    1424    1286    1175     999     587     727     498      40      33       0      11
 
                      IFQ DROP
        0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       0       0
 
                      ROUTE DROP
-      19      78      17       9      11       6       7       0       0       0       0       0       0       0       0       0       0       0       0
+      10      68       4       2       5       1       4       2       0       0       0       0       0       0       0       0       0       0       0
 
                      ROUTE DROP When route queue full
        0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR RET
-      15      64       4       2       3       1       3       0       0       0       0       0       0       0       0       0       0       0       0
+       7      65       1       0       1       0       1       1       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP DROP AT MAC LAYER FOR COL
-       0       0    2749     169     191     161     163     168     176     160     159     120      98     181       6       0       0       0       0
+       0       0    2929     183     191     172     180     172     193     136     131     111     100     165       1       1       0       0       0
 
                      TCP-ACK DROP BECAUSE OF RET
        0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
 
                      TCP-ACK DROP BECAUSE OF COL
-       7      59      29    2086    1843    1788    1886    1899    1911    1969    1877    1807    1814    1519    2343     990     727       0       0
+       1      97      35    2360    1979    1754    1797    1906    1895    2022    1957    1819    1696    1573    2421    1020     697       0       0
 
  DROP because of ARP failure        1
