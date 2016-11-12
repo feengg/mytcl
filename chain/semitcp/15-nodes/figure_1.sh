@@ -17,7 +17,7 @@ set output 'figure_1.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [1:14]
+set xrange [1:15]
 #set yrange [0:4]
 #set y2range　[0:50000]
 
