@@ -1,23 +1,29 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "Path length (hop)"
+set xlabel "Source rate (kbps)"
 set ylabel "Throughput (kbps)"
+set y2label "Sending time (ms)"
+
+set title " "
+
+set y2tics
+set ytics nomirror
+
 #set key right bottom
 set key right top Right
 set term postscript eps monochrome blacktext "Helvetica" 20
 #set term postscript eps enhanced color blacktext "Helvetica" 24
-set output 'throughput.eps'
+set output 'figure_4_2.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [1:14]
-set yrange [0:250]
+#set xrange [80:350]
+set yrange [:180]
+set y2range [:20]
 
-plot    './semitcprc/throughput' u 1:2 t 'Semi-TCP with algorithm 1' with linespoints lt 3 pt 4, \
-        './semitcp/throughput' u 1:2 t 'Semi-TCP without algorithm 1' with linespoints lt 5 pt 6, \
-        #'./matcp/throughput' u 1:2 t 'matcp' with linespoints lt 1 pt 2
-	
-set output
+plot    './throughput' u 1:2 t 'End-to-end throughput' with linespoints axis x1y1 lt 3 pt 4, \
+        './avgSendTime' u 1:2 t 'Average sending time per packet' with linespoints axis x1y2 lt 5 pt 6
+    set output
 quit
 
    
