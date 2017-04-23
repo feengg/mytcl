@@ -17,7 +17,7 @@ set output 'RTS_ratio_and_inst.eps'
 set autoscale
 set grid
 set boxwidth 20
-#set xrange [100:150]
+set xrange [10:20]
 set yrange [0:5]
 #set y2range　[100:400]
 

@@ -10,7 +10,7 @@ i=2
 echo SIMULATION DURATION: 300.0S, AODV+TCP >> HopsResultAvg.txt
 echo SIMULATION DURATION: 300.0S, AODV+TCP >> HopsResultInst.txt
 
-while [ $i -lt 21 ]; do
+while [ $i -lt 16 ]; do
     echo >> q_length.txt
 	echo --- Hop Node Number:$i --- >> q_length.txt
 	../../../tcpap/tcpap chain.tcl 2 $i 100 7 1 >> q_length.txt

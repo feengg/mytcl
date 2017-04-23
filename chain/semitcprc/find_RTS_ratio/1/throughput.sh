@@ -1,6 +1,6 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "min\\_RTS\\_DATA\\_ratio"
+set xlabel "min\\_RTS\\_ratio"
 set ylabel "Throughput(Kbps)"
 #set key right bottom
 set key right top Right
@@ -13,7 +13,7 @@ set boxwidth 20
 #set xrange [1:14]
 #set yrange [50:350]
 
-plot    'throughput' u 1:2 t 'Throughput' with linespoints lt 5 pt 6
+plot    'throughput' u 1:2 t '' with linespoints lt 5 pt 6
     
 set output
 quit

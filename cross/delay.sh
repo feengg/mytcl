@@ -14,7 +14,7 @@ set xrange [1:14]
 
 plot    './semitcprc/delay' u 1:2 t 'Semi-TCP with algorithm 1' with linespoints lt 3 pt 4, \
         './semitcp/delay' u 1:2 t 'Semi-TCP without algorithm 1' with linespoints lt 5 pt 6, \
-        #'./matcp/delay' u 1:2 t 'matcp' with linespoints lt 1 pt 2
+        './tcpap/delay' u 1:2 t 'TCP-AP' with linespoints lt 1 pt 2
 	
 set output
 quit

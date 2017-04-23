@@ -10,7 +10,7 @@ set output 'InstThroughput.eps'
 set autoscale
 set grid
 set boxwidth 20
-set xrange [10:20]
+set xrange [0:40]
 set yrange [:200]
 
 plot    './HopsResultInst.txt' u 5:6 t 'hops=15' with linespoints 

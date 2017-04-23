@@ -42,7 +42,7 @@ if {$Program == 0} {
 Mac/802_11 set basicRate_ 1Mb
 Mac/802_11 set dataRate_ 2Mb
 
-#Mac/802_11 set RTSThreshold_ 300
+Mac/802_11 set RTSThreshold_ 300
 
 set val(chan)       Channel/WirelessChannel  ;# Channel Model
 set val(prop)       Propagation/TwoRayGround ;# Wireless Propagation Model

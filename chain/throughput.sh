@@ -14,7 +14,8 @@ set xrange [1:14]
 set yrange [50:350]
 
 plot    './semitcprc/throughput' u 1:2 t 'Semi-TCP with algorithm 1' with linespoints lt 3 pt 4, \
-        './semitcp/throughput' u 1:2 t 'Semi-TCP without algorithm 1' with linespoints lt 5 pt 6
+        './semitcp/throughput' u 1:2 t 'Semi-TCP without algorithm 1' with linespoints lt 5 pt 6, \
+        './tcpap/throughput' u 1:2 t 'TCP-AP' with linespoints lt 7 pt 8
     set output
 quit
 

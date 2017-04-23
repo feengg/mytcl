@@ -1,11 +1,11 @@
 #!/usr/bin/gnuplot
 #set title "SemiTcp, TCP-AP and TCP Throughput, 9 hops"
-set xlabel "Hops length"
+set xlabel "Path length (hop)"
 set ylabel "Packets"
 #set key right bottom
 set key right top Right
-#set term postscript eps monochrome blacktext "Helvetica" 24
-set term postscript eps enhanced color blacktext "Helvetica" 24
+set term postscript eps monochrome blacktext "Helvetica" 24
+#set term postscript eps enhanced color blacktext "Helvetica" 24
 set output 'ACKs.eps'
 set autoscale
 set grid
@@ -13,9 +13,9 @@ set boxwidth 20
 set xrange [1:14]
 #set yrange [:12000]
 
-plot    './generatedACKs' u 1:2 t 'ACKs generated' with linespoints, \
-        './ACKsSent' u 1:2 t 'ACKs sent' with linespoints, \
-        './ACKsReceived' u 1:2 t 'ACKs received' with linespoints
+plot    './generatedACKs' u 1:2 t 'ACKs generated' with linespoints lt 3 pt 4, \
+        './ACKsSent' u 1:2 t 'ACKs sent' with linespoints lt 5 pt 6, \
+        './ACKsReceived' u 1:2 t 'ACKs received' with linespoints lt 7 pt 8
     
     set output
 quit
